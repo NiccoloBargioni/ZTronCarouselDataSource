@@ -5,17 +5,54 @@ import PackageDescription
 
 let package = Package(
     name: "ZTronCarouselDataSource",
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "ZTronCarouselDataSource",
             targets: ["ZTronCarouselDataSource"]),
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/NickTheFreak97/SwiftGraph", branch: "msa"
+        ),
+        // Dependencies declare other packages that this package depends on.
+        .package(
+            url: "https://github.com/NiccoloBargioni/ZTronDataModel", branch: "main"
+        ),
+        .package(
+            url: "https://github.com/NiccoloBargioni/ZTronSerializable", branch: "main"
+        ),
+        .package(
+            url: "https://github.com/NiccoloBargioni/ZTronRouter", branch: "main"
+        ),
+        .package(
+            url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.15.3"
+        ),
+        
+        .package(
+            url: "https://github.com/lukaskubanek/LoremIpsum", branch: "master"
+        )
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "ZTronCarouselDataSource"),
+            name: "ZTronCarouselDataSource",
+            dependencies: [
+                .product(name: "SwiftGraph", package: "SwiftGraph"),
+                .product(name: "ZTronDataModel", package: "ZTronDataModel"),
+                .product(name: "ZTronSerializable", package: "ZTronSerializable"),
+                .product(name: "ZTronRouter", package: "ZTronRouter"),
+                .product(name: "SQLite", package: "SQLite.swift"),
+                .product(name: "LoremIpsum", package: "LoremIpsum")
+            ],
+            swiftSettings: [
+                .enableExperimentalFeature("StrictConcurrency=complete")
+            ]
+        ),
         .testTarget(
             name: "ZTronCarouselDataSourceTests",
             dependencies: ["ZTronCarouselDataSource"]

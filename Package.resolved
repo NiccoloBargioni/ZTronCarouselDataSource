@@ -1,0 +1,78 @@
+{
+  "originHash" : "cc464aaadddf825b7187567fa0ee8c0f99e507b523f7c8ba2c190714079c953a",
+  "pins" : [
+    {
+      "identity" : "loremipsum",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukaskubanek/LoremIpsum",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3c739014fd11bcf0a3b2263b95b89d12f1257579"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c7b78f2f9a0376bc0145f3ecbd0df05eab1688f7"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "swiftgraph",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NickTheFreak97/SwiftGraph",
+      "state" : {
+        "branch" : "msa",
+        "revision" : "615085465d81f7a7ff176f13029b19f873773409"
+      }
+    },
+    {
+      "identity" : "ztron-routing-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b2806b68f199c6a5f51572da90c6357f5a09dd3f"
+      }
+    },
+    {
+      "identity" : "ztrondatamodel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronDataModel",
+      "state" : {
+        "branch" : "main",
+        "revision" : "58314ca0a3d8b7e497aa0baae6f6c8af93e59eb6"
+      }
+    },
+    {
+      "identity" : "ztronrouter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronRouter",
+      "state" : {
+        "branch" : "main",
+        "revision" : "99c3dee492c5619e86ea3d846b05d2f16f0b916c"
+      }
+    },
+    {
+      "identity" : "ztronserializable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NiccoloBargioni/ZTronSerializable",
+      "state" : {
+        "branch" : "main",
+        "revision" : "637a2f7c81fc233a4e74dabb9d0a829045b2c2fb"
+      }
+    }
+  ],
+  "version" : 3
+}
