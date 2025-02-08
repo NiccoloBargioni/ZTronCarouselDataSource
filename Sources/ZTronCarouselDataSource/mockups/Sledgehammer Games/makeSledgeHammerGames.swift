@@ -5,6 +5,6 @@ public func makeSledgeHammerGames() -> SerializableStudioNode {
         name: "sledgehammer games",
         position: 2,
         assetsImageName: "WWIIZombies",
-        games: makeIWGamesRouter()
+        games: makeSledgeHammerGamesRouter()
     )
 }
