@@ -327,10 +327,10 @@ public func makeOfferings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo4.tdt.side.quests.offerings.where.north.is.found.outline",
                     boundingBox: .init(
-                        x: 2275.0/1920.0,
-                        y: 824.0/1080.0,
-                        width: 33.0/1920.0,
-                        height: 33.0/1080.0
+                        x: 773.0/1920.0,
+                        y: 382.0/1080.0,
+                        width: 32.0/1920.0,
+                        height: 21.0/1080.0
                     )
                 )
             ]
