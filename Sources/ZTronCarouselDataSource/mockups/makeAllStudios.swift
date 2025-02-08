@@ -16,7 +16,7 @@ public func makeAllStudios() -> SerializableStudioRouter {
     
     allStudios.register(
         makeSledgeHammerGames(),
-        at: [">", "treyarch"]
+        at: [">", "sledgehammer games"]
     )
     
     return SerializableStudioRouter(studios: allStudios)
