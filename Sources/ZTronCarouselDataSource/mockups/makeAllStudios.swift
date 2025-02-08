@@ -9,5 +9,10 @@ public func makeAllStudios() -> SerializableStudioRouter {
         at: [">", "infinity ward"]
     )
     
+    allStudios.register(
+        makeTreyarch(),
+        at: [">", "treyarch"]
+    )
+    
     return SerializableStudioRouter(studios: allStudios)
 }
