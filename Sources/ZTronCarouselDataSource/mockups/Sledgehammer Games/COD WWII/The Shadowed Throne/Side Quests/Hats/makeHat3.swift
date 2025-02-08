@@ -39,7 +39,7 @@ func makeHat3() -> SerializableGalleryNode {
                 SerializableBoundingCircleNode()
             ]
         ),
-        at: ["sleghehammer.wwii.tst.side.quests.hat.3.theatre.spawn"]
+        at: ["sleghehammer.wwii.tst.side.quests.hat.3.theatre"]
     )
     
     return SerializableGalleryNode(
