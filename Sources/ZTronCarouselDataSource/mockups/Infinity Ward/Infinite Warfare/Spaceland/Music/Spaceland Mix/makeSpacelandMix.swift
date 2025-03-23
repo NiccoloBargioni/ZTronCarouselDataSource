@@ -80,7 +80,7 @@ public func makeSpacelandMix() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        ), at: [">", "iw.spaceland.music.spaceland.mix.polar.peak.hyperslopes"]
+        ), at: [">", "iw.spaceland.music.spaceland.mix.kepler.magic.wheel.barrier"]
     )
     
     spacelandMixLocations.register(
