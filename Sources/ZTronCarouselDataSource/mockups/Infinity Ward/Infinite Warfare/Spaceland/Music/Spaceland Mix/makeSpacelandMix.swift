@@ -71,7 +71,7 @@ public func makeSpacelandMix() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.spaceland.music.spaceland.mix.polar.peak.hyperslopes.outline",
+                    resourceName: "iw.spaceland.music.spaceland.mix.kepler.magic.wheel.outline",
                     boundingBox: .init(
                         x: 428.0/2715.0,
                         y: 564.0/1527.0,
