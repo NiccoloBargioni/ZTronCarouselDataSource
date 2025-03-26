@@ -5,6 +5,7 @@ public func makeInfiniteWarfareMaps() -> SerializableMapsRouter {
     
     iwMaps.router.register(makeSpaceland(), at: [">", "spaceland"])
     iwMaps.router.register(makeRave(), at: [">", "rave in the redwoods"])
+    iwMaps.router.register(makeShaolinShuffle(), at: [">", "shaolin shuffle"])
     iwMaps.router.register(makeAttack(), at: [">", "attack of the radioactive thing"])
     return iwMaps
 }
