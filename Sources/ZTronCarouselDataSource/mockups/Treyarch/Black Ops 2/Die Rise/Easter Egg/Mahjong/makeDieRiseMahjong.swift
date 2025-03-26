@@ -187,7 +187,7 @@ public func makeDieRiseMahjong() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "die.rise.easter.egg.mahjong.spawn",
             description: "die.rise.easter.egg.mahjong.spawn.caption",
-            position: 8,
+            position: 9,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
