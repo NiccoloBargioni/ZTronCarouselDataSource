@@ -133,10 +133,10 @@ public func makeDieRiseMahjong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "die.rise.easter.egg.mahjong.rooftop.radio.tower.building.outline",
                     boundingBox: .init(
-                        x: 2275.0/1920.0,
-                        y: 824.0/1080.0,
-                        width: 33.0/1920.0,
-                        height: 33.0/1080.0
+                        x: 384.0/1920.0,
+                        y: 482.0/1080.0,
+                        width: 16.0/1920.0,
+                        height: 6.0/1080.0
                     )
                 )
             ]
