@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeOctaHydtro2_5Nitro3_4_7ParaZocine() -> SerializableGalleryNode {
-    let octaHytroCompounds = ImageRouter()
+    let octaHytroCompounds = MediaRouter()
     octaHytroCompounds.register(
         SerializableImageNode(
             name: "chemicals.lab.hexamine",

@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func make135TeraNytroPhenol() -> SerializableGalleryNode {
-    let _135TeraNytroPhenolCompounds = ImageRouter()
+    let _135TeraNytroPhenolCompounds = MediaRouter()
     
     _135TeraNytroPhenolCompounds.register(
         SerializableImageNode(

@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeArrowHead() -> SerializableGalleryNode {
-    let arrowHeadLocations = ImageRouter.init()
+    let arrowHeadLocations = MediaRouter.init()
     
     arrowHeadLocations.register(
         SerializableImageNode(

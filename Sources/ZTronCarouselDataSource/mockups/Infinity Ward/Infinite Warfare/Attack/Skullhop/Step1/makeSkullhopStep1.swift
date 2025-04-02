@@ -3,7 +3,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeSkullhopStep1() -> SerializableGalleryRouter {
-    let skullLocations = ImageRouter.init()
+    let skullLocations = MediaRouter.init()
     
     skullLocations.register(
         SerializableImageNode(

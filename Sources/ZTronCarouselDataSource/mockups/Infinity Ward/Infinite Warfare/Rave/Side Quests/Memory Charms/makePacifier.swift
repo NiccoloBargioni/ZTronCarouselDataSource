@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makePacifier() -> SerializableGalleryNode {
-    let pacifierLocations = ImageRouter.init()
+    let pacifierLocations = MediaRouter.init()
     
     pacifierLocations.register(
         SerializableImageNode(

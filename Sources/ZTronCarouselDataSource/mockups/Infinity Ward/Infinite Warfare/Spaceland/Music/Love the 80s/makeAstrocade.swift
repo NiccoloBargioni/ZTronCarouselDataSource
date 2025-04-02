@@ -3,7 +3,7 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeAstrocade() -> SerializableGalleryNode {
-    let astrocadeImages = ImageRouter()
+    let astrocadeImages = MediaRouter()
     
     // MARK: - CROCODILE TEETH
     astrocadeImages.register(

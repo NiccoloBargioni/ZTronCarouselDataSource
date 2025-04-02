@@ -2,7 +2,7 @@ import CoreGraphics
 import ZTronSerializable
 
 func makeAfterlife() -> SerializableGalleryNode {
-    let afterlife = ImageRouter()
+    let afterlife = MediaRouter()
     
     // MARK: - AFTERLIFE DOOR
     afterlife.register(

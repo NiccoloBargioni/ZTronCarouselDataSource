@@ -3,7 +3,7 @@ import ZTronSerializable
 import ZTronRouter
 
 func makeUnderground() -> SerializableGalleryNode {
-    let underground = ImageRouter()
+    let underground = MediaRouter()
     
     // MARK: - UTILITY ROOM FOUNTAINS
     underground.register(

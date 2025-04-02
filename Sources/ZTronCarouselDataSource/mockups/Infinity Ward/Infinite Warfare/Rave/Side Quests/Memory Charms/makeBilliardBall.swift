@@ -3,7 +3,7 @@ import LoremIpsum
 
 
 public func makeBilliardBall() -> SerializableGalleryNode {
-    let billiardBallLocations = ImageRouter.init()
+    let billiardBallLocations = MediaRouter.init()
     
     billiardBallLocations.register(
         SerializableImageNode(

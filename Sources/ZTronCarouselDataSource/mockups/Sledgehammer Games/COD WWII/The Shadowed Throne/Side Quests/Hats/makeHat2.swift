@@ -2,7 +2,7 @@ import CoreGraphics
 import ZTronSerializable
 
 func makeHat2() -> SerializableGalleryNode {
-    let hat2 = ImageRouter()
+    let hat2 = MediaRouter()
     
     hat2.register(
         SerializableImageNode(

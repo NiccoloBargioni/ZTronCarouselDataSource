@@ -3,7 +3,7 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeJourneyIntoSpace() -> SerializableGalleryNode {
-    let journeyImages = ImageRouter()
+    let journeyImages = MediaRouter()
         
     // MARK: - MOONSHAKES TERRACE
     journeyImages.register(SerializableImageNode(

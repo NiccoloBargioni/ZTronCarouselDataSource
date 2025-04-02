@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 public func makeOfferings() -> SerializableGalleryRouter {
-    let offeringsLocations = ImageRouter.init()
+    let offeringsLocations = MediaRouter.init()
     
     offeringsLocations.register(
         SerializableImageNode(

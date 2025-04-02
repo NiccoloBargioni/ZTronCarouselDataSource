@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeCOTBBlackCatDojo() -> SerializableGalleryNode {
-    let blackCatDojoLocations: ImageRouter = .init()
+    let blackCatDojoLocations: MediaRouter = .init()
     
     blackCatDojoLocations.register(
         SerializableImageNode(

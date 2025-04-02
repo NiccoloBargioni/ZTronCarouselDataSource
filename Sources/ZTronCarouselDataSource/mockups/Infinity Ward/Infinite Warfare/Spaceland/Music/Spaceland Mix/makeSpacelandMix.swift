@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 public func makeSpacelandMix() -> SerializableGalleryRouter {
-    let spacelandMixLocations = ImageRouter.init()
+    let spacelandMixLocations = MediaRouter.init()
     
     spacelandMixLocations.register(
         SerializableImageNode(

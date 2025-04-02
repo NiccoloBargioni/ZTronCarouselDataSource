@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func make3Methyl24Dinitrobenzen() -> SerializableGalleryNode {
-    let _34Methyl24DinitrobenzenCompounds = ImageRouter()
+    let _34Methyl24DinitrobenzenCompounds = MediaRouter()
         
     _34Methyl24DinitrobenzenCompounds.register(
         SerializableImageNode(

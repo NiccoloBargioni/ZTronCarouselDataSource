@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeAcetaldehyde() -> SerializableGalleryNode {
-    let acetaldehydeCompounds = ImageRouter()
+    let acetaldehydeCompounds = MediaRouter()
     
     acetaldehydeCompounds.register(
         SerializableImageNode(

@@ -2,7 +2,7 @@ import ZTronSerializable
 import CoreGraphics
 
 func makePolarPeak() -> SerializableGalleryNode {
-    let polarImages = ImageRouter()
+    let polarImages = MediaRouter()
     
     // MARK: - YETI THRONE
     polarImages.register(

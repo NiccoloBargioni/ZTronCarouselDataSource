@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeFrog() -> SerializableGalleryNode {
-    let frogLocations = ImageRouter.init()
+    let frogLocations = MediaRouter.init()
     
     frogLocations.register(
         SerializableImageNode(

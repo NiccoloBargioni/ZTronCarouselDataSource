@@ -2,7 +2,7 @@ import ZTronSerializable
 
 
 func makeAldehydeSludge() -> SerializableGalleryNode {
-    let aldehydeSludgeCompounds = ImageRouter()
+    let aldehydeSludgeCompounds = MediaRouter()
     
     let formaldehyde = makeFormaldehydeImage(forPosition: 0)
     aldehydeSludgeCompounds.register(

@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeBoots() -> SerializableGalleryNode {
-    let bootsLocation = ImageRouter.init()
+    let bootsLocation = MediaRouter.init()
     
     bootsLocation.register(
         SerializableImageNode(

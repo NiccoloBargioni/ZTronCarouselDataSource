@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeRing() -> SerializableGalleryNode {
-    let ringLocations = ImageRouter.init()
+    let ringLocations = MediaRouter.init()
     
     ringLocations.register(
         SerializableImageNode(

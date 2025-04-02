@@ -3,7 +3,7 @@ import ZTronSerializable
 func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalleryNode {
     assert(forPosition >= 0)
     
-    let formaldehydeCompounds = ImageRouter()
+    let formaldehydeCompounds = MediaRouter()
     
     let fuel = makeRacingFuel(forPosition: 0)
     formaldehydeCompounds.register(fuel, at: [">", fuel.getName()])

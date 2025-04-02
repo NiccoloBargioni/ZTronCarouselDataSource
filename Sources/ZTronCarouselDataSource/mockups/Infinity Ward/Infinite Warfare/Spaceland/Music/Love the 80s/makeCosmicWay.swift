@@ -2,11 +2,11 @@ import CoreGraphics
 import ZTronSerializable
 import ZTronRouter
 
-typealias ImageRouter = ZTronRouter<Empty, any SerializableVisualMediaNode, SerializableImageNode.NavigationParameters>
+typealias MediaRouter = ZTronRouter<Empty, any SerializableVisualMediaNode, SerializableImageNode.NavigationParameters>
 typealias GalleryRouter = ZTronRouter<Empty, SerializableGalleryNode, Empty>
 
 func makeCosmicWay() -> SerializableGalleryNode {
-    let cosmicWayImagesRouter = ImageRouter()
+    let cosmicWayImagesRouter = MediaRouter()
     
     // MARK: - POLICE
     cosmicWayImagesRouter.register(

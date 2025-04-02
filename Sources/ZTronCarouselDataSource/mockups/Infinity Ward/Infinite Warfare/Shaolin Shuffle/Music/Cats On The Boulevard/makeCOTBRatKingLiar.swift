@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeCOTBRatKingLiar() -> SerializableGalleryNode {
-    let ratKingLiarLocations: ImageRouter = .init()
+    let ratKingLiarLocations: MediaRouter = .init()
     
     ratKingLiarLocations.register(
         SerializableImageNode(

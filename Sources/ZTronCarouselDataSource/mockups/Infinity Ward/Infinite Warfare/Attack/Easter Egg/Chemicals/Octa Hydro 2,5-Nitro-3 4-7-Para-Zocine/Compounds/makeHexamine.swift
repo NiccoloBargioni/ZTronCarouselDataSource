@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeHexamine() -> SerializableGalleryNode {
-    let hexamixeCompounds = ImageRouter()
+    let hexamixeCompounds = MediaRouter()
     
     let formaldehyde = makeFormaldehydeImage(forPosition: 0)
     hexamixeCompounds.register(

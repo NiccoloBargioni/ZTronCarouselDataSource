@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeMask() -> SerializableGalleryNode {
-    let maskLocations = ImageRouter.init()
+    let maskLocations = MediaRouter.init()
     
     maskLocations.register(
         SerializableImageNode(
