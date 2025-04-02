@@ -184,8 +184,6 @@ func makeCOTBBlackCatDojo() -> SerializableGalleryNode {
         )
         , at: ["iw.ss.music.cats.on.the.boulevard.heebie.geebies.mule.munchies"])
     
-    
-    
     return SerializableGalleryNode(
         name: "iw.ss.music.cats.on.the.boulevard.black.cat.dojo",
         position: 0,
