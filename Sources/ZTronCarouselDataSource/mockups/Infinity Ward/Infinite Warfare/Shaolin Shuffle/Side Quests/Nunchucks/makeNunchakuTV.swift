@@ -29,7 +29,7 @@ public func makeNunchakuTV() -> SerializableGalleryNode {
     
     nunchakuTVLocations.register(
         SerializableImageNode(
-            name: "iw.shaolin.shuffle.side.quests.spawn.train.tv",
+            name: "iw.shaolin.shuffle.side.quests.nunchaku.spawn.train.tv",
             description: "iw.shaolin.shuffle.side.quests.nunchaku.spawn.train.tv.caption",
             position: 3
         ), at: [">", "iw.shaolin.shuffle.side.quests.nunchaku.spawn.train.tv"]
