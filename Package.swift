@@ -20,10 +20,10 @@ let package = Package(
         ),
         // Dependencies declare other packages that this package depends on.
         .package(
-            url: "https://github.com/NiccoloBargioni/ZTronDataModel", branch: "videoSupport"
+            url: "https://github.com/NiccoloBargioni/ZTronDataModel", branch: "main"
         ),
         .package(
-            url: "https://github.com/NiccoloBargioni/ZTronSerializable", branch: "videoSupport"
+            url: "https://github.com/NiccoloBargioni/ZTronSerializable", branch: "main"
         ),
         .package(
             url: "https://github.com/NiccoloBargioni/ZTronRouter", branch: "main"
