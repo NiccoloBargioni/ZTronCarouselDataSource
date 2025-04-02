@@ -5,6 +5,6 @@ public func makeShaolinShuffleSideQuestsTab() -> SerializableTabNode {
         name: "side quests",
         position: 1,
         iconName: "gamecontroller",
-        tools: makeShaolinShuffleMusicTools()
+        tools: makeShaolinShuffleSideQuestsTools()
     )
 }
