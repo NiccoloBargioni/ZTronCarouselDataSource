@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makePhenosulphuricAcid() -> SerializableGalleryNode {
-    let phenosulphuricAcidCompounds = ImageRouter()
+    let phenosulphuricAcidCompounds = MediaRouter()
     
     phenosulphuricAcidCompounds.register(
         SerializableImageNode(

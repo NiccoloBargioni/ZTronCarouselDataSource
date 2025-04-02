@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeShovel() -> SerializableGalleryNode {
-    let shovelLocations = ImageRouter.init()
+    let shovelLocations = MediaRouter.init()
     
     shovelLocations.register(
         SerializableImageNode(

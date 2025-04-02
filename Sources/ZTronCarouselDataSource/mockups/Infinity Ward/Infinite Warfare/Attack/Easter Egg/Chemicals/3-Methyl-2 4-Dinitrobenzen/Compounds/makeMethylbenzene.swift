@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeMethylbenzene() -> SerializableGalleryNode {
-    let methylbenzeneCompounds = ImageRouter()
+    let methylbenzeneCompounds = MediaRouter()
         
     methylbenzeneCompounds.register(
         SerializableImageNode(

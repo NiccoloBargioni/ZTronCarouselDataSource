@@ -3,7 +3,7 @@ import LoremIpsum
 
 
 public func makeFish() -> SerializableGalleryNode {
-    let fishLocations = ImageRouter.init()
+    let fishLocations = MediaRouter.init()
     
     fishLocations.register(
         SerializableImageNode(

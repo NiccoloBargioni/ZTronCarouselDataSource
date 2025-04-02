@@ -2,7 +2,7 @@ import ZTronSerializable
 import LoremIpsum
 
 public func makeBinoculars() -> SerializableGalleryNode {
-    let binocularsLocations = ImageRouter.init()
+    let binocularsLocations = MediaRouter.init()
     
     binocularsLocations.register(
         SerializableImageNode(

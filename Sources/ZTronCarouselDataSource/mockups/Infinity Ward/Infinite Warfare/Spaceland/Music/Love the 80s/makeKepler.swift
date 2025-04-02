@@ -3,7 +3,7 @@ import ZTronSerializable
 import ZTronRouter
 
 func makeKepler() -> SerializableGalleryNode {
-    let kepler = ImageRouter()
+    let kepler = MediaRouter()
     
     // MARK: - FOUNTAINS LAMP
     kepler.register(

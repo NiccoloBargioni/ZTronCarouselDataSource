@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeCOTBBlackCatDojo() -> SerializableGalleryNode {
-    let blackCatDojoLocations: ImageRouter = .init()
+    let blackCatDojoLocations: MediaRouter = .init()
     
     blackCatDojoLocations.register(
         SerializableImageNode(
@@ -183,8 +183,6 @@ func makeCOTBBlackCatDojo() -> SerializableGalleryNode {
             ]
         )
         , at: ["iw.ss.music.cats.on.the.boulevard.heebie.geebies.mule.munchies"])
-    
-    
     
     return SerializableGalleryNode(
         name: "iw.ss.music.cats.on.the.boulevard.black.cat.dojo",

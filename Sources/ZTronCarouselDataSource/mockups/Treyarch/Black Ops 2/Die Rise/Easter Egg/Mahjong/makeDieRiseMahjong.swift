@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 public func makeDieRiseMahjong() -> SerializableGalleryRouter {
-    let mahjongLocations = ImageRouter.init()
+    let mahjongLocations = MediaRouter.init()
     
     mahjongLocations.register(
         SerializableImageNode(

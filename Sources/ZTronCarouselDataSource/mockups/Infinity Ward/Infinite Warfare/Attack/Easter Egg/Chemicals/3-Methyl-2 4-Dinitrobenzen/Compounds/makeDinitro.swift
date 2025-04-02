@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeDinitro() -> SerializableGalleryNode {
-    let dinitroCompounds = ImageRouter()
+    let dinitroCompounds = MediaRouter()
         
     dinitroCompounds.register(
         SerializableImageNode(

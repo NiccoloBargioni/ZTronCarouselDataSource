@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func make34DiNitroxyMethylPropane() -> SerializableGalleryNode {
-    let _34DiNytroxyMethylPropaneCompounds = ImageRouter()
+    let _34DiNytroxyMethylPropaneCompounds = MediaRouter()
     
     _34DiNytroxyMethylPropaneCompounds.register(
         SerializableImageNode(

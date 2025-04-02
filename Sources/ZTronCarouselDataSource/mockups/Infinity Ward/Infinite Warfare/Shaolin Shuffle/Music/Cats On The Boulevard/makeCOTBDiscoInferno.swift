@@ -1,7 +1,7 @@
 import ZTronSerializable
 
 func makeCOTBDiscoInferno() -> SerializableGalleryNode {
-    let discoInfernoLocations: ImageRouter = .init()
+    let discoInfernoLocations: MediaRouter = .init()
     
     discoInfernoLocations.register(
         SerializableImageNode(

@@ -14,7 +14,7 @@ func makeAOTRTChemicals() -> SerializableToolNode {
                 name: subgalleryFirstPathComponent,
                 position: subgalleryPosition,
                 assetsImageName: "chemicals.logo",
-                images: ImageRouter()
+                images: MediaRouter()
             ), at: [">", subgalleryFirstPathComponent]
         )
         

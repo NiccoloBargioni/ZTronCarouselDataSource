@@ -2,7 +2,7 @@ import ZTronSerializable
 
 // MARK: - PHENOL
 func makePhenol() -> SerializableGalleryNode {
-    let compondsFor135TeraNytroPhenol: ImageRouter = .init()
+    let compondsFor135TeraNytroPhenol: MediaRouter = .init()
         
     compondsFor135TeraNytroPhenol.register(
         SerializableImageNode(
