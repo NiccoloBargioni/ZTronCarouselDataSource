@@ -13,5 +13,11 @@ public func makeNunchucks() -> SerializableGalleryRouter {
         at: ["TVs"]
     )
     
+
+    nunchucksRouter.router.register(
+        makeNunchakuFinalClock(),
+        at: ["final clock"]
+    )
+    
     return nunchucksRouter
 }
