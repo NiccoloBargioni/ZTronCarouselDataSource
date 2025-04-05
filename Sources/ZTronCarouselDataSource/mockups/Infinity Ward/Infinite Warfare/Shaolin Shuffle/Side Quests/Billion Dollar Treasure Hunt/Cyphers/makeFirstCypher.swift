@@ -14,7 +14,7 @@ public func makeBDTHFirstCypher() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.cypher.1",
         position: 0,
-        assetsImageName: nil,
+        assetsImageName: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.cypher.1.icon",
         images: firstCypherLocation
     )
 }

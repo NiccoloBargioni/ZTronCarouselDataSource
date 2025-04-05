@@ -54,7 +54,7 @@ public func makeBDTHSecondSetOfCyphers() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.cypher.set.2",
         position: 1,
-        assetsImageName: nil,
+        assetsImageName: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.cypher.set.2.icon",
         images: firstCypherLocation
     )
 }
