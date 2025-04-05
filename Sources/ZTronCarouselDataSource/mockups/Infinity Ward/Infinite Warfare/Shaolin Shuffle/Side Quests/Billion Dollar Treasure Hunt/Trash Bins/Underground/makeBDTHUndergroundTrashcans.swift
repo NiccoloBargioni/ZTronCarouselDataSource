@@ -35,9 +35,9 @@ public func makeBDTHUndergroundTrashcans() -> SerializableGalleryNode {
                     resourceName: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.trashcans.underground.right.of.bench.outline",
                     boundingBox: .init(
                         x: 1239.0/1920.0,
-                        y: 824.0/1080.0,
-                        width: 33.0/1920.0,
-                        height: 33.0/1080.0
+                        y: 410.0/1080.0,
+                        width: 40.0/1920.0,
+                        height: 62.0/1080.0
                     )
                 )
             ]
