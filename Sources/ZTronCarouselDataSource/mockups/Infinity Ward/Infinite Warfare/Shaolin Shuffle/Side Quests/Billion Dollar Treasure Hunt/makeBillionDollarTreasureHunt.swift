@@ -1,30 +1,50 @@
 import ZTronSerializable
 
-public func makeBillionDollarTreasureHunt() -> [SerializableGalleryRouter] {
-    let billionDollarTrasureHuntCyphersRouter = SerializableGalleryRouter()
+public func makeBillionDollarTreasureHunt() -> SerializableGalleryRouter {
+    let billionDollarTrasureHuntRouter = SerializableGalleryRouter()
     
-    billionDollarTrasureHuntCyphersRouter.router.register(
+    billionDollarTrasureHuntRouter.router.register(
+        SerializableGalleryNode(
+            name: "iw.shaolin.shuffle.billion.dollar.treasure.hunt.cypher",
+            position: 0,
+            assetsImageName: "iw.shaolin.shuffle.billion.dollar.treasure.hunt.cypher.icon",
+            images: MediaRouter()
+        ),
+        at: ["cypher"]
+    )
+    
+    
+    billionDollarTrasureHuntRouter.router.register(
+        SerializableGalleryNode(
+            name: "iw.shaolin.shuffle.billion.dollar.treasure.hunt.trashcans",
+            position: 1,
+            assetsImageName: "iw.shaolin.shuffle.billion.dollar.treasure.trashcans.icon",
+            images: MediaRouter()
+        ),
+        at: ["trashcans"]
+    )
+    
+    
+    billionDollarTrasureHuntRouter.router.register(
         makeBDTHFirstCypher(),
-        at: ["cypher 1"]
+        at: ["cypher", "cypher 1"]
     )
     
-    billionDollarTrasureHuntCyphersRouter.router.register(
+    billionDollarTrasureHuntRouter.router.register(
         makeBDTHSecondSetOfCyphers(),
-        at: ["second set of cypher"]
+        at: ["cypher", "second set of cypher"]
     )
     
-    let billionDollarTrasureHuntTrashbinsRouter = SerializableGalleryRouter()
-    
-    billionDollarTrasureHuntTrashbinsRouter.router.register(
+    billionDollarTrasureHuntRouter.router.register(
         makeBDTHUndergroundTrashcans(),
-        at: ["underground"]
+        at: ["trashcans", "underground"]
     )
     
-    billionDollarTrasureHuntTrashbinsRouter.router.register(
+    billionDollarTrasureHuntRouter.router.register(
         makeBDTHSpawnTrashcans(),
-        at: ["spawn"]
+        at: ["trashcans", "spawn"]
     )
     
     
-    return [billionDollarTrasureHuntCyphersRouter, billionDollarTrasureHuntTrashbinsRouter]
+    return billionDollarTrasureHuntRouter
 }
