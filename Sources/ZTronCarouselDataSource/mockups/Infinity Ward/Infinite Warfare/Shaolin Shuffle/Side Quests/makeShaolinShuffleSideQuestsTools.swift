@@ -1,12 +1,17 @@
 import ZTronSerializable
 
 public func makeShaolinShuffleSideQuestsTools() -> SerializableToolsRouter {
-    let musicTools = SerializableToolsRouter()
+    let sideQuestsTool = SerializableToolsRouter()
     
-    musicTools.router.register(
+    sideQuestsTool.router.register(
         makeNunchucksTool(),
         at: [">", "nunchucks"]
     )
+    
+    sideQuestsTool.router.register(
+        makeBillionDollarTreasureHuntTool(),
+        at: [">", "billion dollar treasure hunt"]
+    )
 
-    return musicTools
+    return sideQuestsTool
 }
