@@ -7,7 +7,7 @@ func makeTagDerToten() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "tag der toten",
-        position: 0,
+        position: 1,
         assetsImageName: "bo4.tdt.logo",
         tabs: tagDerTotenTabs
     )
