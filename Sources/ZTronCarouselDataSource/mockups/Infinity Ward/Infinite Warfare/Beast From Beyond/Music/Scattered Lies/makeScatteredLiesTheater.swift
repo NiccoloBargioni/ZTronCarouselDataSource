@@ -6,101 +6,108 @@ func makeScatteredLiesTheater() -> SerializableGalleryNode {
     let spacemanLocations = MediaRouter()
     
     spacemanLocations.register(
-        SerializableImageNode(
-            name: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes",
-            description: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes.caption",
-            position: 0,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes.outline",
-                    boundingBox: .init(
-                        x: 2216.0 / 2715.0,
-                        y: 767.0 / 1527.0,
-                        width: 73.0 / 2715.0,
-                        height: 76.0 / 1527.0
-                    )
-                )
-            ]
-        
-    ), at: ["iw.bfb.music.shattered.lies.theatre.area.racing.stripes"])
-    
+                SerializableImageNode(
+                    name: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes",
+                    description: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes.caption",
+                    position: 0,
+                    overlays: [
+                        SerializableBoundingCircleNode(),
+                        SerializableOutlineNode(
+                            resourceName: "iw.bfb.music.shattered.lies.theatre.area.racing.stripes.outline",
+                            boundingBox: .init(
+                                x: 2216.0 / 2715.0,
+                                y: 767.0 / 1527.0,
+                                width: 73.0 / 2715.0,
+                                height: 76.0 / 1527.0
+                            )
+                        )
+                    ]
+                
+            ), at: ["iw.bfb.music.shattered.lies.theatre.area.racing.stripes"])
+            
 
-    spacemanLocations.register(
-        SerializableImageNode(
-            name: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets",
-            description: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets.caption",
-            position: 1,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets.outline",
-                    boundingBox: .init(
-                        x: 1532.0 / 2715.0,
-                        y: 746.0 / 1527.0,
-                        width: 43.0 / 2715.0,
-                        height: 24.0 / 1527.0
-                    )
-                )
-            ]
-        
-    ), at: ["iw.bfb.music.shattered.lies.theatre.area.theatre.toilets"])
-    
+            spacemanLocations.register(
+                SerializableImageNode(
+                    name: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets",
+                    description: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets.caption",
+                    position: 1,
+                    overlays: [
+                        SerializableBoundingCircleNode(),
+                        SerializableOutlineNode(
+                            resourceName: "iw.bfb.music.shattered.lies.theatre.area.theatre.toilets.outline",
+                            boundingBox: .init(
+                                x: 1532.0 / 2715.0,
+                                y: 746.0 / 1527.0,
+                                width: 43.0 / 2715.0,
+                                height: 24.0 / 1527.0
+                            )
+                        )
+                    ]
+                
+            ), at: ["iw.bfb.music.shattered.lies.theatre.area.theatre.toilets"])
+            
 
-    spacemanLocations.register(
-        SerializableImageNode(
-            name: "iw.bfb.music.shattered.lies.theatre.area.bank",
-            description: "iw.bfb.music.shattered.lies.theatre.area.bank.caption",
-            position: 1,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "iw.bfb.music.shattered.lies.theatre.area.bank.outline",
-                    boundingBox: .init(
-                        x: 1628.0 / 2715.0,
-                        y: 1028.0 / 1527.0,
-                        width: 84.0 / 2715.0,
-                        height: 126.0 / 1527.0
-                    )
-                )
-            ]
-        
-    ), at: ["iw.bfb.music.shattered.lies.theatre.area.bank"])
-    
-    spacemanLocations.register(
-        SerializableImageNode(
-            name: "iw.bfb.music.shattered.lies.theatre.area.bank.zoom",
-            description: "iw.bfb.music.shattered.lies.theatre.area.bank.zoom.caption",
-            position: 0,
-             overlays: [
-                SerializableBoundingCircleNode(),
-                    SerializableOutlineNode(
-                        resourceName: "iw.bfb.music.shattered.lies.theatre.area.bank.zoom.outline",
-                        boundingBox: .init(
-                            x: 1297.0 / 2715.0,
-                            y: 677.0 / 1527.0,
-                            width: 25.0 / 2715.0,
-                            height: 30.0 / 1527.0
+            spacemanLocations.register(
+                SerializableImageNode(
+                    name: "iw.bfb.music.shattered.lies.theatre.area.bank",
+                    description: "iw.bfb.music.shattered.lies.theatre.area.bank.caption",
+                    position: 2,
+                    overlays: [
+                        SerializableBoundingCircleNode(),
+                        SerializableOutlineNode(
+                            resourceName: "iw.bfb.music.shattered.lies.theatre.area.bank.outline",
+                            boundingBox: .init(
+                                x: 1628.0 / 2715.0,
+                                y: 1028.0 / 1527.0,
+                                width: 84.0 / 2715.0,
+                                height: 126.0 / 1527.0
+                            )
+                        )
+                    ]
+                
+            ), at: ["iw.bfb.music.shattered.lies.theatre.area.bank"])
+            
+
+            spacemanLocations.register(
+                SerializableImageNode(
+                    name: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map",
+                    description: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.caption",
+                    position: 3
+            ), at: ["iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map"])
+            
+            spacemanLocations.register(
+                SerializableImageNode(
+                    name: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.zoom",
+                    description: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.zoom.caption",
+                    position: 0,
+                     overlays: [
+                        SerializableBoundingCircleNode(),
+                            SerializableOutlineNode(
+                                resourceName: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.zoom.outline",
+                                boundingBox: .init(
+                                    x: 1297.0 / 2715.0,
+                                    y: 677.0 / 1527.0,
+                                    width: 25.0 / 2715.0,
+                                    height: 30.0 / 1527.0
+                                )
+                            )
+                        ]
+                ), at: ["iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map", "zoom"],
+                    withParameter: SerializableImageNode.NavigationParameters(
+                        bottomBarIcon: "magnifyingglass.plus",
+                        goBackBottomBarIcon: "magnifyingglass.minus",
+                        boundingFrame: .init(
+                            origin: .init(
+                                x: 450.0/2715.0,
+                                y: 252.0/1527.0
+                            ),
+                            size: .init(
+                                width: 973.0/2715.0,
+                                height: 317.0/1527.0
+                            )
                         )
                     )
-                ]
-            
-        ), at: ["iw.bfb.music.shattered.lies.theatre.area.bank", "zoom"],
-            withParameter: SerializableImageNode.NavigationParameters(
-                bottomBarIcon: "magnifyingglass.plus",
-                goBackBottomBarIcon: "magnifyingglass.minus",
-                boundingFrame: .init(
-                    origin: .init(
-                        x: 450.0/2715.0,
-                        y: 252.0/1527.0
-                    ),
-                    size: .init(
-                        width: 973.0/2715.0,
-                        height: 317.0/1527.0
-                    )
-                )
             )
-    )
     
     return SerializableGalleryNode(
         name: "iw.bfb.music.shattered.lies.theater.area",
