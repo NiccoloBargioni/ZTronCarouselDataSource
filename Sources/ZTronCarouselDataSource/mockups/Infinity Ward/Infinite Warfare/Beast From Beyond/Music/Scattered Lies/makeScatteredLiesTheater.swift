@@ -98,12 +98,12 @@ func makeScatteredLiesTheater() -> SerializableGalleryNode {
                         goBackBottomBarIcon: "minus.magnifyingglass",
                         boundingFrame: .init(
                             origin: .init(
-                                x: 450.0/2715.0,
-                                y: 252.0/1527.0
+                                x: 973.0/2715.0,
+                                y: 317.0/1527.0
                             ),
                             size: .init(
-                                width: 973.0/2715.0,
-                                height: 317.0/1527.0
+                                width: 450.0/2715.0,
+                                height: 252.0/1527.0
                             )
                         )
                     )
