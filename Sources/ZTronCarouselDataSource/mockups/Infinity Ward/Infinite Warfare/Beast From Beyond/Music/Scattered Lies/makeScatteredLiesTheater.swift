@@ -94,8 +94,8 @@ func makeScatteredLiesTheater() -> SerializableGalleryNode {
                         ]
                 ), at: ["iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map", "zoom"],
                     withParameter: SerializableImageNode.NavigationParameters(
-                        bottomBarIcon: "magnifyingglass.plus",
-                        goBackBottomBarIcon: "magnifyingglass.minus",
+                        bottomBarIcon: "plus.magnifyingglass",
+                        goBackBottomBarIcon: "minus.magnifyingglass",
                         boundingFrame: .init(
                             origin: .init(
                                 x: 450.0/2715.0,

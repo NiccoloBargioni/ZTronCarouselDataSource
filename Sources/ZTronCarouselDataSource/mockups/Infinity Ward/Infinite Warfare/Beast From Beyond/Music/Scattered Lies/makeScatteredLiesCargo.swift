@@ -86,8 +86,8 @@ func makeScatteredLiesCargo() -> SerializableGalleryNode {
                     )
                 , at: ["iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location", "zoom"],
                     withParameter: SerializableImageNode.NavigationParameters(
-                        bottomBarIcon: "magnifyingglass.plus",
-                        goBackBottomBarIcon: "magnifyingglass.minus",
+                        bottomBarIcon: "plus.magnifyingglass",
+                        goBackBottomBarIcon: "minus.magnifyingglass",
                         boundingFrame: .init(
                             origin: .init(
                                 x: 0.0/2715.0,

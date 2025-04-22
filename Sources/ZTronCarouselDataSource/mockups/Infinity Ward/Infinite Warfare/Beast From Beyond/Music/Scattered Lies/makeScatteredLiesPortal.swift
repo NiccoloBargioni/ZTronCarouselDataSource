@@ -52,8 +52,8 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
                     ]
             ), at: ["iw.bfb.music.shattered.lies.portal.area.bridge.to.pack.a.punch", "zoom"],
                 withParameter: SerializableImageNode.NavigationParameters(
-                    bottomBarIcon: "magnifyingglass.plus",
-                    goBackBottomBarIcon: "magnifyingglass.minus",
+                    bottomBarIcon: "plus.magnifyingglass",
+                    goBackBottomBarIcon: "minus.magnifyingglass",
                     boundingFrame: .init(
                         origin: .init(
                             x: 1075.0/2715.0,
@@ -102,8 +102,8 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
                     ]
             ), at: ["iw.bfb.music.shattered.lies.portal.area.pack.a.punch.out.of.map", "zoom"],
                 withParameter: SerializableImageNode.NavigationParameters(
-                    bottomBarIcon: "magnifyingglass.plus",
-                    goBackBottomBarIcon: "magnifyingglass.minus",
+                    bottomBarIcon: "plus.magnifyingglass",
+                    goBackBottomBarIcon: "minus.magnifyingglass",
                     boundingFrame: .init(
                         origin: .init(
                             x: 1082.0/2715.0,
