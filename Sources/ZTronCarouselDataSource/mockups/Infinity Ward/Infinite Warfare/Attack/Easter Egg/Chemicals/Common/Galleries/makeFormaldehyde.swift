@@ -26,7 +26,7 @@ func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalle
                 )
             ]
         ),
-        at: [">", "iw.aotrt.ee.chemicals.gas.station.outside.chemicals.lab.racing.fuel"]
+        at: [">", "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies"]
     )
     
     
