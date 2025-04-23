@@ -5,13 +5,13 @@ func makeAcetaldehyde() -> SerializableGalleryNode {
     
     acetaldehydeCompounds.register(
         SerializableImageNode(
-            name: "beachside.market.cash.register.pennies",
+            name: "iw.aotrt.ee.chemicals.beachside.market.cash.register.pennies",
             description: "iw.aotrt.ee.chemicals.beachside.market.cash.register.pennies.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "beachside.market.cash.register.pennies.outline",
+                    resourceName: "iw.aotrt.ee.chemicals.beachside.market.cash.register.pennies.outline",
                     boundingBox: .init(
                         x: 1195.0/2715.0,
                         y: 702.0/1527.0,
@@ -21,18 +21,18 @@ func makeAcetaldehyde() -> SerializableGalleryNode {
                 )
             ]
         ),
-        at: [">", "beachside.market.cash.register.pennies"]
+        at: [">", "iw.aotrt.ee.chemicals.beachside.market.cash.register.pennies"]
     )
     
     acetaldehydeCompounds.register(
         SerializableImageNode(
-            name: "beachside.market.liquor.vodka",
+            name: "iw.aotrt.ee.chemicals.beachside.market.liquor.vodka",
             description: "iw.aotrt.ee.chemicals.beachside.market.liquor.vodka.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "beachside.market.liquor.vodka.outline",
+                    resourceName: "iw.aotrt.ee.chemicals.beachside.market.liquor.vodka.outline",
                     boundingBox: .init(
                         x: 1259.0/2715.0,
                         y: 680.0/1527.0,
@@ -42,13 +42,13 @@ func makeAcetaldehyde() -> SerializableGalleryNode {
                 )
             ]
         ),
-        at: [">", "beachside.market.liquor.vodka"]
+        at: [">", "iw.aotrt.ee.chemicals.beachside.market.liquor.vodka"]
     )
     
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.acetaldehyde",
         position: 0,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: acetaldehydeCompounds
     )
 }

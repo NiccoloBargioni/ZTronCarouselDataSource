@@ -13,7 +13,7 @@ func makeAOTRTChemicals() -> SerializableToolNode {
             SerializableGalleryNode(
                 name: subgalleryFirstPathComponent,
                 position: subgalleryPosition,
-                assetsImageName: "chemicals.logo",
+                assetsImageName: "iw.aotrt.ee.chemicals.logo",
                 images: MediaRouter()
             ), at: [">", subgalleryFirstPathComponent]
         )
@@ -29,7 +29,7 @@ func makeAOTRTChemicals() -> SerializableToolNode {
     return .init(
         name: "iw.aotrt.ee.chemicals.tool.name",
         position: 0,
-        assetsImageName: "chemicals.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         galleryRouter: chemicalsGalleryRouter
     )
 }

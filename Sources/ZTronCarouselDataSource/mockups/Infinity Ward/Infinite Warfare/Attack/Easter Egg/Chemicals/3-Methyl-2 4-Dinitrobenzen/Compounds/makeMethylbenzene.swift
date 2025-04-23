@@ -5,13 +5,13 @@ func makeMethylbenzene() -> SerializableGalleryNode {
         
     methylbenzeneCompounds.register(
         SerializableImageNode(
-            name: "racing.stripes.paint",
+            name: "iw.aotrt.ee.chemicals.racing.stripes.paint",
             description: "iw.aotrt.ee.chemicals.racing.stripes.paint.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "racing.stripes.paint.outline",
+                    resourceName: "iw.aotrt.ee.chemicals.racing.stripes.paint.outline",
                     boundingBox: .init(
                         x: 1146.0/2715.0,
                         y: 795.0/1527.0,
@@ -21,7 +21,7 @@ func makeMethylbenzene() -> SerializableGalleryNode {
                 )
             ]
         ),
-        at: [">", "racing.stripes.paint"]
+        at: [">", "iw.aotrt.ee.chemicals.racing.stripes.paint"]
     )
     
     let detergent = makeDetergent(forPosition: 1)
@@ -33,7 +33,7 @@ func makeMethylbenzene() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.3.4.methyl.2.4.dinitrobenzene.methylbenzene",
         position: 0,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: methylbenzeneCompounds
     )
 

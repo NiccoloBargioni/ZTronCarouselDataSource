@@ -12,12 +12,12 @@ func makeAldehydeSludge() -> SerializableGalleryNode {
     
     aldehydeSludgeCompounds.register(
         SerializableImageNode(
-            name: "chemicals.lab.acetaldehyde",
+            name: "iw.aotrt.ee.chemicals.chemicals.lab.acetaldehyde",
             description: "iw.aotrt.ee.chemicals.chemicals.lab.acetaldehyde.caption",
             position: 1,
             overlays: []
         ),
-        at: [">", "chemicals.lab.acetaldehyde"]
+        at: [">", "iw.aotrt.ee.chemicals.chemicals.lab.acetaldehyde"]
     )
     
     let detergent = makeDetergent(forPosition: 2)
@@ -31,7 +31,7 @@ func makeAldehydeSludge() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.aldehyde.sludge",
         position: 2,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: aldehydeSludgeCompounds
     )
 }

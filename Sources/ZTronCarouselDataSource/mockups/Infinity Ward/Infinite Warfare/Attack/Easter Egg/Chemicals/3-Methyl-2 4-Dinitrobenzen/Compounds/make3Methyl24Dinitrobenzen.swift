@@ -5,12 +5,12 @@ func make3Methyl24Dinitrobenzen() -> SerializableGalleryNode {
         
     _34Methyl24DinitrobenzenCompounds.register(
         SerializableImageNode(
-            name: "chemicals.lab.dinitro",
+            name: "iw.aotrt.ee.chemicals.chemicals.lab.dinitro",
             description: "iw.aotrt.ee.chemicals.chemicals.lab.dinitro.caption",
             position: 0,
             overlays: []
         ),
-        at: [">", "chemicals.lab.dinitro"]
+        at: [">", "iw.aotrt.ee.chemicals.chemicals.lab.dinitro"]
     )
     
     let racingFuel = makeRacingFuel(forPosition: 1)
@@ -19,7 +19,7 @@ func make3Methyl24Dinitrobenzen() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.3.4.methyl.2.4.dinitrobenzene.3.4.methyl.2.4.dinitrobenzene",
         position: 2,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemical.logo",
         images: _34Methyl24DinitrobenzenCompounds
     )
 

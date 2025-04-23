@@ -5,12 +5,12 @@ func makePhenosulphuricAcid() -> SerializableGalleryNode {
     
     phenosulphuricAcidCompounds.register(
         SerializableImageNode(
-            name: "chemicals.lab.phenol",
+            name: "iw.aotrt.ee.chemicals.chemicals.lab.phenol",
             description: "iw.aotrt.ee.chemicals.chemicals.lab.phenol.caption",
             position: 0,
             overlays: []
         ),
-        at: [">", "chemicals.lab.phenol"]
+        at: [">", "iw.aotrt.ee.chemicals.chemicals.lab.phenol"]
     )
     
     let drainOpener = makeDrainOpener(forPosition: 1)
@@ -22,7 +22,7 @@ func makePhenosulphuricAcid() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.phenosulphuric.acid",
         position: 1,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: phenosulphuricAcidCompounds
     )
 }

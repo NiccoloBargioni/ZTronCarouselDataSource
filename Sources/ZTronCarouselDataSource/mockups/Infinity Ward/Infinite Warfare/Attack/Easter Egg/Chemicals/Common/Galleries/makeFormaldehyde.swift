@@ -10,13 +10,13 @@ func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalle
     
     formaldehydeCompounds.register(
         SerializableImageNode(
-            name: "left.of.gas.station.call.box.silver.pennies",
+            name: "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies",
             description: "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "left.of.gas.station.call.box.silver.pennies.outline",
+                    resourceName: "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies.outline",
                     boundingBox: .init(
                         x: 1195.0/2715.0,
                         y: 702.0/1527.0,
@@ -26,14 +26,14 @@ func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalle
                 )
             ]
         ),
-        at: [">", "gas.station.outside.chemicals.lab.racing.fuel"]
+        at: [">", "iw.aotrt.ee.chemicals.gas.station.outside.chemicals.lab.racing.fuel"]
     )
     
     
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals." + chemicalID + ".formaldehyde",
         position: forPosition,
-        assetsImageName: "chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.chemical.logo",
         images: formaldehydeCompounds
     )
 }
