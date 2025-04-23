@@ -33,7 +33,7 @@ func makeHexamine() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals.octa.hydro.2.5.nitro.3.4.7.para.zocine.hexamine",
         position: 1,
-        assetsImageName: "iw.aotrt.ee.chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: hexamixeCompounds
     )
 }

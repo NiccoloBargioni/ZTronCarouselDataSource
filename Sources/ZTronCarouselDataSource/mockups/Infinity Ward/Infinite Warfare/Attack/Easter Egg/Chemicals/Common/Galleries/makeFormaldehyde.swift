@@ -33,7 +33,7 @@ func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalle
     return SerializableGalleryNode(
         name: "iw.aotrt.ee.chemicals." + chemicalID + ".formaldehyde",
         position: forPosition,
-        assetsImageName: "iw.aotrt.ee.chemicals.chemical.logo",
+        assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: formaldehydeCompounds
     )
 }
