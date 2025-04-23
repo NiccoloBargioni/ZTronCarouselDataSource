@@ -5,7 +5,7 @@ func makeDetergent(forPosition: Int) -> SerializableImageNode {
     return SerializableImageNode(
         name: "iw.aotrt.ee.chemicals.beachside.market.opposite.cash.register.shelf.detergent",
         description: "iw.aotrt.ee.chemicals.beachside.market.opposite.cash.register.shelf.detergent.caption",
-        position: forPosition,
+        position: forPosition/*,
         overlays: [
             SerializableBoundingCircleNode(),
             SerializableOutlineNode(
@@ -17,7 +17,7 @@ func makeDetergent(forPosition: Int) -> SerializableImageNode {
                     height: 21.0/1527.0
                 )
             )
-        ]
+        ]*/
     )
 }
 

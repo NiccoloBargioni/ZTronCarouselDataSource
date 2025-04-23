@@ -12,7 +12,7 @@ func makeFormaldehyde(forPosition: Int, chemicalID: String) -> SerializableGalle
         SerializableImageNode(
             name: "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies",
             description: "iw.aotrt.ee.chemicals.left.of.gas.station.call.box.silver.pennies.caption",
-            position: 0,
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

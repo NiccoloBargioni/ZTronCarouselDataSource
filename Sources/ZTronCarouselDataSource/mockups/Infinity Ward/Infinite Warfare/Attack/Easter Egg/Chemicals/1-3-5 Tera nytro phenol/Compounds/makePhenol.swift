@@ -14,7 +14,7 @@ func makePhenol() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.ee.chemicals.chemicals.lab.motor.oil.outline",
                     boundingBox: .init(
-                        x: 1129.0/2715.0,
+                        x: 1229.0/2715.0,
                         y: 666.0/1527.0,
                         width: 27.0/2715.0,
                         height: 37.0/1527.0

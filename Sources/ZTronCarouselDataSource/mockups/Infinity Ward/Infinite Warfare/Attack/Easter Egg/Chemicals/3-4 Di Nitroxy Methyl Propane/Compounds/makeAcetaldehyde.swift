@@ -13,10 +13,10 @@ func makeAcetaldehyde() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.ee.chemicals.beachside.market.cash.register.pennies.outline",
                     boundingBox: .init(
-                        x: 1195.0/2715.0,
-                        y: 702.0/1527.0,
-                        width: 15.0/2715.0,
-                        height: 34.0/1527.0
+                        x: 1188.0/2715.0,
+                        y: 632.0/1527.0,
+                        width: 90.0/2715.0,
+                        height: 74.0/1527.0
                     )
                 )
             ]
