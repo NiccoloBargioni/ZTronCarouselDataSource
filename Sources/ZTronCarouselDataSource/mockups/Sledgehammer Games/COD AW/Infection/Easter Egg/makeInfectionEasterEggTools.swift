@@ -8,6 +8,11 @@ func makeInfectionEasterEggTools() -> SerializableToolsRouter {
         at: [">", "meat"]
     )
     
+    tools.router.register(
+        makeInfectionValvesTool(),
+        at: [">", "valves"]
+    )
+    
     return tools
 }
 
