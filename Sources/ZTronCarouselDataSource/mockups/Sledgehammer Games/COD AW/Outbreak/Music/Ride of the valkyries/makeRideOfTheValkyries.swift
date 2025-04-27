@@ -5,86 +5,65 @@ public func makeRideOfTheValkyries() -> SerializableGalleryRouter {
     
     songItemsLocations.register(
         SerializableImageNode(
-            name: "aw.outbreak.easter.egg.fingerprint.scanners.4.decker.fingerprint.scanner.packapunch",
-            description: "aw.outbreak.easter.egg.fingerprint.scanners.4.decker.fingerprint.scanner.packapunch.caption",
-            position: 3,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "aw.outbreak.easter.egg.fingerprint.scanners.4.decker.fingerprint.scanner.packapunch.outline",
-                    boundingBox: .init(
-                        x: 1429.0 / 1920.0,
-                        y: 381.0 / 1080.0,
-                        width: 85.0 / 1920.0,
-                        height: 72.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["aw.outbreak.easter.egg.fingerprint.scanners.4.decker.fingerprint.scanner.packapunch"])
-    
-
-    songItemsLocations.register(
-        SerializableImageNode(
-            name: "aw.outbreak.easter.egg.fingerprint.scanners.1.oz.fingerprint.scanner.exo.health",
-            description: "aw.outbreak.easter.egg.fingerprint.scanners.1.oz.fingerprint.scanner.exo.health.caption",
+            name: "aw.outbreak.music.ride.of.the.valkyries.1.music.ee.bonesaw.packapunch",
+            description: "aw.outbreak.music.ride.of.the.valkyries.1.music.ee.bonesaw.packapunch.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "aw.outbreak.easter.egg.fingerprint.scanners.1.oz.fingerprint.scanner.exo.health.outline",
+                    resourceName: "aw.outbreak.music.ride.of.the.valkyries.1.music.ee.bonesaw.packapunch.outline",
                     boundingBox: .init(
-                        x: 1102.0 / 1920.0,
-                        y: 488.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        x: 559.0 / 1920.0,
+                        y: 405.0 / 1080.0,
+                        width: 70.0 / 1920.0,
+                        height: 21.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["aw.outbreak.easter.egg.fingerprint.scanners.1.oz.fingerprint.scanner.exo.health"])
+    ), at: ["aw.outbreak.music.ride.of.the.valkyries.1.music.ee.bonesaw.packapunch"])
     
 
     songItemsLocations.register(
         SerializableImageNode(
-            name: "aw.outbreak.easter.egg.fingerprint.scanners.2.khan.fingerprint.scanner.exo.room",
-            description: "aw.outbreak.easter.egg.fingerprint.scanners.2.khan.fingerprint.scanner.exo.room.caption",
+            name: "aw.outbreak.music.ride.of.the.valkyries.2.music.ee.saw.exo.suit.room",
+            description: "aw.outbreak.music.ride.of.the.valkyries.2.music.ee.saw.exo.suit.room.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "aw.outbreak.easter.egg.fingerprint.scanners.2.khan.fingerprint.scanner.exo.room.outline",
+                    resourceName: "aw.outbreak.music.ride.of.the.valkyries.2.music.ee.saw.exo.suit.room.outline",
                     boundingBox: .init(
-                        x: 293.0 / 1920.0,
-                        y: 154.0 / 1080.0,
-                        width: 17.0 / 1920.0,
-                        height: 22.0 / 1080.0
+                        x: 1714.0 / 1920.0,
+                        y: 523.0 / 1080.0,
+                        width: 67.0 / 1920.0,
+                        height: 32.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["aw.outbreak.easter.egg.fingerprint.scanners.2.khan.fingerprint.scanner.exo.room"])
+    ), at: ["aw.outbreak.music.ride.of.the.valkyries.2.music.ee.saw.exo.suit.room"])
     
 
     songItemsLocations.register(
         SerializableImageNode(
-            name: "aw.outbreak.easter.egg.fingerprint.scanners.3.lilith.fingerprint.scanner.speed.cola",
-            description: "aw.outbreak.easter.egg.fingerprint.scanners.3.lilith.fingerprint.scanner.speed.cola.caption",
+            name: "aw.outbreak.music.ride.of.the.valkyries.3.music.ee.wrench.packapunch",
+            description: "aw.outbreak.music.ride.of.the.valkyries.3.music.ee.wrench.packapunch.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "aw.outbreak.easter.egg.fingerprint.scanners.3.lilith.fingerprint.scanner.speed.cola.outline",
+                    resourceName: "aw.outbreak.music.ride.of.the.valkyries.3.music.ee.wrench.packapunch.outline",
                     boundingBox: .init(
-                        x: 999.0 / 1920.0,
-                        y: 422.0 / 1080.0,
-                        width: 12.0 / 1920.0,
-                        height: 14.0 / 1080.0
+                        x: 1205.0 / 1920.0,
+                        y: 345.0 / 1080.0,
+                        width: 29.0 / 1920.0,
+                        height: 23.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["aw.outbreak.easter.egg.fingerprint.scanners.3.lilith.fingerprint.scanner.speed.cola"])
+    ), at: ["aw.outbreak.music.ride.of.the.valkyries.3.music.ee.wrench.packapunch"])
     
     let songItemsLocationsRouter = SerializableGalleryRouter()
     
