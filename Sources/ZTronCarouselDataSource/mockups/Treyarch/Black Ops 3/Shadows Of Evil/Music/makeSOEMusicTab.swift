@@ -5,6 +5,6 @@ public func makeSOEMusicTab() -> SerializableTabNode {
         name: "music",
         position: 0,
         iconName: "music.note",
-        tools: makeBFBMusicTools()
+        tools: makeSOEMusicTools()
     )
 }
