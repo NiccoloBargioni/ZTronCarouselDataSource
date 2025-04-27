@@ -282,7 +282,7 @@ func makeValvesSewers() -> SerializableGalleryNode {
             name: "aw.Infection.easter.egg.valves.sewers.13.sewers.ladder",
             description: "aw.Infection.easter.egg.valves.sewers.13.sewers.ladder.caption",
             position: 13
-    ), at: ["aw.Infection.easter.egg.valves.sewers.14.sewers.ladder"])
+    ), at: ["aw.Infection.easter.egg.valves.sewers.13.sewers.ladder"])
 
     return SerializableGalleryNode(
         name: "aw.infection.easter.egg.valves.sewers",
