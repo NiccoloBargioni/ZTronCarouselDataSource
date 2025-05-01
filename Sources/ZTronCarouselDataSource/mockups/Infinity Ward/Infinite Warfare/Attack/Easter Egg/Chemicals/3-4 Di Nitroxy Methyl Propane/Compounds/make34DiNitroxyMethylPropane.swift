@@ -35,7 +35,7 @@ func make34DiNitroxyMethylPropane() -> SerializableGalleryNode {
     )
     
     return SerializableGalleryNode(
-        name: "iw.aotrt.ee.chemicals.3.4.di.nitroxy.methyl.propane",
+        name: "iw.aotrt.ee.chemicals.3.4.dinitroxy.methil.propane.3.4.dinitroxy.methil.propane",
         position: 3,
         assetsImageName: "iw.aotrt.ee.chemicals.logo",
         images: _34DiNytroxyMethylPropaneCompounds
