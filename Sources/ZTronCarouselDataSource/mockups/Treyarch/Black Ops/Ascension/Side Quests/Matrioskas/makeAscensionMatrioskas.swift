@@ -71,7 +71,7 @@ public func makeAscensionMatrioskas() -> SerializableGalleryRouter {
        SerializableImageNode(
            name: "bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander",
            description: "bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander.caption",
-           position: 2,
+           position: 3,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
