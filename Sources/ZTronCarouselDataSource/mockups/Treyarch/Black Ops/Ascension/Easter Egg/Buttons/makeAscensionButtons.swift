@@ -70,7 +70,7 @@ public func makeAscensionButtons() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo.ascension.easter.egg.buttons.3.staminup",
             description: "bo.ascension.easter.egg.buttons.3.staminup.caption",
-            position: 2,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
