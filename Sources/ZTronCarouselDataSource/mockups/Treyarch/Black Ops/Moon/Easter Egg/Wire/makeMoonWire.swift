@@ -37,7 +37,7 @@ public func makeMoonWire() -> SerializableGalleryRouter {
                         x: 377.0 / 1920.0,
                         y: 516.0 / 1080.0,
                         width: 58.0 / 1920.0,
-                        height: 5397.0 / 1080.0
+                        height: 58.0 / 1080.0
                     )
                 )
             ]
