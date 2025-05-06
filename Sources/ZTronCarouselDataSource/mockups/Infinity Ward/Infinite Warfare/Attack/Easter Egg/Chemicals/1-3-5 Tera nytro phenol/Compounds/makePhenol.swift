@@ -49,7 +49,7 @@ func makePhenol() -> SerializableGalleryNode {
     compondsFor135TeraNytroPhenol.register(
         SerializableImageNode(
             name: "iw.aotrt.ee.chemicals.spawn.room.bugs.repellent",
-            description: "iw.aotrt.ee.chemicals.beachside.market.shelf.wheel.cleaner.caption",
+            description: "iw.aotrt.ee.chemicals.spawn.room.bugs.repellent.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
