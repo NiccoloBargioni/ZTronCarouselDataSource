@@ -5,34 +5,34 @@ public func makeDieRiseRichtofenSymbols() -> SerializableGalleryRouter {
     
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence",
+            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.1.above.spawn",
             description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.1.above.spawn.caption",
             position: 0
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.1.above.spawn"])
     
 
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence",
-            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.radio.tower.left.of.stairs.caption",
+            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.2.antenna",
+            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.antenna.caption",
             position: 1
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.2.antenna"])
     
 
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence",
-            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.3.radio.tower.right.of.stairs.caption",
+            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.3.hidden.room",
+            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.3.hidden.room.caption",
             position: 2
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.3.hidden.room"])
     
 
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence",
-            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.4.top.radio.tower.caption",
+            name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.4.power.room",
+            description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.4.power.room.caption",
             position: 3
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.4.power.room"])
     
     
     let symbolsLocationsRouter = SerializableGalleryRouter()
