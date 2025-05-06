@@ -16,7 +16,7 @@ public func makeDieRiseFlingingZombies() -> SerializableGalleryRouter {
             name: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.radio.tower.left.of.stairs",
             description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.radio.tower.left.of.stairs.caption",
             position: 1
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.radio.tower.left.of.stairs.elevators"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.radio.tower.left.of.stairs"])
     
 
     symbolsLocations.register(
