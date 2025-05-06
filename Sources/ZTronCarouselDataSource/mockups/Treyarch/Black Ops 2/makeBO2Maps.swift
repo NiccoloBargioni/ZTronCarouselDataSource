@@ -5,6 +5,9 @@ public func makeBO2Maps() -> SerializableMapsRouter {
     
     bo2Maps.router.register(makeTranzit(), at: [">", "tranzit"])
     bo2Maps.router.register(makeDieRise(), at: [">", "die rise"])
+    bo2Maps.router.register(makeDieRise(), at: [">", "buried"])
+    
+    
     return bo2Maps
 }
 
