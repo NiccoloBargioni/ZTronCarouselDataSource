@@ -7,7 +7,7 @@ func makeDieRise() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "die rise",
-        position: 0,
+        position: 1,
         assetsImageName: "bo2.die.rise.logo",
         tabs: dieRiseTabs
     )
