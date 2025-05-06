@@ -16,7 +16,7 @@ public func makeDieRiseRichtofenSymbols() -> SerializableGalleryRouter {
             name: "bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.2.antenna",
             description: "bo2.die.rise.easter.egg.richtofen.side.flinging.zombies.2.antenna.caption",
             position: 1
-    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.2.antenna"])
+    ), at: ["bo2.die.rise.easter.egg.richtofen.side.symbols.sequence.2.antenna"])
     
 
     symbolsLocations.register(
