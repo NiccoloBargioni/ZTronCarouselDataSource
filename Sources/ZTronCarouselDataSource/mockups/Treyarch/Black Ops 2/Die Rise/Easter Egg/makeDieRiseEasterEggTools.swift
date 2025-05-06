@@ -7,6 +7,16 @@ public func makeDieRiseEasterEggTools() -> SerializableToolsRouter {
         makeDieRiseMahjongTool(),
         at: [">", "mahjong"]
     )
+    
+    dieRseEasterEggTools.router.register(
+        makeFlingerTrapTool(),
+        at: [">", "flinger trap"]
+    )
+    
+    dieRseEasterEggTools.router.register(
+        makeSliquifierTool(),
+        at: [">", "sliquifier"]
+    )
 
     return dieRseEasterEggTools
 }
