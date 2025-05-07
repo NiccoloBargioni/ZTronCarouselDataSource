@@ -112,7 +112,7 @@ public func makeOriginsShovel() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.origins.easter.egg.shovel.5.church.variable.2",
             description: "bo2.origins.easter.egg.shovel.5.church.variable.2.caption",
-            position: 4,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
