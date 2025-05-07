@@ -47,7 +47,7 @@ public func makeSamanthasLullaby() -> SerializableGalleryRouter {
 
     nuketownSongTeddiesLocations.register(
         SerializableImageNode(
-            name: "bo2.nuketown.music.Samanthas.Lullaby.3.yellow.house.upstairs",
+            name: "bo2.nuketown.music.samanthas.lullaby.3.yellow.house.upstairs",
             description: "bo2.nuketown.music.samanthas.lullaby.3.yellow.house.upstairs.caption",
             position: 2,
             overlays: [
