@@ -4,8 +4,7 @@ public func makePuppetStrings() -> SerializableGalleryRouter {
     let dotLocations = MediaRouter.init()
     
     let defaultParams = SerializableImageNode.NavigationParameters(
-        bottomBarIcon: "drop.fill",
-        goBackBottomBarIcon: "drop.degreesign.slash",
+        bottomBarIcon: "flame",
         boundingFrame: .init(
             origin: .init(x: 0, y: 0),
             size: .init(width: 0.99, height: 0.99)
@@ -26,7 +25,7 @@ public func makePuppetStrings() -> SerializableGalleryRouter {
             description: "iw.ritr.music.puppet.strings.spawn.fire.no.rave.caption",
             position: 0
         ),
-        at: ["iw.ritr.music.puppet.strings.spawn.fire.no.rave", "no rave"],
+        at: ["iw.ritr.music.puppet.strings.spawn.fire", "no rave"],
         withParameter: defaultParams
     )
 
