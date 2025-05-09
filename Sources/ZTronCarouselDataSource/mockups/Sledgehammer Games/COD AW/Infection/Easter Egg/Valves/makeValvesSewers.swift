@@ -70,13 +70,13 @@ func makeValvesSewers() -> SerializableGalleryNode {
 
     valvesLocationsSewers.register(
         SerializableImageNode(
-            name: "aw.Infection.easter.egg.valves.sewers.4.graffiti..near.decontamination.room.entrance",
-            description: "aw.Infection.easter.egg.valves.sewers.4.graffiti..near.decontamination.room.entrance.caption",
+            name: "aw.Infection.easter.egg.valves.sewers.4.graffiti.near.decontamination.room.entrance",
+            description: "aw.Infection.easter.egg.valves.sewers.4.graffiti.near.decontamination.room.entrance.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "aw.Infection.easter.egg.valves.sewers.4.graffiti..near.decontamination.room.entrance.outline",
+                    resourceName: "aw.Infection.easter.egg.valves.sewers.4.graffiti.near.decontamination.room.entrance.outline",
                     boundingBox: .init(
                         x: 884.0 / 1920.0,
                         y: 417.0 / 1080.0,
@@ -86,7 +86,7 @@ func makeValvesSewers() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["aw.Infection.easter.egg.valves.sewers.4.graffiti..near.decontamination.room.entrance"])
+    ), at: ["aw.Infection.easter.egg.valves.sewers.4.graffiti.near.decontamination.room.entrance"])
     
 
     valvesLocationsSewers.register(
