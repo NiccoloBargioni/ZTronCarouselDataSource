@@ -7,6 +7,11 @@ public func makeSOEMusicTools() -> SerializableToolsRouter {
         makeColdHardCashTool(),
         at: [">", "cold hard cash"]
     )
-
+    
+    music.router.register(
+        makeSnakeskinBootsTool(),
+        at: [">", "snakeskin boots"]
+    )
+    
     return music
 }
