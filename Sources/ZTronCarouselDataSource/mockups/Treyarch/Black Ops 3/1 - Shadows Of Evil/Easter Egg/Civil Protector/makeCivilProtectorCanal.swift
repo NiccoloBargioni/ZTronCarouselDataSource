@@ -35,7 +35,7 @@ func makeCivilProtectorCanal() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo3.soe.easter.egg.civil.protector.canal",
-        position: 2,
+        position: 0,
         assetsImageName: "bo3.soe.easter.egg.civil.protector.canal.icon",
         images: canalLocations
     )

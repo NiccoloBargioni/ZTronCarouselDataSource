@@ -35,7 +35,7 @@ func makeCivilProtectorFootlight() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo3.soe.easter.egg.civil.protector.footlight",
-        position: 2,
+        position: 1,
         assetsImageName: "bo3.soe.easter.egg.civil.protector.footlight.icon",
         images: footlightLocations
     )
