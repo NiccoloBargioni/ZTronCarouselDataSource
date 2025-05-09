@@ -68,15 +68,7 @@ func makeGershTankFactory() -> SerializableGalleryNode {
             position: 7
     ), at: ["bo3.gk.easter.egg.gersh.tank.factory.8.tank.valve.step"])
     
-    
-    tankLocations.register(
-        SerializableImageNode(
-            name: "bo3.gk.easter.egg.gersh.tank.factory.8.tank.valve.step",
-            description: "bo3.gk.easter.egg.gersh.tank.factory.8.tank.valve.step.caption",
-            position: 7
-    ), at: ["bo3.gk.easter.egg.gersh.tank.factory.8.tank.valve.step"])
-    
-    
+        
     tankLocations.register(
         SerializableImageNode(
             name: "bo3.gk.easter.egg.gersh.tank.factory.9.tank.inside",

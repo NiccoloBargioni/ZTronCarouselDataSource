@@ -22,7 +22,7 @@ func makeGorodMonkeyBombUpgradePlayer4() -> SerializableGalleryNode {
 
     return SerializableGalleryNode(
         name: "bo3.gk.side.quests.monkey.bomb.upgrade.player.4",
-        position: 2,
+        position: 3,
         assetsImageName: "bo3.gk.side.quests.monkey.bomb.upgrade.player.4.icon",
         images: monkeyUpgradeLocations
     )
