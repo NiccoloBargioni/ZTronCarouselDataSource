@@ -27,13 +27,13 @@ func makeAceOfSpadesFirstActivation() -> SerializableGalleryNode {
     
     musicCardsLocations.register(
         SerializableImageNode(
-            name: "bo3.gk.music.ace.of.spades.2.tank.station..double.tap",
-            description: "bo3.gk.music.ace.of.spades.2.tank.station..double.tap.caption",
+            name: "bo3.gk.music.ace.of.spades.2.tank.station.double.tap",
+            description: "bo3.gk.music.ace.of.spades.2.tank.station.double.tap.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.gk.music.ace.of.spades.2.tank.station..double.tap.outline",
+                    resourceName: "bo3.gk.music.ace.of.spades.2.tank.station.double.tap.outline",
                     boundingBox: .init(
                         x: 1146.0 / 1920.0,
                         y: 486.0 / 1080.0,
@@ -43,7 +43,7 @@ func makeAceOfSpadesFirstActivation() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.gk.music.ace.of.spades.2.tank.station..double.tap"])
+    ), at: ["bo3.gk.music.ace.of.spades.2.tank.station.double.tap"])
 
     
     musicCardsLocations.register(
