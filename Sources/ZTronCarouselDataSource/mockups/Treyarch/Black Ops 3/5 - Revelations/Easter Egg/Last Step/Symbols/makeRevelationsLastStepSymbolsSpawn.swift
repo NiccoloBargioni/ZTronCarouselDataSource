@@ -26,7 +26,7 @@ func makeRevelationsLastStepSymbolsSpawn() -> SerializableGalleryNode {
             name: "bo3.revelations.easter.egg.last.step.symbols.spawn.quick.revive",
             description: "bo3.revelations.easter.egg.last.step.symbols.spawn.quick.revive.caption",
             position: 2
-    ), at: ["bo3.revelations.easter.egg.last.step.symbols.spawn.jump.quick.revive"])
+    ), at: ["bo3.revelations.easter.egg.last.step.symbols.spawn.quick.revive"])
     
     
     return SerializableGalleryNode(
