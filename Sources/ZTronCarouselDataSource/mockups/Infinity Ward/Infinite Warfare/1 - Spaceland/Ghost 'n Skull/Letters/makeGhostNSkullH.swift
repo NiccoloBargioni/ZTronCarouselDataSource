@@ -44,7 +44,7 @@ func makeGhostNSkullH() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["iw.spaceland.ghost.n.skull.letters.g.rover.rampage.outside.bumper.cars.trap"])
+    ), at: ["iw.spaceland.ghost.n.skull.letters.h.top.of.chromosphere.sign"])
     
 
     
