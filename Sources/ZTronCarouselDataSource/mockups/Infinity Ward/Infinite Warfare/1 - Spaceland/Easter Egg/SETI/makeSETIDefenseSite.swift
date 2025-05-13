@@ -44,10 +44,10 @@ func makeSETIDefenseSite() -> SerializableGalleryNode {
     defenseSiteLocations.register(
         SerializableImageNode(
             name: "iw.spaceland.easter.egg.seti.defense.site.5.polar.peak.portal.room",
-            description: "iw.spaceland.easter.egg.seti.defense.site.4.underground.racing.stripes.room.caption",
+            description: "iw.spaceland.easter.egg.seti.defense.site.5.polar.peak.portal.room.caption",
             position: 4
         ),
-    at: ["iw.spaceland.easter.egg.seti.defense.site.4.underground.racing.stripes.room"])
+    at: ["iw.spaceland.easter.egg.seti.defense.site.5.polar.peak.portal.room"])
     
     
     defenseSiteLocations.register(
