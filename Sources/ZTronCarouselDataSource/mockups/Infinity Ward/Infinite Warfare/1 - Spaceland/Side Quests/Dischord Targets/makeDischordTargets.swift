@@ -110,7 +110,7 @@ func makeDischordTargets() -> SerializableGalleryRouter {
             description: "iw.spaceland.side.quests.dischord.targets.12.blue.bolts.outside.astrocade.caption",
             position: 11
         ),
-    at: ["iw.spaceland.side.quests.dischord.targets.12.blue.bolts.outside.astrocade.table"])
+    at: ["iw.spaceland.side.quests.dischord.targets.12.blue.bolts.outside.astrocade"])
     
     
     targetsLocations.register(
