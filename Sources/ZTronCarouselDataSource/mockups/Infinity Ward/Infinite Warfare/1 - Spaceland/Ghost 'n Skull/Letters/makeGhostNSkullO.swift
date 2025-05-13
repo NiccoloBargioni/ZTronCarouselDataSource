@@ -8,12 +8,12 @@ func makeGhostNSkullO() -> SerializableGalleryNode {
     oLocations.register(
         SerializableImageNode(
             name: "iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.sign",
-            description: "iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.caption",
+            description: "iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.sign.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.outline",
+                    resourceName: "iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.sign.outline",
                     boundingBox: .init(
                         x: 1226.0 / 2715.0,
                         y: 577.0 / 1527.0,
@@ -23,7 +23,7 @@ func makeGhostNSkullO() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space"])
+    ), at: ["iw.spaceland.ghost.n.skull.letters.o.inside.journey.into.space.sign"])
     
 
 
