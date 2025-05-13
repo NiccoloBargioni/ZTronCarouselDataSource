@@ -71,7 +71,7 @@ func makeChroniclesOriginsShieldWindow() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo3.chronicles.origins.side.quests.shield.window",
-        position: 0,
+        position: 2,
         assetsImageName: "bo3.chronicles.origins.side.quests.shield.window.icon",
         images: shieldWindowLocations
     )
