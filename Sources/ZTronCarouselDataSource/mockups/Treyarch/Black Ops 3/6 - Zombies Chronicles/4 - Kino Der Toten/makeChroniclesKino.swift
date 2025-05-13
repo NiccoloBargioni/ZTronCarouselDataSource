@@ -7,7 +7,7 @@ func makeChroniclesKino() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "ascension",
-        position: 1,
+        position: 0,
         assetsImageName: "bo3.chronicles.kdt.logo",
         tabs: kinoTabs
     )
