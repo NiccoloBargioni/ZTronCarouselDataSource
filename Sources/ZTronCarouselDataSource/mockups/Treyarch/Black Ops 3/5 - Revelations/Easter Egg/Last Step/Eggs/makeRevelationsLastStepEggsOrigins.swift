@@ -28,13 +28,13 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
 
     apothiconEggsOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.2.mob..origins.passage",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.2.mob..origins.passage.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.2.mob..origins.passage.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage.outline",
                     boundingBox: .init(
                         x: 1162.0 / 1920.0,
                         y: 376.0 / 1080.0,
@@ -44,7 +44,7 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.2.mob..origins.passage"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage"])
     
 
     

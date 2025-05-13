@@ -28,8 +28,6 @@ public func makeMaxisDroneWheel() -> SerializableGalleryNode {
             position: 2
     ), at: ["bo2.origins.easter.egg.maxis.drone.wheel.staff.pedistals"])
     
-
-    let locationsRouter = SerializableGalleryRouter()
     
     return SerializableGalleryNode(
         name: "bo2.origins.easter.egg.maxis.drone.wheel",
