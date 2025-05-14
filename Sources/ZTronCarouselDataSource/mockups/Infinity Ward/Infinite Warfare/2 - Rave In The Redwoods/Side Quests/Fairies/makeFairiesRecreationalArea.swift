@@ -40,7 +40,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
             name: "iw.ritr.side.quests.fairies.recreational.area.5.dj.trap",
             description: "iw.ritr.side.quests.fairies.recreational.area.5.dj.trap.caption",
             position: 4
-    ), at: ["iw.ritr.side.quests.fairies.recreational.area.5.dj.trap.mud"])
+    ), at: ["iw.ritr.side.quests.fairies.recreational.area.5.dj.trap"])
 
 
     fairiesLocations.register(
