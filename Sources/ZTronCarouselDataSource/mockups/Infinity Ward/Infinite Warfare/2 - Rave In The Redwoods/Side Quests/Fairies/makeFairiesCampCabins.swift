@@ -32,7 +32,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
             name: "iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel",
             description: "iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel.caption",
             position: 3
-    ), at: ["iw.ritr.side.quests.fairies.camp.cabins.3.behind.magic.wheel"])
+    ), at: ["iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel"])
 
     
     fairiesLocations.register(
