@@ -3,7 +3,7 @@ import ZTronSerializable
 public func makeRaveSideQuestsTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "side quests",
-        position: 0,
+        position: 2,
         iconName: "gamecontroller",
         tools: makeRaveSideQuestsToolsRouter()
     )
