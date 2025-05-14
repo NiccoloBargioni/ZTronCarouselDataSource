@@ -62,7 +62,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
 
     return SerializableGalleryNode(
         name: "iw.ritr.side.quests.fairies.camp.cabins",
-        position: 5,
+        position: 6,
         assetsImageName: "iw.ritr.side.quests.camp.cabins.icon",
         images: fairiesLocations
     )
