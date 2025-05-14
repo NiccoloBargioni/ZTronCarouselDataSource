@@ -16,7 +16,7 @@ func makeAcidRainUpgrade() -> SerializableGalleryNode {
 
     owlStatuesLocations.register(
         SerializableImageNode(
-            name: "iw.ritr.crossbows.crossbow.upgrades.acid.rain.32.owl.statue.camp.owl",
+            name: "iw.ritr.crossbows.crossbow.upgrades.acid.rain.2.owl.statue.camp.owl",
             description: "iw.ritr.crossbows.crossbow.upgrades.acid.rain.2.owl.statue.camp.owl.caption",
             position: 1
     ), at: ["iw.ritr.crossbows.crossbow.upgrades.acid.rain.2.owl.statue.camp.owl"])
