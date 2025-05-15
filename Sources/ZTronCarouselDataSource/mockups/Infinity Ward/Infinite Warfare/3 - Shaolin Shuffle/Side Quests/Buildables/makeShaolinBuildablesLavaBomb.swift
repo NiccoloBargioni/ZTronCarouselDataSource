@@ -33,7 +33,7 @@ func makeShaolinBuildablesLavaBomb() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ss.side.quests.buildables.lava.bomb.4.round.table.rvn.wallbuy",
             description: "iw.ss.side.quests.buildables.lava.bomb.4.round.table.rvn.wallbuy.caption",
-            position: 2
+            position: 3
     ), at: ["iw.ss.side.quests.buildables.lava.bomb.4.round.table.rvn.wallbuy"])
     
     
