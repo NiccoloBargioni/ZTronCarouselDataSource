@@ -18,7 +18,7 @@ func makeShaolinBuildablesBoomBox() -> SerializableGalleryNode {
             name: "iw.ss.side.quests.buildables.boom.box.2.on.a.coil.dojo.rooftop",
             description: "iw.ss.side.quests.buildables.boom.box.2.on.a.coil.dojo.rooftop.caption",
             position: 1
-    ), at: ["iw.ss.side.quests.buildables.boom.box.2.on.a.coil.dojo.rooftop.wheel"])
+    ), at: ["iw.ss.side.quests.buildables.boom.box.2.on.a.coil.dojo.rooftop"])
     
     
     tileLocations.register(
