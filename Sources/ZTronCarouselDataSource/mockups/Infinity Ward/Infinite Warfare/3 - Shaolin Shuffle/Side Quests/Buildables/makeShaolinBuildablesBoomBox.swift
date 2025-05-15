@@ -25,7 +25,7 @@ func makeShaolinBuildablesBoomBox() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ss.side.quests.buildables.boom.box.3.top.stairs.dojo.rooftop.ouija.table",
             description: "iw.ss.side.quests.buildables.boom.box.3.top.stairs.dojo.rooftop.ouija.table.caption",
-            position: 3
+            position: 2
     ), at: ["iw.ss.side.quests.buildables.boom.box.3.top.stairs.dojo.rooftop.ouija.table"])
     
     
@@ -33,7 +33,7 @@ func makeShaolinBuildablesBoomBox() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ss.side.quests.buildables.boom.box.4.on.a.paint.box.second.floor.dojo.rooftop",
             description: "iw.ss.side.quests.buildables.boom.box.4.on.a.paint.box.second.floor.dojo.rooftop.caption",
-            position: 4
+            position: 3
     ), at: ["iw.ss.side.quests.buildables.boom.box.4.on.a.paint.box.second.floor.dojo.rooftop"])
     
     
