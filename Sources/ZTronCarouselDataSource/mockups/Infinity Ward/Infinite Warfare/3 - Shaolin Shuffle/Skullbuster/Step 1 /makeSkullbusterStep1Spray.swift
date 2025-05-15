@@ -22,7 +22,7 @@ func makeSkullbusterStep1Spray() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["iw.ss.skullbuster.step.1.spray.1.scaffoldings.top.of.heebie.geebies"])
+    ), at: ["iw.ss.skullbuster.step.1.spray.1.on.the.ground.heebie.geebies.left.of.speaker"])
     
     
     sprayLocations.register(
