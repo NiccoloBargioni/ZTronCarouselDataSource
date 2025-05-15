@@ -10,7 +10,7 @@ func makeShaolinBuildablesBoomBox() -> SerializableGalleryNode {
             name: "iw.ss.side.quests.buildables.boom.box.1.between.perpendicular.bricks.dojo.rooftop",
             description: "iw.ss.side.quests.buildables.boom.box.1.between.perpendicular.bricks.dojo.rooftop.caption",
             position: 0
-    ), at: ["iw.ss.side.quests.buildables.boom.box.1.between.perpendicular.bricks.dojo.rooftop.wheel"])
+    ), at: ["iw.ss.side.quests.buildables.boom.box.1.between.perpendicular.bricks.dojo.rooftop"])
     
     
     tileLocations.register(
