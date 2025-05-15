@@ -11,7 +11,7 @@ public func makeShaolinEasterEggTools() -> SerializableToolsRouter {
     easterEggTools.router.register(
         SerializableToolNode(
             name: "iw.ss.easter.egg.call.box.tool.name",
-            position: 0,
+            position: 1,
             assetsImageName: "iw.ss.easter.egg.call.box.icon",
             galleryRouter: .init()
         ),
