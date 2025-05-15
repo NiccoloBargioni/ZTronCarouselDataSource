@@ -5,6 +5,7 @@ public func makeShaolinShuffleTabs() -> SerializableTabsRouter {
     
     tabs.router.register(makeShaolinEasterEggTab(), at: [">", "easter egg"])
     tabs.router.register(makeShaolinShuffleSideQuestsTab(), at: [">", "side quests"])
+    tabs.router.register(makeSkullbusterTab(), at: [">", "skullbuster"])
     tabs.router.register(makeShaolinShuffleMusicTab(), at: [">", "music"])
     
     return tabs
