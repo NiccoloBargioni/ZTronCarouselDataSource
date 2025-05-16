@@ -2,7 +2,17 @@ import ZTronSerializable
 
 func makeAOTRTEasterEggTools() -> SerializableToolsRouter {
     let tools = SerializableToolsRouter()
-    tools.router.register(makeAOTRTChemicals(), at: [">", "iw.aotrt.ee.chemicals.tool.name"])
+    
+    tools.router.register(
+        makeAOTRTObjectsTool(),
+        at: ["objects"]
+    )
+    
+    tools.router.register(
+        makeAOTRTChemicals(),
+        at: ["chemicals"]
+    )
+    
     return tools
 }
 
