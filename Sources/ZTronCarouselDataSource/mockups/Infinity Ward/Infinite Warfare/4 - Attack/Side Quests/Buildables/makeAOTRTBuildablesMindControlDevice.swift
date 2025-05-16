@@ -25,7 +25,7 @@ public func makeAOTRTBuildablesMindControlDevice() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.aotrt.side.quests.buildables.mind.control.device.3.chassis.umbrella.side.of.pool",
             description: "iw.aotrt.side.quests.buildables.mind.control.device.3.chassis.umbrella.side.of.pool.caption",
-            position: 3
+            position: 2
         ), at: [">", "iw.aotrt.side.quests.buildables.mind.control.device.3.chassis.umbrella.side.of.pool"]
     )
     
@@ -34,7 +34,7 @@ public func makeAOTRTBuildablesMindControlDevice() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.aotrt.side.quests.buildables.mind.control.device.4.fan.between.jar.and.stairs.to.tv.station",
             description: "iw.aotrt.side.quests.buildables.mind.control.device.4.fan.between.jar.and.stairs.to.tv.station.caption",
-            position: 4
+            position: 3
         ), at: [">", "iw.aotrt.side.quests.buildables.mind.control.device.4.fan.between.jar.and.stairs.to.tv.station"]
     )
     
