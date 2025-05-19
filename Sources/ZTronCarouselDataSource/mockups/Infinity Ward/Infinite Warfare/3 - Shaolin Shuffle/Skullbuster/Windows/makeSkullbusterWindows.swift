@@ -8,7 +8,19 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.ss.skullbreaker.windows.1.outside.disco.inferno.spelling.one",
             description: "iw.ss.skullbreaker.windows.1.outside.disco.inferno.spelling.one.caption",
-            position: 0
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.ss.skullbreaker.windows.1.outside.disco.inferno.spelling.one.outline",
+                    boundingBox: .init(
+                        x: 1064.0 / 1920.0,
+                        y: 440.0 / 1080.0,
+                        width: 91.0 / 1920.0,
+                        height: 96.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["iw.ss.skullbreaker.windows.1.outside.disco.inferno.spelling.one"])
 
 
@@ -16,7 +28,19 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.ss.skullbreaker.windows.2.out.of.map.dojo.rooftop.spelling.nine",
             description: "iw.ss.skullbreaker.windows.2.out.of.map.dojo.rooftop.spelling.nine.caption",
-            position: 1
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.ss.skullbreaker.windows.2.out.of.map.dojo.rooftop.spelling.nine.outline",
+                    boundingBox: .init(
+                        x: 15.0 / 1920.0,
+                        y: 482.0 / 1080.0,
+                        width: 148.0 / 1920.0,
+                        height: 189.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["iw.ss.skullbreaker.windows.2.out.of.map.dojo.rooftop.spelling.nine"])
 
 
@@ -24,7 +48,19 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.ss.skullbreaker.windows.3.inside.disco.inferno.trailblazers.spelling.seven",
             description: "iw.ss.skullbreaker.windows.3.inside.disco.inferno.trailblazers.spelling.seven.caption",
-            position: 2
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.ss.skullbreaker.windows.3.inside.disco.inferno.trailblazers.spelling.seven.outline",
+                    boundingBox: .init(
+                        x: 224.0 / 1920.0,
+                        y: 887.0 / 1080.0,
+                        width: 303.0 / 1920.0,
+                        height: 403.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["iw.ss.skullbreaker.windows.3.inside.disco.inferno.trailblazers.spelling.seven"])
 
 
@@ -32,7 +68,19 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.ss.skullbreaker.windows.4.outside.pam.dojo.towards.spawn.spelling.two",
             description: "iw.ss.skullbreaker.windows.4.outside.pam.dojo.towards.spawn.spelling.two.caption",
-            position: 3
+            position: 3,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.ss.skullbreaker.windows.4.outside.pam.dojo.towards.spawn.spelling.two.outline",
+                    boundingBox: .init(
+                        x: 713.0 / 1920.0,
+                        y: 452.0 / 1080.0,
+                        width: 38.0 / 1920.0,
+                        height: 157.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["iw.ss.skullbreaker.windows.4.outside.pam.dojo.towards.spawn.spelling.two"])
 
 
