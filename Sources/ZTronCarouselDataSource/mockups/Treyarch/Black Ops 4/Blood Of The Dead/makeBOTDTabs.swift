@@ -7,7 +7,7 @@ func makeBOTD() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "blood of the dead",
-        position: 0,
+        position: 2,
         assetsImageName: "bo4.botd.logo",
         tabs: bloodOfTheDeadTabs
     )

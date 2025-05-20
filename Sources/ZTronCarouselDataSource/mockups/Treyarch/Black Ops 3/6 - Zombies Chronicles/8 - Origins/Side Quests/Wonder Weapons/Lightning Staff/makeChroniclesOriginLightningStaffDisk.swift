@@ -28,13 +28,13 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
 
     lightningStaffBo3DiscLocations.register(
         SerializableImageNode(
-            name: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg..wunderfitz",
-            description: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg..wunderfitz.caption",
+            name: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg.wunderfitz",
+            description: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg.wunderfitz.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg..wunderfitz.outline",
+                    resourceName: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg.wunderfitz.outline",
                     boundingBox: .init(
                         x: 607.0 / 1920.0,
                         y: 394.0 / 1080.0,
@@ -44,7 +44,7 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg..wunderfitz"])
+    ), at: ["bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg.wunderfitz"])
     
 
     lightningStaffBo3DiscLocations.register(
