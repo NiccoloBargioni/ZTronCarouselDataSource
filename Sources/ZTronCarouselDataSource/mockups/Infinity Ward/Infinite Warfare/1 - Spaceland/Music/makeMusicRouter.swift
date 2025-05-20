@@ -13,5 +13,10 @@ public func makeSpacelandMusicToolsRouter() -> SerializableToolsRouter {
         at: [">", "spaceland mix"]
     )
 
+    musicTools.router.register(
+        makeSpacelandDirectorsCutSongTool(),
+        at: [">", "director's cut song"]
+    )
+
     return musicTools
 }

@@ -8,5 +8,10 @@ public func makeAttackMusicTools() -> SerializableToolsRouter {
         at: [">", "brachyura boogie"]
     )
 
+    musicTools.router.register(
+        makeAttackDirectorsCutSongTool(),
+        at: [">", "director's cut song"]
+    )
+
     return musicTools
 }

@@ -8,6 +8,11 @@ public func makeBFBMusicTools() -> SerializableToolsRouter {
         at: [">", "scattered lies"]
     )
 
+    musicTools.router.register(
+        makeBeastDirectorsCutSongTool(),
+        at: [">", "director's cut song"]
+    )
+
     
     return musicTools
 }
