@@ -25,7 +25,7 @@ func makeIXShieldUpgradeBrightParts() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ix.side.quests.shield.upgrade.bright.parts.statue.odin.zeus.pack.a.punch.door",
             description: "bo4.ix.side.quests.shield.upgrade.bright.parts.statue.odin.zeus.pack.a.punch.door.caption",
-            position: 1
+            position: 2
     ), at: ["bo4.ix.side.quests.shield.upgrade.bright.parts.statue.odin.zeus.pack.a.punch.door"])
 
 
