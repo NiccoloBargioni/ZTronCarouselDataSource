@@ -40,7 +40,7 @@ public func makeVoyageDrowning() -> SerializableGalleryRouter {
     
     locationsRouter.router.register(
         SerializableGalleryNode(
-            name: "bo4.vod.music.drowning.sundeck.vapr.wallbuy",
+            name: "bo4.vod.music.drowning.sundeck",
             position: 0,
             assetsImageName: nil,
             images: eyeLocations

@@ -7,13 +7,13 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
     
     shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo6.vod.easter.egg.shield.body.1.piece.3..fruit.boxes",
-            description: "bo6.vod.easter.egg.shield.body.1.piece.3..fruit.boxes.caption",
+            name: "bo4.vod.easter.egg.shield.body.1.piece.3.fruit.boxes",
+            description: "bo4.vod.easter.egg.shield.body.1.piece.3.fruit.boxes.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.vod.easter.egg.shield.body.1.piece.3..fruit.boxes.outline",
+                    resourceName: "bo4.vod.easter.egg.shield.body.1.piece.3.fruit.boxes.outline",
                     boundingBox: .init(
                         x: 944.0 / 1920.0,
                         y: 393.0 / 1080.0,
@@ -23,18 +23,18 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo6.vod.easter.egg.shield.body.1.piece.3..fruit.boxes"])
+    ), at: ["bo4.vod.easter.egg.shield.body.1.piece.3.fruit.boxes"])
     
 
     shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo6.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher",
-            description: "bo6.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher.caption",
+            name: "bo4.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher",
+            description: "bo4.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher.outline",
+                    resourceName: "bo4.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher.outline",
                     boundingBox: .init(
                         x: 749.0 / 1920.0,
                         y: 443.0 / 1080.0,
@@ -44,18 +44,18 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo6.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher"])
+    ), at: ["bo4.vod.easter.egg.shield.body.2.piece.3.next.to.vibration.cypher"])
     
 
     shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo6.vod.easter.egg.shield.body.3.piece.3.wall",
-            description: "bo6.vod.easter.egg.shield.body.3.piece.3.wall.caption",
+            name: "bo4.vod.easter.egg.shield.body.3.piece.3.wall",
+            description: "bo4.vod.easter.egg.shield.body.3.piece.3.wall.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.vod.easter.egg.shield.body.3.piece.3.wall.outline",
+                    resourceName: "bo4.vod.easter.egg.shield.body.3.piece.3.wall.outline",
                     boundingBox: .init(
                         x: 1026.0 / 1920.0,
                         y: 441.0 / 1080.0,
@@ -65,7 +65,7 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo6.vod.easter.egg.shield.body.3.piece.3.wall"])
+    ), at: ["bo4.vod.easter.egg.shield.body.3.piece.3.wall"])
     
     return SerializableGalleryNode(
         name: "bo4.vod.easter.egg.shield.window",
