@@ -26,7 +26,7 @@ func makeSilverBullets() -> SerializableToolNode {
     
     return .init(
         name: "bo4.dotn.easter.egg.silver.bullets.tool.name",
-        position: 3,
+        position: 4,
         assetsImageName: "bo4.dotn.easter.egg.silver.bullets.icon",
         galleryRouter: silverBulletsGalleryRouter
     )
