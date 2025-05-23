@@ -10,7 +10,7 @@ func makeMKIIupgradeAssemblyKitStorage() -> SerializableGalleryNode {
             name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.assembly.kit.assembly.kit.assembly.kit.storage.way.to.generators",
             description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.assembly.kit.assembly.kit.assembly.kit.storage.way.to.generators.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.assembly.kit.assembly.kit.storage.way.to.generators"])
+    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.assembly.kit.assembly.kit.assembly.kit.storage.way.to.generators"])
         
 
     storageLocations.register(
