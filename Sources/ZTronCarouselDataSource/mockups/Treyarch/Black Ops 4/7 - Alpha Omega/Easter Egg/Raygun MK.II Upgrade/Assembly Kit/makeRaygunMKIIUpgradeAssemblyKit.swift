@@ -9,7 +9,7 @@ public func makeRaygunMKIIUpgradeAssemblyKit() -> SerializableGalleryRouter {
     )
     
     kitLocations.router.register(
-        makeMKIIUpgradeAssemblyKitStorage(),
+        makeMKIIupgradeAssemblyKitStorage(),
         at: ["storage"]
     )
     
