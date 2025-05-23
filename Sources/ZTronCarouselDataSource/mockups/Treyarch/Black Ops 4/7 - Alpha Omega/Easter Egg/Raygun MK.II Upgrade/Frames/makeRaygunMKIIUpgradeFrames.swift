@@ -32,7 +32,7 @@ public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryRouter {
             name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames.yellow.house",
             description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames.yellow.house.caption",
             position: 3
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames.yellow.house.yellow.house"])
+    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames.yellow.house"])
     
 
     let locationsRouter = SerializableGalleryRouter()
