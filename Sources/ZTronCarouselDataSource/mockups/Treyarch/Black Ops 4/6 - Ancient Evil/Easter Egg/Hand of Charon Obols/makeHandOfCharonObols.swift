@@ -21,7 +21,7 @@ public func makeHandOfCharonObols() -> SerializableGalleryRouter {
         
     obolsLocations.register(
         SerializableImageNode(
-            name: "bo4.ae.easter.egg.hand.of.charon.obols.d.artifact",
+            name: "bo4.ae.easter.egg.hand.of.charon.obols.d",
             description: "bo4.ae.easter.egg.hand.of.charon.obols.d.caption",
             position: 2
     ), at: ["bo4.ae.easter.egg.hand.of.charon.obols.d"])
