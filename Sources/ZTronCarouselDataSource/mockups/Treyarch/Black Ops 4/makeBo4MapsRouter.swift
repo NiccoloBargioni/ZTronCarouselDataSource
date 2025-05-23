@@ -9,7 +9,7 @@ public func makeBo4MapsRouter() -> SerializableMapsRouter {
     bo4Maps.router.register(makeClassified(), at: ["classified"])
     bo4Maps.router.register(makeDeadOfTheNight(), at: ["dead of the night"])
     bo4Maps.router.register(makeAncientEvil(), at: ["ancient evil"])
-    bo4Maps.router.register(makeAncientEvil(), at: ["alpha omega"])
+    bo4Maps.router.register(makeAlphaOmega(), at: ["alpha omega"])
     bo4Maps.router.register(makeTagDerToten(), at: [">", "tag der toten"])
     
     return bo4Maps
