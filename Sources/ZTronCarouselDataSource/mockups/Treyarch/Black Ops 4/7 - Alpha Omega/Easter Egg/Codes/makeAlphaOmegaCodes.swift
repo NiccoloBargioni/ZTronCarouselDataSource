@@ -14,7 +14,7 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
                     resourceName: "bo4.ao.easter.egg.codes.1.left.of.apd.interrogation.entrance.outline",
                     boundingBox: .init(
                         x: 365.0 / 1920.0,
-                        y: 1114.0 / 1080.0,
+                        y: 114.0 / 1080.0,
                         width: 171.0 / 1920.0,
                         height: 53.0 / 1080.0
                     )
