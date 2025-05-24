@@ -39,7 +39,7 @@ public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryRouter {
     
     locationsRouter.router.register(SerializableGalleryNode(
         name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames",
-        position: 1,
+        position: 0,
         assetsImageName: nil,
         images: tvLocations
     ), at: [">", "master"])
