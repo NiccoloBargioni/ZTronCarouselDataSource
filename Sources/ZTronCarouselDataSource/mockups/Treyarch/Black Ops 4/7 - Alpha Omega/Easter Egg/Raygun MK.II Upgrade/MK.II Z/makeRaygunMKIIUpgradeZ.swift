@@ -5,7 +5,7 @@ public func makeRaygunMKIIUpgradeZ() -> SerializableGalleryRouter {
     
     upgradeSteps.router.register(
         makeRaygunMKIIUpgradeZFuses(),
-        at: ["fuses"]
+        at: ["mk.ii z fuses"]
     )
     
     upgradeSteps.router.register(
@@ -20,22 +20,22 @@ public func makeRaygunMKIIUpgradeZ() -> SerializableGalleryRouter {
         
     upgradeSteps.router.register(
         makeWorkingShotsGreenhouseBalcony(),
-        at: ["working shots", "greenhouse balcony"]
+        at: ["working shots", "working shots greenhouse balcony"]
     )
     
     upgradeSteps.router.register(
         makeWorkingShotsOperations(),
-        at: ["working shots", "operations rushmore"]
+        at: ["working shots", "working shots operations rushmore"]
     )
     
     upgradeSteps.router.register(
         makeWorkingShotsWhereIWasStanding(),
-        at: ["working shots", "where I was standing"]
+        at: ["working shots", "working shots where I was standing"]
     )
     
     upgradeSteps.router.register(
         makeWorkingShotsYellowHouse(),
-        at: ["working shots", "yellow house"]
+        at: ["working shots", "working shots yellow house"]
     )
     
     return upgradeSteps

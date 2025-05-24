@@ -5,7 +5,7 @@ public func makeRaygunMKIIUpgradeV() -> SerializableGalleryRouter {
     
     upgradeParts.router.register(
         makeRaygunMKIIUpgradeVFuses(),
-        at: ["fuses"]
+        at: ["mk.ii v fuses"]
     )
     
     upgradeParts.router.register(

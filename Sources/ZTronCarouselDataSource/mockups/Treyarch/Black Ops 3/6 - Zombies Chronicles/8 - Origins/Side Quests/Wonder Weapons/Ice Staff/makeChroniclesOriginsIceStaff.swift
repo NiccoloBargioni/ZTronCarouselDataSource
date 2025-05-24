@@ -5,7 +5,7 @@ public func makeChroniclesOriginsIceStaff() -> SerializableGalleryRouter {
     
     staffLocations.router.register(
         makeChroniclesIceStaffDisks(),
-        at: ["disk"]
+        at: ["ice staff disk"]
     )
     
     staffLocations.router.register(

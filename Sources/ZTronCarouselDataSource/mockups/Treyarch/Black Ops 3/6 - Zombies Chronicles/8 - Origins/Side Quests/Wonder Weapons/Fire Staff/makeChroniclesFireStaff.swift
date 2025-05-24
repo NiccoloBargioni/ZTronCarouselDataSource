@@ -5,7 +5,7 @@ public func makeChroniclesFireStaff() -> SerializableGalleryRouter {
     
     staffLocations.router.register(
         makeChroniclesFireStaffDisk(),
-        at: ["disk"]
+        at: ["fire staff disk"]
     )
     
     return staffLocations

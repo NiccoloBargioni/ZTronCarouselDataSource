@@ -5,12 +5,12 @@ public func makeRaygunMKIIUpgradeX() -> SerializableGalleryRouter {
     
     upgradeSteps.router.register(
         makeRaygunMKIIUpgradeXFuses(),
-        at: ["fuses"]
+        at: ["mk.ii x fuses"]
     )
     
     upgradeSteps.router.register(
         makeRaygunMKIIUpgradeXFinalRitual(),
-        at: ["final ritual"]
+        at: ["mk.ii x final ritual"]
     )
         
     return upgradeSteps

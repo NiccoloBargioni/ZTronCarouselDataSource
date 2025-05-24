@@ -5,17 +5,17 @@ public func makeRaygunMKIIUpgradeAssemblyKit() -> SerializableGalleryRouter {
     
     kitLocations.router.register(
         makeMKIIUpgradeAssemblyKitAPDRoom(),
-        at: ["APD room"]
+        at: ["assembly kit APD room"]
     )
     
     kitLocations.router.register(
         makeMKIIupgradeAssemblyKitStorage(),
-        at: ["storage"]
+        at: ["assembly kit storage"]
     )
     
     kitLocations.router.register(
         makeMKIIUpgradeAssemblyKitYellowHouse(),
-        at: ["yellow house"]
+        at: ["assembly kit yellow house"]
     )
     
     return kitLocations

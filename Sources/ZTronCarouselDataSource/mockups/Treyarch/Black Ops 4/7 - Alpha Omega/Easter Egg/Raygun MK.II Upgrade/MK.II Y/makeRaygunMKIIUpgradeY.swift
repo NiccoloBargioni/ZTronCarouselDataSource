@@ -15,7 +15,7 @@ public func makeRaygunMKIIUpgradeY() -> SerializableGalleryRouter {
         
     upgradeSteps.router.register(
         makeRaygunMKIIUpgradeYFinalRitual(),
-        at: ["final ritual"]
+        at: ["mk.ii y final ritual"]
     )
         
     return upgradeSteps
