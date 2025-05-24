@@ -40,14 +40,14 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
             }
         }
         
-        
-        if newPath.count > 1 {
+        if newPath.count > 2 {
             upgradeStepsRouter.router.register(
                 output,
                 at: newPath
             )
         }
     }
+    
     
     return .init(
         name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.tool.name",
