@@ -7,32 +7,32 @@ func makeRaygunMKIIUpgradeZFuses() -> SerializableGalleryNode {
     
     fusesLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.greenhouse.downstairs"])
         
 
     fusesLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.lounge",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.lounge.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.lounge",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.lounge.caption",
             position: 1
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.lounge"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.lounge"])
         
 
     fusesLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs.caption",
             position: 2
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.yellow.house.downstairs"])
     
     
     return SerializableGalleryNode(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses",
         position: 0,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.fuses.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.fuses.icon",
         images: fusesLocations
     )
 }

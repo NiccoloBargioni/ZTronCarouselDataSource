@@ -1,7 +1,17 @@
-//
-//  makeAlphaOmegaSideQuestsTool.swift
-//  ZTronCarouselDataSource
-//
-//  Created by Niccolo Della Rocca on 24/05/25.
-//
+import ZTronSerializable
 
+public func makeAlphaOmegaSideQuestsTools() -> SerializableToolsRouter {
+    let aoSideQuestsTools = SerializableToolsRouter()
+    
+    aoSideQuestsTools.router.register(
+        makeRaygunMKIIUpgradeTool(),
+        at: [">", "raygun mk.ii upgrade"]
+    )
+    
+    aoSideQuestsTools.router.register(
+        makeAlphaOmegaMannequinsTool(),
+        at: [">", "mannequins"]
+    )
+    
+    return aoSideQuestsTools
+}

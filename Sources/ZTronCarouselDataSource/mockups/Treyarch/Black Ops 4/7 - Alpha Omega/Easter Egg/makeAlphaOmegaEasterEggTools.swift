@@ -33,10 +33,5 @@ public func makeAlphaOmegaEasterEggTools() -> SerializableToolsRouter {
         at: [">", "teleporter"]
     )
 
-    ee.router.register(
-        makeRaygunMKIIUpgradeTool(),
-        at: [">", "raygun MK.II upgrade"]
-    )
-
     return ee
 }

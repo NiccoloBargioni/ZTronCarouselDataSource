@@ -4,12 +4,12 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
     let upgradeStepsRouter = SerializableGalleryRouter()
     
     [
-        (makeRaygunMKIIUpgradeAssemblyKit(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.assembly.kit", 0),
-        (SerializableGalleryRouter(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames", 1),
-        (makeRaygunMKIIUpgradeV(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.v", 2),
-        (makeRaygunMKIIUpgradeX(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.x", 3),
-        (makeRaygunMKIIUpgradeY(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.y", 4),
-        (makeRaygunMKIIUpgradeZ(), "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z", 5),
+        (makeRaygunMKIIUpgradeAssemblyKit(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.assembly.kit", 0),
+        (SerializableGalleryRouter(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames", 1),
+        (makeRaygunMKIIUpgradeV(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.v", 2),
+        (makeRaygunMKIIUpgradeX(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.x", 3),
+        (makeRaygunMKIIUpgradeY(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.y", 4),
+        (makeRaygunMKIIUpgradeZ(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.z", 5),
     ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
         upgradeStepsRouter.router.register(
             SerializableGalleryNode(
@@ -32,7 +32,7 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
     let frames = makeRaygunMKIIUpgradeFrames()
     
     frames.router.forEach { absolutePath, output in
-        var newPath = ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.frames"]
+        var newPath = ["bo4.ao.side.quests.raygun.mk.ii.upgrade.frames"]
         
         for pathComponent in absolutePath {
             if pathComponent != frames.router.getRootSymbol() {
@@ -50,9 +50,9 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
     
     
     return .init(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.tool.name",
-        position: 6,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.logo",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.tool.name",
+        position: 0,
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.logo",
         galleryRouter: upgradeStepsRouter
     )
 }

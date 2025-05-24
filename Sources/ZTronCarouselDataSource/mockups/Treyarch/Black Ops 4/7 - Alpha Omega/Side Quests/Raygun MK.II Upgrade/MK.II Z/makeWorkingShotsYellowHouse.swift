@@ -7,16 +7,16 @@ func makeWorkingShotsYellowHouse() -> SerializableGalleryNode {
     
     yellowHouseLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.yellow.house.location"])
         
         
     return SerializableGalleryNode(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
         position: 3,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
         images: yellowHouseLocations
     )
 }

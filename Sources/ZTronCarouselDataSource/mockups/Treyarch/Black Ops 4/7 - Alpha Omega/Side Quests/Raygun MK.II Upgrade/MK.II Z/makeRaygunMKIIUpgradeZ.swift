@@ -10,9 +10,9 @@ public func makeRaygunMKIIUpgradeZ() -> SerializableGalleryRouter {
     
     upgradeSteps.router.register(
         SerializableGalleryNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots",
             position: 1,
-            assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.icon",
+            assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.icon",
             images: .init()
         ),
         at: ["working shots"]

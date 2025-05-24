@@ -7,16 +7,16 @@ func makeRaygunMKIIUpgradeYFinalRitual() -> SerializableGalleryNode {
     
     finalRitualLocation.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.y.final.ritual.location",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.y.final.ritual.location.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.final.ritual.location",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.final.ritual.location.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.y.final.ritual.location"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.final.ritual.location"])
             
     
     return SerializableGalleryNode(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.y.final.ritual",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.final.ritual",
         position: 2,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.y.final.ritual.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.final.ritual.icon",
         images: finalRitualLocation
     )
 }

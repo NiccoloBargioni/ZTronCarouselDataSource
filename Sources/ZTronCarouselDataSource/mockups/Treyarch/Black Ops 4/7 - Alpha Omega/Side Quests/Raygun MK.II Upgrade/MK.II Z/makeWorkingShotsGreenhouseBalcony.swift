@@ -7,16 +7,16 @@ func makeWorkingShotsGreenhouseBalcony() -> SerializableGalleryNode {
     
     greenhouseLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.location"])
         
     
     return SerializableGalleryNode(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony",
         position: 0,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.greenhouse.balcony.icon",
         images: greenhouseLocations
     )
 }

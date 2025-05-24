@@ -7,16 +7,16 @@ func makeWorkingShotsOperations() -> SerializableGalleryNode {
     
     rushmoreLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
-            description: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.caption",
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.caption",
             position: 0
-    ), at: ["bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location"])
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location"])
         
     
     return SerializableGalleryNode(
-        name: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
         position: 1,
-        assetsImageName: "bo4.ao.easter.egg.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
         images: rushmoreLocations
     )
 }
