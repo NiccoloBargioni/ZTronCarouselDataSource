@@ -40,10 +40,13 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
             }
         }
         
-        upgradeStepsRouter.router.register(
-            output,
-            at: newPath
-        )
+        
+        if newPath.count > 1 {
+            upgradeStepsRouter.router.register(
+                output,
+                at: newPath
+            )
+        }
     }
     
     return .init(
