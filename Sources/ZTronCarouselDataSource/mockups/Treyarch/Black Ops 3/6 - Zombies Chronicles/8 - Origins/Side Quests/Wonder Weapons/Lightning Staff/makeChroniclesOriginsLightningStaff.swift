@@ -5,7 +5,7 @@ public func makeChroniclesOriginsLightningStaff() -> SerializableGalleryRouter {
     
     staffLocations.router.register(
         makeChroniclesOriginLightningStaffDisk(),
-        at: ["disk"]
+        at: ["lightning staff disk"]
     )
     
     staffLocations.router.register(
