@@ -27,6 +27,15 @@ public func makeDOTNSideQuestsTools() -> SerializableToolsRouter {
         makeWonderWeaponLettersTool(),
         at: [">", "wonder weapon letters"]
     )
+    
+    dotnSideQuestsTools.router.register(
+        SerializableToolNode(
+            name: "bo4.dotn.side.quests.dripping.wine.pace.tool.name",
+            position: 5,
+            assetsImageName: "bo4.dotn.side.quests.dripping.wine.pace.icon",
+            galleryRouter: .init()
+        ), at: ["dripping wine"]
+    )
 
     return dotnSideQuestsTools
 }

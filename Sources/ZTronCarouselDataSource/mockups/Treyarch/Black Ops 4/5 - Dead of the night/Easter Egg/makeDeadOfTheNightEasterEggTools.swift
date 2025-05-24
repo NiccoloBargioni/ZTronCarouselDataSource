@@ -27,6 +27,17 @@ public func makeDeadOfTheNightEasterEggTools() -> SerializableToolsRouter {
         makeSilverBullets(),
         at: [">", "silver bullets"]
     )
+    
+    
+    ee.router.register(
+        SerializableToolNode(
+            name: "bo4.dotn.easter.egg.atlas.tool.name",
+            position: 5,
+            assetsImageName: "bo4.dotn.easter.egg.atlas.icon",
+            galleryRouter: .init()
+        ), at: ["atlas"]
+    )
+
 
     return ee
 }

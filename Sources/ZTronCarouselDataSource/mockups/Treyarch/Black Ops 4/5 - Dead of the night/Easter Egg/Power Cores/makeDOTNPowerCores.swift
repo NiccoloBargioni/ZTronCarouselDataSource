@@ -268,13 +268,13 @@ public func makeDOTNPowerCores() -> SerializableGalleryRouter {
 
     trapRepairCoresLocations.register(
         SerializableImageNode(
-            name: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel..perk.location",
-            description: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel..perk.location.caption",
+            name: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel.perk.location",
+            description: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel.perk.location.caption",
             position: 13,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel..perk.location.outline",
+                    resourceName: "bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel.perk.location.outline",
                     boundingBox: .init(
                         x: 1368.0 / 1920.0,
                         y: 553.0 / 1080.0,
@@ -284,7 +284,7 @@ public func makeDOTNPowerCores() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel..perk.location"])
+    ), at: ["bo4.dotn.easter.egg.power.cores.14.mausoleum.right.of.fast.travel.perk.location"])
         
         
     let locationsRouter = SerializableGalleryRouter()

@@ -52,7 +52,7 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
     return .init(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.tool.name",
         position: 0,
-        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.logo",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.icon",
         galleryRouter: upgradeStepsRouter
     )
 }

@@ -3,7 +3,9 @@ import ZTronSerializable
 func makeTagDerToten() -> SerializableMapNode {
     let tagDerTotenTabs = SerializableTabsRouter()
     
-    tagDerTotenTabs.router.register(makeTDTSideQuestsTab(), at: [">", "bo4.tdt.side.quests.tab.name"])
+    tagDerTotenTabs.router.register(makeTagDerTotenEasterEggTab(), at: [">", "easter egg"])
+    tagDerTotenTabs.router.register(makeTDTSideQuestsTab(), at: [">", "side quests"])
+    tagDerTotenTabs.router.register(makeTagDerTotenMusicTab(), at: [">", "music"])
     
     return SerializableMapNode(
         name: "tag der toten",
