@@ -14,7 +14,7 @@ public func makeAOTRTSkullhopTools() -> SerializableToolsRouter {
             name: "iw.aotrt.skullhop.zombies.calculator.tool.name",
             position: 1,
             assetsImageName: "iw.aotrt.skullhop.zombies.calculator.icon",
-            galleryRouter: .init()
+            galleryRouter: nil
         ),
         at: [">", "zombies calculator"]
     )
@@ -24,7 +24,7 @@ public func makeAOTRTSkullhopTools() -> SerializableToolsRouter {
             name: "iw.aotrt.skullhop.swings.cypher.tool.name",
             position: 2,
             assetsImageName: "iw.aotrt.skullhop.swings.cypher.icon",
-            galleryRouter: .init()
+            galleryRouter: nil
         ),
         at: [">", "swings cypher"]
     )
