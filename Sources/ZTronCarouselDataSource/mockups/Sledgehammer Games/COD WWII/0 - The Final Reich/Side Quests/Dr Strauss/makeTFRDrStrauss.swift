@@ -8,7 +8,7 @@ public func makeTFRDrStrauss() -> SerializableGalleryRouter {
             name: "wwii.tfr.side.quests.dr.strauss.first.power",
             description: "wwii.tfr.side.quests.dr.strauss.first.power.caption",
             position: 0
-    ), at: ["wwii.tfr.side.quests.recordings.bench.statue.in.front.of.courtyard"])
+    ), at: ["wwii.tfr.side.quests.dr.strauss.first.power"])
 
     
     drStraussLocations.register(
