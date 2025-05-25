@@ -109,17 +109,9 @@ public func makeRunes() -> SerializableGalleryRouter {
 
     runesLocations.register(
         SerializableImageNode(
-            name: "wwii.ttp.beneath.the.ice.easter.egg.runes.13.ammo.box.near.speed.cola",
-            description: "wwii.ttp.beneath.the.ice.easter.egg.runes.13.ammo.box.near.speed.cola.caption",
-            position: 13
-    ), at: ["wwii.ttp.beneath.the.ice.easter.egg.runes.13.ammo.box.near.speed.cola"])
-    
-
-    runesLocations.register(
-        SerializableImageNode(
             name: "wwii.ttp.beneath.the.ice.easter.egg.runes.14.right.of.altar.entrance",
             description: "wwii.ttp.beneath.the.ice.easter.egg.runes.14.right.of.altar.entrance.caption",
-            position: 14
+            position: 13
     ), at: ["wwii.ttp.beneath.the.ice.easter.egg.runes.14.right.of.altar.entrance"])
     
 
