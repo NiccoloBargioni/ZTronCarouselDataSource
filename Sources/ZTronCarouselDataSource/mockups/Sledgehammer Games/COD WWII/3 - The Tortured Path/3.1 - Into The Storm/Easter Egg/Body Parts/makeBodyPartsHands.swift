@@ -140,10 +140,10 @@ func makeBodyPartsHands() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.into.the.storm.easter.egg.body.parts.hand.7.hand.out.map.outline",
                     boundingBox: .init(
-                        x: 2042.0 / 1920.0,
-                        y: 705.0 / 1080.0,
-                        width: 34.0 / 1920.0,
-                        height: 79.0 / 1080.0
+                        x: 2042.0 / 2715.0,
+                        y: 705.0 / 1527.0,
+                        width: 34.0 / 2715.0,
+                        height: 79.0 / 1527.0
                     )
                 )
             ]
