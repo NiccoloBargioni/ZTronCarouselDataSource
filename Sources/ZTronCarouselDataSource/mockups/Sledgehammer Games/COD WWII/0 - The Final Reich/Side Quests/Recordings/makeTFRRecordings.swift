@@ -252,7 +252,7 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["wwii.tfr.side.quests.recordings.quick.revive"])
+    ), at: ["wwii.tfr.side.quests.recordings.square.of.mittelburg"])
 
 
     radioLocations.register(
