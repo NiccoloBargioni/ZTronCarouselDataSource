@@ -14,9 +14,9 @@ func makeBrokenFlailBooks() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.books.1.book.egyptian.room.outline",
                     boundingBox: .init(
-                        x: 2087.0 / 1715.0,
+                        x: 2087.0 / 2715.0,
                         y: 1138.0 / 1527.0,
-                        width: 154.0 / 1715.0,
+                        width: 154.0 / 2715.0,
                         height: 90.0 / 1527.0
                     )
                 )
@@ -35,9 +35,9 @@ func makeBrokenFlailBooks() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.books.2.book.secret.passage.outline",
                     boundingBox: .init(
-                        x: 1665.0 / 1715.0,
+                        x: 1665.0 / 2715.0,
                         y: 680.0 / 1527.0,
-                        width: 79.0 / 1715.0,
+                        width: 79.0 / 2715.0,
                         height: 48.0 / 1527.0
                     )
                 )
@@ -56,9 +56,9 @@ func makeBrokenFlailBooks() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.books.3.observation.point.outline",
                     boundingBox: .init(
-                        x: 829.0 / 1715.0,
+                        x: 829.0 / 2715.0,
                         y: 949.0 / 1527.0,
-                        width: 104.0 / 1715.0,
+                        width: 104.0 / 2715.0,
                         height: 106.0 / 1527.0
                     )
                 )
@@ -77,9 +77,9 @@ func makeBrokenFlailBooks() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.books.4.blood.pool.outline",
                     boundingBox: .init(
-                        x: 1965.0 / 1715.0,
+                        x: 1965.0 / 2715.0,
                         y: 859.0 / 1527.0,
-                        width: 242.0 / 1715.0,
+                        width: 242.0 / 2715.0,
                         height: 96.0 / 1527.0
                     )
                 )
