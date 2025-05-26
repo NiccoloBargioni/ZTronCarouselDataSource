@@ -19,7 +19,8 @@ public func makeWWII() -> SerializableGameNode {
     wwiiMaps.router.register(makeAcrossTheDepths(), at: [">", "the tortured path", "across the depths"])
     wwiiMaps.router.register(makeBeneathTheIce(), at: [">", "the tortured path", "beneath the ice"])
 
-    
+    wwiiMaps.router.register(makeTheFrozenDawn(), at: [">", "the frozen dawn"])
+
     return SerializableGameNode(
         name: "wwii",
         position: 0,
