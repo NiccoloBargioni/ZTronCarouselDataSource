@@ -14,10 +14,10 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.blood.pool.1.22.blood.pool.mystery.box.outline",
                     boundingBox: .init(
-                        x: 1963.0 / 1920.0,
-                        y: 1012.0 / 1080.0,
-                        width: 21.0 / 1920.0,
-                        height: 29.0 / 1080.0
+                        x: 1963.0 / 3840.0,
+                        y: 1012.0 / 2160.0,
+                        width: 21.0 / 3840.0,
+                        height: 29.0 / 2160.0
                     )
                 )
             ]
@@ -35,10 +35,10 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.blood.pool.2.23.alter.of.blood.in.front.of.double.tap.outline",
                     boundingBox: .init(
-                        x: 1835.0 / 1920.0,
-                        y: 878.0 / 1080.0,
-                        width: 19.0 / 1920.0,
-                        height: 20.0 / 1080.0
+                        x: 1835.0 / 3840.0,
+                        y: 878.0 / 2160.0,
+                        width: 19.0 / 3840.0,
+                        height: 20.0 / 2160.0
                     )
                 )
             ]
@@ -56,10 +56,10 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.blood.pool.3.24.alter.of.blood.scaffhold.top.outline",
                     boundingBox: .init(
-                        x: 2100.0 / 1920.0,
-                        y: 841.0 / 1080.0,
-                        width: 34.0 / 1920.0,
-                        height: 13.0 / 1080.0
+                        x: 2100.0 / 3840.0,
+                        y: 841.0 / 2160.0,
+                        width: 34.0 / 3840.0,
+                        height: 13.0 / 2160.0
                     )
                 )
             ]
@@ -77,10 +77,10 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.blood.pool.4.25.alter.of.blood.scaffhold.middle.outline",
                     boundingBox: .init(
-                        x: 1949.0 / 1920.0,
-                        y: 869.0 / 1080.0,
-                        width: 36.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        x: 1949.0 / 3840.0,
+                        y: 869.0 / 2160.0,
+                        width: 36.0 / 3840.0,
+                        height: 25.0 / 2160.0
                     )
                 )
             ]
@@ -98,10 +98,10 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.blood.pool.5.26.alter.of.blood.top.lion.heads.outline",
                     boundingBox: .init(
-                        x: 2187.0 / 1920.0,
-                        y: 510.0 / 1080.0,
-                        width: 50.0 / 1920.0,
-                        height: 20.0 / 1080.0
+                        x: 2187.0 / 3840.0,
+                        y: 510.0 / 2160.0,
+                        width: 50.0 / 3840.0,
+                        height: 20.0 / 2160.0
                     )
                 )
             ]

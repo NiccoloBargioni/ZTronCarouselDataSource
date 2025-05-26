@@ -14,10 +14,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.1.gear.bossfight.teleporter.outline",
                     boundingBox: .init(
-                        x: 1536.0 / 1920.0,
-                        y: 689.0 / 1080.0,
-                        width: 44.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        x: 1536.0 / 1715.0,
+                        y: 689.0 / 1527.0,
+                        width: 44.0 / 1715.0,
+                        height: 25.0 / 1527.0
                     )
                 )
             ]
@@ -35,10 +35,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.2.gear.secret.passage.outline",
                     boundingBox: .init(
-                        x: 705.0 / 1920.0,
-                        y: 647.0 / 1080.0,
-                        width: 166.0 / 1920.0,
-                        height: 76.0 / 1080.0
+                        x: 705.0 / 1715.0,
+                        y: 647.0 / 1527.0,
+                        width: 166.0 / 1715.0,
+                        height: 76.0 / 1527.0
                     )
                 )
             ]
@@ -56,10 +56,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.3.gear.observatory.outline",
                     boundingBox: .init(
-                        x: 777.0 / 1920.0,
-                        y: 841.0 / 1080.0,
-                        width: 57.0 / 1920.0,
-                        height: 21.0 / 1080.0
+                        x: 777.0 / 1715.0,
+                        y: 841.0 / 1527.0,
+                        width: 57.0 / 1715.0,
+                        height: 21.0 / 1527.0
                     )
                 )
             ]
@@ -77,10 +77,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.4.gear.phylactery.outline",
                     boundingBox: .init(
-                        x: 1733.0 / 1920.0,
-                        y: 731.0 / 1080.0,
-                        width: 61.0 / 1920.0,
-                        height: 44.0 / 1080.0
+                        x: 1733.0 / 1715.0,
+                        y: 731.0 / 1527.0,
+                        width: 61.0 / 1715.0,
+                        height: 44.0 / 1527.0
                     )
                 )
             ]
@@ -98,10 +98,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.5.gear.blood.sacrifice.outline",
                     boundingBox: .init(
-                        x: 1624.0 / 1920.0,
-                        y: 626.0 / 1080.0,
-                        width: 31.0 / 1920.0,
-                        height: 23.0 / 1080.0
+                        x: 1624.0 / 1715.0,
+                        y: 626.0 / 1527.0,
+                        width: 31.0 / 1715.0,
+                        height: 23.0 / 1527.0
                     )
                 )
             ]
@@ -119,10 +119,10 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.broken.flail.gears.6.gear.secret.room.outline",
                     boundingBox: .init(
-                        x: 2187.0 / 1920.0,
-                        y: 899.0 / 1080.0,
-                        width: 161.0 / 1920.0,
-                        height: 44.0 / 1080.0
+                        x: 2187.0 / 1715.0,
+                        y: 899.0 / 1527.0,
+                        width: 161.0 / 1715.0,
+                        height: 44.0 / 1527.0
                     )
                 )
             ]

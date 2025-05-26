@@ -14,10 +14,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.1.12.observation.point.out.of.map.blood.pool.outline",
                     boundingBox: .init(
-                        x: 2083.0 / 1920.0,
-                        y: 868.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 14.0 / 1080.0
+                        x: 2083.0 / 3840.0,
+                        y: 868.0 / 2160.0,
+                        width: 27.0 / 3840.0,
+                        height: 14.0 / 2160.0
                     )
                 )
             ]
@@ -35,10 +35,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.2.13.observation.point.geistschild.outline",
                     boundingBox: .init(
-                        x: 1858.0 / 1920.0,
-                        y: 459.0 / 1080.0,
-                        width: 66.0 / 1920.0,
-                        height: 34.0 / 1080.0
+                        x: 1858.0 / 3840.0,
+                        y: 459.0 / 2160.0,
+                        width: 66.0 / 3840.0,
+                        height: 34.0 / 2160.0
                     )
                 )
             ]
@@ -56,10 +56,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.3.14.observation.point.above.staminup.outline",
                     boundingBox: .init(
-                        x: 1996.0 / 1920.0,
-                        y: 833.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 18.0 / 1080.0
+                        x: 1996.0 / 3840.0,
+                        y: 833.0 / 2160.0,
+                        width: 27.0 / 3840.0,
+                        height: 18.0 / 2160.0
                     )
                 )
             ]
@@ -77,10 +77,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.4.15.electric.cherry.1.outline",
                     boundingBox: .init(
-                        x: 795.0 / 1920.0,
-                        y: 229.0 / 1080.0,
-                        width: 164.0 / 1920.0,
-                        height: 65.0 / 1080.0
+                        x: 795.0 / 3840.0,
+                        y: 229.0 / 2160.0,
+                        width: 164.0 / 3840.0,
+                        height: 65.0 / 2160.0
                     )
                 )
             ]
@@ -98,10 +98,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.5.16.electric.cherry.2.outline",
                     boundingBox: .init(
-                        x: 1535.0 / 1920.0,
-                        y: 1040.0 / 1080.0,
-                        width: 47.0 / 1920.0,
-                        height: 51.0 / 1080.0
+                        x: 1535.0 / 3840.0,
+                        y: 1040.0 / 2160.0,
+                        width: 47.0 / 3840.0,
+                        height: 51.0 / 2160.0
                     )
                 )
             ]
@@ -119,10 +119,10 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.ravens.observatory.6.17.electric.cherry.3.outline",
                     boundingBox: .init(
-                        x: 2544.0 / 1920.0,
-                        y: 744.0 / 1080.0,
-                        width: 198.0 / 1920.0,
-                        height: 150.0 / 1080.0
+                        x: 2544.0 / 3840.0,
+                        y: 744.0 / 2160.0,
+                        width: 198.0 / 3840.0,
+                        height: 150.0 / 2160.0
                     )
                 )
             ]

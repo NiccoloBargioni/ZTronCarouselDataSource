@@ -13,10 +13,10 @@ public func makeHammerStones() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.hammer.stones.1.stone.1.outline",
                     boundingBox: .init(
-                        x: 1733.0 / 1920.0,
-                        y: 710.0 / 1080.0,
-                        width: 60.0 / 1920.0,
-                        height: 46.0 / 1080.0
+                        x: 1733.0 / 2715.0,
+                        y: 710.0 / 1527.0,
+                        width: 60.0 / 2715.0,
+                        height: 46.0 / 1527.0
                     )
                 )
             ]
@@ -34,10 +34,10 @@ public func makeHammerStones() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.hammer.stones.2.stone.2.outline",
                     boundingBox: .init(
-                        x: 1307.0 / 1920.0,
-                        y: 555.0 / 1080.0,
-                        width: 109.0 / 1920.0,
-                        height: 80.0 / 1080.0
+                        x: 1307.0 / 2715.0,
+                        y: 555.0 / 1527.0,
+                        width: 109.0 / 2715.0,
+                        height: 80.0 / 1527.0
                     )
                 )
             ]
@@ -55,10 +55,10 @@ public func makeHammerStones() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.hammer.stones.3.stone.3.speed.cola.outline",
                     boundingBox: .init(
-                        x: 1868.0 / 1920.0,
-                        y: 750.0 / 1080.0,
-                        width: 68.0 / 1920.0,
-                        height: 57.0 / 1080.0
+                        x: 1868.0 / 2715.0,
+                        y: 750.0 / 1527.0,
+                        width: 68.0 / 2715.0,
+                        height: 57.0 / 1527.0
                     )
                 )
             ]
@@ -76,10 +76,10 @@ public func makeHammerStones() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfd.easter.egg.hammer.stones.4.stone.4.outline",
                     boundingBox: .init(
-                        x: 852.0 / 1920.0,
-                        y: 494.0 / 1080.0,
-                        width: 102.0 / 1920.0,
-                        height: 100.0 / 1080.0
+                        x: 852.0 / 2715.0,
+                        y: 494.0 / 1527.0,
+                        width: 102.0 / 2715.0,
+                        height: 100.0 / 1527.0
                     )
                 )
             ]
