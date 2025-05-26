@@ -8,7 +8,7 @@ public func makeGhostNSkull2Tools() -> SerializableToolsRouter {
             name: "iw.ritr.ghost.n.skull.2.zombies.calculator.tool.name",
             position: 0,
             assetsImageName: "iw.ritr.ghost.n.skull.2.zombies.calculator.icon",
-            galleryRouter: .init()
+            galleryRouter: nil
         ),
         at: [">", "zombies calculator"]
     )

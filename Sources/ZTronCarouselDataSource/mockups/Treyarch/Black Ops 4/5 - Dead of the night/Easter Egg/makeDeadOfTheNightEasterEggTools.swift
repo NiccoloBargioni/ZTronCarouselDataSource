@@ -34,7 +34,7 @@ public func makeDeadOfTheNightEasterEggTools() -> SerializableToolsRouter {
             name: "bo4.dotn.easter.egg.atlas.tool.name",
             position: 5,
             assetsImageName: "bo4.dotn.easter.egg.atlas.icon",
-            galleryRouter: .init()
+            galleryRouter: nil
         ), at: ["atlas"]
     )
 

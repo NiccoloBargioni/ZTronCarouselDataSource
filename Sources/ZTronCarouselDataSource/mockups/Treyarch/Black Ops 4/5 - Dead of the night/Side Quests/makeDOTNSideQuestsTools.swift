@@ -33,7 +33,7 @@ public func makeDOTNSideQuestsTools() -> SerializableToolsRouter {
             name: "bo4.dotn.side.quests.dripping.wine.pace.tool.name",
             position: 5,
             assetsImageName: "bo4.dotn.side.quests.dripping.wine.pace.icon",
-            galleryRouter: .init()
+            galleryRouter: nil
         ), at: ["dripping wine"]
     )
 
