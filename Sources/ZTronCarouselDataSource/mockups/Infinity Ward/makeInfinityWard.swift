@@ -4,7 +4,7 @@ public func makeInfinityWard() -> SerializableStudioNode {
     return SerializableStudioNode(
         name: "infinity ward",
         position: 0,
-        assetsImageName: "IWZombies",
+        assetsImageName: "iw.game.logo",
         games: makeIWGamesRouter()
     )
 }
