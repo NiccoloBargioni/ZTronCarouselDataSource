@@ -23,7 +23,7 @@ public func makeWWII() -> SerializableGameNode {
 
     return SerializableGameNode(
         name: "wwii",
-        position: 1,
+        position: 2,
         assetsImageName: "wwii.game.logo",
         maps: wwiiMaps
     )

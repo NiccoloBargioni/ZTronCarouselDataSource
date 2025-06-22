@@ -34,7 +34,7 @@ func makeVoyageShieldUpgradeTool() -> SerializableToolNode {
     return .init(
         name: "bo4.vod.side.quests.shield.upgrade.tool.name",
         position: 4,
-        assetsImageName: "bo4.vod.side.quests.shield.upgrade",
+        assetsImageName: "bo4.vod.side.quests.shield.upgrade.icon",
         galleryRouter: shieldUpgradeRouter
     )
 }
