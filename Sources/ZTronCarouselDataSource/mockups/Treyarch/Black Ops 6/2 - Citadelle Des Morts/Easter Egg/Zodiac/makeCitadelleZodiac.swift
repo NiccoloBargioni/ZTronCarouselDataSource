@@ -21,7 +21,7 @@ public func makeCitadelleZodiac() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo4.ix.easter.egg.skulls.1.danu.ra.central"])
+    ), at: ["bo6.cdm.easter.egg.zodiac.aries"])
 
     
     zodiacLocationsRouter.register(
