@@ -90,7 +90,7 @@ public func makeCitadelleZodiac() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.easter.egg.zodiac.gemini",
             description: "bo6.cdm.easter.egg.zodiac.gemini.caption",
-            position: 3,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
