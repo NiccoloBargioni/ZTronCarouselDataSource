@@ -122,32 +122,13 @@ public func makeSpacelandMix() -> SerializableGalleryRouter {
             ]
         ), at: [">", "iw.spaceland.music.spaceland.mix.polar.peak.roller.coaster.booth"]
     )
-    
-    spacelandMixLocations.register(
-        SerializableImageNode(
-            name: "iw.spaceland.music.spaceland.mix.spawn.room",
-            description: "iw.spaceland.music.spaceland.mix.spawn.room.caption",
-            position: 6,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "iw.spaceland.music.spaceland.mix.spawn.room.outline",
-                    boundingBox: .init(
-                        x: 2275.0/2715.0,
-                        y: 824.0/1527.0,
-                        width: 33.0/2715.0,
-                        height: 33.0/1527.0
-                    )
-                )
-            ]
-        ), at: [">", "iw.spaceland.music.spaceland.mix.spawn.room"]
-    )
+
     
     spacelandMixLocations.register(
         SerializableImageNode(
             name: "iw.spaceland.music.spaceland.underground.alien.shutters",
             description: "iw.spaceland.music.spaceland.underground.alien.shutters.caption",
-            position: 7,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -167,7 +148,7 @@ public func makeSpacelandMix() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.spaceland.music.spaceland.underground.murales",
             description: "iw.spaceland.music.spaceland.underground.murales.caption",
-            position: 8,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

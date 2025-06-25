@@ -18,6 +18,15 @@ public func makeFrozenDawnEasterEggTools() -> SerializableToolsRouter {
         at: [">", "blood patterns"]
     )
     
+    ee.router.register(
+        SerializableToolNode(
+            name: "wwii.tfd.easter.egg.shield.lightning.puzzle.tool.name",
+            position: 0,
+            assetsImageName: "wwii.tfd.easter.egg.shield.lightning.puzzle.icon",
+            galleryRouter: nil
+        ),
+        at: [">", "lightning puzzle"]
+    )
 
     return ee
 }

@@ -13,7 +13,7 @@ func makeSpacelandDirectorsCutSong() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.spaceland.music.directors.cut.song.1.yeti.inside.cave.roller.coaster.outline",
+                    resourceName: "4",
                     boundingBox: .init(
                         x: 1077.0 / 1920.0,
                         y: 474.0 / 1080.0,

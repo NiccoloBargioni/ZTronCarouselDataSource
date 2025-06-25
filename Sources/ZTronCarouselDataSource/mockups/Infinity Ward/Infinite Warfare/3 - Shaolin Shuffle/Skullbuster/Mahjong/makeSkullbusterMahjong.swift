@@ -112,7 +112,7 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.ss.skullbreaker.mahjong.6.sofa.blue.area.entrance.outline",
+                    resourceName: "iw.ss.skullbreaker.mahjong.6.sofa.underground.area.entrance.outline",
                     boundingBox: .init(
                         x: 865.0 / 1920.0,
                         y: 522.0 / 1080.0,
