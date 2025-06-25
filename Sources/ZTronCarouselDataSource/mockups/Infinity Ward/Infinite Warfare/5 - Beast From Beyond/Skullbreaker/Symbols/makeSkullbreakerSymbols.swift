@@ -59,6 +59,14 @@ public func makeSkullbreakerSymbols() -> SerializableGalleryRouter {
     ), at: ["iw.bfb.skullbreaker.symbols.7.theater.main.road.out.of.map"])
 
 
+    symbolsLocations.register(
+        SerializableImageNode(
+            name: "iw.bfb.skullbreaker.symbols.8.reaver.wallbuy.theater",
+            description: "iw.bfb.skullbreaker.symbols.8.reaver.wallbuy.theater.caption",
+            position: 7
+    ), at: ["iw.bfb.skullbreaker.symbols.8.reaver.wallbuy.theater"])
+
+
     let symbolsRouter = SerializableGalleryRouter()
     
     symbolsRouter.router.register(SerializableGalleryNode(
