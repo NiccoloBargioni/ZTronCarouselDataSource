@@ -21,7 +21,7 @@ public func makeFrozenDawnEasterEggTools() -> SerializableToolsRouter {
     ee.router.register(
         SerializableToolNode(
             name: "wwii.tfd.easter.egg.shield.lightning.puzzle.tool.name",
-            position: 0,
+            position: 3,
             assetsImageName: "wwii.tfd.easter.egg.shield.lightning.puzzle.icon",
             galleryRouter: nil
         ),
