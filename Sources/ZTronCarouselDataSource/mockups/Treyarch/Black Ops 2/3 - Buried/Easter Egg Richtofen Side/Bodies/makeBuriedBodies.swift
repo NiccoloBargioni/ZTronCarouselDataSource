@@ -551,7 +551,7 @@ public func makeBuriedBodies() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.buried.easter.egg.richtofen.bodies.12.arthurs.cell.round.infinity",
             description: "bo2.buried.easter.egg.richtofen.bodies.12.arthurs.cell.caption",
-            position: 11,
+            position: 0,
             searchLabel: "bo2.buried.easter.egg.richtofen.bodies.12.arthurs.cell.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
