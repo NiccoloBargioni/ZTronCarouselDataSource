@@ -13,6 +13,11 @@ func makeAOTRTEasterEggTools() -> SerializableToolsRouter {
         at: ["chemicals"]
     )
     
+    tools.router.register(
+        makeBrailleCodeTool(),
+        at: ["braille code"]
+    )
+    
     return tools
 }
 
