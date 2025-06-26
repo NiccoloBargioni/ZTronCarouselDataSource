@@ -13,10 +13,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.1.wonder.weapon.room.outline",
                     boundingBox: .init(
-                        x: 1372.0 / 1920.0,
-                        y: 657.0 / 1080.0,
-                        width: 44.0 / 1920.0,
-                        height: 62.0 / 1080.0
+                        x: 1372.0 / 2714.0,
+                        y: 657.0 / 1526.0,
+                        width: 44.0 / 2714.0,
+                        height: 62.0 / 1526.0
                     )
                 )
             ]
@@ -34,10 +34,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.2.packapunch.outline",
                     boundingBox: .init(
-                        x: 890.0 / 1920.0,
-                        y: 1071.0 / 1080.0,
-                        width: 147.0 / 1920.0,
-                        height: 69.0 / 1080.0
+                        x: 890.0 / 2714.0,
+                        y: 1071.0 / 1526.0,
+                        width: 147.0 / 2714.0,
+                        height: 69.0 / 1526.0
                     )
                 )
             ]
@@ -55,10 +55,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.3.electric.trap.outline",
                     boundingBox: .init(
-                        x: 1348.0 / 1920.0,
-                        y: 925.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 49.0 / 1080.0
+                        x: 1348.0 / 2714.0,
+                        y: 925.0 / 1526.0,
+                        width: 38.0 / 2714.0,
+                        height: 49.0 / 1526.0
                     )
                 )
             ]
@@ -76,10 +76,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.4.museum.outline",
                     boundingBox: .init(
-                        x: 1432.0 / 1920.0,
-                        y: 478.0 / 1080.0,
-                        width: 65.0 / 1920.0,
-                        height: 30.0 / 1080.0
+                        x: 1432.0 / 2714.0,
+                        y: 478.0 / 1526.0,
+                        width: 65.0 / 2714.0,
+                        height: 30.0 / 1526.0
                     )
                 )
             ]
@@ -97,10 +97,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.5.double.tap.outline",
                     boundingBox: .init(
-                        x: 1557.0 / 1920.0,
-                        y: 644.0 / 1080.0,
-                        width: 58.0 / 1920.0,
-                        height: 76.0 / 1080.0
+                        x: 1557.0 / 2714.0,
+                        y: 644.0 / 1526.0,
+                        width: 58.0 / 2714.0,
+                        height: 76.0 / 1526.0
                     )
                 )
             ]
@@ -118,10 +118,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.6.church.outline",
                     boundingBox: .init(
-                        x: 1306.0 / 1920.0,
-                        y: 529.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 90.0 / 1080.0
+                        x: 1306.0 / 2714.0,
+                        y: 529.0 / 1526.0,
+                        width: 38.0 / 2714.0,
+                        height: 90.0 / 1526.0
                     )
                 )
             ]
@@ -139,10 +139,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.7.church.from.theatre.outline",
                     boundingBox: .init(
-                        x: 1203.0 / 1920.0,
-                        y: 900.0 / 1080.0,
-                        width: 65.0 / 1920.0,
-                        height: 141.0 / 1080.0
+                        x: 1203.0 / 2714.0,
+                        y: 900.0 / 1526.0,
+                        width: 65.0 / 2714.0,
+                        height: 141.0 / 1526.0
                     )
                 )
             ]
@@ -160,10 +160,10 @@ public func makeDancersDagger() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.easter.egg.dancers.dagger.8.theatre.outline",
                     boundingBox: .init(
-                        x: 1144.0 / 1920.0,
-                        y: 809.0 / 1080.0,
-                        width: 103.0 / 1920.0,
-                        height: 89.0 / 1080.0
+                        x: 1144.0 / 2714.0,
+                        y: 809.0 / 1526.0,
+                        width: 103.0 / 2714.0,
+                        height: 89.0 / 1526.0
                     )
                 )
             ]
