@@ -5,6 +5,6 @@ public func makeShangriLaMusicTab() -> SerializableTabNode {
         name: "music",
         position: 1,
         iconName: "music.note",
-        tools: makeCOTDMusicTools()
+        tools: makeShangriLaMusicTools()
     )
 }

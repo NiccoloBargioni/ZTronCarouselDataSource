@@ -24,19 +24,24 @@ public func makeBuriedEasterEggTools() -> SerializableToolsRouter {
     )
     
     buriedEasterEggTools.router.register(
-        makeBuriedNaviCardTableTool(),
-        at: [">", "navi card table"]
+        makeBuriedWardenKeyTool(),
+        at: [">", "warden key"]
     )
     
     buriedEasterEggTools.router.register(
-        makeBuriedWardenKeyTool(),
-        at: [">", "warden key"]
+        SerializableToolNode(
+            name: "bo2.buried.easter.egg.shared.lantern.cypher.tool.name",
+            position: 5,
+            assetsImageName: "bo2.buried.easter.egg.shared.lantern.cypher.icon",
+            galleryRouter: nil
+        ), at: ["lantern cypher"]
     )
     
     buriedEasterEggTools.router.register(
         makeBuriedMazeTool(),
         at: [">", "maze"]
     )
-
+    
+    
     return buriedEasterEggTools
 }

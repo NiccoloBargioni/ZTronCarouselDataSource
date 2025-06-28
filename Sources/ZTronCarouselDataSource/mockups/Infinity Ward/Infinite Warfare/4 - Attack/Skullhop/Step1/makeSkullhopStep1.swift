@@ -99,7 +99,7 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                         y: 774.0/1527.0,
                         width: 2.0/2715.0,
                         height: 4.0/1527.0
-                    )
+                    )  
                 )
             ]
         ), at: [">", "sign.outside.beachside.market.skull"]
@@ -236,6 +236,7 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
             name: "motel.last.floor.beach.skull",
             description: "IW.aotrt.skullhop.step1.motel.last.floor.beach.skull.caption",
             position: 7,
+            /*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -247,7 +248,7 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                         height: 4.0/1527.0
                     )
                 )
-            ]
+            ]*/
         ), at: [">", "motel.last.floor.beach.skull"]
     )
     
