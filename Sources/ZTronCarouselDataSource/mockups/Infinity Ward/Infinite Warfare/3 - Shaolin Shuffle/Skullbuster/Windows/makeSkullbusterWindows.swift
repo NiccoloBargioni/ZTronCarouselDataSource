@@ -14,10 +14,10 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.windows.1.outside.disco.inferno.spelling.one.outline",
                     boundingBox: .init(
-                        x: 1064.0 / 1920.0,
-                        y: 440.0 / 1080.0,
-                        width: 91.0 / 1920.0,
-                        height: 96.0 / 1080.0
+                        x: 1093.0 / 1920.0,
+                        y: 447.0 / 1080.0,
+                        width: 33.0 / 1920.0,
+                        height: 80.0 / 1080.0
                     )
                 )
             ]
@@ -74,10 +74,10 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.windows.4.outside.pam.dojo.towards.spawn.spelling.two.outline",
                     boundingBox: .init(
-                        x: 713.0 / 1920.0,
-                        y: 452.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 157.0 / 1080.0
+                        x: 224.0 / 1920.0,
+                        y: 887.0 / 1080.0,
+                        width: 303.0 / 1920.0,
+                        height: 403.0 / 1080.0
                     )
                 )
             ]

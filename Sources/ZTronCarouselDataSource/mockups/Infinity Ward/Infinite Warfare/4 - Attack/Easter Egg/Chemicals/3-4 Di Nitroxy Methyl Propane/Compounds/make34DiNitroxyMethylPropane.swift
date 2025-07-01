@@ -24,7 +24,7 @@ func make34DiNitroxyMethylPropane() -> SerializableGalleryNode {
                     resourceName: "iw.aotrt.ee.chemicals.motel.reception.room.nail.polish.outline",
                     boundingBox: .init(
                         x: 1509.0/2715.0,
-                        y: 747.0/1527.0,
+                        y: 646.0/1527.0,
                         width: 11.0/2715.0,
                         height: 35.0/1527.0
                     )
