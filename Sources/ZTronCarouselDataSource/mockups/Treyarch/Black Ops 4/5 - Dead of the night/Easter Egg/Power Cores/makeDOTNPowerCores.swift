@@ -234,13 +234,26 @@ public func makeDOTNPowerCores() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo4.dotn.easter.egg.power.cores.11.way.to.mausoleum"])
-
     
+
     trapRepairCoresLocations.register(
         SerializableImageNode(
             name: "bo4.dotn.easter.egg.power.cores.12.cemetery",
             description: "bo4.dotn.easter.egg.power.cores.12.cemetery.caption",
-            position: 11
+            position: 11,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.dotn.easter.egg.power.cores.12.cemetery.outline",
+                    boundingBox: .init(
+                        x: 254.0 / 1920.0,
+                        y: 567.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 12.0 / 1080.0
+                    )
+                )
+            ]
+
     ), at: ["bo4.dotn.easter.egg.power.cores.12.cemetery"])
 
     

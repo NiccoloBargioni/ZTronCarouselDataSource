@@ -12,6 +12,11 @@ public func makeShatteredVeilEasterEggTools() -> SerializableToolsRouter {
         ), at: ["blackboards"]
     )
 
+    eeTools.router.register(
+        makeShatteredVeilPlantsTool(),
+        at: ["plants"]
+    )
+
 
     return eeTools
 }

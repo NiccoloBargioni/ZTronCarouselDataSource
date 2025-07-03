@@ -277,11 +277,24 @@ func makeValvesSewers() -> SerializableGalleryNode {
         
     ), at: ["aw.Infection.easter.egg.valves.sewers.13.sewers.close.to.decontamination.room.entrance"])
     
+
     valvesLocationsSewers.register(
         SerializableImageNode(
             name: "aw.Infection.easter.egg.valves.sewers.13.sewers.ladder",
             description: "aw.Infection.easter.egg.valves.sewers.13.sewers.ladder.caption",
-            position: 13
+            position: 13,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "aw.Infection.easter.egg.valves.sewers.13.sewers.ladder.outline",
+                    boundingBox: .init(
+                        x: 408.0 / 1920.0,
+                        y: 343.0 / 1080.0,
+                        width: 41.0 / 1920.0,
+                        height: 43.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["aw.Infection.easter.egg.valves.sewers.13.sewers.ladder"])
 
     return SerializableGalleryNode(

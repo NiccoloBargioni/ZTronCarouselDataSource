@@ -4,6 +4,7 @@ func makeShatteredVeil() -> SerializableMapNode {
     let shatteredVeilTabs = SerializableTabsRouter()
     
     shatteredVeilTabs.router.register(makeShatteredVeilEasterEggTab(), at: [">", "easter egg"])
+    shatteredVeilTabs.router.register(makeShatteredVeilSideQuestsTab(), at: [">", "side quests"])
 
     return SerializableMapNode(
         name: "shattered veil",
