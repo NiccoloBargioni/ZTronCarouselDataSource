@@ -17,7 +17,7 @@ func makeAlphaOmegaTeleporterPart2() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 692.0 / 1920.0,
                         y: 445.0 / 1080.0,
-                        width: 56.0/ 1920.0,
+                        width: 56.0 / 1920.0,
                         height: 92.0 / 1080.0
                     )
                 )
