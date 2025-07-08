@@ -7,7 +7,19 @@ public func makeAOTRTObjectsMirrors() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms",
             description: "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms.caption",
-            position: 0
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms.outline",
+                    boundingBox: .init(
+                        x: 942.0 / 1920.0,
+                        y: 555.0 / 1080.0,
+                        width: 11.0 / 1920.0,
+                        height: 25.0 / 1080.0
+                    )
+                )
+            ]
         ), at: [">", "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms"]
     )
     
@@ -16,16 +28,39 @@ public func makeAOTRTObjectsMirrors() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.aotrt.easter.egg.objects.mirrors.2.vintage.car.rear.view.outside.beachside.market",
             description: "iw.aotrt.easter.egg.objects.mirrors.2.vintage.car.rear.view.outside.beachside.market.caption",
-            position: 1
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.aotrt.easter.egg.objects.mirrors.2.vintage.car.rear.view.outside.beachside.market.outline",
+                    boundingBox: .init(
+                        x: 695.0 / 1920.0,
+                        y: 554.0 / 1080.0,
+                        width: 22.0 / 1920.0,
+                        height: 9.0 / 1080.0
+                    )
+                )
+            ]
         ), at: [">", "iw.aotrt.easter.egg.objects.mirrors.2.vintage.car.rear.view.outside.beachside.market"]
     )
-    
-    
+
     mirrorsPartsLocations.register(
         SerializableImageNode(
             name: "iw.aotrt.easter.egg.objects.mirrors.3.on.elviras.sofa.tv.studio",
             description: "iw.aotrt.easter.egg.objects.mirrors.3.on.elviras.sofa.tv.studio.caption",
-            position: 2
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.aotrt.easter.egg.objects.mirrors.3.on.elviras.sofa.tv.studio.outline",
+                    boundingBox: .init(
+                        x: 529.0 / 1920.0,
+                        y: 523.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 27.0 / 1080.0
+                    )
+                )
+            ]
         ), at: [">", "iw.aotrt.easter.egg.objects.mirrors.3.on.elviras.sofa.tv.studio"]
     )
     
