@@ -32,7 +32,7 @@ public func makeAOTRTObjectsComputer() -> SerializableGalleryNode {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.spaceland.side.quests.n31l.battery.polar.peak.toy.box.roller.coaster.room.outline",
+                    resourceName: "iw.aotrt.easter.egg.objects.computer.2.on.gazebo.facing.the.radioactive.thing.outline",
                     boundingBox: .init(
                         x: 805.0 / 1920.0,
                         y: 423.0 / 1080.0,
