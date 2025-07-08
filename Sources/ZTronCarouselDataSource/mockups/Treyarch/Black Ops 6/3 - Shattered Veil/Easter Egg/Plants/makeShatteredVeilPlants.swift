@@ -127,7 +127,7 @@ public func makeShatteredVeilPlants() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.plants.spawn",
             description: "bo6.sv.easter.egg.plants.spawn.caption",
-            position: 5,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -147,7 +147,7 @@ public func makeShatteredVeilPlants() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.plants.speed.cola",
             description: "bo6.sv.easter.egg.plants.speed.cola.caption",
-            position: 6,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
