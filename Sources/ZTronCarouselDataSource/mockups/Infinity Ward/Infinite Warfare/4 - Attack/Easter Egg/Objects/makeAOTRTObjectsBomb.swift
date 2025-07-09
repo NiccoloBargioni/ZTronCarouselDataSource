@@ -3,6 +3,7 @@ import ZTronSerializable
 public func makeAOTRTObjectsBomb() -> SerializableGalleryNode {
     let bombPartsLocations = MediaRouter.init()
     
+
     bombPartsLocations.register(
         SerializableImageNode(
             name: "iw.aotrt.easter.egg.objects.bomb.1.screw.under.bridge.in.the.beach.motel.area",
@@ -13,10 +14,10 @@ public func makeAOTRTObjectsBomb() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.bomb.1.screw.under.bridge.in.the.beach.motel.area.outline",
                     boundingBox: .init(
-                        x: 872.0 / 1920.0,
-                        y: 519.0 / 1080.0,
-                        width: 24.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 920.0 / 1920.0,
+                        y: 759.0 / 1080.0,
+                        width: 28.0 / 1920.0,
+                        height: 13.0 / 1080.0
                     )
                 )
             ]
@@ -34,16 +35,15 @@ public func makeAOTRTObjectsBomb() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.bomb.2.ied.under.red.car.between.motel.and.tv.studio.outline",
                     boundingBox: .init(
-                        x: 872.0 / 1920.0,
-                        y: 519.0 / 1080.0,
-                        width: 24.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 1713.0 / 1920.0,
+                        y: 563.0 / 1080.0,
+                        width: 41.0 / 1920.0,
+                        height: 36.0 / 1080.0
                     )
                 )
             ]
         ), at: [">", "iw.aotrt.easter.egg.objects.bomb.2.ied.under.red.car.between.motel.and.tv.studio"]
     )
-    
     
     bombPartsLocations.register(
         SerializableImageNode(
@@ -55,10 +55,10 @@ public func makeAOTRTObjectsBomb() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.bomb.3.between.gate.rails.between.tv.studio.and.bus.park.outline",
                     boundingBox: .init(
-                        x: 872.0 / 1920.0,
-                        y: 519.0 / 1080.0,
-                        width: 24.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 716.0 / 1920.0,
+                        y: 933.0 / 1080.0,
+                        width: 66.0 / 1920.0,
+                        height: 29.0 / 1080.0
                     )
                 )
             ]
