@@ -13,16 +13,16 @@ public func makeAOTRTObjectsMirrors() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms.outline",
                     boundingBox: .init(
-                        x: 942.0 / 1920.0,
-                        y: 555.0 / 1080.0,
-                        width: 11.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        x: 393.0 / 1920.0,
+                        y: 827.0 / 1080.0,
+                        width: 105.0 / 1920.0,
+                        height: 68.0 / 1080.0
                     )
                 )
             ]
         ), at: [">", "iw.aotrt.easter.egg.objects.mirrors.1.inside.bidet.campers.area.restrooms"]
     )
-    
+
     
     mirrorsPartsLocations.register(
         SerializableImageNode(

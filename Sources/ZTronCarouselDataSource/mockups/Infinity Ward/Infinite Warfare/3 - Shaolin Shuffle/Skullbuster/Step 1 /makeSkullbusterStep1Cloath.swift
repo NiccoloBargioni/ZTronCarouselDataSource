@@ -15,10 +15,10 @@ func makeSkullbusterStep1Cloath() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbuster.step.1.cloath.1.scaffoldings.top.of.heebie.geebies.outline",
                     boundingBox: .init(
-                        x: 1214.0/1920.0,
-                        y: 773.0/1080.0,
-                        width: 50.0/1920.0,
-                        height: 20.0/1080.0
+                        x: 1214.0/2715.0,
+                        y: 773.0/1527.0,
+                        width: 50.0/2715.0,
+                        height: 20.0/1527.0
                     )
                 )
             ]
@@ -55,10 +55,10 @@ func makeSkullbusterStep1Cloath() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbuster.step.1.cloath.3.throne.inside.rat.king.liar.outline",
                     boundingBox: .init(
-                        x: 1314.0/1920.0,
-                        y: 740.0/1080.0,
-                        width: 35.0/1920.0,
-                        height: 21.0/1080.0
+                        x: 1314.0/2715.0,
+                        y: 740.0/1527.0,
+                        width: 35.0/2715.0,
+                        height: 21.0/1527.0
                     )
                 )
             ]

@@ -15,10 +15,10 @@ func makeSkullbusterStep1Spray() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbuster.step.1.spray.1.on.the.ground.heebie.geebies.left.of.speaker.outline",
                     boundingBox: .init(
-                        x: 1097.0/1920.0,
-                        y: 731.0/1080.0,
-                        width: 33.0/1920.0,
-                        height: 9.0/1080.0
+                        x: 1097.0/2715.0,
+                        y: 731.0/1527.0,
+                        width: 33.0/2715.0,
+                        height: 9.0/2517.0
                     )
                 )
             ]
@@ -35,10 +35,10 @@ func makeSkullbusterStep1Spray() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbuster.step.1.spray.2.disco.inferno.first.floor.pizza.boxes.outline",
                     boundingBox: .init(
-                        x: 1398.0/1920.0,
-                        y: 715.0/1080.0,
-                        width: 21.0/1920.0,
-                        height: 65.0/1080.0
+                        x: 1398.0/2715.0,
+                        y: 715.0/1527.0,
+                        width: 21.0/2715.0,
+                        height: 65.0/1527.0
                     )
                 )
             ]
