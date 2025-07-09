@@ -55,10 +55,10 @@ public func makeAOTRTBuildablesHypnosisDevice() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.side.quests.buildables.hypnosis.device.3.chassis.beachside.market.liquor.cash.register.outline",
                     boundingBox: .init(
-                        x: 1346.0 / 1920.0,
-                        y: 661.0 / 1080.0,
-                        width: 105.0 / 1920.0,
-                        height: 80.0 / 1080.0
+                        x: 807.0 / 1920.0,
+                        y: 600.0 / 1080.0,
+                        width: 50.0 / 1920.0,
+                        height: 74.0 / 1080.0
                     )
                 )
             ]
@@ -75,10 +75,10 @@ public func makeAOTRTBuildablesHypnosisDevice() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.side.quests.buildables.hypnosis.device.4.toolbox.across.refrigerator.room.beachside.market.outline",
                     boundingBox: .init(
-                        x: 807.0 / 1920.0,
-                        y: 600.0 / 1080.0,
-                        width: 50.0 / 1920.0,
-                        height: 74.0 / 1080.0
+                        x: 1346.0 / 1920.0,
+                        y: 661.0 / 1080.0,
+                        width: 105.0 / 1920.0,
+                        height: 80.0 / 1080.0
                     )
                 )
             ]
