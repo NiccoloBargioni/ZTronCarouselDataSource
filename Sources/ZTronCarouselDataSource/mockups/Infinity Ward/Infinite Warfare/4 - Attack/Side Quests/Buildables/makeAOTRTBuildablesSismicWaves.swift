@@ -34,14 +34,13 @@ public func makeAOTRTBuildablesSismicWaves() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.side.quests.buildables.sismic.waves.generator.2.dial.outside.atm.room.spawn.outline",
                     boundingBox: .init(
-                        x: 694.0 / 1920.0,
-                        y: 536.0 / 1080.0,
-                        width: 101.0 / 1920.0,
-                        height: 41.0 / 1080.0
+                        x: 776.0 / 1920.0,
+                        y: 788.0 / 1080.0,
+                        width: 21.0 / 1920.0,
+                        height: 17.0 / 1080.0
                     )
                 )
-            ]
-        ), at: [">", "iw.aotrt.side.quests.buildables.sismic.waves.generator.2.dial.outside.atm.room.spawn"]
+            ]        ), at: [">", "iw.aotrt.side.quests.buildables.sismic.waves.generator.2.dial.outside.atm.room.spawn"]
     )
     
     blueprintParts.register(
@@ -75,13 +74,14 @@ public func makeAOTRTBuildablesSismicWaves() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.side.quests.buildables.sismic.waves.generator.4.screw.swings.area.front.of.atm.building.spawn.outline",
                     boundingBox: .init(
-                        x: 776.0 / 1920.0,
-                        y: 788.0 / 1080.0,
-                        width: 21.0 / 1920.0,
-                        height: 17.0 / 1080.0
+                        x: 694.0 / 1920.0,
+                        y: 536.0 / 1080.0,
+                        width: 101.0 / 1920.0,
+                        height: 41.0 / 1080.0
                     )
                 )
             ]
+
         ), at: [">", "iw.aotrt.side.quests.buildables.sismic.waves.generator.4.screw.swings.area.front.of.atm.building.spawn"]
     )
     
