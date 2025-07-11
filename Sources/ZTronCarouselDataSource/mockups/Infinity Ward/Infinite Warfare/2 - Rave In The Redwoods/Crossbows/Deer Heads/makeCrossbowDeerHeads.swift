@@ -11,7 +11,7 @@ public func makeCrossbowDeerHeads() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.spaceland.easter.egg.seti.com.calculator.on.bench.front.of.pack.a.punch.outline",
+                    resourceName: "iw.ritr.crossbows.deer.heads.1.bear.lodge.next.to.mule.munchies.room.outline",
                     boundingBox: .init(
                         x: 1200.0 / 2715.0,
                         y: 653.0 / 1527.0,

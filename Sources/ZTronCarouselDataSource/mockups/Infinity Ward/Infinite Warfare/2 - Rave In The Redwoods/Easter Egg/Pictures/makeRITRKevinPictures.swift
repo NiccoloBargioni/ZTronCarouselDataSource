@@ -11,12 +11,12 @@ public func makeRITRKevinPictures() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.ritr.crossbows.crossbow.upgrades.whirlwind.ef5.1.bear.lake.from.mess.hall.outline",
+                    resourceName: "iw.ritr.easter.egg.kevin.pictures.1.recreational.area.behind.big.statue.outline",
                     boundingBox: .init(
-                        x: 168.0 / 2715.0,
-                        y: 327.0 / 1527.0,
-                        width: 559.0 / 2715.0,
-                        height: 555.0 / 1527.0
+                        x: 1996.0 / 2715.0,
+                        y: 1417.0 / 1527.0,
+                        width: 73.0 / 2715.0,
+                        height: 28.0 / 1527.0
                     )
                 )
             ]
@@ -33,10 +33,10 @@ public func makeRITRKevinPictures() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.easter.egg.kevin.pictures.2.bear.lodge.front.of.jugg.outline",
                     boundingBox: .init(
-                        x: 168.0 / 2715.0,
-                        y: 327.0 / 1527.0,
-                        width: 559.0 / 2715.0,
-                        height: 555.0 / 1527.0
+                        x: 1961.0 / 2715.0,
+                        y: 1125.0 / 1527.0,
+                        width: 68.0 / 2715.0,
+                        height: 31.0 / 1527.0
                     )
                 )
             ]
@@ -53,10 +53,10 @@ public func makeRITRKevinPictures() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.easter.egg.kevin.pictures.3.kript.power.room.outline",
                     boundingBox: .init(
-                        x: 168.0 / 2715.0,
-                        y: 327.0 / 1527.0,
-                        width: 559.0 / 2715.0,
-                        height: 555.0 / 1527.0
+                        x: 599.0 / 2715.0,
+                        y: 1033.0 / 1527.0,
+                        width: 71.0 / 2715.0,
+                        height: 51.0 / 1527.0
                     )
                 )
             ]
