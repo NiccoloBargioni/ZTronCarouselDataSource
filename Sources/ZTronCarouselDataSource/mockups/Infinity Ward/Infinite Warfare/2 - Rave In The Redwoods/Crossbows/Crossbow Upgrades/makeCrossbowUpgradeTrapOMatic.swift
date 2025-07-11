@@ -29,7 +29,7 @@ func makeCrossbowUpgradeTrapOMatic() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.crossbows.crossbow.upgrades.trap.o.matic.1.big.fire.left.of.magic.wheel",
             description: "iw.ritr.crossbows.crossbow.upgrades.trap.o.matic.1.big.fire.left.of.magic.wheel.caption",
-            position: 0,
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -49,7 +49,7 @@ func makeCrossbowUpgradeTrapOMatic() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.crossbows.crossbow.upgrades.trap.o.matic.2.big.fire.right.of.magic.wheel",
             description: "iw.ritr.crossbows.crossbow.upgrades.trap.o.matic.2.big.fire.right.of.magic.wheel.caption",
-            position: 1,
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
