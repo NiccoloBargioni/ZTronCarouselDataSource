@@ -15,16 +15,16 @@ func makeRITRDirectorsCutSong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.music.directors.cut.song.1.demon.mask.torture.wheel.power.room.outline",
                     boundingBox: .init(
-                        x: 1077.0 / 1920.0,
-                        y: 474.0 / 1080.0,
-                        width: 16.0 / 1920.0,
-                        height: 28.0 / 1080.0
+                        x: 920.0 / 1920.0,
+                        y: 479.0 / 1080.0,
+                        width: 80.0 / 1920.0,
+                        height: 78.0 / 1080.0
                     )
                 )
             ]
         ),
     at: ["iw.ritr.music.directors.cut.song.1.demon.mask.torture.wheel.power.room"])
-    
+
     
     let locationsRouter = SerializableGalleryRouter()
     
