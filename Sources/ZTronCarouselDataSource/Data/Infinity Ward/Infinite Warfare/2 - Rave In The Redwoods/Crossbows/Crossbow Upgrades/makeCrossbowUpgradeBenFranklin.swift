@@ -9,19 +9,19 @@ func makeCrossbowUpgradeBenFranklin() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.crossbows.crossbow.upgrades.ben.franklin.1.entrance.of.camp.wolf.from.mess.hall",
             description: "iw.ritr.crossbows.crossbow.upgrades.ben.franklin.1.entrance.of.camp.wolf.from.mess.hall.caption",
-            position: 0/*,
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.crossbows.crossbow.upgrades.ben.franklin.1.entrance.of.camp.wolf.from.mess.hall.outline",
                     boundingBox: .init(
-                        x: 1484.0 / 2715.0,
-                        y: 668.0 / 1527.0,
-                        width: 45.0 / 2715.0,
-                        height: 8.0 / 1527.0
+                        x: 1244.0 / 2715.0,
+                        y: 440.0 / 1527.0,
+                        width: 132.0 / 2715.0,
+                        height: 228.0 / 1527.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.crossbows.crossbow.upgrades.ben.franklin.1.entrance.of.camp.wolf.from.mess.hall"])
 
     wolfStatuesLocations.register(

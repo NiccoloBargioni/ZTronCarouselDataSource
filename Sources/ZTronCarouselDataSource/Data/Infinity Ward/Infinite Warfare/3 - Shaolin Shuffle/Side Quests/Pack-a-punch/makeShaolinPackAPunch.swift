@@ -12,7 +12,6 @@ public func makeShaolinPackAPunch() -> SerializableGalleryRouter {
         makeShaolinPackAPunchReel(),
         at: ["reel"]
     )
-    
 
     papPieces.router.register(
         makeShaolinPackAPunchCoin(),

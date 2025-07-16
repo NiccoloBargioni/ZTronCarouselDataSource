@@ -22,15 +22,26 @@ func makeShaolinPackAPunchReel() -> SerializableGalleryNode {
                     )
                 )
             ]
-        
     ), at: ["iw.shaolin.shuffle.side.quests.pack.a.punch.reel.1.sofa.across.disco.inferno.sign"])
     
-    
+
     reelLocations.register(
         SerializableImageNode(
             name: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.2.sofa.inside.black.cat.cinema",
             description: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.2.sofa.inside.black.cat.cinema.caption",
-            position: 1
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.2.sofa.inside.black.cat.cinema.outline",
+                    boundingBox: .init(
+                        x: 665.0 / 2715.0,
+                        y: 450.0 / 1527.0,
+                        width: 34.0 / 2715.0,
+                        height: 8.0 / 1527.0
+                    )
+                )
+            ]
     ), at: ["iw.shaolin.shuffle.side.quests.pack.a.punch.reel.2.sofa.inside.black.cat.cinema"])
     
     

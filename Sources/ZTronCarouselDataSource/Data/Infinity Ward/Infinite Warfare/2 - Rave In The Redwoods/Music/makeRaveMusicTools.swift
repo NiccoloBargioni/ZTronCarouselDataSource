@@ -8,5 +8,10 @@ public func makeRaveMusicTools() -> SerializableToolsRouter {
         at: [">", "puppet strings"]
     )
 
+    ritsMusicTools.router.register(
+        makeRITRDirectorsCutSongTool(),
+        at: [">", "director's cut song"]
+    )
+
     return ritsMusicTools
 }
