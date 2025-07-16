@@ -36,10 +36,10 @@ func makeShaolinPackAPunchPinkCatPoster() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.pink.cat.poster.2.dojo.rooftop.erad.wallbuy.outline",
                     boundingBox: .init(
-                        x: 1114.0 / 2715.0,
-                        y: 672.0 / 1527.0,
-                        width: 35.0 / 2715.0,
-                        height: 16.0 / 1527.0
+                        x: 1114.0 / 1920.0,
+                        y: 672.0 / 1080.0,
+                        width: 35.0 / 1920.0,
+                        height: 16.0 / 1080.0
                     )
                 )
             ]
@@ -57,10 +57,10 @@ func makeShaolinPackAPunchPinkCatPoster() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.pink.cat.poster.3.disco.inferno.rooftop.outline",
                     boundingBox: .init(
-                        x: 553.0 / 2715.0,
-                        y: 504.0 / 1527.0,
-                        width: 51.0 / 2715.0,
-                        height: 12.0 / 1527.0
+                        x: 553.0 / 1920.0,
+                        y: 504.0 / 1080.0,
+                        width: 51.0 / 1920.0,
+                        height: 12.0 / 1080.0
                     )
                 )
             ]
@@ -78,10 +78,10 @@ func makeShaolinPackAPunchPinkCatPoster() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.pink.cat.poster.4.outside.pink.cat.cinema.outline",
                     boundingBox: .init(
-                        x: 553.0 / 2715.0,
-                        y: 504.0 / 1527.0,
-                        width: 51.0 / 2715.0,
-                        height: 12.0 / 1527.0
+                        x: 553.0 / 1920.0,
+                        y: 504.0 / 1080.0,
+                        width: 51.0 / 1920.0,
+                        height: 12.0 / 1080.0
                     )
                 )
             ]

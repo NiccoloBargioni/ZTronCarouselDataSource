@@ -35,10 +35,10 @@ func makeShaolinPackAPunchReel() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.2.sofa.inside.black.cat.cinema.outline",
                     boundingBox: .init(
-                        x: 665.0 / 2715.0,
-                        y: 450.0 / 1527.0,
-                        width: 34.0 / 2715.0,
-                        height: 8.0 / 1527.0
+                        x: 665.0 / 1920.0,
+                        y: 450.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 8.0 / 1080.0
                     )
                 )
             ]
@@ -76,10 +76,10 @@ func makeShaolinPackAPunchReel() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.4.rat.king.liar.pipe.across.throne.outline",
                     boundingBox: .init(
-                        x: 1724.0 / 2715.0,
-                        y: 492.0 / 1527.0,
-                        width: 72.0 / 2715.0,
-                        height: 27.0 / 1527.0
+                        x: 1724.0 / 1920.0,
+                        y: 492.0 / 1080.0,
+                        width: 72.0 / 1920.0,
+                        height: 27.0 / 1080.0
                     )
                 )
             ]
