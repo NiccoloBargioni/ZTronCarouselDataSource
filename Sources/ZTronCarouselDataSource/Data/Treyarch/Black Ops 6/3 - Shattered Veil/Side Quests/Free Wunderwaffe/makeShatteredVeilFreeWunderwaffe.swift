@@ -131,26 +131,6 @@ public func makeShatteredVeilFreeWunderwaffe() -> SerializableGalleryRouter {
             ]
     ), at: ["bo6.sv.side.quests.free.wunderwaffe.close.to.previous"])
 
-
-
-    freeWunderwaffeLocations.register(
-        SerializableImageNode(
-            name: "bo6.sv.side.quests.free.wunderwaffe.microwave.trex.room",
-            description: "bo6.sv.side.quests.free.wunderwaffe.microwave.trex.room.caption",
-            position: 7,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo6.sv.side.quests.free.wunderwaffe.microwave.trex.room.outline",
-                    boundingBox: .init(
-                        x: 1687.0 / 3840.0,
-                        y: 1000.0 / 2160.0,
-                        width: 58.0 / 3840.0,
-                        height: 63.0 / 2160.0
-                    )
-                )
-            ]
-    ), at: ["bo6.sv.side.quests.free.wunderwaffe.microwave.trex.room"])
     
     let locationsRouter = SerializableGalleryRouter()
     
