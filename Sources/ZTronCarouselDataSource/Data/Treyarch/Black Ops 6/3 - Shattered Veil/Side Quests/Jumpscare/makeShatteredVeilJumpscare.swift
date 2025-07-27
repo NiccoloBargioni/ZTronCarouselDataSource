@@ -38,7 +38,7 @@ public func makeShatteredVeilJumpscare() -> SerializableGalleryRouter {
             description: "bo6.sv.side.quests.jumpscare.window.right.mansion.caption",
             position: 0
         ),
-        at: ["bo6.sv.side.quests.jumpscare.spawn.fire", "ghost"],
+        at: ["bo6.sv.side.quests.jumpscare.window.right.mansion", "ghost"],
         withParameter: defaultParams
     )
 
