@@ -18,5 +18,20 @@ public func makeTheTombSideQuestsTools() -> SerializableToolsRouter {
         at: ["dig sites"]
     )
 
+    sqTools.router.register(
+        makeTheTombFreePowerupsTool(),
+        at: ["free powerups"]
+    )
+
+    sqTools.router.register(
+        makeTheTombZombieArmyTool(),
+        at: ["zombies army"]
+    )
+
+    sqTools.router.register(
+        makeTheTombGoldenArmorTool(),
+        at: ["golden armor"]
+    )
+
     return sqTools
 }

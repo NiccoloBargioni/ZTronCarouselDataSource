@@ -1,4 +1,4 @@
-import CoreGraphics
+import CoreFoundation
 import ZTronSerializable
 
 func makeBrokenFlailGears() -> SerializableGalleryNode {
