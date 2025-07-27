@@ -28,5 +28,10 @@ public func makeShatteredVeilSideQuestsTools() -> SerializableToolsRouter {
         at: ["sam laser trap"]
     )
     
+    svSideQuestsTools.router.register(
+        makeShatteredVeilJumpscareTool(),
+        at: ["jumpscare"]
+    )
+    
     return svSideQuestsTools
 }
