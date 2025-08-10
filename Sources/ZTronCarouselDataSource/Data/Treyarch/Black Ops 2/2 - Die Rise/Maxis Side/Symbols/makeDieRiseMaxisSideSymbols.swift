@@ -35,6 +35,26 @@ public func makeDieRiseMaxisSideSymbols() -> SerializableGalleryRouter {
     ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.4.spawn"])
     
     
+    symbolsLocations.register(
+        SerializableImageNode(
+            name: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive",
+            description: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive.caption",
+            position: 3,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive.outline",
+                    boundingBox: .init(
+                        x: 1148.0 / 1920.0,
+                        y: 453.0 / 1080.0,
+                        width: 114.0 / 1920.0,
+                        height: 36.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive"])
+    
+    
     let symbolsLocationsRouter = SerializableGalleryRouter()
     
     symbolsLocationsRouter.router.register(SerializableGalleryNode(

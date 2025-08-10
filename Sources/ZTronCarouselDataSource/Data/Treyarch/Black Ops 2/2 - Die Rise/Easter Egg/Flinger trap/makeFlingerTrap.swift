@@ -110,9 +110,29 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
 
     flingerTrapLocations.register(
         SerializableImageNode(
+            name: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.1st.item",
+            description: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.1st.item.caption",
+            position: 5,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.1st.item.outline",
+                    boundingBox: .init(
+                        x: 947.0 / 1920.0,
+                        y: 378.0 / 1080.0,
+                        width: 52.0 / 1920.0,
+                        height: 46.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item"])
+    
+    
+flingerTrapLocations.register(
+        SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item.caption",
-            position: 5,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -125,15 +145,15 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        
     ), at: ["bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item"])
+    
     
 
     flingerTrapLocations.register(
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.7.above.spawn.room.n2",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.7.above.spawn.room.n2.caption",
-            position: 6,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -154,7 +174,7 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack.caption",
-            position: 7,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -175,7 +195,7 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3.caption",
-            position: 8,
+            position: 9,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

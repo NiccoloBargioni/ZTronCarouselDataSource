@@ -31,6 +31,19 @@ func makeVoyageShieldUpgradeTool() -> SerializableToolNode {
     }
     
     
+    let pipesPickupRouter = makeVoyageShieldUpgradePipesPickup()
+    
+    pipesPickupRouter.router.forEach { absolutePath, output in
+        shieldUpgradeRouter.router.register(output, at: absolutePath)
+    }
+    
+    
+    let safesRouter = makeVoyageShieldUpgradeSafes()
+    
+    safesRouter.router.forEach { absolutePath, output in
+        shieldUpgradeRouter.router.register(output, at: absolutePath)
+    }
+    
     return .init(
         name: "bo4.vod.side.quests.shield.upgrade.tool.name",
         position: 4,

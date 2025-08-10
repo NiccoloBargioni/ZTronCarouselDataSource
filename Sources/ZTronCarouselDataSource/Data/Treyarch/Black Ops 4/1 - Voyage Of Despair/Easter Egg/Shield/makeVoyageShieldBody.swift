@@ -68,9 +68,9 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
     ), at: ["bo4.vod.easter.egg.shield.body.3.piece.3.wall"])
     
     return SerializableGalleryNode(
-        name: "bo4.vod.easter.egg.shield.window",
+        name: "bo4.vod.easter.egg.shield.body",
         position: 2,
-        assetsImageName: "bo4.vod.easter.egg.shield.window.icon",
+        assetsImageName: "bo4.vod.easter.egg.shield.body.icon",
         images: shieldBodyLocations
     )
 }

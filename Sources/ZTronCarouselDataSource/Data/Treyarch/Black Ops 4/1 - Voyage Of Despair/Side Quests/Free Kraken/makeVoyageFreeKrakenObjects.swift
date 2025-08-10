@@ -46,7 +46,7 @@ public func makeVoyageFreeKrakenObjects() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "bo4.vod.side.quests.free.kraken.objects",
         position: 1,
-        assetsImageName: "bo4.vod.side.quests.free.kraken.chests.objects",
+        assetsImageName: "bo4.vod.side.quests.free.kraken.chests.objects.icon",
         images: objectsLocations
     )
 }

@@ -30,7 +30,19 @@ func makeElementalKrakenConversionCargoHold() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.vod.easter.egg.kraken.distillation.kit.cargo.hold.2.water.drain",
             description: "bo4.vod.easter.egg.kraken.distillation.kit.cargo.hold.2.water.drain.caption",
-            position: 1
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.easter.egg.kraken.distillation.kit.cargo.hold.2.water.drain.outline",
+                    boundingBox: .init(
+                        x: 1522.0 / 1920.0,
+                        y: 510.0 / 1080.0,
+                        width: 59.0 / 1920.0,
+                        height: 61.0 / 1080.0
+                    )
+                )
+            ]
     ), at: ["bo4.vod.easter.egg.kraken.distillation.kit.cargo.hold.2.water.drain"])
     
     

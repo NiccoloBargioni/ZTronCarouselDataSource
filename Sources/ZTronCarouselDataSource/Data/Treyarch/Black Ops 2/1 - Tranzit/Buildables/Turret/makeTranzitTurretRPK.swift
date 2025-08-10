@@ -46,6 +46,27 @@ func makeTranzitTurretRPK() -> SerializableGalleryNode {
         
     ), at: ["bo2.tranzit.buildables.turret.rpk.2.rpk.double.tap"])
     
+    
+    turretRpkLocations.register(
+        SerializableImageNode(
+            name: "bo2.tranzit.buildables.turret.rpk.3.farm.rpk",
+            description: "bo2.tranzit.buildables.turret.rpk.3.farm.rpk.caption",
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.tranzit.buildables.turret.rpk.3.farm.rpk.outline",
+                    boundingBox: .init(
+                        x: 1457.0 / 1920.0,
+                        y: 467.0 / 1080.0,
+                        width: 138.0 / 1920.0,
+                        height: 205.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo2.tranzit.buildables.turret.rpk.3.farm.rpk"])
+    
     return SerializableGalleryNode(
         name: "bo2.tranzit.buildables.turret.rpk",
         position: 0,

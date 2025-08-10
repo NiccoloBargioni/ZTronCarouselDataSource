@@ -1,7 +1,15 @@
 import ZTronSerializable
+import CoreFoundation
 
 public func makeVoyageFreePerk() -> SerializableGalleryRouter {
     let freePerkFishLocations = MediaRouter.init()
+    
+    
+    let defaultParams = SerializableImageNode.NavigationParameters(
+        bottomBarIcon: "plus.magnifyingglass",
+        goBackBottomBarIcon: "minus.magnifyingglass",
+        boundingFrame: CGRect.NORMALIZED_FULL_SIZE
+    )
     
     freePerkFishLocations.register(
         SerializableImageNode(
@@ -20,8 +28,30 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        
     ), at: ["bo4.vod.side.quests.free.random.perk.1.spawn"])
+    
+
+    freePerkFishLocations.register(
+        SerializableImageNode(
+            name: "bo4.vod.side.quests.free.random.perk.1.spawn.zoom",
+            description: "bo4.vod.side.quests.free.random.perk.1.spawn.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.side.quests.free.random.perk.1.spawn.zoom.outline",
+                    boundingBox: .init(
+                        x: 1003.0 / 1920.0,
+                        y: 349.0 / 1080.0,
+                        width: 9.0 / 1920.0,
+                        height: 21.0 / 1080.0
+                    )
+                )
+            ]
+        ),
+        at: ["bo4.vod.side.quests.free.random.perk.1.spawn", "zoom"],
+        withParameter: defaultParams
+    )
     
 
     freePerkFishLocations.register(
@@ -43,6 +73,29 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo4.vod.side.quests.free.random.perk.2.sundeck"])
+    
+
+    freePerkFishLocations.register(
+        SerializableImageNode(
+            name: "bo4.vod.side.quests.free.random.perk.2.sundeck.zoom",
+            description: "bo4.vod.side.quests.free.random.perk.2.sundeck.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.side.quests.free.random.perk.2.sundeck.zoom.outline",
+                    boundingBox: .init(
+                        x: 994.0 / 1920.0,
+                        y: 244.0 / 1080.0,
+                        width: 8.0 / 1920.0,
+                        height: 20.0 / 1080.0
+                    )
+                )
+            ]
+        ),
+        at: ["bo4.vod.side.quests.free.random.perk.2.sundeck", "zoom"],
+        withParameter: defaultParams
+    )
     
 
     freePerkFishLocations.register(
@@ -89,6 +142,29 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
 
     freePerkFishLocations.register(
         SerializableImageNode(
+            name: "bo4.vod.side.quests.free.random.perk.4.sentinel.artifact.1.zoom",
+            description: "bo4.vod.side.quests.free.random.perk.4.sentinel.artifact.1.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.side.quests.free.random.perk.4.sentinel.artifact.1.zoom.outline",
+                    boundingBox: .init(
+                        x: 999.0 / 1920.0,
+                        y: 341.0 / 1080.0,
+                        width: 5.0 / 1920.0,
+                        height: 13.0 / 1080.0
+                    )
+                )
+            ]
+        ),
+        at: ["bo4.vod.side.quests.free.random.perk.4.sentinel.artifact.1", "zoom"],
+        withParameter: defaultParams
+    )
+    
+
+    freePerkFishLocations.register(
+        SerializableImageNode(
             name: "bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2",
             description: "bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2.caption",
             position: 4,
@@ -106,6 +182,29 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2"])
+
+
+    freePerkFishLocations.register(
+        SerializableImageNode(
+            name: "bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2.zoom",
+            description: "bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2.zoom.outline",
+                    boundingBox: .init(
+                        x: 977.0 / 1920.0,
+                        y: 225.0 / 1080.0,
+                        width: 8.0 / 1920.0,
+                        height: 10.0 / 1080.0
+                    )
+                )
+            ]
+        ),
+        at: ["bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2"],
+        withParameter: defaultParams
+    )
 
     
     freePerkFishLocations.register(
@@ -127,6 +226,29 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo4.vod.side.quests.free.random.perk.6.engine.room"])
+    
+
+    freePerkFishLocations.register(
+        SerializableImageNode(
+            name: "bo4.vod.side.quests.free.random.perk.6.engine.room.zoom",
+            description: "bo4.vod.side.quests.free.random.perk.6.engine.room.caption",
+            position: 5,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.vod.side.quests.free.random.perk.6.engine.room.zoom.outline",
+                    boundingBox: .init(
+                        x: 992.0 / 1920.0,
+                        y: 283.0 / 1080.0,
+                        width: 17.0 / 1920.0,
+                        height: 45.0 / 1080.0
+                    )
+                )
+            ]
+        ),
+        at: ["bo4.vod.side.quests.free.random.perk.6.engine.room", "zoom"],
+        withParameter: defaultParams
+    )
     
 
 

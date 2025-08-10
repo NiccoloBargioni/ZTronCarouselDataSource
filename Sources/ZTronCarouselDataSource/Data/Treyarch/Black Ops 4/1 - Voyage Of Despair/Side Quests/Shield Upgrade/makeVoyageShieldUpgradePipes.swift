@@ -44,7 +44,7 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.2.rk5.wallbuy"])
-    
+
 
     shieldPipesLocations.register(
         SerializableImageNode(
