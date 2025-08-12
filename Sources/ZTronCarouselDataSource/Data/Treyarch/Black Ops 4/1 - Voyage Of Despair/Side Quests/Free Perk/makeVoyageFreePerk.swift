@@ -232,7 +232,7 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.vod.side.quests.free.random.perk.6.engine.room.zoom",
             description: "bo4.vod.side.quests.free.random.perk.6.engine.room.caption",
-            position: 5,
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
