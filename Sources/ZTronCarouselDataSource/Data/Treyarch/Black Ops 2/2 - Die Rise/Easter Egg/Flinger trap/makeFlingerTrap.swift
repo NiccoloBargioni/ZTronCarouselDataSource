@@ -125,10 +125,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item"])
+    ), at: ["bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.1st.item"])
     
     
-flingerTrapLocations.register(
+    flingerTrapLocations.register(
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.6.above.spawn.room.2nd.item.caption",
