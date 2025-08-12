@@ -202,7 +202,7 @@ public func makeVoyageFreePerk() -> SerializableGalleryRouter {
                 )
             ]
         ),
-        at: ["bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2"],
+        at: ["bo4.vod.side.quests.free.random.perk.5.sentinel.artifact.2", "zoom"],
         withParameter: defaultParams
     )
 

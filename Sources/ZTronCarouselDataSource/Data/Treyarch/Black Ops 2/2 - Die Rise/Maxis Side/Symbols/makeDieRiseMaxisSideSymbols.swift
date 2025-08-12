@@ -39,7 +39,7 @@ public func makeDieRiseMaxisSideSymbols() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive",
             description: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive.caption",
-            position: 3,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
