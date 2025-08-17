@@ -32,9 +32,18 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
     
     sparklingBoxLocations.register(
         SerializableImageNode(
+            name: "bo4.botd.easter.egg.soul.boxes.library",
+            description: "bo4.botd.easter.egg.soul.boxes.library.caption",
+            position: 3
+        ), at: ["bo4.botd.easter.egg.soul.boxes.library"]
+    )
+    
+    
+    sparklingBoxLocations.register(
+        SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.showers",
             description: "bo4.botd.easter.egg.soul.boxes.showers.caption",
-            position: 3
+            position: 4
         ), at: ["bo4.botd.easter.egg.soul.boxes.showers"]
     )
     
@@ -43,7 +52,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.spawn.new.industries",
             description: "bo4.botd.easter.egg.soul.boxes.spawn.new.industries.caption",
-            position: 4
+            position: 5
         ), at: ["bo4.botd.easter.egg.soul.boxes.spawn.new.industries"]
     )
     
@@ -52,7 +61,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.spawn.pack.a.punch",
             description: "bo4.botd.easter.egg.soul.boxes.spawn.pack.a.punch.caption",
-            position: 5
+            position: 6
         ), at: ["bo4.botd.easter.egg.soul.boxes.spawn.pack.a.punch"]
     )
     
@@ -61,7 +70,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.tunnel.entrance",
             description: "bo4.botd.easter.egg.soul.boxes.tunnel.entrance.caption",
-            position: 6
+            position: 7
         ), at: ["bo4.botd.easter.egg.soul.boxes.tunnel.entrance"]
     )
     
@@ -70,7 +79,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.unknown.docks.location",
             description: "bo4.botd.easter.egg.soul.boxes.unknown.docks.location.caption",
-            position: 7
+            position: 8
         ), at: ["bo4.botd.easter.egg.soul.boxes.unknown.docks.location"]
     )
     
@@ -79,7 +88,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.way.to.gondola",
             description: "bo4.botd.easter.egg.soul.boxes.way.to.gondola.caption",
-            position: 8
+            position: 9
         ), at: ["bo4.botd.easter.egg.soul.boxes.way.to.gondola"]
     )
     
@@ -88,7 +97,7 @@ public func makeBOTDSoulBoxes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.botd.easter.egg.soul.boxes.way.to.showers.from.entrance",
             description: "bo4.botd.easter.egg.soul.boxes.way.to.showers.from.entrance.caption",
-            position: 9
+            position: 10
         ), at: ["bo4.botd.easter.egg.soul.boxes.way.to.showers.from.entrance"]
     )
     
