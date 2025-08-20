@@ -91,7 +91,7 @@ public func makeStakeKnifeRocks() -> SerializableGalleryRouter {
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
-        name: "bo4.dotn.easter.egg.book.cases",
+        name: "bo4.dotn.easter.egg.stake.knife",
         position: 0,
         assetsImageName: nil,
         images: stakeKnifeRocksLocations
