@@ -3,75 +3,75 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeTagDerTotenShieldBody() -> SerializableGalleryNode {
-    let shieldWindowLocations = MediaRouter()
+    let shieldBodyLocations = MediaRouter()
     
-    shieldWindowLocations.register(
+    shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo4.tdt.easter.egg.shield.window.1.spawn.1",
-            description: "bo4.tdt.easter.egg.shield.window.1.spawn.1.caption",
-            position: 0,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo4.tdt.easter.egg.shield.window.1.spawn.1.outline",
-                    boundingBox: .init(
-                        x: 1245.0 / 1920.0,
-                        y: 455.0 / 1080.0,
-                        width: 67.0 / 1920.0,
-                        height: 63.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo4.tdt.easter.egg.shield.window.1.spawn.1"])
-    
-
-    shieldWindowLocations.register(
-        SerializableImageNode(
-            name: "bo4.tdt.easter.egg.shield.window.2.spawn.2.mystery.box.alt",
-            description: "bo4.tdt.easter.egg.shield.window.2.spawn.2.mystery.box.alt.caption",
+            name: "bo4.tdt.easter.egg.shield.body.2.left.of.power.box",
+            description: "bo4.tdt.easter.egg.shield.body.2.left.of.power.box.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.tdt.easter.egg.shield.window.2.spawn.2.mystery.box.alt.outline",
+                    resourceName: "bo4.tdt.easter.egg.shield.body.2.left.of.power.box.outline",
                     boundingBox: .init(
-                        x: 287.0 / 1920.0,
-                        y: 498.0 / 1080.0,
-                        width: 333.0 / 1920.0,
-                        height: 112.0 / 1080.0
+                        x: 826.0 / 1920.0,
+                        y: 501.0 / 1080.0,
+                        width: 13.0 / 1920.0,
+                        height: 21.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["bo4.tdt.easter.egg.shield.window.2.spawn.2.mystery.box.alt"])
+    ), at: ["bo4.tdt.easter.egg.shield.body.2.left.of.power.box"])
     
 
-    shieldWindowLocations.register(
+    shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo4.tdt.easter.egg.shield.window.3.spawn.3",
-            description: "bo4.tdt.easter.egg.shield.window.3.spawn.3.caption",
+            name: "bo4.tdt.easter.egg.shield.body.3.snowballs.left.side",
+            description: "bo4.tdt.easter.egg.shield.body.3.snowballs.left.side.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.tdt.easter.egg.shield.window.3.spawn.3.outline",
+                    resourceName: "bo4.tdt.easter.egg.shield.body.3.snowballs.left.side.outline",
                     boundingBox: .init(
-                        x: 539.0 / 1920.0,
-                        y: 525.0 / 1080.0,
-                        width: 213.0 / 1920.0,
-                        height: 88.0 / 1080.0
+                        x: 845.0 / 1920.0,
+                        y: 438.0 / 1080.0,
+                        width: 18.0 / 1920.0,
+                        height: 30.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["bo4.tdt.easter.egg.shield.window.3.spawn.3"])
+    ), at: ["bo4.tdt.easter.egg.shield.body.3.snowballs.left.side"])
+    
+
+    shieldBodyLocations.register(
+        SerializableImageNode(
+            name: "bo4.tdt.easter.egg.shield.body.1.spawn.1.next.power.switch",
+            description: "bo4.tdt.easter.egg.shield.body.1.spawn.1.next.power.switch.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.tdt.easter.egg.shield.body.1.spawn.1.next.power.switch.outline",
+                    boundingBox: .init(
+                        x: 1002.0 / 1920.0,
+                        y: 481.0 / 1080.0,
+                        width: 21.0 / 1920.0,
+                        height: 48.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo4.tdt.easter.egg.shield.body.1.spawn.1.next.power.switch"])
 
     
     return SerializableGalleryNode(
-        name: "bo4.tdt.easter.egg.shield.window",
-        position: 1,
-        assetsImageName: "bo4.tdt.easter.egg.shield.window.icon",
-        images: shieldWindowLocations
+        name: "bo4.tdt.easter.egg.shield.body",
+        position: 0,
+        assetsImageName: "bo4.tdt.easter.egg.shield.body.icon",
+        images: shieldBodyLocations
     )
 }
