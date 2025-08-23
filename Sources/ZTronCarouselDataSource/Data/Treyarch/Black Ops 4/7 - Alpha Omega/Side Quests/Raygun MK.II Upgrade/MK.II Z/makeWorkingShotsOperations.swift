@@ -14,9 +14,9 @@ func makeWorkingShotsOperations() -> SerializableGalleryNode {
         
     
     return SerializableGalleryNode(
-        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore",
         position: 1,
-        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.icon",
         images: rushmoreLocations
     )
 }

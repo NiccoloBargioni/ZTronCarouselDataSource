@@ -7,13 +7,14 @@ func makeAlphaOmegaTeleporterPart3() -> SerializableGalleryNode {
     
     teleporterLocations.register(
         SerializableImageNode(
-            name: "bo4.ao.easter.egg.teleporter.part.3.back.greenhouse",
-            description: "bo4.ao.easter.egg.teleporter.part.3.back.greenhouse.caption",
+            name: "bo4.ao.easter.egg.teleporter.part.3.by.perk",
+            description: "bo4.ao.easter.egg.teleporter.part.3.by.perk.caption",
             position: 0,
+            /*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.ao.easter.egg.teleporter.part.3.back.greenhouse.outline",
+                    resourceName: "bo4.ao.easter.egg.teleporter.part.3.by.perk.outline",
                     boundingBox: .init(
                         x: 658.0 / 1920.0,
                         y: 451.0 / 1080.0,
@@ -21,8 +22,8 @@ func makeAlphaOmegaTeleporterPart3() -> SerializableGalleryNode {
                         height: 124.0 / 1080.0
                     )
                 )
-            ]
-    ), at: ["bo4.ao.easter.egg.teleporter.part.3.back.greenhouse"])
+            ]*/
+    ), at: ["bo4.ao.easter.egg.teleporter.part.3.by.perk"])
         
 
     teleporterLocations.register(

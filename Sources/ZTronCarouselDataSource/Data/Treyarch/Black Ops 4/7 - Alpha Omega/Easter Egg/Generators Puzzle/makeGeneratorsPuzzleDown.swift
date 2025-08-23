@@ -32,7 +32,7 @@ func makeGeneratorsPuzzleDown() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "bo4.ao.easter.egg.generator.puzzle.down",
         position: 1,
-        assetsImageName: "bo4.ao.easter.egg.generator.puzzle.down",
+        assetsImageName: "bo4.ao.easter.egg.generator.puzzle.down.icon",
         images: puzzleLocations
     )
 }

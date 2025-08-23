@@ -14,9 +14,9 @@ func makeWorkingShotsYellowHouse() -> SerializableGalleryNode {
         
         
     return SerializableGalleryNode(
-        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location",
+        name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.yellow.house",
         position: 3,
-        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.operations.rushmore.location.icon",
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.yellow.house.icon",
         images: yellowHouseLocations
     )
 }

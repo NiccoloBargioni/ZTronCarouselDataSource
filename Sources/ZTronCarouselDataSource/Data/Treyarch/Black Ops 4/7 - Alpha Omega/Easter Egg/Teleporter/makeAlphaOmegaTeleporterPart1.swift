@@ -4,10 +4,7 @@ import ZTronSerializable
 
 func makeAlphaOmegaTeleporterPart1() -> SerializableGalleryNode {
     let teleporterLocations = MediaRouter()
-    
-    /*
-     PIECE 1 OFFSETS: 1314, 527 | LARGHEZZA: 175, ALTEZZA: 157
-     */
+
     teleporterLocations.register(
         SerializableImageNode(
             name: "bo4.ao.easter.egg.teleporter.part.1.close.to.exit",

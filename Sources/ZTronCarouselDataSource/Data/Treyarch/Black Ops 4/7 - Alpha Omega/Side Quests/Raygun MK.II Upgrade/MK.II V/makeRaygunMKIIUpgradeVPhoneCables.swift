@@ -46,6 +46,15 @@ func makeRaygunMKIIUpgradeVPhoneCables() -> SerializableGalleryNode {
         
 
 
+    phoneCablesLocations.register(
+        SerializableImageNode(
+            name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.v.phone.cables.transfusion.facility",
+            description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.v.phone.cables.transfusion.facility.caption",
+            position: 5
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.v.phone.cables.transfusion.facility"])
+        
+
+
     
     return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.v.phone.cables",
