@@ -88,9 +88,9 @@ func makeYellowKeepsake() -> SerializableGalleryNode {
     ), at: ["wwii.tfr.easter.egg.keepsake.yellow.4.3rd.valve"])
 
     return SerializableGalleryNode(
-        name: "wwii.tfr.easter.egg.keepsakes.red",
+        name: "wwii.tfr.easter.egg.keepsakes.yellow",
         position: 2,
-        assetsImageName: "wwii.tfr.easter.egg.keepsakes.red.icon",
+        assetsImageName: "wwii.tfr.easter.egg.keepsakes.yellow.icon",
         images: yellowKeepsakeLocations
     )
 }

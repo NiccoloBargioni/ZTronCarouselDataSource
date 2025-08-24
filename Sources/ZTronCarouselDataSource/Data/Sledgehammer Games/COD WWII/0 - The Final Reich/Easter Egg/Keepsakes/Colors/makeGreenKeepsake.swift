@@ -7,7 +7,7 @@ func makeGreenKeepsake() -> SerializableGalleryNode {
     greenKeepsakeLocations.register(
         SerializableImageNode(
             name: "wwii.tfr.easter.egg.keepsakes.green.1.toy.shop",
-            description: "-",
+            description: "wwii.tfr.easter.egg.keepsakes.green.1.toy.shop.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
