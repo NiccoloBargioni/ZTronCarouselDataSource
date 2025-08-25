@@ -14,7 +14,7 @@ public func makeDarkestShoreSideQuestsTools() -> SerializableToolsRouter {
     )
     
     sq.router.register(
-        makeTFRDrStraussTool(),
+        makeTDSDrStraussTool(),
         at: [">", "dr strauss"]
     )
     

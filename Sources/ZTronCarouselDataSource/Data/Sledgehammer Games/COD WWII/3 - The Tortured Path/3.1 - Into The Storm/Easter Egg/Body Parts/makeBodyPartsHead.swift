@@ -56,10 +56,10 @@ func makeBodyPartsHead() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.into.the.storm.easter.egg.body.pats.head.3.head.washing.basin.outline",
                     boundingBox: .init(
-                        x: 1622.0 / 1920.0,
-                        y: 769.0 / 1080.0,
-                        width: 81.0 / 1920.0,
-                        height: 53.0 / 1080.0
+                        x: 1622.0 / 2715.0,
+                        y: 769.0 / 1527.0,
+                        width: 81.0 / 2715.0,
+                        height: 53.0 / 1527.0
                     )
                 )
             ]

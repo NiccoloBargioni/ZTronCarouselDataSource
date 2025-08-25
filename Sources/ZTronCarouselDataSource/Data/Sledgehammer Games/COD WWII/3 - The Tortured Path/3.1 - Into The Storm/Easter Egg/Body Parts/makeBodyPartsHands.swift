@@ -14,14 +14,13 @@ func makeBodyPartsHands() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.into.the.storm.easter.egg.body.parts.hand.1.hand.1st.battery.outline",
                     boundingBox: .init(
-                        x: 1506.0 / 1920.0,
-                        y: 892.0 / 1080.0,
-                        width: 153.0 / 1920.0,
-                        height: 71.0 / 1080.0
+                        x: 1506.0 / 2715.0,
+                        y: 892.0 / 1527.0,
+                        width: 153.0 / 2715.0,
+                        height: 71.0 / 1527.0
                     )
                 )
             ]
-        
     ), at: ["wwii.ttp.into.the.storm.easter.egg.body.parts.hand.1.hand.1st.battery"])
     
 
@@ -56,10 +55,10 @@ func makeBodyPartsHands() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.into.the.storm.easter.egg.body.parts.hand.3.hand.fireplace.alternative.pic.outline",
                     boundingBox: .init(
-                        x: 687.0 / 1920.0,
-                        y: 915.0 / 1080.0,
-                        width: 98.0 / 1920.0,
-                        height: 81.0 / 1080.0
+                        x: 687.0 / 2715.0,
+                        y: 915.0 / 1527.0,
+                        width: 98.0 / 2715.0,
+                        height: 81.0 / 1527.0
                     )
                 )
             ]
