@@ -8,7 +8,7 @@ func makeZetsubouNoShima() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "zetsubou no shima",
-        position: 2,
+        position: 3,
         assetsImageName: "bo3.zns.logo",
         tabs: zetsubouTabs
     )

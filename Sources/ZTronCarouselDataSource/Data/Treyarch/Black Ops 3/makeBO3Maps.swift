@@ -5,13 +5,14 @@ public func makeBO3Maps() -> SerializableMapsRouter {
     
     bo3Maps.router.register(makeSOE(), at: [">", "shadows of evil"])
     bo3Maps.router.register(makeTheGiant(), at: [">", "the giant"])
+    bo3Maps.router.register(makeDerEisendrache(), at: [">", "der eisendrache"])
     bo3Maps.router.register(makeZetsubouNoShima(), at: [">", "zetsubou no shima"])
     bo3Maps.router.register(makeGorodKrovi(), at: [">", "gorod krovi"])
     bo3Maps.router.register(makeRevelations(), at: [">", "revelations"])
     
     let chronicles = SerializableMapNode(
         name: "zombies chronicles",
-        position: 5,
+        position: 6,
         assetsImageName: "bo3.zombies.chronicles.logo",
         tabs: SerializableTabsRouter()
     )

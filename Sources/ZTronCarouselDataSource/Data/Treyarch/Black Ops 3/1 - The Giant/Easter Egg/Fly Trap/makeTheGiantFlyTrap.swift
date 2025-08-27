@@ -1,8 +1,15 @@
 import ZTronSerializable
+import CoreFoundation
 
 public func makeTheGiantFlyTrap() -> SerializableGalleryRouter {
     let annihilatorlLocations = MediaRouter.init()
     
+    let defaultParams = SerializableImageNode.NavigationParameters(
+        bottomBarIcon: "plus.magnifyingglass",
+        goBackBottomBarIcon: "minus.magnifyingglass",
+        boundingFrame: CGRect.NORMALIZED_FULL_SIZE
+    )
+
     annihilatorlLocations.register(
         SerializableImageNode(
             name: "bo3.tg.easter.egg.annihilator.1.trap.out.of.map",
@@ -23,15 +30,27 @@ public func makeTheGiantFlyTrap() -> SerializableGalleryRouter {
         
     ), at: ["bo3.tg.easter.egg.annihilator.1.trap.out.of.map"])
     
+    
     annihilatorlLocations.register(
         SerializableImageNode(
-            name: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.close.up",
-            description: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.close.up.caption",
+            name: "bo3.tg.easter.egg.annihilator.2.monkey.furnace",
+            description: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.caption",
             position: 1,
+        ),
+        at: ["bo3.tg.easter.egg.annihilator.2.monkey.furnace"]
+    )
+    
+    
+    
+    annihilatorlLocations.register(
+        SerializableImageNode(
+            name: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.zoom",
+            description: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.caption",
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.close.up.outline",
+                    resourceName: "bo3.tg.easter.egg.annihilator.2.monkey.furnace.zoom.outline",
                     boundingBox: .init(
                         x: 1045.0 / 1920.0,
                         y: 317.0 / 1080.0,
@@ -40,8 +59,10 @@ public func makeTheGiantFlyTrap() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        
-    ), at: ["bo3.tg.easter.egg.annihilator.2.monkey.furnace.close.up"])
+        ),
+        at: ["bo3.tg.easter.egg.annihilator.2.monkey.furnace", "zoom"],
+        withParameter: defaultParams
+    )
     
 
     annihilatorlLocations.register(
@@ -61,7 +82,6 @@ public func makeTheGiantFlyTrap() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        
     ), at: ["bo3.tg.easter.egg.annihilator.3.teddy.inside.caldron"])
     
 
@@ -84,6 +104,14 @@ public func makeTheGiantFlyTrap() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo3.tg.easter.egg.annihilator.4.teddy.power"])
+    
+
+    annihilatorlLocations.register(
+        SerializableImageNode(
+            name: "bo3.tg.easter.egg.annihilator.4.annihilator.furnace",
+            description: "bo3.tg.easter.egg.annihilator.4.annihilator.furnace.caption",
+            position: 4,
+    ), at: ["bo3.tg.easter.egg.annihilator.4.annihilator.furnace"])
     
     let annihilatorLocationsRouter = SerializableGalleryRouter()
     
