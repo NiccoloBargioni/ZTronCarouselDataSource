@@ -7,13 +7,13 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
     
     apothiconEggsOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.1.portal",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.1.portal.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.origins.1.portal",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.origins.1.portal.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.1.portal.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.origins.1.portal.outline",
                     boundingBox: .init(
                         x: 525.0 / 1920.0,
                         y: 526.0 / 1080.0,
@@ -23,18 +23,18 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.1.portal"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.origins.1.portal"])
     
 
     apothiconEggsOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.origins.2.mob.origins.passage",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.origins.2.mob.origins.passage.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.origins.2.mob.origins.passage.outline",
                     boundingBox: .init(
                         x: 1162.0 / 1920.0,
                         y: 376.0 / 1080.0,
@@ -44,20 +44,20 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.2.mob.origins.passage"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.origins.2.mob.origins.passage"])
     
 
     
 
     apothiconEggsOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.3.wunderfitz.machine",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.3.wunderfitz.machine.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.origins.3.wunderfitz.machine",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.origins.3.wunderfitz.machine.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.3.wunderfitz.machine.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.origins.3.wunderfitz.machine.outline",
                     boundingBox: .init(
                         x: 734.0 / 1920.0,
                         y: 435.0 / 1080.0,
@@ -67,18 +67,18 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.3.wunderfitz.machine"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.origins.3.wunderfitz.machine"])
 
     
     apothiconEggsOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.4.close.to.keepers.altar",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.4.close.to.keepers.altar.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.origins.4.close.to.keepers.altar",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.origins.4.close.to.keepers.altar.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.4.close.to.keepers.altar.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.origins.4.close.to.keepers.altar.outline",
                     boundingBox: .init(
                         x: 1297.0 / 1920.0,
                         y: 422.0 / 1080.0,
@@ -88,7 +88,7 @@ func makeRevelationsLastStepEggsOrigins() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.4.close.to.keepers.altar"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.origins.4.close.to.keepers.altar"])
 
     
     return SerializableGalleryNode(

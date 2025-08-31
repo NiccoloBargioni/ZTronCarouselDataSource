@@ -144,8 +144,27 @@ func makeZetsubouBucketsLabB() -> SerializableGalleryNode {
                     )
                 )
             ]
-        
     ), at: ["bo3.zns.easter.egg.buckets.7.lab.b.upstairs"])
+    
+    
+    bucketsSecondPowerLocations.register(
+        SerializableImageNode(
+            name: "bo3.zns.easter.egg.buckets.8.lab.b",
+            description: "bo3.zns.easter.egg.buckets.8.lab.b.caption",
+            position: 7,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.zns.easter.egg.buckets.8.lab.b.outline",
+                    boundingBox: .init(
+                        x: 1624.0 / 1920.0,
+                        y: 467.0 / 1080.0,
+                        width: 55.0 / 1920.0,
+                        height: 37.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["bo3.zns.easter.egg.buckets.8.lab.b"])
     
     
     return SerializableGalleryNode(

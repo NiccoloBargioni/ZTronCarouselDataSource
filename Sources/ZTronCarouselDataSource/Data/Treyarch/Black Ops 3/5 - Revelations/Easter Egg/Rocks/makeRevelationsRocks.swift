@@ -25,70 +25,7 @@ func makeRevelationsRocks() -> SerializableGalleryRouter {
         
     ), at: ["bo3.revelations.easter.egg.hidden.bones.1.der.eisendrache.wallrun"])
     
-
-    hiddenBonesLocations.register(
-        SerializableImageNode(
-            name: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs",
-            description: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs.caption",
-            position: 3,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs.outline",
-                    boundingBox: .init(
-                        x: 910.0 / 1920.0,
-                        y: 370.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 3.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs"])
     
-
-    hiddenBonesLocations.register(
-        SerializableImageNode(
-            name: "bo3.revelations.easter.egg.hidden.bones.6.origins",
-            description: "bo3.revelations.easter.egg.hidden.bones.6.origins.caption",
-            position: 5,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.hidden.bones.6.origins.outline",
-                    boundingBox: .init(
-                        x: 1334.0 / 1920.0,
-                        y: 481.0 / 1080.0,
-                        width: 34.0 / 1920.0,
-                        height: 15.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo3.revelations.easter.egg.hidden.bones.6.origins"])
-    
-
-    hiddenBonesLocations.register(
-        SerializableImageNode(
-            name: "bo3.revelations.easter.egg.hidden.bones.3.spawn",
-            description: "bo3.revelations.easter.egg.hidden.bones.3.spawn.caption",
-            position: 2,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.hidden.bones.3.spawn.outline",
-                    boundingBox: .init(
-                        x: 1360.0 / 1920.0,
-                        y: 408.0 / 1080.0,
-                        width: 21.0 / 1920.0,
-                        height: 12.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo3.revelations.easter.egg.hidden.bones.3.spawn"])
-    
-
     hiddenBonesLocations.register(
         SerializableImageNode(
             name: "bo3.revelations.easter.egg.hidden.bones.2.staminup",
@@ -112,6 +49,50 @@ func makeRevelationsRocks() -> SerializableGalleryRouter {
 
     hiddenBonesLocations.register(
         SerializableImageNode(
+            name: "bo3.revelations.easter.egg.hidden.bones.3.spawn",
+            description: "bo3.revelations.easter.egg.hidden.bones.3.spawn.caption",
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.revelations.easter.egg.hidden.bones.3.spawn.outline",
+                    boundingBox: .init(
+                        x: 1360.0 / 1920.0,
+                        y: 408.0 / 1080.0,
+                        width: 21.0 / 1920.0,
+                        height: 12.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo3.revelations.easter.egg.hidden.bones.3.spawn"])
+
+
+
+    hiddenBonesLocations.register(
+        SerializableImageNode(
+            name: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs",
+            description: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs.caption",
+            position: 3,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs.outline",
+                    boundingBox: .init(
+                        x: 910.0 / 1920.0,
+                        y: 370.0 / 1080.0,
+                        width: 27.0 / 1920.0,
+                        height: 3.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo3.revelations.easter.egg.hidden.bones.4.nacht.upstairs"])
+    
+        
+
+    hiddenBonesLocations.register(
+        SerializableImageNode(
             name: "bo3.revelations.easter.egg.hidden.bones.5.verrukt",
             description: "bo3.revelations.easter.egg.hidden.bones.5.verrukt.caption",
             position: 4,
@@ -130,6 +111,27 @@ func makeRevelationsRocks() -> SerializableGalleryRouter {
         
     ), at: ["bo3.revelations.easter.egg.hidden.bones.5.verrukt"])
     
+    
+    hiddenBonesLocations.register(
+        SerializableImageNode(
+            name: "bo3.revelations.easter.egg.hidden.bones.6.origins",
+            description: "bo3.revelations.easter.egg.hidden.bones.6.origins.caption",
+            position: 5,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.revelations.easter.egg.hidden.bones.6.origins.outline",
+                    boundingBox: .init(
+                        x: 1334.0 / 1920.0,
+                        y: 481.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 15.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo3.revelations.easter.egg.hidden.bones.6.origins"])
+
     
     let bonesLocationsRouter = SerializableGalleryRouter()
     

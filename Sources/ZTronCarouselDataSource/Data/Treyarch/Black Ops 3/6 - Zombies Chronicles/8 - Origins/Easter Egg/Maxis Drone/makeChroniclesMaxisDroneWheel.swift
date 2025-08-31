@@ -68,7 +68,7 @@ public func makeChroniclesMaxisDroneWheel() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "bo3.chronicles.origins.easter.egg.maxis.drone.wheel",
         position: 2,
-        assetsImageName: "bo3.chronicles.origins.easter.egg.maxis.drone.icon",
+        assetsImageName: "bo3.chronicles.origins.easter.egg.maxis.drone.wheel.icon",
         images: maxisDroneWheelLocations
     )
 }

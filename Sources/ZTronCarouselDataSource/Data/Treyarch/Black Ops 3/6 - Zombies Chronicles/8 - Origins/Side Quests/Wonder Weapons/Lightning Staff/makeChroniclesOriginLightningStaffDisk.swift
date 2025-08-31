@@ -68,9 +68,9 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
     ), at: ["bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.3.wind.staff.portal"])
     
     return SerializableGalleryNode(
-        name: "bo2.origins.side.quests.wonder.weapons.lightning.staff.staff.disks",
+        name: "bo3.origins.side.quests.wonder.weapons.lightning.staff.staff.disks",
         position: 0,
-        assetsImageName: "bo2.origins.side.quests.wonder.weapons.lightning.staff.disks.icon",
+        assetsImageName: "bo3.origins.side.quests.wonder.weapons.lightning.staff.disks.icon",
         images: lightningStaffBo3DiscLocations
     )
 }

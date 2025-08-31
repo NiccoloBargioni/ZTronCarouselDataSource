@@ -3,17 +3,17 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeKeeperProtectorVerruckt() -> SerializableGalleryNode {
-    let keepersSkullLocation = MediaRouter()
+    let keeperVerrucktLocations = MediaRouter()
     
-    keepersSkullLocation.register(
+    keeperVerrucktLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keepers.flag.1.by.speedcola",
-            description: "bo3.revelations.easter.egg.keepers.flag.1.by.speedcola.caption",
+            name: "bo3.revelations.easter.egg.keeper.verruckt.flag.1.by.speedcola",
+            description: "bo3.revelations.easter.egg.keeper.verruckt.flag.1.by.speedcola.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keepers.flag.1.by.speedcola.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.verruckt.flag.1.by.speedcola.outline",
                     boundingBox: .init(
                         x: 935.0 / 1920.0,
                         y: 442.0 / 1080.0,
@@ -23,18 +23,18 @@ func makeKeeperProtectorVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keepers.flag.1.by.speedcola"])
+    ), at: ["bo3.revelations.easter.egg.keeper.verruckt.flag.1.by.speedcola"])
     
     
-    keepersSkullLocation.register(
+    keeperVerrucktLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keepers.flag.2.right.of.contraption",
-            description: "bo3.revelations.easter.egg.keepers.flag.2.right.of.contraption.caption",
+            name: "bo3.revelations.easter.egg.keeper.verruckt.flag.2.right.of.contraption",
+            description: "bo3.revelations.easter.egg.keeper.verruckt.flag.2.right.of.contraption.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keepers.flag.2.right.of.contraption.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.verruckt.flag.2.right.of.contraption.outline",
                     boundingBox: .init(
                         x: 1429.0 / 1920.0,
                         y: 432.0 / 1080.0,
@@ -44,18 +44,18 @@ func makeKeeperProtectorVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keepers.flag.2.right.of.contraption"])
+    ), at: ["bo3.revelations.easter.egg.keeper.verruckt.flag.2.right.of.contraption"])
 
 
-    keepersSkullLocation.register(
+    keeperVerrucktLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keepers.flag.3.chair.by.mob.jump.pad",
-            description: "bo3.revelations.easter.egg.keepers.flag.3.chair.by.mob.jump.pad.caption",
+            name: "bo3.revelations.easter.egg.keeper.verruckt.flag.3.chair.by.mob.jump.pad",
+            description: "bo3.revelations.easter.egg.keeper.verruckt.flag.3.chair.by.mob.jump.pad.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keepers.flag.3.chair.by.mob.jump.pad.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.verruckt.flag.3.chair.by.mob.jump.pad.outline",
                     boundingBox: .init(
                         x: 1398.0 / 1920.0,
                         y: 494.0 / 1080.0,
@@ -65,13 +65,13 @@ func makeKeeperProtectorVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keepers.flag.3.chair.by.mob.jump.pad"])
+    ), at: ["bo3.revelations.easter.egg.keeper.verruckt.flag.3.chair.by.mob.jump.pad"])
             
 
     return SerializableGalleryNode(
         name: "bo3.revelations.easter.egg.keeper.protector.verruckt",
         position: 2,
         assetsImageName: "bo3.revelations.easter.egg.keeper.protector.verruckt.icon",
-        images: keepersSkullLocation
+        images: keeperVerrucktLocations
     )
 }

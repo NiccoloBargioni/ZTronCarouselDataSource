@@ -5,27 +5,6 @@ public func makeChroniclesAbracadavre() -> SerializableGalleryRouter {
     
     ascensionTeddiesLocations.register(
         SerializableImageNode(
-            name: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola",
-            description: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola.caption",
-            position: 1,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola.outline",
-                    boundingBox: .init(
-                        x: 482.0 / 1920.0,
-                        y: 274.0 / 1080.0,
-                        width: 67.0 / 1920.0,
-                        height: 70.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola"])
-    
-
-    ascensionTeddiesLocations.register(
-        SerializableImageNode(
             name: "bo3.chronicles.ascension.music.abracadavre.1.spawn.teddy",
             description: "bo3.chronicles.ascension.music.abracadavre.1.spawn.teddy.caption",
             position: 0,
@@ -43,7 +22,28 @@ public func makeChroniclesAbracadavre() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo3.chronicles.ascension.music.abracadavre.1.spawn.teddy"])
+
     
+    ascensionTeddiesLocations.register(
+        SerializableImageNode(
+            name: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola",
+            description: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola.caption",
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola.outline",
+                    boundingBox: .init(
+                        x: 482.0 / 1920.0,
+                        y: 274.0 / 1080.0,
+                        width: 67.0 / 1920.0,
+                        height: 70.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo3.chronicles.ascension.music.abracadavre.2.lunar.lander.past.speedcola"])
+        
 
     ascensionTeddiesLocations.register(
         SerializableImageNode(

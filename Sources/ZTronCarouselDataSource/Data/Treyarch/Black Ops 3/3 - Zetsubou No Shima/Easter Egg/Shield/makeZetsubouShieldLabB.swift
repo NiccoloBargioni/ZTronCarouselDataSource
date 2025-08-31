@@ -27,13 +27,13 @@ func makeZetsubouShieldLabB() -> SerializableGalleryNode {
 
     shieldBodyLocations.register(
         SerializableImageNode(
-            name: "bo3.easter.egg.shield.3.lab.b.1",
-            description: "bo3.easter.egg.shield.3.lab.b.1.caption",
+            name: "bo3.easter.egg.shield.3.lab.b.2",
+            description: "bo3.easter.egg.shield.3.lab.b.2.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.easter.egg.shield.3.lab.b.1.outline",
+                    resourceName: "bo3.easter.egg.shield.3.lab.b.2.outline",
                     boundingBox: .init(
                         x: 348.0 / 1920.0,
                         y: 496.0 / 1080.0,
@@ -43,7 +43,7 @@ func makeZetsubouShieldLabB() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.easter.egg.shield.3.lab.b.1"])
+    ), at: ["bo3.easter.egg.shield.3.lab.b.2"])
     
 
     shieldBodyLocations.register(

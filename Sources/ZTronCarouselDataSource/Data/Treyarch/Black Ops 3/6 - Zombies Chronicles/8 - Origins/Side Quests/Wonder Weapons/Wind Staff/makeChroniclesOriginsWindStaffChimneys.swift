@@ -68,9 +68,9 @@ func makeChroniclesOriginsWindStaffChimneys() -> SerializableGalleryNode {
     ), at: ["bo3.chronicles.origins.wonder.weapons.wind.3.staminup"])
     
     return SerializableGalleryNode(
-        name: "bo2.origins.side.quests.wonder.weapons.wind.staff.chimneys",
+        name: "bo3.origins.side.quests.wonder.weapons.wind.staff.chimneys",
         position: 1,
-        assetsImageName: "bo2.origins.side.quests.wonder.weapons.wind.staff.chimneys.icon",
+        assetsImageName: "bo3.origins.side.quests.wonder.weapons.wind.staff.chimneys.icon",
         images: windStaffBo3ChimneysLocations
     )
 }

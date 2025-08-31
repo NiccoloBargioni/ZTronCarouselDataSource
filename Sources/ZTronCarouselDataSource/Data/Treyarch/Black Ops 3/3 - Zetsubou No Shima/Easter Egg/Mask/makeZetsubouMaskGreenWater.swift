@@ -70,7 +70,7 @@ func makeZetsubouMaskGreenWater() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "bo3.zns.easter.egg.mask.green.water",
         position: 2,
-        assetsImageName: "bo3.zns.easter.egg.mask.green.watericon",
+        assetsImageName: "bo3.zns.easter.egg.mask.green.water.icon",
         images: maskFilterLocations
     )
 }

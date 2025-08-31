@@ -3,74 +3,75 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeKeeperProtectorOrigins() -> SerializableGalleryNode {
-    let keeperGemDetails = MediaRouter()
-    
-    keeperGemDetails.register(
+    let keeperOriginsLocations = MediaRouter()
+
+    keeperOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keeper.protector.1.giant.statues",
-            description: "bo3.revelations.easter.egg.keeper.protector.1.giant.statues.caption",
+            name: "bo3.revelations.easter.egg.keeper.protector.origins.front.of.mystery.box.location",
+            description: "bo3.revelations.easter.egg.keeper.protector.origins.front.of.mystery.box.location.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keeper.protector.1.giant.statues.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.protector.origins.front.of.mystery.box.location.outline",
                     boundingBox: .init(
-                        x: 1380.0 / 1920.0,
-                        y: 708.0 / 1080.0,
-                        width: 26.0 / 1920.0,
-                        height: 18.0 / 1080.0
+                        x: 1301.0 / 1920.0,
+                        y: 469.0 / 1080.0,
+                        width: 54.0 / 1920.0,
+                        height: 55.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keeper.protector.1.giant.statues"])
+    ), at: ["bo3.revelations.easter.egg.keeper.protector.origins.front.of.mystery.box.location"])
     
-    keeperGemDetails.register(
+
+    keeperOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keeper.protector.2.pyramid.device",
-            description: "bo3.revelations.easter.egg.keeper.protector.2.pyramid.device.caption",
+            name: "bo3.revelations.easter.egg.keeper.protector.origins.mule.kick",
+            description: "bo3.revelations.easter.egg.keeper.protector.origins.mule.kick.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keeper.protector.2.pyramid.device.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.protector.origins.mule.kick.outline",
                     boundingBox: .init(
-                        x: 654.0 / 1920.0,
-                        y: 626.0 / 1080.0,
-                        width: 21.0 / 1920.0,
-                        height: 16.0 / 1080.0
+                        x: 541.0 / 1920.0,
+                        y: 443.0 / 1080.0,
+                        width: 69.0 / 1920.0,
+                        height: 75.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keeper.protector.2.pyramid.device"])
+    ), at: ["bo3.revelations.easter.egg.keeper.protector.origins.mule.kick"])
 
-    
-    keeperGemDetails.register(
+
+    keeperOriginsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.keeper.protector.3.jump.pad",
-            description: "bo3.revelations.easter.egg.keeper.protector.3.jump.pad.caption",
+            name: "bo3.revelations.easter.egg.keeper.protector.origins.old.pack.a.punch.location",
+            description: "bo3.revelations.easter.egg.keeper.protector.origins.old.pack.a.punch.location.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.keeper.protector.3.jump.pad.outline",
+                    resourceName: "bo3.revelations.easter.egg.keeper.protector.origins.old.pack.a.punch.location.outline",
                     boundingBox: .init(
-                        x: 1633.0 / 1920.0,
-                        y: 508.0 / 1080.0,
-                        width: 56.0 / 1920.0,
-                        height: 23.0 / 1080.0
+                        x: 1110.0 / 1920.0,
+                        y: 394.0 / 1080.0,
+                        width: 31.0 / 1920.0,
+                        height: 70.0 / 1080.0
                     )
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.keeper.protector.3.jump.pad"])
+    ), at: ["bo3.revelations.easter.egg.keeper.protector.origins.old.pack.a.punch.location"])
             
 
     return SerializableGalleryNode(
         name: "bo3.revelations.easter.egg.keeper.protector.origins",
         position: 1,
         assetsImageName: "bo3.revelations.easter.egg.keeper.protector.origins.icon",
-        images: keeperGemDetails
+        images: keeperOriginsLocations
     )
 }

@@ -30,9 +30,9 @@ func makeRevelationsLastStepSymbolsDerEisendrache() -> SerializableGalleryNode {
     
     
     return SerializableGalleryNode(
-        name: "bo3.revelations.last.step.egg.der.eisendrache",
+        name: "bo3.revelations.last.step.symbols.der.eisendrache",
         position: 1,
-        assetsImageName: "bo3.revelations.last.step.egg.der.eisendrache.icon",
+        assetsImageName: "bo3.revelations.last.step.symbols.der.eisendrache.icon",
         images: symbolsDELocations
     )
 }

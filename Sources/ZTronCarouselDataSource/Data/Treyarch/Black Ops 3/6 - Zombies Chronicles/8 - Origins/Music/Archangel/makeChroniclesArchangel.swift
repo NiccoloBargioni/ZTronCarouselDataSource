@@ -5,6 +5,26 @@ public func makeChroniclesArchangel() -> SerializableGalleryRouter {
     
     originsRocksLocations.register(
         SerializableImageNode(
+            name: "bo3.chronicles.origins.music.archangel.1.rock.spawn",
+            description: "bo3.chronicles.origins.music.archangel.1.rock.spawn.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo3.chronicles.origins.music.archangel.1.rock.spawn.outline",
+                    boundingBox: .init(
+                        x: 1582.0 / 1920.0,
+                        y: 507.0 / 1080.0,
+                        width: 61.0 / 1920.0,
+                        height: 23.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo3.chronicles.origins.music.archangel.1.rock.spawn"])
+    
+    originsRocksLocations.register(
+        SerializableImageNode(
             name: "bo3.chronicles.origins.music.archangel.2.between.gen.2.and.mound",
             description: "bo3.chronicles.origins.music.archangel.2.between.gen.2.and.mound.caption",
             position: 1,
@@ -44,26 +64,6 @@ public func makeChroniclesArchangel() -> SerializableGalleryRouter {
         
     ), at: ["bo3.chronicles.origins.music.archangel.3.dig.site"])
     
-
-    originsRocksLocations.register(
-        SerializableImageNode(
-            name: "bo3.chronicles.origins.music.archangel.1.rock.spawn",
-            description: "bo3.chronicles.origins.music.archangel.1.rock.spawn.caption",
-            position: 0,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo3.chronicles.origins.music.archangel.1.rock.spawn.outline",
-                    boundingBox: .init(
-                        x: 1582.0 / 1920.0,
-                        y: 507.0 / 1080.0,
-                        width: 61.0 / 1920.0,
-                        height: 23.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo3.chronicles.origins.music.archangel.1.rock.spawn"])
     
     
     let locationsRouter = SerializableGalleryRouter()

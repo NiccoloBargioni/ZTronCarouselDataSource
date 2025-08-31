@@ -30,9 +30,9 @@ func makeRevelationsLastStepSymbolsVerruckt() -> SerializableGalleryNode {
     
     
     return SerializableGalleryNode(
-        name: "bo3.revelations.last.step.egg.verruckt",
+        name: "bo3.revelations.last.step.symbols.verruckt",
         position: 3,
-        assetsImageName: "bo3.revelations.last.step.egg.verruckt.icon",
+        assetsImageName: "bo3.revelations.last.step.symbols.verruckt.icon",
         images: symbolsVerrucktLocations
     )
 }

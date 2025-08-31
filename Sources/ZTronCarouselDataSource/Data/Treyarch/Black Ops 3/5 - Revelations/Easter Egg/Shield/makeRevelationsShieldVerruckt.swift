@@ -7,13 +7,13 @@ func makeRevelationsShieldVerruckt() -> SerializableGalleryNode {
     
     shieldWingsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.shield.1.downstairs",
-            description: "bo3.revelations.easter.egg.shield.1.downstairs.caption",
+            name: "bo3.revelations.easter.egg.shield.verruckt.1.downstairs",
+            description: "bo3.revelations.easter.egg.shield.verruckt.1.downstairs.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.shield.1.downstairs.outline",
+                    resourceName: "bo3.revelations.easter.egg.shield.verruckt.1.downstairs.outline",
                     boundingBox: .init(
                         x: 1022.0 / 1920.0,
                         y: 454.0 / 1080.0,
@@ -23,18 +23,18 @@ func makeRevelationsShieldVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.shield.1.downstairs"])
+    ), at: ["bo3.revelations.easter.egg.shield.verruckt.1.downstairs"])
     
 
     shieldWingsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.shield.2.upstairs.blue.light",
-            description: "bo3.revelations.easter.egg.shield.2.upstairs.blue.light.caption",
+            name: "bo3.revelations.easter.egg.shield.verruckt.2.upstairs.blue.light",
+            description: "bo3.revelations.easter.egg.shield.verruckt.2.upstairs.blue.light.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.shield.2.upstairs.blue.light.outline",
+                    resourceName: "bo3.revelations.easter.egg.shield.verruckt.2.upstairs.blue.light.outline",
                     boundingBox: .init(
                         x: 1763.0 / 1920.0,
                         y: 448.0 / 1080.0,
@@ -44,18 +44,18 @@ func makeRevelationsShieldVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.shield.2.upstairs.blue.light"])
+    ), at: ["bo3.revelations.easter.egg.shield.verruckt.2.upstairs.blue.light"])
 
     
     shieldWingsLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.shield.3.kitchen",
-            description: "bo3.revelations.easter.egg.shield.3.kitchen.caption",
+            name: "bo3.revelations.easter.egg.shield.verruckt.3.kitchen",
+            description: "bo3.revelations.easter.egg.shield.verruckt.3.kitchen.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.shield.3.kitchen.outline",
+                    resourceName: "bo3.revelations.easter.egg.shield.verruckt.3.kitchen.outline",
                     boundingBox: .init(
                         x: 811.0 / 1920.0,
                         y: 432.0 / 1080.0,
@@ -65,7 +65,7 @@ func makeRevelationsShieldVerruckt() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.shield.3.kitchen"])
+    ), at: ["bo3.revelations.easter.egg.shield.verruckt.3.kitchen"])
     
 
     

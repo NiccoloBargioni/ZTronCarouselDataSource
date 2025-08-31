@@ -30,9 +30,9 @@ func makeRevelationsLastStepSymbolsOrigins() -> SerializableGalleryNode {
     
     
     return SerializableGalleryNode(
-        name: "bo3.revelations.last.step.egg.origins",
+        name: "bo3.revelations.last.step.symbols.origins",
         position: 2,
-        assetsImageName: "bo3.revelations.last.step.egg.origins.icon",
+        assetsImageName: "bo3.revelations.last.step.symbols.origins.icon",
         images: symbolsOriginsLocations
     )
 }

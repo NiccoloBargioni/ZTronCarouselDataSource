@@ -7,13 +7,13 @@ func makeRevelationsLastStepEggsKino() -> SerializableGalleryNode {
     
     apothiconEggsKinoLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.1.kino.stage.hidden",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.1.kino.stage.hidden.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.kino.1.kino.stage.hidden",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.kino.1.kino.stage.hidden.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.1.kino.stage.hidden.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.kino.1.kino.stage.hidden.outline",
                     boundingBox: .init(
                         x: 982.0 / 1920.0,
                         y: 388.0 / 1080.0,
@@ -23,17 +23,17 @@ func makeRevelationsLastStepEggsKino() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.1.kino.stage.hidden"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.kino.1.kino.stage.hidden"])
 
     apothiconEggsKinoLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.2.kino.broken.balcony",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.2.kino.broken.balcony.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.kino.2.kino.broken.balcony",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.kino.2.kino.broken.balcony.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.2.kino.broken.balcony.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.kino.2.kino.broken.balcony.outline",
                     boundingBox: .init(
                         x: 959.0 / 1920.0,
                         y: 306.0 / 1080.0,
@@ -43,7 +43,7 @@ func makeRevelationsLastStepEggsKino() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.2.kino.broken.balcony"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.kino.2.kino.broken.balcony"])
     
     
     return SerializableGalleryNode(

@@ -7,13 +7,13 @@ func makeRevelationsLastStepEggsSpawn() -> SerializableGalleryNode {
     
     apothiconEggsSpawnLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.1.der.eisendrache.jump.pad",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.1.der.eisendrache.jump.pad.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.spawn.1.der.eisendrache.jump.pad",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.spawn.1.der.eisendrache.jump.pad.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.1.der.eisendrache.jump.pad.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.spawn.1.der.eisendrache.jump.pad.outline",
                     boundingBox: .init(
                         x: 862.0 / 1920.0,
                         y: 480.0 / 1080.0,
@@ -23,18 +23,18 @@ func makeRevelationsLastStepEggsSpawn() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.1.der.eisendrache.jump.pad"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.spawn.1.der.eisendrache.jump.pad"])
     
 
     apothiconEggsSpawnLocations.register(
         SerializableImageNode(
-            name: "bo3.revelations.easter.egg.apothicon.eggs.2.origins.jump.pad",
-            description: "bo3.revelations.easter.egg.apothicon.eggs.2.origins.jump.pad.caption",
+            name: "bo3.revelations.easter.egg.apothicon.eggs.spawn.2.origins.jump.pad",
+            description: "bo3.revelations.easter.egg.apothicon.eggs.spawn.2.origins.jump.pad.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.2.origins.jump.pad.outline",
+                    resourceName: "bo3.revelations.easter.egg.apothicon.eggs.spawn.2.origins.jump.pad.outline",
                     boundingBox: .init(
                         x: 1341.0 / 1920.0,
                         y: 388.0 / 1080.0,
@@ -44,7 +44,7 @@ func makeRevelationsLastStepEggsSpawn() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.2.origins.jump.pad"])
+    ), at: ["bo3.revelations.easter.egg.apothicon.eggs.spawn.2.origins.jump.pad"])
 
     return SerializableGalleryNode(
         name: "bo3.revelations.last.step.egg.spawn",

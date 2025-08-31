@@ -130,9 +130,9 @@ func makeZetsubouBucketsSpawn() -> SerializableGalleryNode {
     ), at: ["bo3.zns.easter.egg.buckets.5.spawn.tree.root"])
     
     return SerializableGalleryNode(
-        name: "bo3.zns.easter.egg.buckets.spawm",
+        name: "bo3.zns.easter.egg.buckets.spawn",
         position: 0,
-        assetsImageName: "bo3.zns.easter.egg.buckets.spawm.icon",
+        assetsImageName: "bo3.zns.easter.egg.buckets.spawn.icon",
         images: bucketsSpawnLocations
     )
 }
