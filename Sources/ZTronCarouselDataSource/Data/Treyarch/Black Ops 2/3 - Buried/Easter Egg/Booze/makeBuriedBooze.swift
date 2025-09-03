@@ -65,37 +65,16 @@ public func makeBuriedBooze() -> SerializableGalleryRouter {
         
     ), at: ["bo2.buried.side.quests.booze.3.saloon.table.1"])
     
-
+    
     boozeLocations.register(
         SerializableImageNode(
-            name: "bo2.buried.side.quests.booze.4.way.to.power.room.from.cabin",
-            description: "bo2.buried.side.quests.booze.4.way.to.power.room.from.cabin.caption",
+            name: "bo2.buried.side.quests.booze.4.saloon.table.2",
+            description: "bo2.buried.side.quests.booze.4.saloon.table.2.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo2.buried.side.quests.booze.4.way.to.power.room.from.cabin.outline",
-                    boundingBox: .init(
-                        x: 134.0 / 1920.0,
-                        y: 647.0 / 1080.0,
-                        width: 29.0 / 1920.0,
-                        height: 37.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo2.buried.side.quests.booze.4.way.to.power.room.from.cabin"])
-    
-
-    boozeLocations.register(
-        SerializableImageNode(
-            name: "bo2.buried.side.quests.booze.5.saloon.table.2",
-            description: "bo2.buried.side.quests.booze.5.saloon.table.2.caption",
-            position: 4,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo2.buried.side.quests.booze.5.saloon.table.2.outline",
+                    resourceName: "bo2.buried.side.quests.booze.4.saloon.table.2.outline",
                     boundingBox: .init(
                         x: 1334.0 / 1920.0,
                         y: 375.0 / 1080.0,
@@ -105,7 +84,7 @@ public func makeBuriedBooze() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo2.buried.side.quests.booze.5.saloon.table.2"])
+    ), at: ["bo2.buried.side.quests.booze.4.saloon.table.2"])
     
     
     let boozeRouter = SerializableGalleryRouter()

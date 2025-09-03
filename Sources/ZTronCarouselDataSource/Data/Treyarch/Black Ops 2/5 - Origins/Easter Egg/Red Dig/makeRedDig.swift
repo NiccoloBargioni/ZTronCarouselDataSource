@@ -59,7 +59,7 @@ public func makeRedDig() -> SerializableGalleryRouter {
 
     redDigLocations.register(
         SerializableImageNode(
-            name: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.no.nlood",
+            name: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.no.blood",
             description: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.caption",
             position: 0
         ), at: ["bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop", "no blood"],
