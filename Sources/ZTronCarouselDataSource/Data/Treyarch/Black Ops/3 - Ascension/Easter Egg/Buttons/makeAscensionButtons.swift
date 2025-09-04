@@ -68,13 +68,13 @@ public func makeAscensionButtons() -> SerializableGalleryRouter {
 
     easterEggButtonsLocations.register(
         SerializableImageNode(
-            name: "bo.ascension.easter.egg.buttons.3.staminup",
-            description: "bo.ascension.easter.egg.buttons.3.staminup.caption",
+            name: "bo.ascension.easter.egg.buttons.4.staminup",
+            description: "bo.ascension.easter.egg.buttons.4.staminup.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo.ascension.easter.egg.buttons.3.staminup.outline",
+                    resourceName: "bo.ascension.easter.egg.buttons.4.staminup.outline",
                     boundingBox: .init(
                         x: 1155.0 / 1920.0,
                         y: 434.0 / 1080.0,
@@ -84,7 +84,7 @@ public func makeAscensionButtons() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo.ascension.easter.egg.buttons.3.staminup"])
+    ), at: ["bo.ascension.easter.egg.buttons.4.staminup"])
     
     let buttonsLocationsRouter = SerializableGalleryRouter()
     

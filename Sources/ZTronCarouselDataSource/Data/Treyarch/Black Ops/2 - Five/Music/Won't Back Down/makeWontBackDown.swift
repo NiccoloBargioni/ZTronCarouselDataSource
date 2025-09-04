@@ -2,68 +2,68 @@ import ZTronSerializable
 
 public func makeWontBackDown() -> SerializableGalleryRouter {
     let musicRedPhonesLocations = MediaRouter.init()
-    
+
     musicRedPhonesLocations.register(
        SerializableImageNode(
-           name: "bo.kdt.song.115.1.behind.stage",
-           description: "bo.kdt.song.115.1.behind.stage.caption",
+           name: "bo.five.music.wont.back.down.1.power",
+           description: "bo.five.music.wont.back.down.1.power.caption",
            position: 0,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo.kdt.song.115.1.behind.stage.outline",
+                   resourceName: "bo.five.music.wont.back.down.1.power.outline",
                    boundingBox: .init(
-                       x: 452.0 / 1920.0,
-                       y: 508.0 / 1080.0,
-                       width: 50.0 / 1920.0,
-                       height: 43.0 / 1080.0
+                       x: 1040.0 / 1920.0,
+                       y: 584.0 / 1080.0,
+                       width: 80.0 / 1920.0,
+                       height: 53.0 / 1080.0
                    )
                )
            ]
        
-   ), at: ["bo.kdt.song.115.1.behind.stage"])
-   
+   ), at: ["bo.five.music.wont.back.down.1.power"])
 
+    
    musicRedPhonesLocations.register(
        SerializableImageNode(
-           name: "bo.kdt.song.115.2.door.behind.stage.right.side",
-           description: "bo.kdt.song.115.2.door.behind.stage.right.side.caption",
+           name: "bo.five.music.wont.back.down.2.pack.a.punch.room",
+           description: "bo.five.music.wont.back.down.2.pack.a.punch.room.caption",
            position: 1,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo.kdt.song.115.2.door.behind.stage.right.side.outline",
+                   resourceName: "bo.five.music.wont.back.down.2.pack.a.punch.room.outline",
                    boundingBox: .init(
-                       x: 684.0 / 1920.0,
-                       y: 479.0 / 1080.0,
-                       width: 14.0 / 1920.0,
-                       height: 5.0 / 1080.0
+                       x: 631.0 / 1920.0,
+                       y: 587.0 / 1080.0,
+                       width: 110.0 / 1920.0,
+                       height: 54.0 / 1080.0
                    )
                )
            ]
        
-   ), at: ["bo.kdt.song.115.2.door.behind.stage.right.side"])
-   
+   ), at: ["bo.five.music.wont.back.down.2.pack.a.punch.room"])
+
 
    musicRedPhonesLocations.register(
        SerializableImageNode(
-           name: "bo.kdt.song.115.3.mystery.box.location.upstairs.past.staminup",
-           description: "bo.kdt.song.115.3.mystery.box.location.upstairs.past.staminup.caption",
+           name: "bo.five.music.wont.back.down.3.side.of.quick.revive",
+           description: "bo.five.music.wont.back.down.3.side.of.quick.revive.caption",
            position: 2,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo.kdt.song.115.3.mystery.box.location.upstairs.past.staminup.outline",
+                   resourceName: "bo.five.music.wont.back.down.3.side.of.quick.revive.outline",
                    boundingBox: .init(
-                       x: 517.0 / 1920.0,
-                       y: 597.0 / 1080.0,
-                       width: 112.0 / 1920.0,
-                       height: 46.0 / 1080.0
+                       x: 1088.0 / 1920.0,
+                       y: 492.0 / 1080.0,
+                       width: 26.0 / 1920.0,
+                       height: 15.0 / 1080.0
                    )
                )
            ]
        
-   ), at: ["bo.kdt.song.115.3.mystery.box.location.upstairs.past.staminup"])
+   ), at: ["bo.five.music.wont.back.down.3.side.of.quick.revive"])
     
     
     let musicRedPhonesLocationsRouter = SerializableGalleryRouter()

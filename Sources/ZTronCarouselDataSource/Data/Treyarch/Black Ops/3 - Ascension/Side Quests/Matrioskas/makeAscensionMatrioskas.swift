@@ -48,34 +48,34 @@ public func makeAscensionMatrioskas() -> SerializableGalleryRouter {
 
    humorQuotesLocations.register(
        SerializableImageNode(
-           name: "bo.ascension.easter.egg.humor.quotes.3.speed.cola",
-           description: "bo.ascension.easter.egg.humor.quotes.3.speed.cola.caption",
+           name: "bo.ascension.easter.egg.humor.quotes.3.richtofen.upstrairs.from.jugg",
+           description: "bo.ascension.easter.egg.humor.quotes.3.richtofen.upstrairs.from.jugg.caption",
            position: 2,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo.ascension.easter.egg.humor.quotes.3.speed.cola.outline",
+                   resourceName: "bo.ascension.easter.egg.humor.quotes.3.richtofen.upstrairs.from.jugg.outline",
                    boundingBox: .init(
-                       x: 1434.0 / 1920.0,
-                       y: 477.0 / 1080.0,
-                       width: 11.0 / 1920.0,
-                       height: 16.0 / 1080.0
+                       x: 1368.0 / 1920.0,
+                       y: 515.0 / 1080.0,
+                       width: 27.0 / 1920.0,
+                       height: 38.0 / 1080.0
                    )
                )
            ]
        
-   ), at: ["bo.ascension.easter.egg.humor.quotes.3.speed.cola"])
+   ), at: ["bo.ascension.easter.egg.humor.quotes.3.richtofen.upstrairs.from.jugg"])
    
 
    humorQuotesLocations.register(
        SerializableImageNode(
-           name: "bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander",
-           description: "bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander.caption",
+           name: "bo.ascension.easter.egg.humor.quotes.4.dempseys.matrioska.staminup.lunar.lander",
+           description: "bo.ascension.easter.egg.humor.quotes.4.dempseys.matrioska.staminup.lunar.lander.caption",
            position: 3,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander.outline",
+                   resourceName: "bo.ascension.easter.egg.humor.quotes.4.dempseys.matrioska.staminup.lunar.lander.outline",
                    boundingBox: .init(
                        x: 1286.0 / 1920.0,
                        y: 551.0 / 1080.0,
@@ -85,7 +85,7 @@ public func makeAscensionMatrioskas() -> SerializableGalleryRouter {
                )
            ]
        
-   ), at: ["bo.ascension.easter.egg.humor.quotes.3.dempseys.matrioska.staminup.lunar.lander"])
+   ), at: ["bo.ascension.easter.egg.humor.quotes.4.dempseys.matrioska.staminup.lunar.lander"])
     
     let matrioskasLocations = SerializableGalleryRouter()
     
