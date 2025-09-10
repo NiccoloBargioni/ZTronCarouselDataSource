@@ -4,7 +4,7 @@ public func make3ArcGamesRouter() -> SerializableGamesRouter {
     let all3ArcGames = SerializableGamesRouter()
     
     all3ArcGames.router.register(makeBO6(), at: [">", "black ops 6"])
-    all3ArcGames.router.register(makeBlackOpsColdWar(), at: [">", "black ops 6"])
+    all3ArcGames.router.register(makeBlackOpsColdWar(), at: [">", "black ops cold war"])
     all3ArcGames.router.register(makeBo4(), at: [">", "black ops 4"])
     all3ArcGames.router.register(makeBo4(), at: [">", "black ops 4"])
     all3ArcGames.router.register(makeBO3(), at: [">", "black ops 3"])
