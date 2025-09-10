@@ -8,12 +8,12 @@ func makeDugaRadios() -> SerializableGalleryNode {
     dugaLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.duga.legion.radios.radio.1",
-            description: "bocw.outbreak.duga.legion.radios.radio.caption",
+            description: "bocw.outbreak.duga.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.duga.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.duga.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 1724.0 / 3840.0,
                         y: 1050.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeDugaRadios() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.duga.legion.radios.radio"])
+    ), at: ["bocw.outbreak.duga.legion.radios.radio.1"])
 
     dugaLegionLocations.register(
         SerializableImageNode(

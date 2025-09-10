@@ -8,12 +8,12 @@ func makeSanatoriumRadios() -> SerializableGalleryNode {
     sanatoriumLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.sanatorium.legion.radios.radio.1",
-            description: "bocw.outbreak.sanatorium.legion.radios.radio.caption",
+            description: "bocw.outbreak.sanatorium.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.sanatorium.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.sanatorium.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 2233.0 / 3840.0,
                         y: 1180.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeSanatoriumRadios() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.sanatorium.legion.radios.radio"])
+    ), at: ["bocw.outbreak.sanatorium.legion.radios.radio.1"])
 
     
     sanatoriumLegionLocations.register(

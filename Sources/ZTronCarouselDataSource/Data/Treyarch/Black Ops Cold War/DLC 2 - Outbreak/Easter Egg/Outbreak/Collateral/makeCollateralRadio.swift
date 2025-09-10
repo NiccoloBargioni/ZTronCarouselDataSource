@@ -8,12 +8,12 @@ func makeCollateralRadio() -> SerializableGalleryNode {
     collateralLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.collateral.legion.radios.radio.1",
-            description: "bocw.outbreak.collateral.legion.radios.radio.caption",
+            description: "bocw.outbreak.collateral.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.collateral.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.collateral.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 2079.0 / 3840.0,
                         y: 904.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeCollateralRadio() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.collateral.legion.radios.radio"])
+    ), at: ["bocw.outbreak.collateral.legion.radios.radio.1"])
 
 
     collateralLegionLocations.register(

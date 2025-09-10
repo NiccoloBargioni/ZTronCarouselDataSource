@@ -8,12 +8,12 @@ func makeRukaRadios() -> SerializableGalleryNode {
     rukaLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.ruka.legion.radios.radio.1",
-            description: "bocw.outbreak.ruka.legion.radios.radio.caption",
+            description: "bocw.outbreak.ruka.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.ruka.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.ruka.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 3050.0 / 3840.0,
                         y: 834.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeRukaRadios() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.ruka.legion.radios.radio"])
+    ), at: ["bocw.outbreak.ruka.legion.radios.radio.1"])
 
     
     rukaLegionLocations.register(

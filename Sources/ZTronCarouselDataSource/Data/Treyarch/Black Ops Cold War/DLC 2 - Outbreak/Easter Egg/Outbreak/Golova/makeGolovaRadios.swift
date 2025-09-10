@@ -8,12 +8,12 @@ func makeGolovaRadios() -> SerializableGalleryNode {
     golovaLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.golova.legion.radios.radio.1",
-            description: "bocw.outbreak.golova.legion.radios.radio.caption",
+            description: "bocw.outbreak.golova.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.golova.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.golova.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 2352.0 / 3840.0,
                         y: 1160.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeGolovaRadios() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.golova.legion.radios.radio"])
+    ), at: ["bocw.outbreak.golova.legion.radios.radio.1"])
 
 
     golovaLegionLocations.register(
