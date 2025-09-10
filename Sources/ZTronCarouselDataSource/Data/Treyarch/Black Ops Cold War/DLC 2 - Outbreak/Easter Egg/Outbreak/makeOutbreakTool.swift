@@ -11,7 +11,7 @@ func makeOutbreakTool() -> SerializableToolNode {
         (makeGolova(), "bocw.outbreak.golova", 4),
         (makeRuka(), "bocw.outbreak.ruka", 5),
         (makeSanatorium(), "bocw.outbreak.sanatorium", 6),
-        (makeZoo(), "bocw.outbreak.zoo", 8)
+        (makeZoo(), "bocw.outbreak.zoo", 7)
     ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
         outbreakGalleryRouter.router.register(
             SerializableGalleryNode(
