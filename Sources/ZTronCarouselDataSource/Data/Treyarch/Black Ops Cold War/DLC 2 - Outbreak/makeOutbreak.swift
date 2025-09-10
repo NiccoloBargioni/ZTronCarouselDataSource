@@ -7,7 +7,7 @@ func makeBOCWOutbreak() -> SerializableMapNode {
 
     return SerializableMapNode(
         name: "outbreak bocw",
-        position: 1,
+        position: 2,
         assetsImageName: "bocw.outbreak.logo",
         tabs: tabs
     )

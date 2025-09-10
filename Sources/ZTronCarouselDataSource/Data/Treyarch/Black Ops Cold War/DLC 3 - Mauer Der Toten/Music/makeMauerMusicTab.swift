@@ -1,10 +1,10 @@
 import ZTronSerializable
 
-public func makeFirebaseMusicTab() -> SerializableTabNode {
+public func makeMauerMusicTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "music",
-        position: 1,
+        position: 2,
         iconName: "music.note",
-        tools: makeFirebaseMusicTools()
+        tools: makeMauerMusicTools()
     )
 }
