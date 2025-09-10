@@ -96,26 +96,6 @@ public func makeMDTTempest() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bocw.mdt.easter.egg.tempest.korben.sign.rooftop.outline",
                     boundingBox: .init(
-                        x: 1287.0 / 3840.0,
-                        y: 1218.0 / 2160.0,
-                        width: 22.0 / 3840.0,
-                        height: 30.0 / 2160.0
-                    )
-                )
-            ]
-        
-    ), at: ["bocw.mdt.easter.egg.tempest.korben.sign.rooftop"])
-
-    tempestLocations.register(
-        SerializableImageNode(
-            name: "bocw.mdt.easter.egg.tempest.korben.sign.rooftop",
-            description: "bocw.mdt.easter.egg.tempest.korben.sign.rooftop.caption",
-            position: 5,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bocw.mdt.easter.egg.tempest.korben.sign.rooftop.outline",
-                    boundingBox: .init(
                         x: 2325.0 / 3840.0,
                         y: 1183.0 / 2160.0,
                         width: 275.0 / 3840.0,
@@ -131,7 +111,7 @@ public func makeMDTTempest() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bocw.mdt.easter.egg.tempest.secret.lab.room",
             description: "bocw.mdt.easter.egg.tempest.secret.lab.room.caption",
-            position: 6,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -151,7 +131,7 @@ public func makeMDTTempest() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bocw.mdt.easter.egg.tempest.yellow.phone.boot",
             description: "bocw.mdt.easter.egg.tempest.yellow.phone.boot.caption",
-            position: 7,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

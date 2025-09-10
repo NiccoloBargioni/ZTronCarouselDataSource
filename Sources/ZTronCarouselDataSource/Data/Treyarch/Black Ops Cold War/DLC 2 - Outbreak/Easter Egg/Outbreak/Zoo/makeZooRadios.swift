@@ -8,12 +8,12 @@ func makeZooRadios() -> SerializableGalleryNode {
     zooLegionLocations.register(
         SerializableImageNode(
             name: "bocw.outbreak.zoo.legion.radios.radio.1",
-            description: "bocw.outbreak.zoo.legion.radios.radio.caption",
+            description: "bocw.outbreak.zoo.legion.radios.radio.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.outbreak.zoo.legion.radios.radio.outline",
+                    resourceName: "bocw.outbreak.zoo.legion.radios.radio.1.outline",
                     boundingBox: .init(
                         x: 2297.0 / 3840.0,
                         y: 886.0 / 2160.0,
@@ -22,7 +22,7 @@ func makeZooRadios() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bocw.outbreak.zoo.legion.radios.radio"])
+    ), at: ["bocw.outbreak.zoo.legion.radios.radio.1"])
 
 
     zooLegionLocations.register(
