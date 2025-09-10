@@ -4,7 +4,7 @@ public func makeBOCWOutbreakEasterEggTools() -> SerializableToolsRouter {
     let outbreakEETools = SerializableToolsRouter()
     
     outbreakEETools.router.register(
-        makeOutbreak(),
+        makeOutbreakTool(),
         at: ["outbreak"]
     )
 

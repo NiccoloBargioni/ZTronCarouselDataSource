@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-func makeOutbreak() -> SerializableToolNode {
+func makeOutbreakTool() -> SerializableToolNode {
     let outbreakGalleryRouter = SerializableGalleryRouter()
     
     [
