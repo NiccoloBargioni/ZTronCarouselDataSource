@@ -32,7 +32,7 @@ func makeOutbreakTool() -> SerializableToolNode {
     
     return .init(
         name: "bocw.outbreak.tool.name",
-        position: 1,
+        position: 0,
         assetsImageName: "bocw.outbreak.logo",
         galleryRouter: outbreakGalleryRouter
     )
