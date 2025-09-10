@@ -15,7 +15,7 @@ func makezooRift() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bocw.outbreak.zoo.easter.egg.2.red.rift",
-        position: 3,
+        position: 2,
         assetsImageName: "bocw.outbreak.zoo.easter.egg.2.red.rift.icon",
         images: zooEELocations
     )
