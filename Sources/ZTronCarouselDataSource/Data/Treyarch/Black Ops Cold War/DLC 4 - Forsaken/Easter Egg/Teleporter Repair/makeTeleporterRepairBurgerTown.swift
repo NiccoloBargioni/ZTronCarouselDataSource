@@ -25,7 +25,7 @@ func makeTeleporterRepairBurgerTown() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bocw.forsaken.easter.egg.teleporter.repair.parts.burger.location.3",
             description: "bocw.forsaken.easter.egg.teleporter.repair.parts.burger.location.3.caption",
-            position: 1,
+            position: 2,
     ), at: ["bocw.forsaken.easter.egg.teleporter.repair.parts.burger.location.3"])
     
     

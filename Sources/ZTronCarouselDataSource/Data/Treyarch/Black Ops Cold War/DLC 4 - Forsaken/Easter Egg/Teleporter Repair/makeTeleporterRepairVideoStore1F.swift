@@ -25,7 +25,7 @@ func makeTeleporterRepairVideoStore1F() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bocw.forsaken.easter.egg.teleporter.repair.parts.video.store.1f.location.3",
             description: "bocw.forsaken.easter.egg.teleporter.repair.parts.video.store.1f.location.3.caption",
-            position: 1,
+            position: 2,
     ), at: ["bocw.forsaken.easter.egg.teleporter.repair.parts.video.store.1f.location.3"])
     
     
