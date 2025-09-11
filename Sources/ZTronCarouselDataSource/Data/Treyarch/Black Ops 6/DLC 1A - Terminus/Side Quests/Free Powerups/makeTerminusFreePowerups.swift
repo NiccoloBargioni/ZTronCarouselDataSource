@@ -285,8 +285,8 @@ public func makeTerminusFreePowerups() -> SerializableGalleryRouter {
     freePowerupsterminusLocations.register(
         SerializableImageNode(
             name: "bo6.terminus.side.quests.free.powerups.8.nuke",
-            description: "v.caption",
-            position: 6,
+            description: "bo6.terminus.side.quests.free.powerups.8.caption",
+            position: 7,
             searchLabel: "bo6.terminus.side.quests.free.powerups.8.nuke.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
