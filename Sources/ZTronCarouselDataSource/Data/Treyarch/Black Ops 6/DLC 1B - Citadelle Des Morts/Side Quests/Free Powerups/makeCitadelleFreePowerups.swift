@@ -100,7 +100,7 @@ public func makeCitadelleFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.free.powerups.max.ammo.speedcola",
             description: "bo6.cdm.side.quests.free.powerups.max.ammo.speedcola.caption",
-            position: 5,
+            position: 4,
             searchLabel: "bo6.cdm.side.quests.free.powerups.max.ammo.speedcola.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -145,7 +145,7 @@ public func makeCitadelleFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.free.powerups.max.armor.above.jugg",
             description: "bo6.cdm.side.quests.free.powerups.max.armor.above.jugg.caption",
-            position: 6,
+            position: 5,
             searchLabel: "bo6.cdm.side.quests.free.powerups.max.armor.above.jugg.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -190,7 +190,7 @@ public func makeCitadelleFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.free.powerups.max.power.opposite.vulture.aid",
             description: "bo6.cdm.side.quests.free.powerups.max.power.opposite.vulture.aid.caption",
-            position: 7,
+            position: 6,
             searchLabel: "bo6.cdm.side.quests.free.powerups.max.power.opposite.vulture.aid.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -236,7 +236,7 @@ public func makeCitadelleFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.free.powerups.nuke",
             description: "bo6.cdm.side.quests.free.powerups.nuke.caption",
-            position: 8,
+            position: 7,
             searchLabel: "bo6.cdm.side.quests.free.powerups.nuke.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
