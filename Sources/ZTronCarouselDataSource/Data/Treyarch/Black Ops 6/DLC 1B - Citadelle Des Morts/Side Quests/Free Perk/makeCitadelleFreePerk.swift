@@ -81,13 +81,13 @@ public func makeCitadelleFreePerk() -> SerializableGalleryRouter {
     mrPeeksLocations.register(
         SerializableImageNode(
             name: "bo6.cdm.side.quests.free.perk.3.opposite.quick.revive",
-            description: "bo6.cdm.side.quests.free.perk.3.max.armor.caption",
+            description: "bo6.cdm.side.quests.free.perk.3.opposite.quick.revive.caption",
             position: 2,
-            searchLabel: "bo6.cdm.side.quests.free.perk.3.max.armor.searchLabel",
+            searchLabel: "bo6.cdm.side.quests.free.perk.3.opposite.quick.revive.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.cdm.side.quests.free.perk.3.max.armor.outline",
+                    resourceName: "bo6.cdm.side.quests.free.perk.3.opposite.quick.revive.outline",
                     boundingBox: .init(
                         x: 2777.0 / 3840.0,
                         y: 923.0 / 2160.0,
@@ -96,7 +96,7 @@ public func makeCitadelleFreePerk() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo6.cdm.side.quests.free.perk.3.max.armor"])
+    ), at: ["bo6.cdm.side.quests.free.perk.3.opposite.quick.revive"])
 
 
     mrPeeksLocations.register(
