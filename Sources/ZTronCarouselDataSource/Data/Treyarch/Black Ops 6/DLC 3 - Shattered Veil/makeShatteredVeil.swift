@@ -9,7 +9,7 @@ func makeShatteredVeil() -> SerializableMapNode {
 
     return SerializableMapNode(
         name: "shattered veil",
-        position: 3,
+        position: 4,
         assetsImageName: "bo6.sv.logo",
         tabs: shatteredVeilTabs
     )

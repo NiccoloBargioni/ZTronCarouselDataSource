@@ -7,7 +7,7 @@ func makeTerminus() -> SerializableMapNode {
 
     return SerializableMapNode(
         name: "terminus",
-        position: 0,
+        position: 1,
         assetsImageName: "bo6.terminus.logo",
         tabs: terminusTabs
     )
