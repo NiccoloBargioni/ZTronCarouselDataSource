@@ -7,6 +7,11 @@ public func makeCitadelleEasterEggTools() -> SerializableToolsRouter {
         makeCitadelleZodiacTool(),
         at: ["zodiac"]
     )
+        
+    eeTools.router.register(
+        makeCitadelleTrapsTool(),
+        at: ["traps"]
+    )
 
     return eeTools
 }
