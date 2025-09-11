@@ -91,7 +91,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.flooded.room",
             description: "bo6.cdm.side.quests.rat.king.flooded.room.caption",
-            position: 5,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -113,7 +113,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.jugg.right.side",
             description: "bo6.cdm.side.quests.rat.king.jugg.right.side.caption",
-            position: 6,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -134,7 +134,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.quick.revive",
             description: "bo6.cdm.side.quests.rat.king.quick.revive.caption",
-            position: 7,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -155,7 +155,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.spawn",
             description: "bo6.cdm.side.quests.rat.king.spawn.caption",
-            position: 8,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -177,7 +177,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.staminup.room",
             description: "bo6.cdm.side.quests.rat.king.staminup.room.caption",
-            position: 9,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -198,7 +198,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.way.to.speed.cola",
             description: "bo6.cdm.side.quests.rat.king.way.to.speed.cola.caption",
-            position: 10,
+            position: 9,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -220,7 +220,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.cdm.side.quests.rat.king.bones.room",
             description: "bo6.cdm.side.quests.rat.king.bones.room.caption",
-            position: 11,
+            position: 10,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
