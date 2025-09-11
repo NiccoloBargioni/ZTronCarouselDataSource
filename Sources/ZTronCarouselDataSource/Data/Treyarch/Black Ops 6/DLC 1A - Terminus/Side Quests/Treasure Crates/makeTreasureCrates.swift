@@ -57,7 +57,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.crab.island.north.2.map",
             description: "bo6.terminus.side.quests.treasure.crates.crab.island.north.2.map.caption",
-            position: 7,
+            position: 6,
     ), at: ["bo6.terminus.side.quests.treasure.crates.crab.island.north.2.map"])
     
     
@@ -65,7 +65,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.north.temple.island",
             description: "bo6.terminus.side.quests.treasure.crates.north.temple.island.caption",
-            position: 8,
+            position: 7,
     ), at: ["bo6.terminus.side.quests.treasure.crates.north.temple.island"])
     
 
@@ -73,7 +73,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.south.temple.island",
             description: "bo6.terminus.side.quests.treasure.crates.south.temple.island.caption",
-            position: 9,
+            position: 8,
     ), at: ["bo6.terminus.side.quests.treasure.crates.south.temple.island"])
     
 
@@ -81,7 +81,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.west.castle.rock.island",
             description: "bo6.terminus.side.quests.treasure.crates.west.castle.rock.island.caption",
-            position: 10,
+            position: 9,
     ), at: ["bo6.terminus.side.quests.treasure.crates.west.castle.rock.island"])
     
     
@@ -89,7 +89,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.south.castle.rock.island",
             description: "bo6.terminus.side.quests.treasure.crates.south.castle.rock.island.caption",
-            position: 11,
+            position: 10,
     ), at: ["bo6.terminus.side.quests.treasure.crates.south.castle.rock.island"])
     
     
@@ -97,7 +97,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.shipwreck.hole.entrance",
             description: "bo6.terminus.side.quests.treasure.crates.shipwreck.hole.entrance.caption",
-            position: 12,
+            position: 11,
     ), at: ["bo6.terminus.side.quests.treasure.crates.shipwreck.hole.entrance"])
     
 
@@ -105,7 +105,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.shipwreck.inside.hole",
             description: "bo6.terminus.side.quests.treasure.crates.shipwreck.inside.hole.caption",
-            position: 13,
+            position: 12,
     ), at: ["bo6.terminus.side.quests.treasure.crates.shipwreck.inside.hole"])
     
     
@@ -113,7 +113,7 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.treasure.crates.shipwreck.below.ammo.refill",
             description: "bo6.terminus.side.quests.treasure.crates.shipwreck.below.ammo.refill.caption",
-            position: 14,
+            position: 13,
     ), at: ["bo6.terminus.side.quests.treasure.crates.shipwreck.below.ammo.refill"])
     
 
