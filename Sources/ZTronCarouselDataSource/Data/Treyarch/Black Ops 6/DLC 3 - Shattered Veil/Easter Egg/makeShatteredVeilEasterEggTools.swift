@@ -30,5 +30,10 @@ public func makeShatteredVeilEasterEggTools() -> SerializableToolsRouter {
     )
     
     
+    eeTools.router.register(
+        makeAetherShroudItemsTool(),
+        at: ["aether shroud items"]
+    )
+    
     return eeTools
 }
