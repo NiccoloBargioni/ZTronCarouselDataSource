@@ -3,7 +3,7 @@ import ZTronSerializable
 public func makeAdvancedWarfare() -> SerializableGameNode {
     return SerializableGameNode(
         name: "advanced warfare",
-        position: 6,
+        position: 7,
         assetsImageName: "aw.game.logo",
         maps: makeAdvancedWarfareMaps()
     )
