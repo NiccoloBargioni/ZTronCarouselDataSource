@@ -8,6 +8,7 @@ public func makeBO6Maps() -> SerializableMapsRouter {
     bo6Maps.router.register(makeCitadelleDesMorts(), at: [">", "citadelle des morts"])
     bo6Maps.router.register(makeTheTomb(), at: [">", "the tomb"])
     bo6Maps.router.register(makeShatteredVeil(), at: [">", "shattered veil"])
+    bo6Maps.router.register(makeReckoning(), at: [">", "reckoning"])
 
     return bo6Maps
 }
