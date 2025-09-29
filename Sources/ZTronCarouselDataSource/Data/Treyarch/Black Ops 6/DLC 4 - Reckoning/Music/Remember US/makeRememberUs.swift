@@ -43,8 +43,6 @@ public func makeRememberUs() -> SerializableGalleryRouter {
             ]
     ), at: ["bo6.reckoning.music.remember.us.mutant.research"])
 
-    PAP PORTAL RICHTOFEN'S OFFICE: 2814, 1131 | LARGHEZZA: 66, ALTEZZA: 35
-
 
     headphonesLocations.register(
         SerializableImageNode(
