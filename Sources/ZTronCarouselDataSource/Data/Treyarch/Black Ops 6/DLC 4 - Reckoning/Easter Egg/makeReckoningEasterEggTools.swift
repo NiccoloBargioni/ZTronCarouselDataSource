@@ -14,6 +14,12 @@ public func makeReckoningEasterEggTools() -> SerializableToolsRouter {
         at: ["pokeball containers"]
     )
     
+    
+    eeTools.router.register(
+        makeKlausLegsTool(),
+        at: ["klaus' legs"]
+    )
+    
         
     return eeTools
 }
