@@ -6,13 +6,13 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
     
     shieldPipesLocations.register(
         SerializableImageNode(
-            name: "bo4.vod.easter.egg.shield.upgrade.pipes.1.upstairs.from.spawn.1",
-            description: "bo4.vod.easter.egg.shield.upgrade.pipes.1.upstairs.from.spawn.1.caption",
+            name: "bo4.vod.side.quests.shield.upgrade.pipes.1.upstairs.from.spawn.1",
+            description: "bo4.vod.side.quests.shield.upgrade.pipes.1.upstairs.from.spawn.1.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.vod.easter.egg.shield.upgrade.pipes.1.upstairs.from.spawn.1.outline",
+                    resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.1.upstairs.from.spawn.1.outline",
                     boundingBox: .init(
                         x: 825.0 / 1920.0,
                         y: 438.0 / 1080.0,
@@ -22,18 +22,18 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.1.upstairs.from.spawn.1"])
+    ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.1.upstairs.from.spawn.1"])
     
 
     shieldPipesLocations.register(
         SerializableImageNode(
-            name: "bo4.vod.easter.egg.shield.upgrade.pipes.2.rk5.wallbuy",
-            description: "bo4.vod.easter.egg.shield.upgrade.pipes.2.rk5.wallbuy.caption",
+            name: "bo4.vod.side.quests.shield.upgrade.pipes.2.rk5.wallbuy",
+            description: "bo4.vod.side.quests.shield.upgrade.pipes.2.rk5.wallbuy.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.vod.easter.egg.shield.upgrade.pipes.2.rk5.wallbuy.outline",
+                    resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.2.rk5.wallbuy.outline",
                     boundingBox: .init(
                         x: 735.0 / 1920.0,
                         y: 433.0 / 1080.0,
@@ -43,18 +43,18 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.2.rk5.wallbuy"])
+    ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.2.rk5.wallbuy"])
 
 
     shieldPipesLocations.register(
         SerializableImageNode(
-            name: "bo4.vod.easter.egg.shield.upgrade.pipes.3.left.of.zeus.perk",
-            description: "bo4.vod.easter.egg.shield.upgrade.pipes.3.left.of.zeus.perk.caption",
+            name: "bo4.vod.side.quests.shield.upgrade.pipes.3.left.of.zeus.perk",
+            description: "bo4.vod.side.quests.shield.upgrade.pipes.3.left.of.zeus.perk.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.vod.easter.egg.shield.upgrade.pipes.3.left.of.zeus.perk.outline",
+                    resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.3.left.of.zeus.perk.outline",
                     boundingBox: .init(
                         x: 1004.0 / 1920.0,
                         y: 408.0 / 1080.0,
@@ -64,18 +64,18 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.3.left.of.zeus.perk"])
+    ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.3.left.of.zeus.perk"])
 
     
     shieldPipesLocations.register(
         SerializableImageNode(
-            name: "bo4.vod.easter.egg.shield.upgrade.pipes.4.window.front.of.sentinel.artifact",
-            description: "bo4.vod.easter.egg.shield.upgrade.pipes.4.window.front.of.sentinel.artifact.caption",
+            name: "bo4.vod.side.quests.shield.upgrade.pipes.4.window.front.of.sentinel.artifact",
+            description: "bo4.vod.side.quests.shield.upgrade.pipes.4.window.front.of.sentinel.artifact.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.vod.easter.egg.shield.upgrade.pipes.4.window.front.of.sentinel.artifact.outline",
+                    resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.4.window.front.of.sentinel.artifact.outline",
                     boundingBox: .init(
                         x: 1210.0 / 1920.0,
                         y: 468.0 / 1080.0,
@@ -85,18 +85,18 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.4.window.front.of.sentinel.artifact"])
+    ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.4.window.front.of.sentinel.artifact"])
     
     
     shieldPipesLocations.register(
         SerializableImageNode(
-            name: "bo4.vod.easter.egg.shield.upgrade.pipes.5.below.sentinel.artifact",
-            description: "bo4.vod.easter.egg.shield.upgrade.pipes.5.below.sentinel.artifact.caption",
+            name: "bo4.vod.side.quests.shield.upgrade.pipes.5.below.sentinel.artifact",
+            description: "bo4.vod.side.quests.shield.upgrade.pipes.5.below.sentinel.artifact.caption",
             position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.vod.easter.egg.shield.upgrade.pipes.5.below.sentinel.artifact.outline",
+                    resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.5.below.sentinel.artifact.outline",
                     boundingBox: .init(
                         x: 916.0 / 1920.0,
                         y: 457.0 / 1080.0,
@@ -106,16 +106,16 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bo4.vod.easter.egg.shield.upgrade.pipes.5.below.sentinel.artifact"])
+    ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.5.below.sentinel.artifact"])
 
     
 
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
-        name: "bo4.vod.easter.egg.shield.upgrade.pipes",
+        name: "bo4.vod.side.quests.shield.upgrade.pipes",
         position: 1,
-        assetsImageName: "bo4.vod.easter.egg.shield.upgrade.pipes.icon",
+        assetsImageName: "bo4.vod.side.quests.shield.upgrade.pipes.icon",
         images: shieldPipesLocations
     ), at: [">", "master"])
     
