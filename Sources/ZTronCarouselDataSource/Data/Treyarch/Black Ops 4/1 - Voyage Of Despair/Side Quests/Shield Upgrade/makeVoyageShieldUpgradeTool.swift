@@ -27,21 +27,21 @@ func makeVoyageShieldUpgradeTool() -> SerializableToolNode {
     let pipesRouter = makeVoyageShieldUpgradePipes()
     
     pipesRouter.router.forEach { absolutePath, output in
-        shieldUpgradeRouter.router.register(output, at: absolutePath)
+        shieldUpgradeRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
     }
     
     
     let pipesPickupRouter = makeVoyageShieldUpgradePipesPickup()
     
     pipesPickupRouter.router.forEach { absolutePath, output in
-        shieldUpgradeRouter.router.register(output, at: absolutePath)
+        shieldUpgradeRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
     }
     
     
     let safesRouter = makeVoyageShieldUpgradeSafes()
     
     safesRouter.router.forEach { absolutePath, output in
-        shieldUpgradeRouter.router.register(output, at: absolutePath)
+        shieldUpgradeRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
     }
     
     return .init(

@@ -4,7 +4,7 @@ public func makeAscensionMusicTools() -> SerializableToolsRouter {
     let ascensionMusicTools = SerializableToolsRouter()
     
     ascensionMusicTools.router.register(
-        makeAbracadavreTool(),
+        makeChroniclesAbracadavreTool(),
         at: [">", "abracadavre"]
     )
 
