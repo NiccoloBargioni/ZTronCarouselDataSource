@@ -18,7 +18,7 @@ public func makeVoyageEasterEggTools() -> SerializableToolsRouter {
         makeVoyagePlanetsTool(),
         at: [">", "planets"]
     )*/
-
+ 
     ee.router.register(
         makeVoyageShieldTool(),
         at: [">", "shield"]
