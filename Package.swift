@@ -23,7 +23,7 @@ let package = Package(
             url: "https://github.com/NiccoloBargioni/ZTronDataModel", branch: "main"
         ),
         .package(
-            url: "https://github.com/NiccoloBargioni/ZTronSerializable", branch: "main"
+            url: "https://github.com/NiccoloBargioni/ZTronSerializable", branch: "feature/updating-db"
         ),
         .package(
             url: "https://github.com/NiccoloBargioni/ZTronRouter", branch: "main"

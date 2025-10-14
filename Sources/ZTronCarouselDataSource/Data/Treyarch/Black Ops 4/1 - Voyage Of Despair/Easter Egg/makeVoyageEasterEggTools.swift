@@ -13,10 +13,11 @@ public func makeVoyageEasterEggTools() -> SerializableToolsRouter {
         at: [">", "elemental zombies step"]
     )
     
+    /*
     ee.router.register(
         makeVoyagePlanetsTool(),
         at: [">", "planets"]
-    )
+    )*/
 
     ee.router.register(
         makeVoyageShieldTool(),
