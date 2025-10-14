@@ -79,7 +79,7 @@ func makeN31LBattery() -> SerializableGalleryNode {
                     resourceName: "iw.spaceland.side.quests.n31l.battery.polar.peak.counter.outline",
                     boundingBox: .init(
                         x: 781.0 / 1920.0,
-                        y: 524.0 / 1080.0,
+                        y: 824.0 / 1080.0,
                         width: 30.0 / 1920.0,
                         height: 14.0 / 1080.0
                     )

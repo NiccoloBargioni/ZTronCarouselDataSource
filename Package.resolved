@@ -1,5 +1,5 @@
 {
-  "originHash" : "fb93a575089b52f65d92232121a6ffef9b34c528b0b4fd2cac9a3a75aeea5012",
+  "originHash" : "cc464aaadddf825b7187567fa0ee8c0f99e507b523f7c8ba2c190714079c953a",
   "pins" : [
     {
       "identity" : "loremipsum",
@@ -69,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NiccoloBargioni/ZTronSerializable",
       "state" : {
-        "branch" : "feature/updating-db",
-        "revision" : "5d1aa3800b726b405455acfe73a78c6123f40907"
+        "branch" : "main",
+        "revision" : "2b6794c0ba2968b59cca224d2223a2a3c7df4856"
       }
     }
   ],
