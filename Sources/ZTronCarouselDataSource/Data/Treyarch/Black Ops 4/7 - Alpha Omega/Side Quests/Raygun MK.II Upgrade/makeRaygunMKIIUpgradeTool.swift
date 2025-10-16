@@ -5,7 +5,7 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
     
     [
         (makeRaygunMKIIUpgradeAssemblyKit(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.assembly.kit", 0),
-        (SerializableGalleryRouter(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames", 1),
+        (makeRaygunMKIIUpgradeFrames(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames", 1),
         (makeRaygunMKIIUpgradeV(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.v", 2),
         (makeRaygunMKIIUpgradeX(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.x", 3),
         (makeRaygunMKIIUpgradeY(), "bo4.ao.side.quests.raygun.mk.ii.upgrade.y", 4),
