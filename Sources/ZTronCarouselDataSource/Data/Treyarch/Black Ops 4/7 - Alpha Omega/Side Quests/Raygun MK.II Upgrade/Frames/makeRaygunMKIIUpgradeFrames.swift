@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryRouter {
+public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryNode {
     let tvLocations = MediaRouter.init()
     
     tvLocations.register(
@@ -35,14 +35,9 @@ public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryRouter {
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.frames.yellow.house"])
     
 
-    let locationsRouter = SerializableGalleryRouter()
-    
-    locationsRouter.router.register(SerializableGalleryNode(
+    return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames",
         position: 0,
-        assetsImageName: nil,
+        assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames.icon",
         images: tvLocations
-    ), at: [">", "master"])
-    
-    return locationsRouter
-}
+    )}
