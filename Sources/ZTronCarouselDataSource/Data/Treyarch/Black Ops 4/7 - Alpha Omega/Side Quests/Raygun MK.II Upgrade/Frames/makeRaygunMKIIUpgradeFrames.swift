@@ -37,7 +37,7 @@ public func makeRaygunMKIIUpgradeFrames() -> SerializableGalleryNode {
 
     return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames",
-        position: 0,
+        position: 1,
         assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.frames.icon",
         images: tvLocations
     )}
