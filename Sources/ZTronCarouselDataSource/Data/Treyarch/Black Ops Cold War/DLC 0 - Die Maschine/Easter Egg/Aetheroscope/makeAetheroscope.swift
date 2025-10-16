@@ -25,7 +25,7 @@ public func makeAetheroscope() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bocw.die.maschine.ee.aetheroscope.spawn.part.2",
             description: "bocw.die.maschine.ee.aetheroscope.spawn.part.2.caption",
-            position: 3,
+            position: 2,
     ), at: ["bocw.die.maschine.ee.aetheroscope.spawn.part.2"])
     
     
