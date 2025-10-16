@@ -15,7 +15,7 @@ public func makeRedDig() -> SerializableGalleryRouter {
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2",
-            description: "bo2.origins.side.quests.free.zombies.blood.mp40.wallbuy.caption",
+            description: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.caption",
             position: 0
         ), at: ["bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2"]
     )
@@ -23,7 +23,7 @@ public func makeRedDig() -> SerializableGalleryRouter {
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.no.blood",
-            description: "bo2.origins.side.quests.free.zombies.blood.mp40.wallbuy.caption",
+            description: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.caption",
             position: 0
         ),
         at: ["bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2", "no blood"],

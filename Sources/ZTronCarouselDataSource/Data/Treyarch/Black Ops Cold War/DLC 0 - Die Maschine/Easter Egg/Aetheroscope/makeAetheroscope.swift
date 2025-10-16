@@ -12,44 +12,20 @@ public func makeAetheroscope() -> SerializableGalleryRouter {
             position: 0,
     ), at: ["bocw.die.maschine.ee.aetheroscope.jugg.part.1"])
     
-
-    aetheroscopeLocations.register(
-        SerializableImageNode(
-            name: "bocw.die.maschine.ee.aetheroscope.jugg.part.2",
-            description: "bocw.die.maschine.ee.aetheroscope.jugg.part.2.caption",
-            position: 1,
-    ), at: ["bocw.die.maschine.ee.aetheroscope.jugg.part.2"])
-    
-
-    aetheroscopeLocations.register(
-        SerializableImageNode(
-            name: "bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.1",
-            description: "bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.1.caption",
-            position: 2,
-    ), at: ["bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.1"])
-    
-    
+        
     aetheroscopeLocations.register(
         SerializableImageNode(
             name: "bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.2",
             description: "bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.2.caption",
-            position: 3,
+            position: 1,
     ), at: ["bocw.die.maschine.ee.aetheroscope.pack.a.punch.part.2"])
-    
-        
-     aetheroscopeLocations.register(
-        SerializableImageNode(
-            name: "bocw.die.maschine.ee.aetheroscope.spawn.part.1",
-            description: "bocw.die.maschine.ee.aetheroscope.spawn.part.1.caption",
-            position: 4,
-    ), at: ["bocw.die.maschine.ee.aetheroscope.spawn.part.1"])
-    
+
     
      aetheroscopeLocations.register(
         SerializableImageNode(
             name: "bocw.die.maschine.ee.aetheroscope.spawn.part.2",
             description: "bocw.die.maschine.ee.aetheroscope.spawn.part.2.caption",
-            position: 5,
+            position: 3,
     ), at: ["bocw.die.maschine.ee.aetheroscope.spawn.part.2"])
     
     
