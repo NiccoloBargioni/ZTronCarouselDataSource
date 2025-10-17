@@ -22,7 +22,7 @@ public func makeBuriedWadenKey() -> SerializableGalleryRouter {
     wardenKeyLocations.register(
         SerializableImageNode(
             name: "bo2.buried.easter.egg.shared.warden.key.jail",
-            description: "bo2.buried.easter.egg.shared.warden.key.jail",
+            description: "bo2.buried.easter.egg.shared.warden.key.jail.caption",
             position: 2
     ), at: ["bo2.buried.easter.egg.shared.warden.key.jail"])
     

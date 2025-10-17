@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeFrog() -> SerializableGalleryNode {
     let frogLocations = MediaRouter.init()
     
     frogLocations.register(
         SerializableImageNode(
-            name: "atm.room.frog",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.frog.atm.room",
+            description: "iw.ritr.side.quests.memory.charms.frog.atm.room.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "atm.room.frog.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.frog.atm.room.outline",
                     boundingBox: .init(
                         x: 637/1920.0,
                         y: 522.0/1080.0,
@@ -21,19 +20,19 @@ public func makeFrog() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "atm.room.frog"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.frog.atm.room"]
     )
 
     
     frogLocations.register(
         SerializableImageNode(
-            name: "recreational.area.camper.exit.frog",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.frog.recreational.area.camper.exit",
+            description: "iw.ritr.side.quests.memory.charms.frog.recreational.area.camper.exit.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "recreational.area.camper.exit.frog.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.frog.recreational.area.camper.exit.outline",
                     boundingBox: .init(
                         x: 1688.0/1920.0,
                         y: 503.0/1080.0,
@@ -42,12 +41,12 @@ public func makeFrog() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "recreational.area.camper.exit.frog"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.frog.recreational.area.camper.exit"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.frog.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.frog",
         position: 7,
         assetsImageName: "frogIcon",
         images: frogLocations

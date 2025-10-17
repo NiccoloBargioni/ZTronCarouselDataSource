@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeArrowHead() -> SerializableGalleryNode {
     let arrowHeadLocations = MediaRouter.init()
     
     arrowHeadLocations.register(
         SerializableImageNode(
-            name: "mess.hall.signs.arrow.head",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.arrow.head.mess.hall.signs",
+            description: "iw.ritr.side.quests.memory.charms.arrow.head.mess.hall.signs.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "mess.hall.signs.arrow.head.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.arrow.head.mess.hall.signs.outline",
                     boundingBox: .init(
                         x: 331.0/1920.0,
                         y: 701.0/1080.0,
@@ -21,18 +20,18 @@ public func makeArrowHead() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "mess.hall.signs.arrow.head"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.arrow.head.mess.hall.signs"]
     )
     
     arrowHeadLocations.register(
         SerializableImageNode(
-            name: "spawn.bench.right.arrow.head",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.arrow.head.spawn.bench.right",
+            description: "iw.ritr.side.quests.memory.charms.arrow.head.spawn.bench.right.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "spawn.bench.right.arrow.head.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.arrow.head.spawn.bench.right.outline",
                     boundingBox: .init(
                         x: 1044.0/1920.0,
                         y: 583.0/1080.0,
@@ -41,12 +40,12 @@ public func makeArrowHead() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "spawn.bench.right.arrow.head"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.arrow.head.spawn.bench.right"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.arrow_head.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.arrow.head",
         position: 2,
         assetsImageName: "arrowHeadIcon",
         images: arrowHeadLocations

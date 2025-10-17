@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeBoots() -> SerializableGalleryNode {
     let bootsLocation = MediaRouter.init()
     
     bootsLocation.register(
         SerializableImageNode(
-            name: "bear.lake.magic.wheel.boots",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.boots.bear.lake.magic.wheel",
+            description: "iw.ritr.side.quests.memory.charms.boots.bear.lake.magic.wheel.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bear.lake.magic.wheel.boots.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.boots.bear.lake.magic.wheel.outline",
                     boundingBox: .init(
                         x: 1433.0/1920.0,
                         y: 646.0/1080.0,
@@ -21,18 +20,18 @@ public func makeBoots() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "bear.lake.magic.wheel.boots"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.boots.bear.lake.magic.wheel"]
     )
     
     bootsLocation.register(
         SerializableImageNode(
-            name: "big.fire.crate.boots",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.boots.big.fire.crate",
+            description: "iw.ritr.side.quests.memory.charms.boots.big.fire.crate.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "big.fire.crate.boots.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.boots.big.fire.crate.outline",
                     boundingBox: .init(
                         x: 1571.0/1920.0,
                         y: 692.0/1080.0,
@@ -41,12 +40,12 @@ public func makeBoots() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "big.fire.crate.boots"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.boots.big.fire.crate"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.boots.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.binoculars",
         position: 9,
         assetsImageName: "bootsIcon",
         images: bootsLocation

@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeRing() -> SerializableGalleryNode {
     let ringLocations = MediaRouter.init()
     
     ringLocations.register(
         SerializableImageNode(
-            name: "cave.steps.bang.bang.ring",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.ring.cave.steps.bang.bang",
+            description: "iw.ritr.side.quests.memory.charms.ring.cave.steps.bang.bang.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "cave.steps.bang.bang.ring.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.ring.cave.steps.bang.bang.outline",
                     boundingBox: .init(
                         x: 797.0/1920.0,
                         y: 703.0/1080.0,
@@ -22,18 +21,18 @@ public func makeRing() -> SerializableGalleryNode {
                 )
             ]
 
-        ), at: [">", "cave.steps.bang.bang.ring"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.ring.cave.steps.bang.bang"]
     )
     
     ringLocations.register(
         SerializableImageNode(
-            name: "mess.hall.from.spawn.ring",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.ring.mess.hall.from.spawn",
+            description: "iw.ritr.side.quests.memory.charms.ring.mess.hall.from.spawn.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "mess.hall.from.spawn.ring.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.ring.mess.hall.from.spawn.outline",
                     boundingBox: .init(
                         x: 1080.0/1920.0,
                         y: 642.0/1080.0,
@@ -42,12 +41,12 @@ public func makeRing() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "mess.hall.from.spawn.ring"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.ring.mess.hall.from.spawn"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.ring.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.ring",
         position: 3,
         assetsImageName: "ringIcon",
         images: ringLocations

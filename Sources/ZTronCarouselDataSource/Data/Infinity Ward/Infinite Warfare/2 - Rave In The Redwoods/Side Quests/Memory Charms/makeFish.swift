@@ -1,5 +1,4 @@
 import ZTronSerializable
-import LoremIpsum
 
 
 public func makeFish() -> SerializableGalleryNode {
@@ -7,13 +6,13 @@ public func makeFish() -> SerializableGalleryNode {
     
     fishLocations.register(
         SerializableImageNode(
-            name: "cabins.below.racing.stripes.fish",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.fish.cabins.below.racing.stripes",
+            description: "iw.ritr.side.quests.memory.charms.fish.cabins.below.racing.stripes.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "cabins.below.racing.stripes.fish.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.fish.cabins.below.racing.stripes.outline",
                     boundingBox: .init(
                         x: 674.0/1920.0,
                         y: 682.0/1080.0,
@@ -22,18 +21,18 @@ public func makeFish() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "cabins.below.racing.stripes.fish"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.fish.cabins.below.racing.stripes"]
     )
     
     fishLocations.register(
         SerializableImageNode(
-            name: "pipe.mess.hall.fish",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.fish.pipe.mess.hall",
+            description: "iw.ritr.side.quests.memory.charms.fish.pipe.mess.hall.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "pipe.mess.hall.fish.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.fish.pipe.mess.hall.outline",
                     boundingBox: .init(
                         x: 1734.0/1920.0,
                         y: 755.0/1080.0,
@@ -42,12 +41,12 @@ public func makeFish() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "pipe.mess.hall.fish"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.fish.pipe.mess.hall"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.fish.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.fish",
         position: 6,
         assetsImageName: "fishIcon",
         images: fishLocations

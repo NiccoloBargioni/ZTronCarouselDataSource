@@ -8,7 +8,7 @@ func makeTranzitJetGunEngine() -> SerializableGalleryNode {
     jetGunEngineLocations.register(
         SerializableImageNode(
             name: "bo2.tranzit.easter.egg.jet.gun.engine.1.left.side",
-            description: "4",
+            description: "bo2.tranzit.easter.egg.jet.gun.engine.1.left.side.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),

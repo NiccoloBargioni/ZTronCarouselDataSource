@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeMask() -> SerializableGalleryNode {
     let maskLocations = MediaRouter.init()
     
     maskLocations.register(
         SerializableImageNode(
-            name: "bear.lake.from.mess.hall.mask",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.mask.bear.lake.from.mess.hall",
+            description: "iw.ritr.side.quests.memory.charms.mask.bear.lake.from.mess.hall.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bear.lake.from.mess.hall.mask.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.mask.bear.lake.from.mess.hall.outline",
                     boundingBox: .init(
                         x: 1293.0/1920.0,
                         y: 598.0/1080.0,
@@ -21,18 +20,18 @@ public func makeMask() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "bear.lake.from.mess.hall.mask"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.mask.bear.lake.from.mess.hall"]
     )
     
     maskLocations.register(
         SerializableImageNode(
-            name: "big.fire.nv4.wallbuy.mask",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.mask.big.fire.nv4.wallbuy",
+            description: "iw.ritr.side.quests.memory.charms.mask.big.fire.nv4.wallbuy.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "big.fire.nv4.wallbuy.mask.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.mask.big.fire.nv4.wallbuy.outline",
                     boundingBox: .init(
                         x: 889.0/1920.0,
                         y: 512.0/1080.0,
@@ -41,12 +40,12 @@ public func makeMask() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "big.fire.nv4.wallbuy.mask"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.mask.big.fire.nv4.wallbuy"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.mask.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.mask",
         position: 4,
         assetsImageName: "maskIcon",
         images: maskLocations

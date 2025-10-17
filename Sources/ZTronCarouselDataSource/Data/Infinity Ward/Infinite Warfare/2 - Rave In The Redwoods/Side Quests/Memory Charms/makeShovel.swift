@@ -1,18 +1,17 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeShovel() -> SerializableGalleryNode {
     let shovelLocations = MediaRouter.init()
     
     shovelLocations.register(
         SerializableImageNode(
-            name: "archer.range.shovel",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.shovel.archer.range",
+            description: "iw.ritr.side.quests.memory.charms.shovel.archer.range.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "archer.range.shovel.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.shovel.archer.range.outline",
                     boundingBox: .init(
                         x: 921.0/1920.0,
                         y: 526.0/1080.0,
@@ -21,18 +20,18 @@ public func makeShovel() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "archer.range.shovel"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.shovel.archer.range"]
     )
     
     shovelLocations.register(
         SerializableImageNode(
-            name: "bang.bangs.cave.shovel",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave",
+            description: "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bang.bangs.cave.shovel.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave.coutline",
                     boundingBox: .init(
                         x: 302.0/1920.0,
                         y: 568.0/1080.0,
@@ -41,12 +40,12 @@ public func makeShovel() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "bang.bangs.cave.shovel"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.shovel.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.shovel",
         position: 1,
         assetsImageName: "shovelIcon",
         images: shovelLocations

@@ -1,5 +1,4 @@
 import ZTronSerializable
-import LoremIpsum
 
 
 public func makeBilliardBall() -> SerializableGalleryNode {
@@ -7,13 +6,13 @@ public func makeBilliardBall() -> SerializableGalleryNode {
     
     billiardBallLocations.register(
         SerializableImageNode(
-            name: "caves.recreational.area.sign.billiard.ball",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.billiard.ball.caves.recreational.area.sign",
+            description: "iw.ritr.side.quests.memory.charms.billiard.ball.caves.recreational.area.sign.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "caves.recreational.area.sign.billiard.ball.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.billiard.ball.caves.recreational.area.sign.outline",
                     boundingBox: .init(
                         x: 965.0/1920.0,
                         y: 600.0/1080.0,
@@ -22,18 +21,18 @@ public func makeBilliardBall() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "caves.recreational.area.sign.billiard.ball"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.billiard.ball.caves.recreational.area.sign"]
     )
     
     billiardBallLocations.register(
         SerializableImageNode(
-            name: "quickies.rave.area.billiard.ball",
-            description: LoremIpsum.paragraph,
+            name: "iw.ritr.side.quests.memory.charms.billiard.ball.quickies.rave.area",
+            description: "iw.ritr.side.quests.memory.charms.billiard.ball.quickies.rave.area.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "quickies.rave.area.billiard.ball.outline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.billiard.ball.quickies.rave.area.outline",
                     boundingBox: .init(
                         x: 539.0/1920.0,
                         y: 658.0/1080.0,
@@ -42,12 +41,12 @@ public func makeBilliardBall() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: [">", "quickies.rave.area.billiard.ball"]
+        ), at: [">", "iw.ritr.side.quests.memory.charms.billiard.ball.quickies.rave.area"]
     )
     
     
     return SerializableGalleryNode(
-        name: "iw.rave.memory_charms.billiard_ball.gallery_name",
+        name: "iw.ritr.side.quests.memory.charms.billiard.ball",
         position: 5,
         assetsImageName: "billiardBallIcon",
         images: billiardBallLocations
