@@ -45,7 +45,7 @@ public func makeBoots() -> SerializableGalleryNode {
     
     
     return SerializableGalleryNode(
-        name: "iw.ritr.side.quests.memory.charms.binoculars",
+        name: "iw.ritr.side.quests.memory.charms.boots",
         position: 9,
         assetsImageName: "bootsIcon",
         images: bootsLocation
