@@ -31,7 +31,7 @@ public func makeShovel() -> SerializableGalleryNode {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave.coutline",
+                    resourceName: "iw.ritr.side.quests.memory.charms.shovel.bang.bangs.cave.outline",
                     boundingBox: .init(
                         x: 302.0/1920.0,
                         y: 568.0/1080.0,
