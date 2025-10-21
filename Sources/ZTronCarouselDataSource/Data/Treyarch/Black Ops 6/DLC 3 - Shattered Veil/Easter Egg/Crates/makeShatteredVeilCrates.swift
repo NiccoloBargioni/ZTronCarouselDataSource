@@ -54,7 +54,7 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.between.double.tap.and.death.perception.outline",
                     boundingBox: .init(
-                        x: 28450.0 / 3840.0,
+                        x: 2845.0 / 3840.0,
                         y: 1090.0 / 2160.0,
                         width: 208.0 / 3840.0,
                         height: 111.0 / 2160.0
