@@ -18,10 +18,11 @@ public func makeAlphaOmegaEasterEggTools() -> SerializableToolsRouter {
         at: [">", "generators puzzle"]
     )
     
+    /*
     ee.router.register(
         makeADAMUnitsTool(),
         at: [">", "ADAM units"]
-    )
+    )*/
 
     ee.router.register(
         makeTVsForClocksTool(),

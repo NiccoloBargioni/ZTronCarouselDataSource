@@ -174,7 +174,7 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3.caption",
-            position: 9,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
