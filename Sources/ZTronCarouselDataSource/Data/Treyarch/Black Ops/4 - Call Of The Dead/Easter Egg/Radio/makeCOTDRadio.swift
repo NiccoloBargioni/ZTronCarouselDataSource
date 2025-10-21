@@ -55,9 +55,9 @@ public func makeCOTDRadio() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo.cotd.easter.egg.radios.3.sunk.boat.way.to.mystery.box.outline",
                     boundingBox: .init(
-                        x: 728.0 / 1920.0,
-                        y: 502.0 / 1080.0,
-                        width: 15.0 / 1920.0,
+                        x: 727.0 / 1920.0,
+                        y: 503.0 / 1080.0,
+                        width: 18.0 / 1920.0,
                         height: 45.0 / 1080.0
                     )
                 )

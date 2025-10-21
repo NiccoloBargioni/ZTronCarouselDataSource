@@ -36,9 +36,9 @@ func makeTranzitShieldDollyCart() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo2.tranzit.buildables.shield.dolly.cart.2.speed.cola.n2.outline",
                     boundingBox: .init(
-                        x: 878.0 / 1920.0,
+                        x: 877.0 / 1920.0,
                         y: 431.0 / 1080.0,
-                        width: 47.0 / 1920.0,
+                        width: 57.0 / 1920.0,
                         height: 124.0 / 1080.0
                     )
                 )

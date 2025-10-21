@@ -13,10 +13,10 @@ public func makeHackingDevice() -> SerializableGalleryRouter {
                  SerializableOutlineNode(
                      resourceName: "bo.moon.easter.egg.hacking.device.1.left.side.first.room.after.pyramid.outline",
                      boundingBox: .init(
-                         x: 308.0 / 1920.0,
-                         y: 571.0 / 1080.0,
-                         width: 64.0 / 1920.0,
-                         height: 21.0 / 1080.0
+                        x: 308.0 / 1920.0,
+                        y: 571.0 / 1080.0,
+                        width: 65.0 / 1920.0,
+                        height: 21.0 / 1080.0
                      )
                  )
              ]
@@ -33,10 +33,10 @@ public func makeHackingDevice() -> SerializableGalleryRouter {
                  SerializableOutlineNode(
                      resourceName: "bo.moon.easter.egg.hacking.device.2.left.side.first.room.after.pyramid.two.outline",
                      boundingBox: .init(
-                         x: 1686.0 / 1920.0,
-                         y: 504.0 / 1080.0,
-                         width: 51.0 / 1920.0,
-                         height: 12.0 / 1080.0
+                        x: 1685.0 / 1920.0,
+                        y: 503.0 / 1080.0,
+                        width: 52.0 / 1920.0,
+                        height: 14.0 / 1080.0
                      )
                  )
              ]

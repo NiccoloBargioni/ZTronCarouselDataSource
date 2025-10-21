@@ -162,10 +162,10 @@ func makeMeatBurgerTown() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "aw.infection.easter.egg.meat.burgertown.8.burgertown.front.packapunch.and.frying.pan.outline",
                     boundingBox: .init(
-                        x: 982.0 / 1920.0,
-                        y: 380.0 / 1080.0,
-                        width: 64.0 / 1920.0,
-                        height: 22.0 / 1080.0
+                        x: 999.0 / 1920.0,
+                        y: 422.0 / 1080.0,
+                        width: 12.0 / 1920.0,
+                        height: 14.0 / 1080.0
                     )
                 )
             ]
@@ -183,10 +183,10 @@ func makeMeatBurgerTown() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "aw.infection.easter.egg.meat.burgertown.9.burgertown.table.next.to.kitchen.outline",
                     boundingBox: .init(
-                        x: 901.0 / 1920.0,
-                        y: 395.0 / 1080.0,
-                        width: 41.0 / 1920.0,
-                        height: 16.0 / 1080.0
+                        x: 212.0 / 1920.0,
+                        y: 392.0 / 1080.0,
+                        width: 102.0 / 1920.0,
+                        height: 29.0 / 1080.0
                     )
                 )
             ]
@@ -204,10 +204,10 @@ func makeMeatBurgerTown() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "aw.infection.easter.egg.meat.burgertown.10.burgertown.front.of.frying.pan.outline",
                     boundingBox: .init(
-                        x: 770.0 / 1920.0,
-                        y: 353.0 / 1080.0,
-                        width: 37.0 / 1920.0,
-                        height: 16.0 / 1080.0
+                        x: 212.0 / 1920.0,
+                        y: 392.0 / 1080.0,
+                        width: 102.0 / 1920.0,
+                        height: 29.0 / 1080.0
                     )
                 )
             ]

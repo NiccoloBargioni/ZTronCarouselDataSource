@@ -15,7 +15,7 @@ public func makeTranzitBusUpgrade() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 369.0 / 1920.0,
                         y: 507.0 / 1080.0,
-                        width: 399.0 / 1920.0,
+                        width: 400.0 / 1920.0,
                         height: 155.0 / 1080.0
                     )
                 )

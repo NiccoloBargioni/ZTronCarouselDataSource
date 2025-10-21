@@ -115,9 +115,9 @@ public func makeTheTombSymbols() -> SerializableGalleryRouter {
                     resourceName: "bo6.tt.easter.egg.symbols.lowercase.n.outline",
                     boundingBox: .init(
                         x: 2037.0 / 3840.0,
-                        y: 55.0 / 2160.0,
-                        width: 69.0 / 3840.0,
-                        height: 114.0 / 2160.0
+                        y: 54.0 / 2160.0,
+                        width: 73.0 / 3840.0,
+                        height: 116.0 / 2160.0
                     )
                 )
             ]

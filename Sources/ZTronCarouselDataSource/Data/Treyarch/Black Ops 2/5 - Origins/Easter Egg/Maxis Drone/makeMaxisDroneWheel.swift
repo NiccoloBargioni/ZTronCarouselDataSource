@@ -34,10 +34,10 @@ public func makeMaxisDroneWheel() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo2.origins.easter.egg.maxis.drone.wheel.opposite.pack.a.punch.outline",
                     boundingBox: .init(
-                        x: 208.0 / 1920.0,
-                        y: 554.0 / 1080.0,
+                        x: 308.0 / 1920.0,
+                        y: 553.0 / 1080.0,
                         width: 62.0 / 1920.0,
-                        height: 41.0 / 1080.0
+                        height: 42.0 / 1080.0
                     )
                 )
             ]

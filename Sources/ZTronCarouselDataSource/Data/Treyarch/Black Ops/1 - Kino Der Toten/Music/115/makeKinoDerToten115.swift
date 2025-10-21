@@ -58,9 +58,9 @@ public func makeKinoDerToten115() -> SerializableGalleryRouter {
                     resourceName: "bo.kdt.music.115.3.mystery.box.location.upstairs.past.staminup.outline",
                     boundingBox: .init(
                         x: 517.0 / 1920.0,
-                        y: 597.0 / 1080.0,
-                        width: 112.0 / 1920.0,
-                        height: 46.0 / 1080.0
+                        y: 696.0 / 1080.0,
+                        width: 111.0 / 1920.0,
+                        height: 47.0 / 1080.0
                     )
                 )
             ]
