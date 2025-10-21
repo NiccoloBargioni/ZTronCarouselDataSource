@@ -13,10 +13,10 @@ public func makeAOTRTObjectsMiscellaneous() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.mirrors.1.braille.card.spawn.atm.room.outline",
                     boundingBox: .init(
-                        x: 730.0 / 1920.0,
-                        y: 528.0 / 1080.0,
-                        width: 29.0 / 1920.0,
-                        height: 9.0 / 1080.0
+                        x: 1584.0 / 1920.0,
+                        y: 579.0 / 1080.0,
+                        width: 60.0 / 1920.0,
+                        height: 14.0 / 1080.0
                     )
                 )
             ]
@@ -34,10 +34,10 @@ public func makeAOTRTObjectsMiscellaneous() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.mirrors.2.book.safe.inside.wall.of.spawn.atm.room.outline",
                     boundingBox: .init(
-                        x: 730.0 / 1920.0,
-                        y: 528.0 / 1080.0,
-                        width: 29.0 / 1920.0,
-                        height: 9.0 / 1080.0
+                        x: 1376.0 / 1920.0,
+                        y: 407.0 / 1080.0,
+                        width: 60.0 / 1920.0,
+                        height: 13.0 / 1080.0
                     )
                 )
             ]
@@ -55,10 +55,10 @@ public func makeAOTRTObjectsMiscellaneous() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.easter.egg.objects.mirrors.3.elviras.magic.books.inside.chemicals.lab.outline",
                     boundingBox: .init(
-                        x: 730.0 / 1920.0,
-                        y: 528.0 / 1080.0,
-                        width: 29.0 / 1920.0,
-                        height: 9.0 / 1080.0
+                        x: 245.0 / 1920.0,
+                        y: 808.0 / 1080.0,
+                        width: 278.0 / 1920.0,
+                        height: 157.0 / 1080.0
                     )
                 )
             ]

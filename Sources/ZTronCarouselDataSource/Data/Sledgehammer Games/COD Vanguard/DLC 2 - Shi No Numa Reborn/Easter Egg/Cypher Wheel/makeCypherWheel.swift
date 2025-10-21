@@ -15,9 +15,9 @@ public func makeCypherWheel() -> SerializableGalleryRouter {
                     resourceName: "vanguard.shi.no.numa.reborn.easter.egg.cypher.wheel.below.spawn.outline",
                     boundingBox: .init(
                         x: 1812.0 / 3840.0,
-                        y: 1002.0 / 2160.0,
+                        y: 1003.0 / 2160.0,
                         width: 79.0 / 3840.0,
-                        height: 23.0 / 2160.0
+                        height: 21.0 / 2160.0
                     )
                 )
             ]

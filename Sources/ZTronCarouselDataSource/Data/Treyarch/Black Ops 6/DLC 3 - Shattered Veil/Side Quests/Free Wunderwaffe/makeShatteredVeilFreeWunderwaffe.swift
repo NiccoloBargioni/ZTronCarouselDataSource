@@ -14,10 +14,10 @@ public func makeShatteredVeilFreeWunderwaffe() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.free.wunderwaffe.bed.outline",
                     boundingBox: .init(
-                        x: 999.0 / 3840.0,
-                        y: 1019.0 / 2160.0,
-                        width: 190.0 / 3840.0,
-                        height: 65.0 / 2160.0
+                        x: 822.0 / 3840.0,
+                        y: 1035.0 / 2160.0,
+                        width: 278.0 / 3840.0,
+                        height: 58.0 / 2160.0
                     )
                 )
             ]

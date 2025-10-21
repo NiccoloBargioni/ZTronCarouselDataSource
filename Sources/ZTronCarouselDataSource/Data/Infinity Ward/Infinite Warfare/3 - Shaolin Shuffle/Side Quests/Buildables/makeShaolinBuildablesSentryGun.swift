@@ -75,10 +75,10 @@ func makeShaolinBuildablesSentryGun() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.side.quests.buildables.sentry.gun.4.next.to.van.front.of.blue.outline",
                     boundingBox: .init(
-                        x: 171.0 / 1920.0,
-                        y: 701.0 / 1080.0,
-                        width: 76.0 / 1920.0,
-                        height: 32.0 / 1080.0
+                        x: 621.0 / 1920.0,
+                        y: 752.0 / 1080.0,
+                        width: 33.0 / 1920.0,
+                        height: 20.0 / 1080.0
                     )
                 )
             ]

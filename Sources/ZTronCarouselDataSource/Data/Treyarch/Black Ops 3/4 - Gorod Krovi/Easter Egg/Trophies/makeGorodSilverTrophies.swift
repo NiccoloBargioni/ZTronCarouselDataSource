@@ -55,9 +55,9 @@ public func makeGorodSilverTrophies() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.gk.easter.egg.trophies.3.same.room.as.packapunch.in.a.toilet.outline",
                     boundingBox: .init(
-                        x: 153.0 / 1920.0,
-                        y: 588.0 / 1080.0,
-                        width: 171.0 / 1920.0,
+                        x: 152.0 / 1920.0,
+                        y: 587.0 / 1080.0,
+                        width: 172.0 / 1920.0,
                         height: 94.0 / 1080.0
                     )
                 )

@@ -36,9 +36,9 @@ func makeZetsubouShieldMainBunkerEntrance() -> SerializableGalleryNode {
                     resourceName: "bo3.zns.easter.egg.shield.2.rombe.3.outline",
                     boundingBox: .init(
                         x: 1512.0 / 1920.0,
-                        y: 457.0 / 1080.0,
-                        width: 89.0 / 1920.0,
-                        height: 63.0 / 1080.0
+                        y: 456.0 / 1080.0,
+                        width: 88.0 / 1920.0,
+                        height: 65.0 / 1080.0
                     )
                 )
             ]

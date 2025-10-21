@@ -15,10 +15,10 @@ func makeCivilProtectorWaterfront() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.soe.easter.egg.civil.protector.waterfront.waterfront.1.outline",
                     boundingBox: .init(
-                        x: 578.0 / 1920.0,
-                        y: 478.0 / 1080.0,
-                        width: 46.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 836.0 / 1920.0,
+                        y: 416.0 / 1080.0,
+                        width: 15.0 / 1920.0,
+                        height: 7.0 / 1080.0
                     )
                 )
             ]
@@ -36,10 +36,10 @@ func makeCivilProtectorWaterfront() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.soe.easter.egg.civil.protector.waterfront.waterfront.2.outline",
                     boundingBox: .init(
-                        x: 578.0 / 1920.0,
-                        y: 478.0 / 1080.0,
-                        width: 46.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 700.0 / 1920.0,
+                        y: 504.0 / 1080.0,
+                        width: 16.0 / 1920.0,
+                        height: 8.0 / 1080.0
                     )
                 )
             ]
@@ -57,10 +57,10 @@ func makeCivilProtectorWaterfront() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.soe.easter.egg.civil.protector.waterfront.waterfront.3.outline",
                     boundingBox: .init(
-                        x: 578.0 / 1920.0,
-                        y: 478.0 / 1080.0,
-                        width: 46.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 1056.0 / 1920.0,
+                        y: 432.0 / 1080.0,
+                        width: 10.0 / 1920.0,
+                        height: 5.0 / 1080.0
                     )
                 )
             ]

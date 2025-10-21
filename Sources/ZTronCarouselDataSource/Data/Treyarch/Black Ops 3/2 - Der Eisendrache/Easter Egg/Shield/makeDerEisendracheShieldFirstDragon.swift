@@ -18,7 +18,7 @@ func makeDerEisendracheShieldFirstDragon() -> SerializableGalleryNode {
                         x: 304.0 / 1920.0,
                         y: 603.0 / 1080.0,
                         width: 84.0 / 1920.0,
-                        height: 51.0 / 1080.0
+                        height: 52.0 / 1080.0
                     )
                 )
             ]

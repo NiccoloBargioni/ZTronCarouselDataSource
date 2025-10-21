@@ -67,9 +67,9 @@ public func makeCitadelleFreePerk() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.cdm.side.quests.free.perk.2.elemental.pop.outline",
                     boundingBox: .init(
-                        x: 3711.0 / 3840.0,
+                        x: 3716.0 / 3840.0,
                         y: 416.0 / 2160.0,
-                        width: 96.0 / 3840.0,
+                        width: 93.0 / 3840.0,
                         height: 62.0 / 2160.0
                     )
                 )

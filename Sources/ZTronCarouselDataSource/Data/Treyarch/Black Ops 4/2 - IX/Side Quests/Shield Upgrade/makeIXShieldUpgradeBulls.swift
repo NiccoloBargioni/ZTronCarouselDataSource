@@ -58,9 +58,9 @@ func makeIXShieldUpgradeBulls() -> SerializableGalleryNode {
                     resourceName: "bo4.ix.side.quests.shield.upgrade.bulls.zeus.titan.wallbuy.outline",
                     boundingBox: .init(
                         x: 977.0 / 1920.0,
-                        y: 447.0 / 1080.0,
+                        y: 448.0 / 1080.0,
                         width: 17.0 / 1920.0,
-                        height: 18.0 / 1080.0
+                        height: 17.0 / 1080.0
                     )
                 )
             ]

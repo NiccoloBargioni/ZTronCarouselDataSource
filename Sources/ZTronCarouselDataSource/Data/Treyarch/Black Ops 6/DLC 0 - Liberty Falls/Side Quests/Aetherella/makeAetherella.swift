@@ -56,7 +56,7 @@ public func makeAetherella() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.aetherella.3.aetherella.quick.revive.shop.opposite.quick.revive.outline",
                     boundingBox: .init(
-                        x: 2740.0 / 3840.0,
+                        x: 2470.0 / 3840.0,
                         y: 731.0 / 2160.0,
                         width: 34.0 / 3840.0,
                         height: 55.0 / 2160.0

@@ -13,10 +13,10 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo4.ao.easter.egg.codes.1.left.of.apd.interrogation.entrance.outline",
                     boundingBox: .init(
-                        x: 365.0 / 3840.0,
-                        y: 114.0 / 2160.0,
-                        width: 171.0 / 3840.0,
-                        height: 53.0 / 2160.0
+                        x: 368.0 / 3840.0,
+                        y: 1115.0 / 2160.0,
+                        width: 167.0 / 3840.0,
+                        height: 52.0 / 2160.0
                     )
                 )
             ]

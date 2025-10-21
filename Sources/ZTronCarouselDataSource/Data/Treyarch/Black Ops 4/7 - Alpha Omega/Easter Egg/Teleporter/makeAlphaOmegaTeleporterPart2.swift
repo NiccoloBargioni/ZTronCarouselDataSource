@@ -38,7 +38,7 @@ func makeAlphaOmegaTeleporterPart2() -> SerializableGalleryNode {
                         x: 724.0 / 1920.0,
                         y: 328.0 / 1080.0,
                         width: 87.0 / 1920.0,
-                        height: 58.0 / 1080.0
+                        height: 61.0 / 1080.0
                     )
                 )
             ]

@@ -64,7 +64,6 @@ func makeSilverBulletsSolfum() -> SerializableGalleryNode {
                     )
                 )
             ]
-        
     ), at: ["bo4.dotn.easter.egg.silver.bullets.organic.materials.solfum.3.left.of.fast.travel.greenhouse"])
     
 

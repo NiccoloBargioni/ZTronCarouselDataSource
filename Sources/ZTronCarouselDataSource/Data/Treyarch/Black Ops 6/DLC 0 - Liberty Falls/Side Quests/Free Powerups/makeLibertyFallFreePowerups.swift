@@ -68,7 +68,7 @@ public func makeLibertyFallFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.free.powerups.2.extra.credits.outline",
                     boundingBox: .init(
-                        x: 2033.0 / 3840.0,
+                        x: 2203.0 / 3840.0,
                         y: 785.0 / 2160.0,
                         width: 27.0 / 3840.0,
                         height: 27.0 / 2160.0
@@ -90,8 +90,8 @@ public func makeLibertyFallFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.free.powerups.3.max.armor.outline",
                     boundingBox: .init(
-                        x: 1703.0 / 3840.0,
-                        y: 785.0 / 2160.0,
+                        x: 1107.0 / 3840.0,
+                        y: 1093.0 / 2160.0,
                         width: 107.0 / 3840.0,
                         height: 29.0 / 2160.0
                     )
@@ -134,8 +134,8 @@ public func makeLibertyFallFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.free.powerups.4.instakill.outline",
                     boundingBox: .init(
-                        x: 2467.0 / 3840.0,
-                        y: 865.0 / 2160.0,
+                        x: 2286.0 / 3840.0,
+                        y: 815.0 / 2160.0,
                         width: 11.0 / 3840.0,
                         height: 12.0 / 2160.0
                     )

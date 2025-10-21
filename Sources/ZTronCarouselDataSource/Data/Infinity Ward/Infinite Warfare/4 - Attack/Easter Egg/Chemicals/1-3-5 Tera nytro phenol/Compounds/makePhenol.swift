@@ -35,10 +35,10 @@ func makePhenol() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.aotrt.ee.chemicals.beachside.market.shelf.wheel.cleaner.outline",
                     boundingBox: .init(
-                        x: 1145.0/2715.0,
-                        y: 582.0/1527.0,
-                        width: 13.0/2715.0,
-                        height: 38.0/1527.0
+                        x: 1203.0/2715.0,
+                        y: 709.0/1527.0,
+                        width: 8.0/2715.0,
+                        height: 22.0/1527.0
                     )
                 )
             ]

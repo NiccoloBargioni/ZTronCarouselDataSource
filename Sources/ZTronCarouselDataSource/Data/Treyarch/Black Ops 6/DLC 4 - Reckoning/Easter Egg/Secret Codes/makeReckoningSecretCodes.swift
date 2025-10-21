@@ -33,9 +33,9 @@ public func makeReckoningSecretCodes() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.reckoning.easter.egg.secret.codes.elemental.pop.outline",
                     boundingBox: .init(
-                        x: 1748.0 / 3840.0,
+                        x: 1650.0 / 3840.0,
                         y: 935.0 / 2160.0,
-                        width: 181.0 / 3840.0,
+                        width: 178.0 / 3840.0,
                         height: 82.0 / 2160.0
                     )
                 )

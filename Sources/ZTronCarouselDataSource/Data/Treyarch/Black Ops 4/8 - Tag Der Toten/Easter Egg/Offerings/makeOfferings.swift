@@ -139,10 +139,10 @@ public func makeOfferings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo4.tdt.easter.egg.offerings.where.feet.slip.outline",
                     boundingBox: .init(
-                        x: 951.0/1920.0,
-                        y: 516.0/1080.0,
-                        width: 34.0/1920.0,
-                        height: 8.0/1080.0
+                        x: 856.0/1920.0,
+                        y: 519.0/1080.0,
+                        width: 11.0/1920.0,
+                        height: 4.0/1080.0
                     )
                 )
             ]

@@ -36,10 +36,10 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.2.table.jugg.wunderfitz.outline",
                     boundingBox: .init(
-                        x: 607.0 / 1920.0,
-                        y: 394.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 30.0 / 1080.0
+                        x: 608.0 / 1920.0,
+                        y: 395.0 / 1080.0,
+                        width: 26.0 / 1920.0,
+                        height: 29.0 / 1080.0
                     )
                 )
             ]
@@ -57,7 +57,7 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.chronicles.origins.wonder.weapons.lightning.staff.disc.3.wind.staff.portal.outline",
                     boundingBox: .init(
-                        x: 1170.0 / 1920.0,
+                        x: 1169.0 / 1920.0,
                         y: 431.0 / 1080.0,
                         width: 48.0 / 1920.0,
                         height: 46.0 / 1080.0

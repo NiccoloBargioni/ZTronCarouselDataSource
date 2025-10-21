@@ -75,10 +75,10 @@ public func makeMDTTempest() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bocw.mdt.easter.egg.tempest.ghost.station.outline",
                     boundingBox: .init(
-                        x: 1191.0 / 3840.0,
-                        y: 457.0 / 2160.0,
-                        width: 28.0 / 3840.0,
-                        height: 26.0 / 2160.0
+                        x: 1191.0 / 1920.0,
+                        y: 457.0 / 1080.0,
+                        width: 28.0 / 1920.0,
+                        height: 26.0 / 1080.0
                     )
                 )
             ]

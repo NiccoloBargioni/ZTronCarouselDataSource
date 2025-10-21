@@ -36,10 +36,10 @@ func makeChroniclesOriginsShieldWindow() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.chronicles.origins.side.quests.shield.2.115.rocks.outline",
                     boundingBox: .init(
-                        x: 1568.0 / 1920.0,
-                        y: 447.0 / 1080.0,
-                        width: 286.0 / 1920.0,
-                        height: 106.0 / 1080.0
+                        x: 1370.0 / 1920.0,
+                        y: 390.0 / 1080.0,
+                        width: 122.0 / 1920.0,
+                        height: 61.0 / 1080.0
                     )
                 )
             ]

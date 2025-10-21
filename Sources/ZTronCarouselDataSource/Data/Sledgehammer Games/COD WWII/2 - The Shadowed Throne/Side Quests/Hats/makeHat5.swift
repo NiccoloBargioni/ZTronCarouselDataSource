@@ -13,8 +13,8 @@ func makeHat5() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.side.quests.hat.5.front.theatre.outline",
                     boundingBox: CGRect(
-                        x: 413.0/2715.0, y: 708.0/1527.0,
-                        width: 56.0/2715.0, height: 31.0/1527.0
+                        x: 629.0/2715.0, y: 946.0/1527.0,
+                        width: 155.0/2715.0, height: 108.0/1527.0
                 )),
 
                 SerializableBoundingCircleNode()
@@ -26,7 +26,7 @@ func makeHat5() -> SerializableGalleryNode {
     hat5.register(
         SerializableImageNode(
             name: "wwii.tst.side.quests.hat.5.museum",
-            description: "wwii.tst.side.quests.hat.5.museum",
+            description: "wwii.tst.side.quests.hat.5.museum.caption",
             position: 1,
             overlays: [
                 SerializableOutlineNode(

@@ -13,10 +13,10 @@ public func makeBeneathTheIceRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.beneath.the.ice.side.quests.recordings.close.to.starting.weapon.wallbuy.outline",
                     boundingBox: .init(
-                        x: 1015.0 / 1920.0,
-                        y: 261.0 / 1080.0,
-                        width: 29.0 / 1920.0,
-                        height: 40.0 / 1080.0
+                        x: 870.0 / 1920.0,
+                        y: 187.0 / 1080.0,
+                        width: 25.0 / 1920.0,
+                        height: 15.0 / 1080.0
                     )
                 )
             ]

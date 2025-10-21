@@ -39,7 +39,7 @@ func makeVoyageShieldWindow() -> SerializableGalleryNode {
                         x: 1063.0 / 1920.0,
                         y: 437.0 / 1080.0,
                         width: 47.0 / 1920.0,
-                        height: 49.0 / 1080.0
+                        height: 56.0 / 1080.0
                     )
                 )
             ]

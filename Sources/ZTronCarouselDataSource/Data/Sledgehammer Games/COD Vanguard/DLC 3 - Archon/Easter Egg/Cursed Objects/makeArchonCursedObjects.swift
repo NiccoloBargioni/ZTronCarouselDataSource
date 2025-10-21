@@ -56,7 +56,7 @@ public func makeArchonCursedObjects() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "vanguard.archon.easter.egg.cursed.objects.skull.diabolic.damage.outline",
                     boundingBox: .init(
-                        x: 2348.0 / 3840.0,
+                        x: 2438.0 / 3840.0,
                         y: 913.0 / 2160.0,
                         width: 31.0 / 3840.0,
                         height: 24.0 / 2160.0

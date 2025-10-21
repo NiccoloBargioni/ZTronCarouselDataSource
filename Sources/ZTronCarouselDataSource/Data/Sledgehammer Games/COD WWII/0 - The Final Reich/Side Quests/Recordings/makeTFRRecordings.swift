@@ -34,10 +34,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.courtyard.outline",
                     boundingBox: .init(
-                        x: 235.0 / 1920.0,
-                        y: 836.0 / 1080.0,
-                        width: 193.0 / 1920.0,
-                        height: 59.0 / 1080.0
+                        x: 235.0 / 2715.0,
+                        y: 836.0 / 1527.0,
+                        width: 193.0 / 2715.0,
+                        height: 59.0 / 1527.0
                     )
                 )
             ]
@@ -76,10 +76,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.front.of.salt.mines.door.outline",
                     boundingBox: .init(
-                        x: 1631.0 / 1920.0,
-                        y: 693.0 / 1080.0,
-                        width: 116.0 / 1920.0,
-                        height: 56.0 / 1080.0
+                        x: 1631.0 / 2715.0,
+                        y: 693.0 / 1527.0,
+                        width: 116.0 / 2715.0,
+                        height: 56.0 / 1527.0
                     )
                 )
             ]
@@ -139,10 +139,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.morgue.past.testla.core.machine.before.trap.outline",
                     boundingBox: .init(
-                        x: 671.0 / 1920.0,
-                        y: 959.0 / 1080.0,
-                        width: 120.0 / 1920.0,
-                        height: 48.0 / 1080.0
+                        x: 671.0 / 2715.0,
+                        y: 959.0 / 1527.0,
+                        width: 120.0 / 2715.0,
+                        height: 48.0 / 1527.0
                     )
                 )
             ]
@@ -202,10 +202,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.double.tap.pub.outline",
                     boundingBox: .init(
-                        x: 1681.0 / 1920.0,
-                        y: 687.0 / 1080.0,
-                        width: 73.0 / 1920.0,
-                        height: 22.0 / 1080.0
+                        x: 1681.0 / 2715.0,
+                        y: 687.0 / 1527.0,
+                        width: 73.0 / 2715.0,
+                        height: 22.0 / 1527.0
                     )
                 )
             ]
@@ -265,10 +265,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.toy.shop.outline",
                     boundingBox: .init(
-                        x: 439.0 / 1920.0,
-                        y: 469.0 / 1080.0,
-                        width: 94.0 / 1920.0,
-                        height: 20.0 / 1080.0
+                        x: 439.0 / 2715.0,
+                        y: 469.0 / 1527.0,
+                        width: 94.0 / 2715.0,
+                        height: 20.0 / 1527.0
                     )
                 )
             ]

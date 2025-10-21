@@ -23,5 +23,10 @@ public func makeWintersHowl() -> SerializableGalleryRouter {
         at: ["kino der toten"]
     )
     
+    wintersHowlLocations.router.register(
+        makeWintersHowlPickupLocation(),
+        at: ["pickup location"]
+    )
+    
     return wintersHowlLocations
 }

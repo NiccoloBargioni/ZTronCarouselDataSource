@@ -59,9 +59,9 @@ public func makeTowerOfRaGladiators() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo4.ix.easter.egg.gladiator.symbols.3.tower.of.danu.perk.window.outline",
                     boundingBox: .init(
-                        x: 248.0 / 1920.0,
+                        x: 347.0 / 1920.0,
                         y: 459.0 / 1080.0,
-                        width: 21.0 / 1920.0,
+                        width: 22.0 / 1920.0,
                         height: 22.0 / 1080.0
                     )
                 )

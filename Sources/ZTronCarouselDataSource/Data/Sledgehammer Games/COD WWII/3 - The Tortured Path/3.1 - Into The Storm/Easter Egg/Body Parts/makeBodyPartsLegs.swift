@@ -161,10 +161,10 @@ func makeBodyPartsLegs() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.ttp.into.the.storm.easter.egg.body.parts.legs.8.leg.flowers.1.outline",
                     boundingBox: .init(
-                        x: 1393.0 / 1920.0,
-                        y: 351.0 / 1080.0,
-                        width: 135.0 / 1920.0,
-                        height: 100.0 / 1080.0
+                        x: 1394.0 / 1920.0,
+                        y: 328.0 / 1080.0,
+                        width: 133.0 / 1920.0,
+                        height: 99.0 / 1080.0
                     )
                 )
             ]

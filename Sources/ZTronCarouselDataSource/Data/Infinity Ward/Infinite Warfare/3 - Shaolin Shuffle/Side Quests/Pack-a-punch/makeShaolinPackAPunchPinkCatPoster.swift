@@ -77,10 +77,10 @@ func makeShaolinPackAPunchPinkCatPoster() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.pink.cat.poster.4.outside.pink.cat.cinema.outline",
                     boundingBox: .init(
-                        x: 553.0 / 2715.0,
-                        y: 504.0 / 1527.0,
-                        width: 51.0 / 2715.0,
-                        height: 12.0 / 1527.0
+                        x: 8344.0 / 2715.0,
+                        y: 955.0 / 1527.0,
+                        width: 92.0 / 2715.0,
+                        height: 29.0 / 1527.0
                     )
                 )
             ]

@@ -54,10 +54,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.between.double.tap.and.death.perception.outline",
                     boundingBox: .init(
-                        x: 2490.0 / 3840.0,
-                        y: 990.0 / 2160.0,
-                        width: 198.0 / 3840.0,
-                        height: 148.0 / 2160.0
+                        x: 28450.0 / 3840.0,
+                        y: 1090.0 / 2160.0,
+                        width: 208.0 / 3840.0,
+                        height: 111.0 / 2160.0
                     )
                 )
             ]
@@ -95,10 +95,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.death.perception.outline",
                     boundingBox: .init(
-                        x: 1437.0 / 3840.0,
-                        y: 1186.0 / 2160.0,
-                        width: 71.0 / 3840.0,
-                        height: 81.0 / 2160.0
+                        x: 2490.0 / 3840.0,
+                        y: 989.0 / 2160.0,
+                        width: 198.0 / 3840.0,
+                        height: 151.0 / 2160.0
                     )
                 )
             ]
@@ -155,10 +155,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.greenhouse.covered.statue.outline",
                     boundingBox: .init(
-                        x: 1979.0 / 3840.0,
+                        x: 2981.0 / 3840.0,
                         y: 977.0 / 2160.0,
-                        width: 193.0 / 3840.0,
-                        height: 131.0 / 2160.0
+                        width: 191.0 / 3840.0,
+                        height: 126.0 / 2160.0
                     )
                 )
             ]
@@ -336,10 +336,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.staminup.outline",
                     boundingBox: .init(
-                        x: 517.0 / 3840.0,
-                        y: 993.0 / 2160.0,
-                        width: 489.0 / 3840.0,
-                        height: 265.0 / 2160.0
+                        x: 521.0 / 3840.0,
+                        y: 991.0 / 2160.0,
+                        width: 484.0 / 3840.0,
+                        height: 271.0 / 2160.0
                     )
                 )
             ]
@@ -356,10 +356,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.trex.above.juggernog.outline",
                     boundingBox: .init(
-                        x: 860.0 / 3840.0,
-                        y: 1085.0 / 2160.0,
-                        width: 119.0 / 3840.0,
-                        height: 92.0 / 2160.0
+                        x: 725.0 / 3840.0,
+                        y: 857.0 / 2160.0,
+                        width: 378.0 / 3840.0,
+                        height: 184.0 / 2160.0
                     )
                 )
             ]

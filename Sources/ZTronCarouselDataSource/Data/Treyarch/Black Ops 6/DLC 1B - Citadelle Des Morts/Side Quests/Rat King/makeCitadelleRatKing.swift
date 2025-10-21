@@ -161,10 +161,10 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.cdm.side.quests.rat.king.spawn.outline",
                     boundingBox: .init(
-                        x: 1938.0 / 3840.0,
-                        y: 959.0 / 2160.0,
-                        width: 6.0 / 3840.0,
-                        height: 8.0 / 2160.0
+                        x: 722.0 / 3840.0,
+                        y: 1033.0 / 2160.0,
+                        width: 59.0 / 3840.0,
+                        height: 8560 / 2160.0
                     )
                 )
             ]

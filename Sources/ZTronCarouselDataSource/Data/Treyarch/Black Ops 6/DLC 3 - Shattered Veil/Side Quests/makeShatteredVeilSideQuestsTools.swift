@@ -8,10 +8,11 @@ public func makeShatteredVeilSideQuestsTools() -> SerializableToolsRouter {
         at: ["free powerups"]
     )
     
+    /*
     svSideQuestsTools.router.register(
         makeShatteredVeilFogTool(),
         at: ["fog"]
-    )
+    )*/
     
     svSideQuestsTools.router.register(
         makeShatteredVeilFreeWunderwaffeTool(),

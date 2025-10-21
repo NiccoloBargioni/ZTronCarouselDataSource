@@ -61,7 +61,7 @@ public func makePrimordialWeapon() -> SerializableGalleryRouter {
                         x: 963.0 / 1920.0,
                         y: 570.0 / 1080.0,
                         width: 19.0 / 1920.0,
-                        height: 26.0 / 1080.0
+                        height: 27.0 / 1080.0
                     )
                 )
             ]
@@ -147,8 +147,8 @@ public func makePrimordialWeapon() -> SerializableGalleryRouter {
                     resourceName: "bo4.ae.easter.egg.dormant.hands.7.where.the.arrow.splits.the.road.outline",
                     boundingBox: .init(
                         x: 855.0 / 1920.0,
-                        y: 764.0 / 1080.0,
-                        width: 83.0 / 1920.0,
+                        y: 675.0 / 1080.0,
+                        width: 84.0 / 1920.0,
                         height: 51.0 / 1080.0
                     )
                 )

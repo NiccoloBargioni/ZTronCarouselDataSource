@@ -13,9 +13,9 @@ func makeHat1() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.side.quests.hat.1.church.outline",
                     boundingBox: CGRect(
-                    x: 1288.0/2715.0, y: 722.0/1527.0,
-                    width: 19.0/2715.0, height: 32.0/1527.0
-                )),
+                        x: 1123.0/2715.0, y: 594.0/1527.0,
+                        width: 19.0/2715.0, height: 32.0/1527.0
+                    )),
 
                 SerializableBoundingCircleNode()
             ]

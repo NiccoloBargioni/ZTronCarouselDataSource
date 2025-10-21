@@ -121,7 +121,7 @@ public func makeVoidBowSkulls() -> SerializableGalleryRouter {
                         x: 280.0 / 1920.0,
                         y: 787.0 / 1080.0,
                         width: 116.0 / 1920.0,
-                        height: 76.0 / 1080.0
+                        height: 77.0 / 1080.0
                     )
                 )
             ]

@@ -13,10 +13,10 @@ public func makeWolfBowPaintings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.wonder.weapons.wolf.bow.paintings.below.clock.tower.outline",
                     boundingBox: .init(
-                        x: 1160 / 1920.0,
-                        y: 336.0 / 1080.0,
-                        width: 27.0 / 1920.0,
-                        height: 23.0 / 1080.0
+                        x: 465 / 1920.0,
+                        y: 368.0 / 1080.0,
+                        width: 157.0 / 1920.0,
+                        height: 207.0 / 1080.0
                     )
                 )
             ]
@@ -33,10 +33,10 @@ public func makeWolfBowPaintings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.wonder.weapons.wolf.bow.paintings.castle.past.knight.statues.outline",
                     boundingBox: .init(
-                        x: 1204.0 / 1920.0,
-                        y: 379.0 / 1080.0,
-                        width: 20.0 / 1920.0,
-                        height: 15.0 / 1080.0
+                        x: 1406.0 / 1920.0,
+                        y: 269.0 / 1080.0,
+                        width: 121.0 / 1920.0,
+                        height: 304.0 / 1080.0
                     )
                 )
             ]
@@ -54,10 +54,10 @@ public func makeWolfBowPaintings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.wonder.weapons.wolf.bow.paintings.church.upstairs.past.m8a1.wallbuy.outline",
                     boundingBox: .init(
-                        x: 1015.0 / 1920.0,
-                        y: 458.0 / 1080.0,
-                        width: 63.0 / 1920.0,
-                        height: 46.0 / 1080.0
+                        x: 540.0 / 1920.0,
+                        y: 239.0 / 1080.0,
+                        width: 150.0 / 1920.0,
+                        height: 226.0 / 1080.0
                     )
                 )
             ]
@@ -75,10 +75,10 @@ public func makeWolfBowPaintings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.wonder.weapons.wolf.bow.paintings.inside.clock.tower.outline",
                     boundingBox: .init(
-                        x: 629.0 / 1920.0,
-                        y: 627.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 38.0 / 1080.0
+                        x: 534.0 / 1920.0,
+                        y: 293.0 / 1080.0,
+                        width: 139.0 / 1920.0,
+                        height: 181.0 / 1080.0
                     )
                 )
             ]

@@ -13,10 +13,10 @@ public func makeBeautyOfAnnihilation() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.tg.music.beauty.of.annihilation.1.animal.testing.one.outline",
                     boundingBox: .init(
-                        x: 754.0 / 1920.0,
+                        x: 755.0 / 1920.0,
                         y: 338.0 / 1080.0,
-                        width: 43.0 / 1920.0,
-                        height: 94.0 / 1080.0
+                        width: 42.0 / 1920.0,
+                        height: 95.0 / 1080.0
                     )
                 )
             ]

@@ -13,10 +13,10 @@ public func makeTDSRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tds.side.quests.recordings.beach.passage.outline",
                     boundingBox: .init(
-                        x: 1727.0 / 1920.0,
-                        y: 656.0 / 1080.0,
-                        width: 19.0 / 1920.0,
-                        height: 31.0 / 1080.0
+                        x: 1727.0 / 2715.0,
+                        y: 656.0 / 1527.0,
+                        width: 19.0 / 2715.0,
+                        height: 31.0 / 1527.0
                     )
                 )
             ]

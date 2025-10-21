@@ -115,10 +115,10 @@ public func makeShatteredVeilFog() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.fog.microwave.before.phd.outline",
                     boundingBox: .init(
-                        x: 3089.0 / 3840.0,
-                        y: 852.0 / 2160.0,
-                        width: 198.0 / 3840.0,
-                        height: 68.0 / 2160.0
+                        x: 1687.0 / 3840.0,
+                        y: 999.0 / 2160.0,
+                        width: 69.0 / 3840.0,
+                        height: 63.0 / 2160.0
                     )
                 )
             ]
@@ -156,10 +156,10 @@ public func makeShatteredVeilFog() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.fog.microwave.trex.room.outline",
                     boundingBox: .init(
-                        x: 1687.0 / 3840.0,
-                        y: 1000.0 / 2160.0,
-                        width: 58.0 / 3840.0,
-                        height: 63.0 / 2160.0
+                        x: 3089.0 / 3840.0,
+                        y: 853.0 / 2160.0,
+                        width: 198.0 / 3840.0,
+                        height: 68.0 / 2160.0
                     )
                 )
             ]

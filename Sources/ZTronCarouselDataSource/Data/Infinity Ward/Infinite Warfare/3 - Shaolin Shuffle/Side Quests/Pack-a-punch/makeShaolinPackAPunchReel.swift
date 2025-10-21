@@ -56,9 +56,9 @@ func makeShaolinPackAPunchReel() -> SerializableGalleryNode {
                     resourceName: "iw.shaolin.shuffle.side.quests.pack.a.punch.reel.3.locker.underground.entrance.outline",
                     boundingBox: .init(
                         x: 1213.0 / 2715.0,
-                        y: 662.0 / 1527.0,
+                        y: 621.0 / 1527.0,
                         width: 42.0 / 2715.0,
-                        height: 64.0 / 1527.0
+                        height: 67.0 / 1527.0
                     )
                 )
             ]

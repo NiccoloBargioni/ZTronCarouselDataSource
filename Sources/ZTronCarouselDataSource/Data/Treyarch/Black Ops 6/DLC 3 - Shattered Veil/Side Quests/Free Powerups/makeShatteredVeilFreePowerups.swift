@@ -20,10 +20,10 @@ public func makeShatteredVeilFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.free.power.ups.double.points.outline",
                     boundingBox: .init(
-                        x: 2556.0 / 3840.0,
-                        y: 908.0 / 2160.0,
-                        width: 20.0 / 3840.0,
-                        height: 18.0 / 2160.0
+                        x: 3633.0 / 3840.0,
+                        y: 1012.0 / 2160.0,
+                        width: 21.0 / 3840.0,
+                        height: 10.0 / 2160.0
                     )
                 )
             ]
@@ -83,10 +83,10 @@ public func makeShatteredVeilFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.free.power.ups.full.armor.outline",
                     boundingBox: .init(
-                        x: 3178.0 / 3840.0,
+                        x: 3180.0 / 3840.0,
                         y: 810.0 / 2160.0,
-                        width: 63.0 / 3840.0,
-                        height: 49.0 / 2160.0
+                        width: 62.0 / 3840.0,
+                        height: 48.0 / 2160.0
                     )
                 )
             ]

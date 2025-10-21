@@ -37,10 +37,10 @@ func makeDerEisendracheShieldThirdDragon() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.easter.egg.shield.third.dragon.above.portal.room.outline",
                     boundingBox: .init(
-                        x: 1023.0 / 1920.0,
-                        y: 224.0 / 1080.0,
-                        width: 61.0 / 1920.0,
-                        height: 86.0 / 1080.0
+                        x: 598.0 / 1920.0,
+                        y: 177.0 / 1080.0,
+                        width: 60.0 / 1920.0,
+                        height: 79.0 / 1080.0
                     )
                 )
             ]
@@ -59,10 +59,10 @@ func makeDerEisendracheShieldThirdDragon() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.de.easter.egg.shield.third.dragon.right.of.entrance.outline",
                     boundingBox: .init(
-                        x: 598.0 / 1920.0,
-                        y: 177.0 / 1080.0,
-                        width: 60.0 / 1920.0,
-                        height: 78.0 / 1080.0
+                        x: 1031.0 / 1920.0,
+                        y: 225.0 / 1080.0,
+                        width: 54.0 / 1920.0,
+                        height: 85.0 / 1080.0
                     )
                 )
             ]

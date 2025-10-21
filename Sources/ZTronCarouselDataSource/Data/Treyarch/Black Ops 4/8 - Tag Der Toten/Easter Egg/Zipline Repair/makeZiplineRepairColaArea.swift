@@ -18,7 +18,7 @@ func makeZiplineRepairColaArea() -> SerializableGalleryNode {
                         x: 850.0 / 1920.0,
                         y: 453.0 / 1080.0,
                         width: 26.0 / 1920.0,
-                        height: 35.0 / 1080.0
+                        height: 36.0 / 1080.0
                     )
                 )
             ]

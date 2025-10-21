@@ -17,7 +17,7 @@ func makeSergejHeadRockyDefense() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 3404.0 / 3840.0,
                         y: 1062.0 / 2160.0,
-                        width: 169.0 / 3840.0,
+                        width: 210.0 / 3840.0,
                         height: 74.0 / 2160.0
                     )
                 )

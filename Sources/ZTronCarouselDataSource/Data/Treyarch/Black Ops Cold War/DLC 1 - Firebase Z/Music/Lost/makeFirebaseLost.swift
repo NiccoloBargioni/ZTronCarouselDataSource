@@ -34,10 +34,10 @@ public func makeFirebaseLost() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bocw.firebase.music.lost.after.first.door.outline",
                     boundingBox: .init(
-                        x: 304.0 / 3840.0,
-                        y: 1182.0 / 2160.0,
-                        width: 163.0 / 3840.0,
-                        height: 87.0 / 2160.0
+                        x: 306.0 / 3840.0,
+                        y: 1156.0 / 2160.0,
+                        width: 162.0 / 3840.0,
+                        height: 111.0 / 2160.0
                     )
                 )
             ]
