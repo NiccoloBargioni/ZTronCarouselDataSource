@@ -20,7 +20,7 @@ public func makeWintersHowlPickupLocation() -> SerializableGalleryNode {
                     )
                 )
             ]
-        ), at: ["bo4.classified.easter.egg.winters.howl.3.kino.der.toten.1.upstairs.right.of.giant.screen"]
+        ), at: ["bo4.classified.easter.egg.winters.howl.4.pickup.locations.inside.panic.room"]
     )
     
     
