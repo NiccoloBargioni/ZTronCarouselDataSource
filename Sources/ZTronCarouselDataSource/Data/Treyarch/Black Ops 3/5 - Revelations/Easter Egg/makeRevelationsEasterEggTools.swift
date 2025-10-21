@@ -2,11 +2,12 @@ import ZTronSerializable
 
 public func makeRevelationsEasterEggTools() -> SerializableToolsRouter {
     let ee = SerializableToolsRouter()
-    
+    /*
     ee.router.register(
         makeRevelationsVikingMaskTool(),
         at: [">", "viking mask"]
     )
+    */
     
     ee.router.register(
         makeRevelationsShieldTool(),

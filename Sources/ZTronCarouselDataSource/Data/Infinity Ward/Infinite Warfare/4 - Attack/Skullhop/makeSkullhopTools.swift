@@ -8,7 +8,7 @@ public func makeAOTRTSkullhopTools() -> SerializableToolsRouter {
         at: [">", "skullhop step 1"]
     )
 
-    
+    /*
     skullhopTools.router.register(
         SerializableToolNode(
             name: "iw.aotrt.skullhop.zombies.calculator.tool.name",
@@ -17,12 +17,12 @@ public func makeAOTRTSkullhopTools() -> SerializableToolsRouter {
             galleryRouter: nil
         ),
         at: [">", "zombies calculator"]
-    )
+    )*/
 
     skullhopTools.router.register(
         SerializableToolNode(
             name: "iw.aotrt.skullhop.swings.cypher.tool.name",
-            position: 2,
+            position: 1,
             assetsImageName: "iw.aotrt.skullhop.swings.cypher.icon",
             galleryRouter: nil
         ),

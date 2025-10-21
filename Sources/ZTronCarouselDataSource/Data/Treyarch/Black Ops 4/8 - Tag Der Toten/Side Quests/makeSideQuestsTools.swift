@@ -18,11 +18,11 @@ func makeTDTSideQuestsTools() -> SerializableToolsRouter {
         at: [">", "free tundragun"]
     )
     
-    
+    /*
     tools.router.register(
         makeTDTMannequinTool(),
         at: [">", "mannequins"]
-    )
+    )*/
     
     
     

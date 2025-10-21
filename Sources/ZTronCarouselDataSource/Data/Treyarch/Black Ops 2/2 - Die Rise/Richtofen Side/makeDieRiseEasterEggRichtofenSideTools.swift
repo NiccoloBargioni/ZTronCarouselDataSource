@@ -8,10 +8,11 @@ public func makeDieRiseEasterEggRichtofenSideTools() -> SerializableToolsRouter 
         at: [">", "flinging zombies"]
     )
     
+    /*
     dieRseEasterEggTools.router.register(
         makeDieRiseRichtofenSymbolsTool(),
         at: [">", "symbols sequence"]
-    )
+    )*/
 
     return dieRseEasterEggTools
 }

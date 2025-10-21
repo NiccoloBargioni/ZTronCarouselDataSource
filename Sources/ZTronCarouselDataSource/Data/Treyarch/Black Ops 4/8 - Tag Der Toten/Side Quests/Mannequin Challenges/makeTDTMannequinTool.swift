@@ -27,22 +27,8 @@ func makeTDTMannequinTool() -> SerializableToolNode {
     let sosLocations = makeTDTMannequinSOS()
     
     sosLocations.router.forEach { absolutePath, output in
-        var newPath = ["bo4.tdt.side.quests.mannequin.challenges.sos"]
-        
-        for pathComponent in absolutePath {
-            if pathComponent != sosLocations.router.getRootSymbol() {
-                newPath.append(pathComponent)
-            }
-        }
-        
-        if newPath.count > 2 {
-            mannequinChallengesRouter.router.register(
-                output,
-                at: newPath
-            )
-        }
+        mannequinChallengesRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
     }
-    
     
     return .init(
         name: "bo4.tdt.side.quests.mannequin.challenges.tool.name",

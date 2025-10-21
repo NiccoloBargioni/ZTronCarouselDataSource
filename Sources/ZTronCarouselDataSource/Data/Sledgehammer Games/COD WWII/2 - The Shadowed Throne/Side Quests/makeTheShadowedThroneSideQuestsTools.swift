@@ -8,6 +8,7 @@ public func makeTheShadowedThroneSideQuestsTools() -> SerializableToolsRouter {
         at: [">", "hats"]
     )
 
+    /*
     sideQuestsTools.router.register(
         SerializableToolNode(
             name: "wwii.tst.side.quests.hangman.tool.name",
@@ -16,7 +17,7 @@ public func makeTheShadowedThroneSideQuestsTools() -> SerializableToolsRouter {
             galleryRouter: nil
         ),
         at: [">", "hangman"]
-    )
+    )*/
     
     sideQuestsTools.router.register(
         makeTSTRecordingsTool(),

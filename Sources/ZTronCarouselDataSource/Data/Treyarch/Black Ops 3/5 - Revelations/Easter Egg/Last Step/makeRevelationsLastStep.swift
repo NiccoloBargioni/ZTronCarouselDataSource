@@ -26,7 +26,7 @@ func makeRevelationsLastStep() -> SerializableToolNode {
     
     return .init(
         name: "bo3.revelations.easter.egg.last.step.tool.name",
-        position: 7,
+        position: 6,
         assetsImageName: "bo3.revelations.easter.egg.last.step.logo",
         galleryRouter: lastStepRouter
     )

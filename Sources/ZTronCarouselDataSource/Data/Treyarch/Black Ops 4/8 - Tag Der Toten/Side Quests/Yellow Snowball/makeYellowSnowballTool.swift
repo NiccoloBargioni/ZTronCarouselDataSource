@@ -24,26 +24,6 @@ func makeYellowSnowballTool() -> SerializableToolNode {
         }
     }
     
-
-    let frames = makeYellowSnowballCampFire()
-    
-    frames.router.forEach { absolutePath, output in
-        var newPath = ["bo4.tdt.side.quests.yellow.snowballs.camp.fire"]
-        
-        for pathComponent in absolutePath {
-            if pathComponent != frames.router.getRootSymbol() {
-                newPath.append(pathComponent)
-            }
-        }
-        
-        if newPath.count > 2 {
-            yellowSnowballStepsRouter.router.register(
-                output,
-                at: newPath
-            )
-        }
-    }
-    
     
     return .init(
         name: "bo4.tdt.side.quests.yellow.snowballs.tool.name",

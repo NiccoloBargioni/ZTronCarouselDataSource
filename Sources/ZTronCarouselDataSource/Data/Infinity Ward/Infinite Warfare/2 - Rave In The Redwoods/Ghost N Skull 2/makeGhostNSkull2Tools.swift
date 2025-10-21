@@ -3,6 +3,7 @@ import ZTronSerializable
 public func makeGhostNSkull2Tools() -> SerializableToolsRouter {
     let gns2Tools = SerializableToolsRouter()
     
+    /*
     gns2Tools.router.register(
         SerializableToolNode(
             name: "iw.ritr.ghost.n.skull.2.zombies.calculator.tool.name",
@@ -11,7 +12,7 @@ public func makeGhostNSkull2Tools() -> SerializableToolsRouter {
             galleryRouter: nil
         ),
         at: [">", "zombies calculator"]
-    )
+    )*/
 
     gns2Tools.router.register(
         makeRaveGNS2SymbolsTool(),

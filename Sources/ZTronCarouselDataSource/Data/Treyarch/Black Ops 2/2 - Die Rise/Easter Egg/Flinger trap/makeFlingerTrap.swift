@@ -172,27 +172,6 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
 
     flingerTrapLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack",
-            description: "bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack.caption",
-            position: 8,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack.outline",
-                    boundingBox: .init(
-                        x: 171.0 / 1920.0,
-                        y: 699.0 / 1080.0,
-                        width: 50.0 / 1920.0,
-                        height: 127.0 / 1080.0
-                    )
-                )
-            ]
-        
-    ), at: ["bo2.die.rise.easter.egg.shared.flinger.trap.8.bear.lake.surf.boards.stack"])
-    
-
-    flingerTrapLocations.register(
-        SerializableImageNode(
             name: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3",
             description: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3.caption",
             position: 9,
