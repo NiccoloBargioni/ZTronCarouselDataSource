@@ -164,7 +164,7 @@ public func makeCitadelleRatKing() -> SerializableGalleryRouter {
                         x: 722.0 / 3840.0,
                         y: 1033.0 / 2160.0,
                         width: 59.0 / 3840.0,
-                        height: 8560 / 2160.0
+                        height: 856.0 / 2160.0
                     )
                 )
             ]
