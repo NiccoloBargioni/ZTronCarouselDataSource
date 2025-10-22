@@ -143,6 +143,47 @@ public func makeTFDRecordings() -> SerializableGalleryRouter {
     ), at: ["wwii.tfd.side.quests.recordings.observatory.cauldron"])
 
     
+    
+    radioLocations.register(
+        SerializableImageNode(
+            name: "wwii.tfd.side.quests.recordings.god.king.intel.text.file.13",
+            description: "wwii.tfd.side.quests.recordings.god.king.intel.text.file.13.caption",
+            position: 7,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "wwii.tfd.side.quests.recordings.god.king.intel.text.file.13.outline",
+                    boundingBox: .init(
+                        x: 1327.0 / 1920.0,
+                        y: 566.0 / 1080.0,
+                        width: 62.0 / 1920.0,
+                        height: 19.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["wwii.tfd.side.quests.recordings.god.king.intel.text.file.13"])
+
+    
+    radioLocations.register(
+        SerializableImageNode(
+            name: "wwii.tfd.side.quests.recordings.intel.after.bossfight.frozen.caves.text.file.14",
+            description: "wwii.tfd.side.quests.recordings.intel.after.bossfight.frozen.caves.text.file.14.caption",
+            position: 8,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "wwii.tfd.side.quests.recordings.intel.after.bossfight.frozen.caves.text.file.14.outline",
+                    boundingBox: .init(
+                        x: 1329.0 / 1920.0,
+                        y: 564.0 / 1080.0,
+                        width: 74.0 / 1920.0,
+                        height: 28.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["wwii.tfd.side.quests.recordings.intel.after.bossfight.frozen.caves.text.file.14"])
+
+    
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(

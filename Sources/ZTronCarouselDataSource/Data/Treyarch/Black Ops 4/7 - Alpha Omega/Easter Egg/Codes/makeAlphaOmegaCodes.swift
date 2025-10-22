@@ -5,9 +5,30 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
     
     codePapersLocations.register(
         SerializableImageNode(
+            name: "bo4.ao.easter.egg.codes.first.code",
+            description: "bo4.ao.easter.egg.codes.first.code.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo4.ao.easter.egg.codes.first.code.outline",
+                    boundingBox: .init(
+                        x: 283.0 / 1920.0,
+                        y: 627.0 / 1080.0,
+                        width: 331.0 / 1920.0,
+                        height: 164.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo4.ao.easter.egg.codes.first.code"])
+    
+    
+    codePapersLocations.register(
+        SerializableImageNode(
             name: "bo4.ao.easter.egg.codes.1.left.of.apd.interrogation.entrance",
             description: "bo4.ao.easter.egg.codes.1.left.of.apd.interrogation.entrance.caption",
-            position: 0,
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -28,7 +49,7 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.ao.easter.egg.codes.2.sawyer.1st",
             description: "bo4.ao.easter.egg.codes.2.sawyer.1st.caption",
-            position: 1,
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -49,7 +70,7 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.ao.easter.egg.codes.3.sawyer.upstairs",
             description: "bo4.ao.easter.egg.codes.3.sawyer.upstairs.caption",
-            position: 2,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -70,7 +91,7 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.ao.easter.egg.codes.4.mccain",
             description: "bo4.ao.easter.egg.codes.4.mccain.caption",
-            position: 3,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -91,7 +112,7 @@ public func makeAlphaOmegaCodes() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.ao.easter.egg.codes.5.pernell",
             description: "bo4.ao.easter.egg.codes.5.pernell.caption",
-            position: 4,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

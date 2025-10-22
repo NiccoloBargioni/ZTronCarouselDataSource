@@ -13,10 +13,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.1.spawn.n4.outline",
                     boundingBox: .init(
-                        x: 777.0 / 1920.0,
-                        y: 408.0 / 1080.0,
-                        width: 81.0 / 1920.0,
-                        height: 65.0 / 1080.0
+                        x: 856.0 / 1920.0,
+                        y: 422.0 / 1080.0,
+                        width: 40.0 / 1920.0,
+                        height: 106.0 / 1080.0
                     )
                 )
             ]
@@ -55,10 +55,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.3.spawn.n2.outline",
                     boundingBox: .init(
-                        x: 745.0 / 1920.0,
-                        y: 516.0 / 1080.0,
-                        width: 136.0 / 1920.0,
-                        height: 126.0 / 1080.0
+                        x: 947.0 / 1920.0,
+                        y: 378.0 / 1080.0,
+                        width: 52.0 / 1920.0,
+                        height: 47.0 / 1080.0
                     )
                 )
             ]
@@ -76,10 +76,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.4.spawn.n3.outline",
                     boundingBox: .init(
-                        x: 938.0 / 1920.0,
-                        y: 335.0 / 1080.0,
-                        width: 70.0 / 1920.0,
-                        height: 44.0 / 1080.0
+                        x: 297.0 / 1920.0,
+                        y: 529.0 / 1080.0,
+                        width: 58.0 / 1920.0,
+                        height: 36.0 / 1080.0
                     )
                 )
             ]
@@ -97,10 +97,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.5.above.spawn.n4.outline",
                     boundingBox: .init(
-                        x: 858.0 / 1920.0,
-                        y: 422.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 106.0 / 1080.0
+                        x: 777.0 / 1920.0,
+                        y: 408.0 / 1080.0,
+                        width: 81.0 / 1920.0,
+                        height: 65.0 / 1080.0
                     )
                 )
             ]
@@ -159,10 +159,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.7.above.spawn.room.n2.outline",
                     boundingBox: .init(
-                        x: 1017.0 / 1920.0,
-                        y: 435.0 / 1080.0,
-                        width: 71.0 / 1920.0,
-                        height: 64.0 / 1080.0
+                        x: 745.0 / 1920.0,
+                        y: 517.0 / 1080.0,
+                        width: 138.0 / 1920.0,
+                        height: 125.0 / 1080.0
                     )
                 )
             ]
@@ -180,10 +180,10 @@ public func makeFlingerTrap() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.flinger.trap.9.above.spawn.room.n3.outline",
                     boundingBox: .init(
-                        x: 297.0 / 1920.0,
-                        y: 530.0 / 1080.0,
-                        width: 58.0 / 1920.0,
-                        height: 35.0 / 1080.0
+                        x: 938.0 / 1920.0,
+                        y: 335.0 / 1080.0,
+                        width: 70.0 / 1920.0,
+                        height: 44.0 / 1080.0
                     )
                 )
             ]

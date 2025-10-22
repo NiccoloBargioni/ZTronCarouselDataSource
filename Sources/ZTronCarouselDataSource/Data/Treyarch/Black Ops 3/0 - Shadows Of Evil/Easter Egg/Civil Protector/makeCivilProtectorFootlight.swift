@@ -37,10 +37,10 @@ func makeCivilProtectorFootlight() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo3.soe.easter.egg.civil.protector.footlight.footlight.2.outline",
                     boundingBox: .init(
-                        x: 583.0 / 1920.0,
-                        y: 479.0 / 1080.0,
-                        width: 38.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        x: 629.0 / 1920.0,
+                        y: 471.0 / 1080.0,
+                        width: 22.0 / 1920.0,
+                        height: 7.0 / 1080.0
                     )
                 )
             ]

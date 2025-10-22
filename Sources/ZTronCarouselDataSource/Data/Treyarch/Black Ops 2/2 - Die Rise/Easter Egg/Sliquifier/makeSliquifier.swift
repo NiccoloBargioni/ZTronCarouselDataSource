@@ -118,10 +118,10 @@ public func makeSliquifier() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.sliquifier.6.right.of.workbench.outline",
                     boundingBox: .init(
-                        x: 1003.0 / 1920.0,
-                        y: 389.0 / 1080.0,
-                        width: 22.0 / 1920.0,
-                        height: 57.0 / 1080.0
+                        x: 279.0 / 1920.0,
+                        y: 405.0 / 1080.0,
+                        width: 21.0 / 1920.0,
+                        height: 24.0 / 1080.0
                     )
                 )
             ]
@@ -139,10 +139,10 @@ public func makeSliquifier() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.die.rise.easter.egg.shared.sliquifier.7.left.of.workbench.outline",
                     boundingBox: .init(
-                        x: 279.0 / 1920.0,
-                        y: 405.0 / 1080.0,
-                        width: 21.0 / 1920.0,
-                        height: 24.0 / 1080.0
+                        x: 1003.0 / 1920.0,
+                        y: 388.0 / 1080.0,
+                        width: 22.0 / 1920.0,
+                        height: 58.0 / 1080.0
                     )
                 )
             ]

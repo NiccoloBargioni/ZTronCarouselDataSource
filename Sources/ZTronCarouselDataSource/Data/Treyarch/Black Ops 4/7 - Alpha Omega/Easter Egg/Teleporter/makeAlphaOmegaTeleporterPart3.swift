@@ -35,15 +35,15 @@ func makeAlphaOmegaTeleporterPart3() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.ao.easter.egg.teleporter.part.3.front.of.maddox.wallbuy.outline",
                     boundingBox: .init(
-                        x: 1236.0 / 1920.0,
-                        y: 293.0 / 1080.0,
-                        width:  549.0 / 1920.0,
-                        height: 353.0 / 1080.0
+                        x: 1238.0 / 1920.0,
+                        y: 291.0 / 1080.0,
+                        width:  546.0 / 1920.0,
+                        height: 359.0 / 1080.0
                     )
                 )
             ]
     ), at: ["bo4.ao.easter.egg.teleporter.part.3.front.of.maddox.wallbuy"])
-        
+
 
     teleporterLocations.register(
         SerializableImageNode(
@@ -55,16 +55,15 @@ func makeAlphaOmegaTeleporterPart3() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.ao.easter.egg.teleporter.part.3.generators.entrance.outline",
                     boundingBox: .init(
-                        x: 351.0 / 1920.0,
+                        x: 353.0 / 1920.0,
                         y: 482.0 / 1080.0,
-                        width:  107.0 / 1920.0,
-                        height: 147.0 / 1080.0
+                        width:  105.0 / 1920.0,
+                        height: 145.0 / 1080.0
                     )
                 )
             ]
     ), at: ["bo4.ao.easter.egg.teleporter.part.3.generators.entrance"])
         
-
 
     
     return SerializableGalleryNode(
