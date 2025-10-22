@@ -4,11 +4,6 @@ import ZTronSerializable
 
 func makeDOTNZodiacAtlas() -> SerializableGalleryNode {
     let zodiacAtlasLocations = MediaRouter()
-    
-
-
-
-    ZODIAC SYMBOL: 1462, 532 | LARGHEZZA: 39, ALTEZZA: 38
 
 
     zodiacAtlasLocations.register(
