@@ -199,7 +199,7 @@ public func makeTheTombVases() -> SerializableGalleryRouter {
                         x: 2419.0 / 3840.0,
                         y: 546.0 / 2160.0,
                         width: 57.0 / 3840.0,
-                        height: 58.0 / 2160.0
+                        height: 68.0 / 2160.0
                     )
                 )
             ]

@@ -356,8 +356,8 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.trex.above.juggernog.outline",
                     boundingBox: .init(
-                        x: 725.0 / 3840.0,
-                        y: 857.0 / 2160.0,
+                        x: 888.0 / 3840.0,
+                        y: 1104.0 / 2160.0,
                         width: 378.0 / 3840.0,
                         height: 184.0 / 2160.0
                     )
