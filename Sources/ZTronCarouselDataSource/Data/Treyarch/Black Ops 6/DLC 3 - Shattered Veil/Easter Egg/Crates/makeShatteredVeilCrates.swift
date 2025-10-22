@@ -345,32 +345,12 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
             ]
     ), at: ["bo6.sv.easter.egg.crates.staminup"])
 
-    // FIXME: INCOMPLETE OFFSET
-    cratesLocations.register(
-        SerializableImageNode(
-            name: "bo6.sv.easter.egg.crates.trex.above.juggernog",
-            description: "bo6.sv.easter.egg.crates.trex.above.juggernog.caption",
-            position: 17,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo6.sv.easter.egg.crates.trex.above.juggernog.outline",
-                    boundingBox: .init(
-                        x: 888.0 / 3840.0,
-                        y: 1104.0 / 2160.0,
-                        width: 378.0 / 3840.0,
-                        height: 184.0 / 2160.0
-                    )
-                )
-            ]
-    ), at: ["bo6.sv.easter.egg.crates.trex.above.juggernog"])
-
 
     cratesLocations.register(
         SerializableImageNode(
             name: "bo6.sv.easter.egg.crates.trex.room.entrance",
             description: "bo6.sv.easter.egg.crates.trex.room.entrance.caption",
-            position: 18,
+            position: 17,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -390,7 +370,7 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.crates.trex.staminup.side",
             description: "bo6.sv.easter.egg.crates.trex.staminup.side.caption",
-            position: 19,
+            position: 18,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -410,7 +390,7 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.crates.tunnel.by.armor.wallbuy",
             description: "bo6.sv.easter.egg.crates.tunnel.by.armor.wallbuy.caption",
-            position: 20,
+            position: 19,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -430,7 +410,7 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.crates.tunnel.entrance.front.of.dobbleghast",
             description: "bo6.sv.easter.egg.crates.tunnel.entrance.front.of.dobbleghast.caption",
-            position: 21,
+            position: 20,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -450,7 +430,7 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.sv.easter.egg.crates.yellow.liminal.space",
             description: "bo6.sv.easter.egg.crates.yellow.liminal.space.caption",
-            position: 22,
+            position: 21,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

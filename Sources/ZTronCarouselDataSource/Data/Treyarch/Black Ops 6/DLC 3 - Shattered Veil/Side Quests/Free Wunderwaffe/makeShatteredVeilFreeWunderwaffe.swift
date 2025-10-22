@@ -66,17 +66,9 @@ public func makeShatteredVeilFreeWunderwaffe() -> SerializableGalleryRouter {
 
     freeWunderwaffeLocations.register(
         SerializableImageNode(
-            name: "bo6.sv.side.quests.free.wunderwaffe.purple.mist",
-            description: "bo6.sv.side.quests.free.wunderwaffe.purple.mist.caption",
-            position: 3
-    ), at: ["bo6.sv.side.quests.free.wunderwaffe.purple.mist"])
-
-
-    freeWunderwaffeLocations.register(
-        SerializableImageNode(
             name: "bo6.sv.side.quests.free.wunderwaffe.rock",
             description: "bo6.sv.side.quests.free.wunderwaffe.rock.caption",
-            position: 4,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -91,7 +83,15 @@ public func makeShatteredVeilFreeWunderwaffe() -> SerializableGalleryRouter {
             ]
     ), at: ["bo6.sv.side.quests.free.wunderwaffe.rock"])
 
+    freeWunderwaffeLocations.register(
+        SerializableImageNode(
+            name: "bo6.sv.side.quests.free.wunderwaffe.purple.mist",
+            description: "bo6.sv.side.quests.free.wunderwaffe.purple.mist.caption",
+            position: 4
+    ), at: ["bo6.sv.side.quests.free.wunderwaffe.purple.mist"])
 
+
+    
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(

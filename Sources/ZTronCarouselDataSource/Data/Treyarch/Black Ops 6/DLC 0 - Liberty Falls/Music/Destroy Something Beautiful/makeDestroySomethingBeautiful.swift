@@ -57,7 +57,7 @@ public func makeDestroySomethingBeautiful() -> SerializableGalleryRouter {
                     resourceName: "bo6.lf.music.destroy.something.beautiful.3.outside.liberty.lanes.outline",
                     boundingBox: .init(
                         x: 1396.0 / 3840.0,
-                        y: 1097.0 / 2160.0,
+                        y: 1092.0 / 2160.0,
                         width: 139.0 / 3840.0,
                         height: 46.0 / 2160.0
                     )

@@ -10,9 +10,9 @@ public func makeReckoningEasterEggTools() -> SerializableToolsRouter {
     
     eeTools.router.register(
         .init(
-            name: "bo6.reckoning.easter.egg.free.gorgoflex.tool.name",
+            name: "bo6.reckoning.easter.egg.free.gorgofex.tool.name",
             position: 1,
-            assetsImageName: "bo6.reckoning.easter.egg.free.gorgoflex.icon",
+            assetsImageName: "bo6.reckoning.easter.egg.free.gorgofex.icon",
             galleryRouter: nil
         ),
         at: ["free gorgoflex"]
