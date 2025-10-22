@@ -7,7 +7,7 @@ func makeExodus() -> SerializableMapNode {
     
     return SerializableMapNode(
         name: "exodus",
-        position: 2,
+        position: 3,
         assetsImageName: "ghosts.exodus.logo",
         tabs: exodusTabs
     )
