@@ -121,7 +121,7 @@ public func makeMaydayEggstraXP() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        ), at: ["ghosts.mayday.easter.egg.eggstra.unearthed.fog"]
+        ), at: ["ghosts.mayday.easter.egg.eggstra.xp.unearthed"]
     )
 
     
