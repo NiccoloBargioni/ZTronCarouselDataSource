@@ -3,7 +3,7 @@ import ZTronSerializable
 public func makeBlackOps() -> SerializableGameNode {
     return SerializableGameNode(
         name: "black ops",
-        position: 11,
+        position: 12,
         assetsImageName: "bo.game.logo",
         maps: makeBlackOpsMaps()
     )
