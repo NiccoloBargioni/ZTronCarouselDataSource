@@ -5,6 +5,7 @@ func makeDeadOfTheNight() -> SerializableMapNode {
     
     dotnTabs.router.register(makeDeadOfTheNightEasterEggTab(), at: [">", "easter egg"])
     dotnTabs.router.register(makeDOTNSideQuestsTab(), at: [">", "side quests"])
+    dotnTabs.router.register(makeDOTNMusicTab(), at: [">", "music"])
     
     return SerializableMapNode(
         name: "dead of the night",
