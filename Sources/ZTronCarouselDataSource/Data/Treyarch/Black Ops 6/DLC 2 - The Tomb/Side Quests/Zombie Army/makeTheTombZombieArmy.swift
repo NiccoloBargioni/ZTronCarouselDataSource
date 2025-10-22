@@ -55,10 +55,10 @@ public func makeTheTombZombieArmy() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.tt.side.quests.zombie.army.skull.3.from.deadshot.to.speedcola.outline",
                     boundingBox: .init(
-                        x: 1951.0 / 3840.0,
-                        y: 519.0 / 2160.0,
-                        width: 45.0 / 3840.0,
-                        height: 84.0 / 2160.0
+                        x: 1616.0 / 3840.0,
+                        y: 1284.0 / 2160.0,
+                        width: 122.0 / 3840.0,
+                        height: 136.0 / 2160.0
                     )
                 )
             ]

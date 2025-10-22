@@ -149,7 +149,19 @@ public func makeLibertyFallFreePowerups() -> SerializableGalleryRouter {
             name: "bo6.lf.side.quests.free.powerups.5.double.points",
             description: "bo6.lf.side.quests.free.powerups.5.double.points.caption",
             position: 4,
-            searchLabel: "bo6.lf.side.quests.free.powerups.5.double.points.searchLabel"
+            searchLabel: "bo6.lf.side.quests.free.powerups.5.double.points.searchLabel",
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo6.lf.side.quests.free.powerups.5.double.points.outline",
+                    boundingBox: .init(
+                        x: 1674.0 / 3840.0,
+                        y: 1031.0 / 2160.0,
+                        width: 6.0 / 3840.0,
+                        height: 6.0 / 2160.0
+                    )
+                )
+            ]
     ), at: ["bo6.lf.side.quests.free.powerups.5.double.points"])
 
     

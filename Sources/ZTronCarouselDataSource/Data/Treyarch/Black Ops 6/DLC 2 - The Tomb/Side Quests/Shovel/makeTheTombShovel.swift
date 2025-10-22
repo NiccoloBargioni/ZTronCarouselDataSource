@@ -46,9 +46,29 @@ public func makeTheTombShovel() -> SerializableGalleryRouter {
 
     shovelLocations.register(
         SerializableImageNode(
+            name: "bo6.tt.side.quests.shovel.in.front.of.quick.revive",
+            description: "bo6.tt.side.quests.shovel.in.front.of.quick.revive.caption",
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo6.tt.side.quests.shovel.in.front.of.quick.revive.outline",
+                    boundingBox: .init(
+                        x: 1365.0 / 3840.0,
+                        y: 1149.0 / 2160.0,
+                        width: 114.0 / 3840.0,
+                        height: 16.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo6.tt.side.quests.shovel.in.front.of.quick.revive"])
+    
+    
+    shovelLocations.register(
+        SerializableImageNode(
             name: "bo6.tt.side.quests.shovel.quick.revive",
             description: "bo6.tt.side.quests.shovel.quick.revive.caption",
-            position: 2,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

@@ -34,10 +34,10 @@ public func makeShatteredVeilPlants() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.plants.by.double.tap.outline",
                     boundingBox: .init(
-                        x: 727.0 / 3840.0,
-                        y: 1070.0 / 2160.0,
-                        width: 101.0 / 3840.0,
-                        height: 68.0 / 2160.0
+                        x: 724.0 / 3840.0,
+                        y: 1068.0 / 2160.0,
+                        width: 105.0 / 3840.0,
+                        height: 117.0 / 2160.0
                     )
                 )
             ]

@@ -41,10 +41,10 @@ public func makeShatteredVeilFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.side.quests.free.power.ups.double.points.zoom.outline",
                     boundingBox: .init(
-                        x: 490.0 / 3840.0,
-                        y: 539.0 / 2160.0,
-                        width: 16.0 / 3840.0,
-                        height: 12.0 / 2160.0
+                        x: 2556.0 / 3840.0,
+                        y: 908.0 / 2160.0,
+                        width: 21.0 / 3840.0,
+                        height: 18.0 / 2160.0
                     )
                 )
             ]

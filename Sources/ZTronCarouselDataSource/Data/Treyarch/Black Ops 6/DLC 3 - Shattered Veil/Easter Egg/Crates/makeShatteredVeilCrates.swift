@@ -336,10 +336,10 @@ public func makeShatteredVeilCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.sv.easter.egg.crates.staminup.outline",
                     boundingBox: .init(
-                        x: 521.0 / 3840.0,
-                        y: 991.0 / 2160.0,
-                        width: 484.0 / 3840.0,
-                        height: 271.0 / 2160.0
+                        x: 519.0 / 3840.0,
+                        y: 995.0 / 2160.0,
+                        width: 485.0 / 3840.0,
+                        height: 286.0 / 2160.0
                     )
                 )
             ]

@@ -57,7 +57,7 @@ public func makeCitadelleSlave() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.cdm.music.slave.3.way.to.castle.past.speedcola.outline",
                     boundingBox: .init(
-                        x: 1129.0 / 3840.0,
+                        x: 1229.0 / 3840.0,
                         y: 1179.0 / 2160.0,
                         width: 103.0 / 3840.0,
                         height: 49.0 / 2160.0

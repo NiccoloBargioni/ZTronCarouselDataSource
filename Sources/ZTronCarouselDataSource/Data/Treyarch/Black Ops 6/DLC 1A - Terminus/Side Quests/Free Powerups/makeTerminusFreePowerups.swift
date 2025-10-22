@@ -64,7 +64,7 @@ public func makeTerminusFreePowerups() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.terminus.side.quests.free.powerups.2.extra.credits.outline",
+                    resourceName: "bo6.terminus.side.quests.free.powerups.2.extra.credits.zoom.outline",
                     boundingBox: .init(
                         x: 1771.0 / 3840.0,
                         y: 903.0 / 2160.0,

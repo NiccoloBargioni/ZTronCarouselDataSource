@@ -10,21 +10,13 @@ public func makeTerminusShovel() -> SerializableGalleryRouter {
             description: "bo6.terminus.side.quests.shovel.castle.rock.island.caption",
             position: 0,
     ), at: ["bo6.terminus.side.quests.shovel.castle.rock.island"])
-    
-
-    shovelLocations.register(
-        SerializableImageNode(
-            name: "bo6.terminus.side.quests.shovel.north.castle.rock.island.east.most.island",
-            description: "bo6.terminus.side.quests.shovel.north.castle.rock.island.east.most.island.caption",
-            position: 1,
-    ), at: ["bo6.terminus.side.quests.shovel.north.castle.rock.island.east.most.island"])
-    
+        
 
     shovelLocations.register(
         SerializableImageNode(
             name: "bo6.terminus.side.quests.shovel.pack.a.punch.speed.cola.door",
             description: "bo6.terminus.side.quests.shovel.pack.a.punch.speed.cola.door.caption",
-            position: 2,
+            position: 1,
     ), at: ["bo6.terminus.side.quests.shovel.pack.a.punch.speed.cola.door"])
 
 
@@ -32,14 +24,14 @@ public func makeTerminusShovel() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo6.terminus.side.quests.shovel.temple.island",
             description: "bo6.terminus.side.quests.shovel.temple.island.caption",
-            position: 3,
+            position: 2,
     ), at: ["bo6.terminus.side.quests.shovel.temple.island"])
 
     shovelLocations.register(
         SerializableImageNode(
             name: "bo6.terminus.side.quests.shovel.way.to.pack.a.punch.speed.cola.side",
             description: "bo6.terminus.side.quests.shovel.way.to.pack.a.punch.speed.cola.side.caption",
-            position: 4,
+            position: 3,
     ), at: ["bo6.terminus.side.quests.shovel.way.to.pack.a.punch.speed.cola.side"])
 
 
