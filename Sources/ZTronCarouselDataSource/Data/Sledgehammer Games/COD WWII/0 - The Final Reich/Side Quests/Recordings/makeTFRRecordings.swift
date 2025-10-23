@@ -265,10 +265,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.toy.shop.outline",
                     boundingBox: .init(
-                        x: 439.0 / 2715.0,
-                        y: 469.0 / 1527.0,
-                        width: 94.0 / 2715.0,
-                        height: 20.0 / 1527.0
+                        x: 439.0 / 1920.0,
+                        y: 469.0 / 1080.0,
+                        width: 94.0 / 1920.0,
+                        height: 20.0 / 1080.0
                     )
                 )
             ]
