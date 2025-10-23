@@ -94,7 +94,7 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                     resourceName: "sign.outside.beachside.market.skull.outline",
                     boundingBox: .init(
                         x: 1301.0/2715.0,
-                        y: 774.0/1527.0,
+                        y: 744.0/1527.0,
                         width: 2.0/2715.0,
                         height: 4.0/1527.0
                     )  
@@ -239,10 +239,10 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "motel.last.floor.beach.skull.outline",
                     boundingBox: .init(
-                        x: 514.0/2715.0,
-                        y: 197.0/1527.0,
-                        width: 13.0/2715.0,
-                        height: 7.0/1527.0
+                        x: 514.0/1920.0,
+                        y: 197.0/1080.0,
+                        width: 13.0/1920.0,
+                        height: 7.0/1080.0
                     )
                 )
             ]

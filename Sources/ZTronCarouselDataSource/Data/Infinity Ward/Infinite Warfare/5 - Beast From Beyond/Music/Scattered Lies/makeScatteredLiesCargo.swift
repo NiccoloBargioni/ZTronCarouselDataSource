@@ -56,10 +56,10 @@ func makeScatteredLiesCargo() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location.outline",
                     boundingBox: .init(
-                        x: 591.0 / 2715.0,
-                        y: 758.0 / 1527.0,
-                        width: 72.0 / 2715.0,
-                        height: 84.0 / 1527.0
+                        x: 591.0 / 1920.0,
+                        y: 758.0 / 1080.0,
+                        width: 72.0 / 1920.0,
+                        height: 84.0 / 1080.0
                     )
                 )
             ]

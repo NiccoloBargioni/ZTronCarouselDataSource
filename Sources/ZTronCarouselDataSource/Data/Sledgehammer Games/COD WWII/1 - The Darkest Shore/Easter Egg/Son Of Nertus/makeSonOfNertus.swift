@@ -188,14 +188,13 @@ public func makeSonOfNertus() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tds.easter.egg.son.of.nertus.9.quick.revive.outline",
                     boundingBox: .init(
-                        x: 0.0 / 1920.0,
-                        y: 0.0 / 1080.0,
-                        width: 0.0 / 1920.0,
-                        height: 0.0 / 1080.0
+                        x: 970.0 / 1920.0,
+                        y: 316.0 / 1080.0,
+                        width: 18.0 / 1920.0,
+                        height: 17.0 / 1080.0
                     )
                 )
             ]
-        
     ), at: ["wwii.tds.easter.egg.son.of.nertus.9.quick.revive"])
     
 
