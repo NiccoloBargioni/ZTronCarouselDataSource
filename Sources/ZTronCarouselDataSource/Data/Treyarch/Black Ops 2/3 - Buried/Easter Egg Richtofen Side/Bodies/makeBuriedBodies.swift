@@ -255,19 +255,6 @@ public func makeBuriedBodies() -> SerializableGalleryRouter {
             description: "bo2.buried.easter.egg.richtofen.bodies.8.guillotine.caption",
             position: 7,
             searchLabel: "bo2.buried.easter.egg.richtofen.bodies.8.guillotine.searchLabel",
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo2.buried.easter.egg.richtofen.bodies.8.guillotine.outline",
-                    boundingBox: .init(
-                        x: 725.0 / 1920.0,
-                        y: 457.0 / 1080.0,
-                        width: 164.0 / 1920.0,
-                        height: 54.0 / 1080.0
-                    )
-                )
-            ]
-        
     ), at: ["bo2.buried.easter.egg.richtofen.bodies.8.guillotine"])
     
     

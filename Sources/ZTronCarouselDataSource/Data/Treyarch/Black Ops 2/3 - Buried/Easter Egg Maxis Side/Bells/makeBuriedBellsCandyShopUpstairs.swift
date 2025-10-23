@@ -36,7 +36,7 @@ func makeBuriedBellsCandyShopUpstairs() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo2.buried.easter.egg.maxis.bells.candy.shop.2.second.outline",
                     boundingBox: .init(
-                        x: 1359.0 / 1920.0,
+                        x: 1260.0 / 1920.0,
                         y: 509.0 / 1080.0,
                         width: 25.0 / 1920.0,
                         height: 20.0 / 1080.0

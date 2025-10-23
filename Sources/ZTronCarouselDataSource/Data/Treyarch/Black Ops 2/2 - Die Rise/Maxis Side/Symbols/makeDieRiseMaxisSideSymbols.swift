@@ -5,54 +5,34 @@ public func makeDieRiseMaxisSideSymbols() -> SerializableGalleryRouter {
     
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.maxis.side.symbols.1.above.spawn",
-            description: "bo2.die.rise.easter.egg.maxis.side.symbols.1.above.spawn.caption",
+            name: "bo2.die.rise.easter.egg.maxis.side.symbols.1.radio.tower.elevators",
+            description: "bo2.die.rise.easter.egg.maxis.side.symbols.1.radio.tower.elevators.caption",
             position: 0
-    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.1.above.spawn"])
+    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.1.radio.tower.elevators"])
     
 
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.elevators",
-            description: "bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.elevators.caption",
+            name: "bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.far",
+            description: "bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.far.caption",
             position: 1
-    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.elevators"])
+    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.2.radio.tower.far"])
     
 
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.maxis.side.symbols.3.radio.tower.far",
-            description: "bo2.die.rise.easter.egg.maxis.side.symbols.3.radio.tower.far.caption",
+            name: "bo2.die.rise.easter.egg.maxis.side.symbols.3.spawn",
+            description: "bo2.die.rise.easter.egg.maxis.side.symbols.3.spawn.caption",
             position: 2
-    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.3.radio.tower.far"])
-    
-
-    symbolsLocations.register(
-        SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.maxis.side.symbols.4.spawn",
-            description: "bo2.die.rise.easter.egg.maxis.side.symbols.4.spawn.caption",
-            position: 3
-    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.4.spawn"])
+    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.3.spawn"])
     
     
     symbolsLocations.register(
         SerializableImageNode(
-            name: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive",
-            description: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive.caption",
-            position: 4,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive.outline",
-                    boundingBox: .init(
-                        x: 1148.0 / 1920.0,
-                        y: 453.0 / 1080.0,
-                        width: 114.0 / 1920.0,
-                        height: 36.0 / 1080.0
-                    )
-                )
-            ]
-    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.5.quick.revive"])
+            name: "bo2.die.rise.easter.egg.maxis.side.symbols.4.lion",
+            description: "bo2.die.rise.easter.egg.maxis.side.symbols.4.lion.caption",
+            position: 3,
+    ), at: ["bo2.die.rise.easter.egg.maxis.side.symbols.4.lion"])
     
     
     let symbolsLocationsRouter = SerializableGalleryRouter()
