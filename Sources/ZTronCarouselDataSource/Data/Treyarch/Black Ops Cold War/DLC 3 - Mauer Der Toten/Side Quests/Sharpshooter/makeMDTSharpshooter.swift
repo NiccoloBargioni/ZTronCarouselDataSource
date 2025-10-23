@@ -8,7 +8,7 @@ public func makeMDTSharpshooter() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bocw.mdt.side.quests.sharpshooter.piece.of.paper",
             description: "bocw.mdt.side.quests.sharpshooter.piece.of.paper.caption",
-            position: 5,
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
