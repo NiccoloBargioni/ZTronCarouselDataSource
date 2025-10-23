@@ -72,9 +72,24 @@ func makeScatteredLiesTheater() -> SerializableGalleryNode {
                 SerializableImageNode(
                     name: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map",
                     description: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.caption",
-                    position: 3
+                    position: 3,
+                    overlays: [
+                        SerializableBoundingCircleNode(),
+                        SerializableOutlineNode(
+                            resourceName: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.outline",
+                            boundingBox: .init(
+                                x: 1516.0 / 2715.0,
+                                y: 214.0 / 1527.0,
+                                width: 7.0 / 2715.0,
+                                height: 8.0 / 1527.0
+                            )
+                        )
+                    ]
+
             ), at: ["iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map"])
-            
+
+    
+    /*
             spacemanLocations.register(
                 SerializableImageNode(
                     name: "iw.bfb.music.shattered.lies.theatre.area.scaffhold.out.of.map.zoom",
@@ -107,7 +122,7 @@ func makeScatteredLiesTheater() -> SerializableGalleryNode {
                             )
                         )
                     )
-            )
+            )*/
     
     return SerializableGalleryNode(
         name: "iw.bfb.music.shattered.lies.theater.area",

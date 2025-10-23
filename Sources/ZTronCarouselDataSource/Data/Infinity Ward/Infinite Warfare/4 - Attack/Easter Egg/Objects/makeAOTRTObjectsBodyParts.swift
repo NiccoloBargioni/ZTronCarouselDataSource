@@ -48,11 +48,21 @@ public func makeAOTRTObjectsBodyParts() -> SerializableGalleryNode {
             name: "iw.aotrt.easter.egg.objects.body.parts.3.leg.on.a.tree.between.tv.station.and.bus.park",
             description: "iw.aotrt.easter.egg.objects.body.parts.3.leg.on.a.tree.between.tv.station.and.bus.park.caption",
             position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.aotrt.easter.egg.objects.body.parts.4.fridge.power.outside.gas.station.outline",
+                    boundingBox: .init(
+                        x: 1253.0 / 1920.0,
+                        y: 157.0 / 1080.0,
+                        width: 980 / 1920.0,
+                        height: 161.0 / 1080.0
+                    )
+                )
+            ]
         ), at: [">", "iw.aotrt.easter.egg.objects.body.parts.3.leg.on.a.tree.between.tv.station.and.bus.park"]
     )
     
-    // 4 - FRIDGE POWER OUTSIDE GAS STATION OFFSETS: 394, 658 | LARGHEZZA: 151, ALTEZZA: 62
-
     bodyPartsLocations.register(
         SerializableImageNode(
             name: "iw.aotrt.easter.egg.objects.body.parts.4.fridge.power.outside.gas.station",

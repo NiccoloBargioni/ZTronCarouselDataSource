@@ -234,22 +234,20 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
             name: "motel.last.floor.beach.skull",
             description: "IW.aotrt.skullhop.step1.motel.last.floor.beach.skull.caption",
             position: 7,
-            /*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "motel.last.floor.beach.skull.outline",
                     boundingBox: .init(
-                        x: 1182.0/2715.0,
-                        y: 698.0/1527.0,
-                        width: 4.0/2715.0,
-                        height: 4.0/1527.0
+                        x: 514.0/2715.0,
+                        y: 197.0/1527.0,
+                        width: 13.0/2715.0,
+                        height: 7.0/1527.0
                     )
                 )
-            ]*/
+            ]
         ), at: [">", "motel.last.floor.beach.skull"]
     )
-    
     
     skullLocations.register(
         SerializableImageNode(
