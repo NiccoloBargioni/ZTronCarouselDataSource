@@ -15,10 +15,10 @@ func makeAlphaOmegaTeleporterPart3() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.ao.easter.egg.teleporter.part.3.by.perk.outline",
                     boundingBox: .init(
-                        x: 566.0 / 1920.0,
-                        y: 462.0 / 1080.0,
-                        width:  131.0 / 1920.0,
-                        height: 167.0 / 1080.0
+                        x: 657.0 / 1920.0,
+                        y: 451.0 / 1080.0,
+                        width:  111.0 / 1920.0,
+                        height: 125.0 / 1080.0
                     )
                 )
             ]

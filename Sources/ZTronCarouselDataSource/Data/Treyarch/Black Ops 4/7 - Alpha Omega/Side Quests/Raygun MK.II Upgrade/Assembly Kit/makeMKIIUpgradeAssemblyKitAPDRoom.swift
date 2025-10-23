@@ -55,7 +55,7 @@ func makeMKIIUpgradeAssemblyKitAPDRoom() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.assembly.kit.apd.room.near.entrance.outline",
                     boundingBox: .init(
-                        x: 1872.0 / 1920.0,
+                        x: 872.0 / 1920.0,
                         y: 465.0 / 1080.0,
                         width: 22.0 / 1920.0,
                         height: 23.0 / 1080.0

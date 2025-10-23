@@ -138,7 +138,7 @@ public func makeFreeLootBins() -> SerializableGalleryRouter {
                         x: 2949.0 / 3840.0,
                         y: 1054.0 / 2160.0,
                         width: 51.0 / 3840.0,
-                        height: 122.0 / 2160.0
+                        height: 137.0 / 2160.0
                     )
                 )
             ]

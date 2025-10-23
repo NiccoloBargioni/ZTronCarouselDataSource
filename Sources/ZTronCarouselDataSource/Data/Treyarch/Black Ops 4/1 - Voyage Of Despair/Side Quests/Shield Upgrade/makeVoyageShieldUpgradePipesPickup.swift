@@ -9,19 +9,19 @@ public func makeVoyageShieldUpgradePipesPickup() -> SerializableGalleryRouter {
             name: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.engine.room",
             description: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.engine.room.caption",
             position: 0,
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.engine.room.outline",
                     boundingBox: .init(
-                        x: 825.0 / 1920.0,
-                        y: 438.0 / 1080.0,
-                        width: 5.0 / 1920.0,
-                        height: 12.0 / 1080.0
+                        x: 1619.0 / 1920.0,
+                        y: 546.0 / 1080.0,
+                        width: 31.0 / 1920.0,
+                        height: 90.0 / 1080.0
                     )
                 )
+
             ]
-        */
     ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.engine.room"])
     
 
@@ -49,26 +49,26 @@ public func makeVoyageShieldUpgradePipesPickup() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.venus.symbol",
             description: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.venus.symbol.caption",
-            position: 2,/*
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.venus.symbol.outline",
                     boundingBox: .init(
-                        x: 1004.0 / 1920.0,
-                        y: 408.0 / 1080.0,
-                        width: 4.0 / 1920.0,
-                        height: 23.0 / 1080.0
+                        x: 765.0 / 1920.0,
+                        y: 414.0 / 1080.0,
+                        width: 3.0 / 1920.0,
+                        height: 14.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.venus.symbol"])
 
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
         name: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations",
-        position: 2,
+        position: 3,
         assetsImageName: "bo4.vod.side.quests.shield.upgrade.pipes.pickup.locations.icon",
         images: shieldPipesPickupLocations
     ), at: [">", "master"])

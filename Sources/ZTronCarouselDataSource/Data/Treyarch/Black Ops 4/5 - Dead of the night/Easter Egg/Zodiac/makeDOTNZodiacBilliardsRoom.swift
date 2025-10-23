@@ -78,8 +78,8 @@ func makeDOTNZodiacBilliardsRoom() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 846.0 / 1920.0,
                         y: 375.0 / 1080.0,
-                        width: 23.0 / 1920.0,
-                        height: 21.0 / 1080.0
+                        width: 24.0 / 1920.0,
+                        height: 42.0 / 1080.0
                     )
                 )
             ]

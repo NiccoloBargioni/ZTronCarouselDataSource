@@ -5,7 +5,6 @@ import ZTronSerializable
 func makeDOTNZodiacAtlas() -> SerializableGalleryNode {
     let zodiacAtlasLocations = MediaRouter()
 
-
     zodiacAtlasLocations.register(
         SerializableImageNode(
             name: "bo4.dotn.easter.egg.zodiac.step.atlas.symbol",
@@ -16,10 +15,10 @@ func makeDOTNZodiacAtlas() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.easter.egg.zodiac.step.atlas.symbol.caption.outline",
                     boundingBox: .init(
-                        x: 1077.0 / 1920.0,
-                        y: 474.0 / 1080.0,
-                        width: 16.0 / 1920.0,
-                        height: 28.0 / 1080.0
+                        x: 1462.0 / 1920.0,
+                        y: 531.0 / 1080.0,
+                        width: 40.0 / 1920.0,
+                        height: 40.0 / 1080.0
                     )
                 )
             ]

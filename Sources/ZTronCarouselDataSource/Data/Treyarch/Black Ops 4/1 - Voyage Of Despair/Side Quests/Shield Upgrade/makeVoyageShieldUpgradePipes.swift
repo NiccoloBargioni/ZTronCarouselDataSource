@@ -114,7 +114,7 @@ public func makeVoyageShieldUpgradePipes() -> SerializableGalleryRouter {
     
     locationsRouter.router.register(SerializableGalleryNode(
         name: "bo4.vod.side.quests.shield.upgrade.pipes",
-        position: 1,
+        position: 2,
         assetsImageName: "bo4.vod.side.quests.shield.upgrade.pipes.icon",
         images: shieldPipesLocations
     ), at: [">", "master"])

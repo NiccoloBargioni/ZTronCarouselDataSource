@@ -57,9 +57,9 @@ func makePAPTeleporterBottomLevel() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.classified.easter.egg.teleporter.bottom.level.3.morgue.side.room.outline",
                     boundingBox: .init(
-                        x: 1141.0 / 1920.0,
+                        x: 1414.0 / 1920.0,
                         y: 464.0 / 1080.0,
-                        width: 248.0 / 1920.0,
+                        width: 245.0 / 1920.0,
                         height: 105.0 / 1080.0
                     )
                 )
