@@ -58,7 +58,7 @@ public func makeVoyageShieldUpgradePipesPickup() -> SerializableGalleryRouter {
                         x: 765.0 / 1920.0,
                         y: 414.0 / 1080.0,
                         width: 3.0 / 1920.0,
-                        height: 14.0 / 1080.0
+                        height: 17.0 / 1080.0
                     )
                 )
             ]

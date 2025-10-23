@@ -1,7 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
-
 public func makeKinoDerToten115() -> SerializableGalleryRouter {
     let musicRocksLocations = MediaRouter.init()
     

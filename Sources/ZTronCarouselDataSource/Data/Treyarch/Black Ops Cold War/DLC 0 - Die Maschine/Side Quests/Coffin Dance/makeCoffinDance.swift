@@ -1,6 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
 
 public func makeCoffinDance() -> SerializableGalleryRouter {
     let orbLocations = MediaRouter.init()

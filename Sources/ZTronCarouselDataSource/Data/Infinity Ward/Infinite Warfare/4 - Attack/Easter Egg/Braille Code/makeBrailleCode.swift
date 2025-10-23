@@ -1,7 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
-
 public func makeBrailleCode() -> SerializableGalleryRouter {
     let reelLocations = MediaRouter.init()
     

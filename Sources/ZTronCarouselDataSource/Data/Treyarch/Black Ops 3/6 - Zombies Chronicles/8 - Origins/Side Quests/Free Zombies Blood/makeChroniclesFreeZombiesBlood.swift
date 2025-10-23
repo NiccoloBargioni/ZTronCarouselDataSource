@@ -56,7 +56,7 @@ public func makeChroniclesFreeZombiesBlood() -> SerializableGalleryRouter {
                         x: 590.0 / 1920.0,
                         y: 309.0 / 1080.0,
                         width: 370.0 / 1920.0,
-                        height: 154.0 / 1080.0
+                        height: 178.0 / 1080.0
                     )
                 )
             ]

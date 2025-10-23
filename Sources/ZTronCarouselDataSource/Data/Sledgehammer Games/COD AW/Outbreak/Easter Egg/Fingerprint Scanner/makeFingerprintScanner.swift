@@ -1,7 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
-
 public func makeFingerprintScanner() -> SerializableGalleryRouter {
     let fingerprintScannersLocations = MediaRouter.init()
     

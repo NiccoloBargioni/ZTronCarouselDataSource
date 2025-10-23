@@ -1,5 +1,4 @@
 import ZTronSerializable
-import LoremIpsum
 
 public func makeKhanSecurityCards() -> SerializableGalleryNode {
     let khansSecurityCardLocations = MediaRouter.init()

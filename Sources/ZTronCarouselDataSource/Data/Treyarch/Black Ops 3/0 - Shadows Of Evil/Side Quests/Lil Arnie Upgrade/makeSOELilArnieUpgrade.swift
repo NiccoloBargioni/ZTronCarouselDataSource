@@ -14,8 +14,8 @@ public func makeSOELilArnieUpgrade() -> SerializableGalleryRouter {
                     resourceName: "bo3.shadows.side.quests.arnie.upgrade.1.burlesque.outline",
                     boundingBox: .init(
                         x: 825.0 / 1920.0,
-                        y: 410.0 / 1080.0,
-                        width: 122.0 / 1920.0,
+                        y: 413.0 / 1080.0,
+                        width: 127.0 / 1920.0,
                         height: 99.0 / 1080.0
                     )
                 )

@@ -1,7 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
-
 public func makeAetheroscope() -> SerializableGalleryRouter {
     let aetheroscopeLocations = MediaRouter.init()
     

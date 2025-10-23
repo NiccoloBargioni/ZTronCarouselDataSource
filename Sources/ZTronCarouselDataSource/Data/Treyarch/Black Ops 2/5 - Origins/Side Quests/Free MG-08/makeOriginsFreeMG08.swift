@@ -86,7 +86,7 @@ public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
-        name: "bo2.origins.side.quests.free.zombies.blood",
+        name: "bo2.origins.side.quests.free.mg.08",
         position: 0,
         assetsImageName: nil,
         images: freeZombiesBloodLocations

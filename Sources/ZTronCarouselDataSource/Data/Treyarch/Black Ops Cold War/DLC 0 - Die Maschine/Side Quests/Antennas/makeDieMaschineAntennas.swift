@@ -1,6 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
 
 public func makeDieMaschineAntennas() -> SerializableGalleryRouter {
     let antennasLocations = MediaRouter.init()

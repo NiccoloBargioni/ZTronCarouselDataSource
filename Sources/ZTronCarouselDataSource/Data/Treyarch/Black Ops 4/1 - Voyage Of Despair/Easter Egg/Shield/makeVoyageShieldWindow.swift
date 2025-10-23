@@ -37,7 +37,7 @@ func makeVoyageShieldWindow() -> SerializableGalleryNode {
                     resourceName: "bo4.vod.easter.egg.shield.window.2.part.2.mid.outline",
                     boundingBox: .init(
                         x: 1063.0 / 1920.0,
-                        y: 437.0 / 1080.0,
+                        y: 433.0 / 1080.0,
                         width: 47.0 / 1920.0,
                         height: 56.0 / 1080.0
                     )

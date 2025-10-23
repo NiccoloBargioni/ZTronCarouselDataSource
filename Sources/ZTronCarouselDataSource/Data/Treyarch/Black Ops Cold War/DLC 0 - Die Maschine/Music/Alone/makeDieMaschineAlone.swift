@@ -1,7 +1,5 @@
 import ZTronSerializable
 
-import LoremIpsum
-
 public func makeDieMaschineAlone() -> SerializableGalleryRouter {
     let tapesLocations = MediaRouter.init()
     
