@@ -78,7 +78,7 @@ func makeN31LOSFloppy() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.spaceland.side.quests.n31l.os.floppy.underground.monkey.astronaut.outline",
                     boundingBox: .init(
-                        x: 667.0 / 1920.0,
+                        x: 677.0 / 1920.0,
                         y: 618.0 / 1080.0,
                         width: 66.0 / 1920.0,
                         height: 16.0 / 1080.0

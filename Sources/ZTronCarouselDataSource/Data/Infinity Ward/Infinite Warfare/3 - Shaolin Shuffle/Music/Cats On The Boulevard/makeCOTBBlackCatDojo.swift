@@ -153,10 +153,10 @@ func makeCOTBBlackCatDojo() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.music.cats.on.the.boulevard.pipe.to.mule.munchies.outline",
                     boundingBox: .init(
-                        x: 714.0/1920.0,
-                        y: 534.0/1080.0,
-                        width: 25.0/1920.0,
-                        height: 10.0/1080.0
+                        x: 712.0/1920.0,
+                        y: 535.0/1080.0,
+                        width: 27.0/1920.0,
+                        height: 9.0/1080.0
                     )
                 )
             ]

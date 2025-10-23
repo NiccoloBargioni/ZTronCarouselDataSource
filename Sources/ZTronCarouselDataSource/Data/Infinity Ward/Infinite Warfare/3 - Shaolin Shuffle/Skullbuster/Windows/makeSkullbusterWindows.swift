@@ -34,9 +34,9 @@ public func makeSkullbusterWindows() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.windows.2.out.of.map.dojo.rooftop.spelling.nine.outline",
                     boundingBox: .init(
-                        x: 15.0 / 1920.0,
-                        y: 482.0 / 1080.0,
-                        width: 148.0 / 1920.0,
+                        x: 21.0 / 1920.0,
+                        y: 483.0 / 1080.0,
+                        width: 176.0 / 1920.0,
                         height: 189.0 / 1080.0
                     )
                 )

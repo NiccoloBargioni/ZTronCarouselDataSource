@@ -92,6 +92,18 @@ public func makeSpaceHelmets() -> SerializableGalleryRouter {
             name: "iw.bfb.easter.egg.space.helmets.5.ground.right.of.magic.wheel",
             description: "iw.bfb.easter.egg.space.helmets.5.ground.right.of.magic.wheel.caption",
             position: 4,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.bfb.easter.egg.space.helmets.5.ground.right.of.magic.wheel.outline",
+                    boundingBox: .init(
+                        x: 927.0 / 1920.0,
+                        y: 469.0 / 1080.0,
+                        width: 16.0 / 1920.0,
+                        height: 13.0 / 1080.0
+                    )
+                )
+            ]
         ), at: [">", "iw.bfb.easter.egg.space.helmets.5.ground.right.of.magic.wheel"]
     )
 

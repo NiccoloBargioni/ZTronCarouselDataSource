@@ -16,10 +16,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.utility.room.door.from.fountains.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1248.0/2715.0, y: 934.0/1527.0,
-                    width: 37.0/2715.0, height: 51.0/1527.0
-                )),
-
+                        x: 1248.0/2715.0, y: 934.0/1527.0,
+                        width: 37.0/2715.0, height: 51.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -37,10 +37,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.shredder.cutout.documents.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1551.0/2715.0, y: 847.0/1527.0,
-                    width: 24.0/2715.0, height: 41.0/1527.0
-                )),
-
+                        x: 1551.0/2715.0, y: 847.0/1527.0,
+                        width: 24.0/2715.0, height: 41.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -58,10 +58,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.behind.shredder.cutout.shelf.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1063.0/2715.0, y: 663.0/1527.0,
-                    width: 36.0/2715.0, height: 39.0/1527.0
-                )),
-
+                        x: 1063.0/2715.0, y: 663.0/1527.0,
+                        width: 36.0/2715.0, height: 39.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -79,16 +79,16 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.under.alien.shutter.kepler.logo.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1030.0/2715.0, y: 776.0/1527.0,
-                    width: 28.0/2715.0, height: 17.0/1527.0
-                )),
-
+                        x: 1030.0/2715.0, y: 776.0/1527.0,
+                        width: 28.0/2715.0, height: 17.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
         at: ["underground.under.alien.shutter.kepler.logo.teddy.bear"]
     )
-
+    
     // MARK: - EMPLOYEES ONLY CHAIR
     underground.register(
         SerializableImageNode(
@@ -100,10 +100,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.employees.only.chair.stereo.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 330.0/2715.0, y: 823.0/1527.0,
-                    width: 130.0/2715.0, height: 107.0/1527.0
-                )),
-
+                        x: 330.0/2715.0, y: 823.0/1527.0,
+                        width: 130.0/2715.0, height: 107.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -121,10 +121,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.employees.only.desk.stereo.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 47.0/2715.0, y: 829.0/1527.0,
-                    width: 129.0/2715.0, height: 94.0/1527.0
-                )),
-
+                        x: 47.0/2715.0, y: 829.0/1527.0,
+                        width: 129.0/2715.0, height: 94.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -142,10 +142,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.employees.only.murales.junk.trash.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 2122.0/2714.0, y: 748.0/1526.0,
-                    width: 74.0/2714.0, height: 44.0/1526.0
-                )),
-
+                        x: 2122.0/2714.0, y: 748.0/1526.0,
+                        width: 74.0/2714.0, height: 44.0/1526.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -163,10 +163,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.red.pipes.ceiling.kepler.logo.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1320.0/2715.0, y: 559.0/1527.0,
-                    width: 22.0/2715.0, height: 26.0/1527.0
-                )),
-
+                        x: 1320.0/2715.0, y: 559.0/1527.0,
+                        width: 22.0/2715.0, height: 26.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -184,10 +184,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.employees.only.racing.stripes.seti.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1105.0/2715.0, y: 849.0/1527.0,
-                    width: 18.0/2715.0, height: 88.0/1527.0
-                )),
-
+                        x: 1105.0/2715.0, y: 849.0/1527.0,
+                        width: 18.0/2715.0, height: 88.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -205,10 +205,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.yeti.shutter.racing.stripes.ticket.vendor.rooftop.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1353.0/2715.0, y: 737.0/1527.0,
-                    width: 16.0/2715.0, height: 24.0/1527.0
-                )),
-
+                        x: 1353.0/2715.0, y: 737.0/1527.0,
+                        width: 16.0/2715.0, height: 24.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -225,10 +225,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.yeti.shutter.racing.stripes.ticket.vendor.rooftop.teddy.bear.zoom.outline",
                     boundingBox: CGRect(
-                    x: 1191.0/2715.0, y: 614.0/1527.0,
-                    width: 95.0/2715.0, height: 119.0/1527.0
-                )),
-
+                        x: 1191.0/2715.0, y: 614.0/1527.0,
+                        width: 95.0/2715.0, height: 119.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -251,10 +251,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.ticket.vendor.racing.stripes.above.ladder.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 571.0/2715.0, y: 471.0/1527.0,
-                    width: 44.0/2715.0, height: 50.0/1527.0
-                )),
-
+                        x: 571.0/2715.0, y: 471.0/1527.0,
+                        width: 44.0/2715.0, height: 50.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -272,10 +272,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.hallway.red.pipe.rooftop.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1099.0/2715.0, y: 683.0/1527.0,
-                    width: 33.0/2715.0, height: 25.0/1527.0
-                )),
-
+                        x: 1099.0/2715.0, y: 683.0/1527.0,
+                        width: 33.0/2715.0, height: 25.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -293,10 +293,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.astronaut.cutout.journey.entrance.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 1308.0/2715.0, y: 652.0/1527.0,
-                    width: 23.0/2715.0, height: 50.0/1527.0
-                )),
-
+                        x: 1308.0/2715.0, y: 652.0/1527.0,
+                        width: 33.0/2715.0, height: 50.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),
@@ -314,10 +314,10 @@ func makeUnderground() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "underground.arcade.shutter.astrocade.entrance.teddy.bear.outline",
                     boundingBox: CGRect(
-                    x: 790.0/2715.0, y: 767.0/1527.0,
-                    width: 23.0/2715.0, height: 43.0/1527.0
-                )),
-
+                        x: 790.0/2715.0, y: 767.0/1527.0,
+                        width: 23.0/2715.0, height: 43.0/1527.0
+                    )),
+                
                 SerializableBoundingCircleNode()
             ]
         ),

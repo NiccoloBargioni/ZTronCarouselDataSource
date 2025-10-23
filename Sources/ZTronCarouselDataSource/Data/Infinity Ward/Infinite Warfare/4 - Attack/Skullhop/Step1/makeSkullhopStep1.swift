@@ -114,9 +114,9 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                     resourceName: "sign.outside.beachside.market.skull.zoom.outline",
                     boundingBox: .init(
                         x: 1301.0/2715.0,
-                        y: 774.0/1527.0,
-                        width: 2.0/2715.0,
-                        height: 4.0/1527.0
+                        y: 743.0/1527.0,
+                        width: 4.0/2715.0,
+                        height: 5.0/1527.0
                     )
                 )
             ]

@@ -18,7 +18,7 @@ func makeSkullbusterStep1Spray() -> SerializableGalleryNode {
                         x: 1097.0/2715.0,
                         y: 731.0/1527.0,
                         width: 33.0/2715.0,
-                        height: 9.0/2517.0
+                        height: 9.0/1527.0
                     )
                 )
             ]
