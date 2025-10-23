@@ -237,12 +237,12 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
     radioLocations.register(
         SerializableImageNode(
             name: "wwii.tfr.side.quests.recordings.square.of.mittelburg",
-            description: "wwii.tfr.side.quests.recordings.quick.revive.caption",
+            description: "wwii.tfr.side.quests.recordings.square.of.mittelburg.caption",
             position: 11,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "wwii.tfr.side.quests.recordings.quick.revive.outline",
+                    resourceName: "wwii.tfr.side.quests.recordings.square.of.mittelburg.outline",
                     boundingBox: .init(
                         x: 1330.0 / 1920.0,
                         y: 878.0 / 1080.0,

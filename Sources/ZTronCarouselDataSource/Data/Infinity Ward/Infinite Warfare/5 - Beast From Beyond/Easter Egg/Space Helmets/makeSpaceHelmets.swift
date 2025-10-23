@@ -76,10 +76,10 @@ public func makeSpaceHelmets() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.easter.egg.space.helmets.4.magic.wheel.top.of.yellow.barrel.outline",
                     boundingBox: .init(
-                        x: 927.0 / 1920.0,
-                        y: 469.0 / 1080.0,
-                        width: 16.0 / 1920.0,
-                        height: 13.0 / 1080.0
+                        x: 753.0 / 1920.0,
+                        y: 433.0 / 1080.0,
+                        width: 21.0 / 1920.0,
+                        height: 15.0 / 1080.0
                     )
                 )
             ]
