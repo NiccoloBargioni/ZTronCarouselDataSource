@@ -57,10 +57,10 @@ func makeN31LOSFloppy() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.spaceland.side.quests.n31l.os.floppy.underground.front.of.racing.stripes.outline",
                     boundingBox: .init(
-                        x: 335.0 / 1920.0,
-                        y: 798.0 / 1080.0,
+                        x: 345.0 / 1920.0,
+                        y: 800.0 / 1080.0,
                         width: 102.0 / 1920.0,
-                        height: 66.0 / 1080.0
+                        height: 68.0 / 1080.0
                     )
                 )
             ]

@@ -15,10 +15,10 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
                     SerializableOutlineNode(
                         resourceName: "iw.bfb.music.shattered.lies.portal.area.change.chews.outline",
                         boundingBox: .init(
-                            x: 825.0 / 1920.0,
-                            y: 452.0 / 1080.0,
-                            width: 4.0 / 1920.0,
-                            height: 2.0 / 1080.0
+                            x: 994.0 / 2715.0,
+                            y: 677.0 / 1527.0,
+                            width: 20.0 / 2715.0,
+                            height: 35.0 / 1527.0
                         )
                     )
                 ]
@@ -27,9 +27,29 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
 
         spacemanLocations.register(
             SerializableImageNode(
+                name: "iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack",
+                description: "iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack.caption",
+                position: 1,
+                overlays: [
+                    SerializableBoundingCircleNode(),
+                    SerializableOutlineNode(
+                        resourceName: "iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack.caption",
+                        boundingBox: .init(
+                            x: 825.0 / 1920.0,
+                            y: 452.0 / 1080.0,
+                            width: 4.0 / 1920.0,
+                            height: 2.0 / 1080.0
+                        )
+                    )
+                ]
+        ), at: ["iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack"])
+
+    
+        spacemanLocations.register(
+            SerializableImageNode(
                 name: "iw.bfb.music.shattered.lies.portal.area.bridge.to.pack.a.punch",
                 description: "iw.bfb.music.shattered.lies.portal.area.bridge.to.pack.a.punch.caption",
-                position: 1,
+                position: 2,
                 overlays: [
                     SerializableBoundingCircleNode(),
                     SerializableOutlineNode(
@@ -44,7 +64,7 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
                 ]
         ), at: ["iw.bfb.music.shattered.lies.portal.area.bridge.to.pack.a.punch"])
 
-
+    /*
         spacemanLocations.register(
             SerializableImageNode(
                 name: "iw.bfb.music.shattered.lies.portal.area.bridge.to.pack.a.punch.zoom",
@@ -77,16 +97,8 @@ func makeScatteredLiesPortal() -> SerializableGalleryNode {
                         )
                     )
                 )
-        )
-        
-
-        spacemanLocations.register(
-            SerializableImageNode(
-                name: "iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack",
-                description: "iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack.caption",
-                position: 2
-        ), at: ["iw.bfb.music.shattered.lies.portal.area.window.visible.from.pack"])
-        
+        )*/
+    
 
         spacemanLocations.register(
             SerializableImageNode(
