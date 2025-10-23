@@ -34,8 +34,8 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.mahjong.2.disco.inferno.counter.pizza.boxes.outline",
                     boundingBox: .init(
-                        x: 1015.0 / 2715.0,
-                        y: 631.0 / 1527.0,
+                        x: 915.0 / 2715.0,
+                        y: 481.0 / 1527.0,
                         width: 23.0 / 2715.0,
                         height:  6.0 / 1527.0
                     )
@@ -54,8 +54,8 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.mahjong.3.disco.inferno.table.room.above.bombstoppers.outline",
                     boundingBox: .init(
-                        x: 952.0 / 1920.0,
-                        y: 654.0 / 1080.0,
+                        x: 1100.0 / 1920.0,
+                        y: 704.0 / 1080.0,
                         width: 11.0 / 1920.0,
                         height:  4.0 / 1080.0
                     )
