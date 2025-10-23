@@ -38,8 +38,8 @@ func makeChroniclesOriginLightningStaffDisk() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 608.0 / 1920.0,
                         y: 395.0 / 1080.0,
-                        width: 26.0 / 1920.0,
-                        height: 29.0 / 1080.0
+                        width: 31.0 / 1920.0,
+                        height: 34.0 / 1080.0
                     )
                 )
             ]

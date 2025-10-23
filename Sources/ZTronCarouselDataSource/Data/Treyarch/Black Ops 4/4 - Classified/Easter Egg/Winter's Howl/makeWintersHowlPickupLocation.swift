@@ -25,9 +25,9 @@ public func makeWintersHowlPickupLocation() -> SerializableGalleryNode {
     
     
     return SerializableGalleryNode(
-        name: "bo4.classified.easter.egg.winters.howl.4.pickup.locations.inside.panic.room",
+        name: "bo4.classified.easter.egg.winters.howl.4.pickup.locations.panic.room",
         position: 4,
-        assetsImageName: "bo4.classified.easter.egg.winters.howl.4.pickup.locations.inside.panic.room.icon",
+        assetsImageName: "bo4.classified.easter.egg.winters.howl.4.pickup.locations.panic.room.icon",
         images: pickupLocations
     )
 }

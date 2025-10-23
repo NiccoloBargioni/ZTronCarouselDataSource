@@ -37,7 +37,7 @@ func makeCivilProtectorWaterfront() -> SerializableGalleryNode {
                     resourceName: "bo3.soe.easter.egg.civil.protector.waterfront.waterfront.2.outline",
                     boundingBox: .init(
                         x: 700.0 / 1920.0,
-                        y: 504.0 / 1080.0,
+                        y: 503.0 / 1080.0,
                         width: 16.0 / 1920.0,
                         height: 8.0 / 1080.0
                     )
