@@ -4,7 +4,7 @@ func makeKeepsakesTool() -> SerializableToolNode {
     let keepsakesStepRouter = SerializableGalleryRouter()
     
     [
-        (makeKeepsakes(), "wwii.tfr.easter.egg.keepsakes", 0),
+        (makeKeepsakes(), "wwii.tfr.easter.egg.keepsakes.keepsakes", 0),
         (makeKeepsakesEnigmas(), "wwii.tfr.easter.egg.keepsakes.enigma.machines", 1)
     ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
         keepsakesStepRouter.router.register(

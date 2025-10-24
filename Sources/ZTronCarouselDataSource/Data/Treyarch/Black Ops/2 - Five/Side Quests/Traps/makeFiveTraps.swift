@@ -48,7 +48,7 @@ public func makeFive() -> SerializableGalleryRouter {
     let LocationsRouter = SerializableGalleryRouter()
     
     LocationsRouter.router.register(SerializableGalleryNode(
-        name: "bo.five.side.quests..tool.name",
+        name: "bo.five.side.quests.traps.tool.name",
         position: 0,
         assetsImageName: nil,
         images: trapPartsLocations

@@ -4,7 +4,6 @@ func makeYellowSnowballTool() -> SerializableToolNode {
     let yellowSnowballStepsRouter = SerializableGalleryRouter()
     
     [
-        (makeYellowSnowballCampFire(), "bo4.tdt.side.quests.yellow.snowballs.camp.fire", 0),
         (makeYellowSnowballPuppets(), "bo4.tdt.side.quests.yellow.snowballs.puppets", 1)
     ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
         yellowSnowballStepsRouter.router.register(
@@ -15,6 +14,13 @@ func makeYellowSnowballTool() -> SerializableToolNode {
                 images: MediaRouter()
             ), at: [">", subgalleryFirstPathComponent]
         )
+        
+        let campFireLocations = makeYellowSnowballCampFire()
+        
+        campFireLocations.router.forEach { absolutePath, output in
+            yellowSnowballStepsRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
+        }
+
         
         subgalleryRouter.router.forEach { absolutePath, output in
             yellowSnowballStepsRouter.router.register(

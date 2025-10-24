@@ -43,10 +43,10 @@ public func makeTSTRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.side.quests.recordings.theatre.audio.files.outline",
                     boundingBox: .init(
-                        x: 195.0 / 2715.0,
-                        y: 687.0 / 1527.0,
-                        width: 70.0 / 2715.0,
-                        height: 35.0 / 1527.0
+                        x: 1333.0 / 2715.0,
+                        y: 701.0 / 1527.0,
+                        width: 43.0 / 2715.0,
+                        height: 16.0 / 1527.0
                     )
                 )
             ]
@@ -63,10 +63,10 @@ public func makeTSTRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tst.side.quests.recordings.bossfight.outline",
                     boundingBox: .init(
-                        x: 1333.0 / 2715.0,
-                        y: 701.0 / 1527.0,
-                        width: 42.0 / 2715.0,
-                        height: 17.0 / 1527.0
+                        x: 192.0 / 2715.0,
+                        y: 686.0 / 1527.0,
+                        width: 75.0 / 2715.0,
+                        height: 38.0 / 1527.0
                     )
                 )
             ]
