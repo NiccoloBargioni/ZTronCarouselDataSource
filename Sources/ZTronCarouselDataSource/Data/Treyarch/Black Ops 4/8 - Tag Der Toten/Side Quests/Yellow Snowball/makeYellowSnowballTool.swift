@@ -20,7 +20,7 @@ func makeYellowSnowballTool() -> SerializableToolNode {
             at: [ ">",
                   "bo4.tdt.side.quests.yellow.snowballs.campfire",
                   output.getName()
-                ]
+            ]
         )
     }
     
@@ -42,7 +42,7 @@ func makeYellowSnowballTool() -> SerializableToolNode {
             at: [
                 ">",
                 "bo4.tdt.side.quests.yellow.snowballs.puppets"
-            ].appending(contentsOf: Array.array(subsequence: absolutePath.dropFirst()))
+            ].appending(contentsOf: absolutePath)
         )
     }
     
