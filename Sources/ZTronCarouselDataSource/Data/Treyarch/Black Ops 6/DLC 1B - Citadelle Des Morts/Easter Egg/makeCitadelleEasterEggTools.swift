@@ -9,8 +9,8 @@ public func makeCitadelleEasterEggTools() -> SerializableToolsRouter {
     )
         
     eeTools.router.register(
-        makeCitadelleTrapsTool(),
-        at: ["traps"]
+        makeCitadelleTool(),
+        at: [""]
     )
 
     return eeTools

@@ -1,10 +1,10 @@
 import ZTronSerializable
 
-public func makeCitadelleTrapsTool() -> SerializableToolNode {
+public func makeCitadelleTool() -> SerializableToolNode {
     return SerializableToolNode(
-        name: "bo6.cdm.easter.egg.traps.tool.name",
+        name: "bo6.cdm.easter.egg..tool.name",
         position: 1,
-        assetsImageName: "bo6.cdm.easter.egg.traps.icon",
-        galleryRouter: makeCitadelleTraps()
+        assetsImageName: "bo6.cdm.easter.egg..icon",
+        galleryRouter: makeCitadelle()
     )
 }

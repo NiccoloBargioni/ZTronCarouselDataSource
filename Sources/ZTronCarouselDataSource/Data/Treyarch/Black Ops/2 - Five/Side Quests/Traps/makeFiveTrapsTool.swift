@@ -1,10 +1,10 @@
 import ZTronSerializable
 
-public func makeFiveTrapsTool() -> SerializableToolNode {
+public func makeFiveTool() -> SerializableToolNode {
     return SerializableToolNode(
-        name: "bo.five.side.quests.traps.tool.name",
+        name: "bo.five.side.quests..tool.name",
         position: 0,
-        assetsImageName: "bo.five.side.quests.traps.icon",
-        galleryRouter: makeFiveTraps()
+        assetsImageName: "bo.five.side.quests..icon",
+        galleryRouter: makeFive()
     )
 }

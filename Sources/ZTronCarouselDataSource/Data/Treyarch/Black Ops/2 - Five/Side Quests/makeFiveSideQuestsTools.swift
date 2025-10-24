@@ -4,8 +4,8 @@ public func makeFiveSideQuestsTools() -> SerializableToolsRouter {
     let fiveSideQuestsTools = SerializableToolsRouter()
     
     fiveSideQuestsTools.router.register(
-        makeFiveTrapsTool(),
-        at: [">", "traps"]
+        makeFiveTool(),
+        at: [">", ""]
     )
 
     return fiveSideQuestsTools

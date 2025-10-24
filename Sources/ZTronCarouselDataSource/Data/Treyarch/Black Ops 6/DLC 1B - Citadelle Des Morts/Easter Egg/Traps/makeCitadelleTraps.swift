@@ -1,32 +1,32 @@
 import ZTronSerializable
 
-public func makeCitadelleTraps() -> SerializableGalleryRouter {
-    let trapsLocations = SerializableGalleryRouter()
+public func makeCitadelle() -> SerializableGalleryRouter {
+    let Locations = SerializableGalleryRouter()
     
-    trapsLocations.router.register(
-        makeCitadelleTrapsPaper1(),
+    Locations.router.register(
+        makeCitadellePaper1(),
         at: ["paper 1"]
     )
     
-    trapsLocations.router.register(
-        makeCitadelleTrapsPaper2(),
+    Locations.router.register(
+        makeCitadellePaper2(),
         at: ["paper 2"]
     )
         
-    trapsLocations.router.register(
-        makeCitadelleTrapsPaper3(),
+    Locations.router.register(
+        makeCitadellePaper3(),
         at: ["paper 3"]
     )
         
-    trapsLocations.router.register(
-        makeCitadelleTrapsPaper4(),
+    Locations.router.register(
+        makeCitadellePaper4(),
         at: ["paper 4"]
     )
         
-    trapsLocations.router.register(
-        makeCitadelleTrapsLocations(),
-        at: ["traps locations"]
+    Locations.router.register(
+        makeCitadelleLocations(),
+        at: ["locations"]
     )
         
-    return trapsLocations
+    return Locations
 }

@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-public func makeFiveTraps() -> SerializableGalleryRouter {
+public func makeFive() -> SerializableGalleryRouter {
     let trapPartsLocations = MediaRouter.init()
     
     trapPartsLocations.register(
@@ -45,14 +45,14 @@ public func makeFiveTraps() -> SerializableGalleryRouter {
     ), at: ["bo.five.side.quests.trap.2.war.room"])
     
     
-    let trapsLocationsRouter = SerializableGalleryRouter()
+    let LocationsRouter = SerializableGalleryRouter()
     
-    trapsLocationsRouter.router.register(SerializableGalleryNode(
-        name: "bo.five.side.quests.traps.tool.name",
+    LocationsRouter.router.register(SerializableGalleryNode(
+        name: "bo.five.side.quests..tool.name",
         position: 0,
         assetsImageName: nil,
         images: trapPartsLocations
     ), at: [">", "master"])
     
-    return trapsLocationsRouter
+    return LocationsRouter
 }

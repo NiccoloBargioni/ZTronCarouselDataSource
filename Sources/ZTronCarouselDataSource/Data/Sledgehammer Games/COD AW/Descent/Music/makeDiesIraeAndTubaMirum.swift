@@ -13,10 +13,10 @@ public func makeDiesIraeAndTubaMirum() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "aw.descent.music.dies.irae.and.tuba.mirum.blue.sea.star.gallery.outline",
                     boundingBox: .init(
-                        x: 255.0 / 2715.0,
-                        y: 712.0 / 1527.0,
-                        width: 30.0 / 2715.0,
-                        height: 18.0 / 1527.0
+                        x: 1578.0 / 2715.0,
+                        y: 943.0 / 1527.0,
+                        width: 139.0 / 2715.0,
+                        height: 74.0 / 1527.0
                     )
                 )
             ]
@@ -33,16 +33,16 @@ public func makeDiesIraeAndTubaMirum() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "aw.descent.music.dies.irae.and.tuba.mirum.exomedic.past.tidal.generator.outline",
                     boundingBox: .init(
-                        x: 255.0 / 2715.0,
-                        y: 712.0 / 1527.0,
-                        width: 30.0 / 2715.0,
-                        height: 18.0 / 1527.0
+                        x: 1550.0 / 2715.0,
+                        y: 1463.0 / 1527.0,
+                        width: 45.0 / 2715.0,
+                        height: 37.0 / 1527.0
                     )
                 )
             ]
     ), at: ["aw.descent.music.dies.irae.and.tuba.mirum.exomedic.past.tidal.generator"])
 
-        
+
     musicLocations.register(
         SerializableImageNode(
             name: "aw.descent.music.dies.irae.and.tuba.mirum.jumping.from.left.side.door.in.spawn",
@@ -53,15 +53,14 @@ public func makeDiesIraeAndTubaMirum() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "aw.descent.music.dies.irae.and.tuba.mirum.jumping.from.left.side.door.in.spawn.outline",
                     boundingBox: .init(
-                        x: 255.0 / 2715.0,
-                        y: 712.0 / 1527.0,
-                        width: 30.0 / 2715.0,
-                        height: 18.0 / 1527.0
+                        x: 1968.0 / 2715.0,
+                        y: 318.0 / 1527.0,
+                        width: 105.0 / 2715.0,
+                        height: 59.0 / 1527.0
                     )
                 )
             ]
     ), at: ["aw.descent.music.dies.irae.and.tuba.mirum.jumping.from.left.side.door.in.spawn"])
-
 
     let locationsRouter = SerializableGalleryRouter()
     
