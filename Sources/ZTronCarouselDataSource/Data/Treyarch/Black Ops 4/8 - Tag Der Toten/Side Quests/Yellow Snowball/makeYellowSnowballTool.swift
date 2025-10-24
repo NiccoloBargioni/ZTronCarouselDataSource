@@ -5,31 +5,47 @@ func makeYellowSnowballTool() -> SerializableToolNode {
     
     let campfireRouter = makeYellowSnowballCampFire()
     
-    campfireRouter.router.forEach { absolutePath, output in
-        yellowSnowballRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
-    }
-
+    yellowSnowballRouter.router.register(
+        SerializableGalleryNode(
+            name: "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire",
+            position: 0,
+            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire.icon",
+            images: MediaRouter()
+        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire"]
+    )
     
-    [
-        (makeYellowSnowballPuppets(), "bo4.tdt.side.quests.yellow.snowballs.puppets", 1),
-    ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
+    campfireRouter.router.forEach { absolutePath, output in
         yellowSnowballRouter.router.register(
-            SerializableGalleryNode(
-                name: subgalleryFirstPathComponent,
-                position: subgalleryPosition,
-                assetsImageName: "\(subgalleryFirstPathComponent).icon",
-                images: MediaRouter()
-            ), at: [">", subgalleryFirstPathComponent]
+            output,
+            at: [ ">",
+                  "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire",
+                  output.getName()
+                ]
         )
-        
-        yellowSnowballRouter.router.forEach { absolutePath, output in
-            yellowSnowballRouter.router.register(
-                output,
-                at: [">", subgalleryFirstPathComponent].appending(contentsOf: Array.array(subsequence: absolutePath.dropFirst()))
-            )
-        }
     }
-        
+    
+    
+    yellowSnowballRouter.router.register(
+        SerializableGalleryNode(
+            name: "bo4.tdt.side.quests.yellow.snowballs.puppets",
+            position: 1,
+            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.puppets.icon",
+            images: MediaRouter()
+        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.puppets"]
+    )
+    
+    let puppetsRouter = makeYellowSnowballPuppets()
+    
+    puppetsRouter.router.forEach { absolutePath, output in
+        yellowSnowballRouter.router.register(
+            output,
+            at: [
+                ">",
+                "bo4.tdt.side.quests.yellow.snowballs.puppets"
+            ].appending(contentsOf: Array.array(subsequence: absolutePath.dropFirst()))
+        )
+    }
+    
     
     return .init(
         name: "bo4.tdt.side.quests.yellow.snowballs.tool.name",

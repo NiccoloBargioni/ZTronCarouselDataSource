@@ -34,7 +34,7 @@ public func makeYellowSnowballCampFire() -> SerializableGalleryRouter {
         position: 0,
         assetsImageName: nil,
         images: sodLocations
-    ), at: [">"])
+    ), at: [">", "master"])
     
     return locationsRouter
 }
