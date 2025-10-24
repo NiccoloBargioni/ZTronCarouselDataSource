@@ -7,18 +7,18 @@ func makeYellowSnowballTool() -> SerializableToolNode {
     
     yellowSnowballRouter.router.register(
         SerializableGalleryNode(
-            name: "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire",
+            name: "bo4.tdt.side.quests.yellow.snowballs.campfire",
             position: 0,
-            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire.icon",
+            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.campfire.icon",
             images: MediaRouter()
-        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire"]
+        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.campfire"]
     )
     
     campfireRouter.router.forEach { absolutePath, output in
         yellowSnowballRouter.router.register(
             output,
             at: [ ">",
-                  "bo4.tdt.side.quests.yellow.snowballs.puppets.campfire",
+                  "bo4.tdt.side.quests.yellow.snowballs.campfire",
                   output.getName()
                 ]
         )
