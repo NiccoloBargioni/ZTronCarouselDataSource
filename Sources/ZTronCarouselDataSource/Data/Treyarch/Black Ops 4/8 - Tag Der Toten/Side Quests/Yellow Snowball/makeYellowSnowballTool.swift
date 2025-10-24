@@ -1,13 +1,19 @@
 import ZTronSerializable
 
 func makeYellowSnowballTool() -> SerializableToolNode {
-    let yellowSnowballStepsRouter = SerializableGalleryRouter()
+    let yellowSnowballRouter = SerializableGalleryRouter()
+    
+    let campfireRouter = makeYellowSnowballCampFire()
+    
+    campfireRouter.router.forEach { absolutePath, output in
+        yellowSnowballRouter.router.register(output, at: absolutePath.dropLast().appending(newElement: output.getName()))
+    }
+
     
     [
-        (SerializableGalleryRouter(), "bo4.tdt.side.quests.yellow.snowballs.campfire", 0),
-        (makeYellowSnowballPuppets(), "bo4.tdt.side.quests.yellow.snowballs.puppets", 1)
+        (makeYellowSnowballPuppets(), "bo4.tdt.side.quests.yellow.snowballs.puppets", 1),
     ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
-        yellowSnowballStepsRouter.router.register(
+        yellowSnowballRouter.router.register(
             SerializableGalleryNode(
                 name: subgalleryFirstPathComponent,
                 position: subgalleryPosition,
@@ -16,30 +22,20 @@ func makeYellowSnowballTool() -> SerializableToolNode {
             ), at: [">", subgalleryFirstPathComponent]
         )
         
-        subgalleryRouter.router.forEach { absolutePath, output in
-            yellowSnowballStepsRouter.router.register(
+        yellowSnowballRouter.router.forEach { absolutePath, output in
+            yellowSnowballRouter.router.register(
                 output,
                 at: [">", subgalleryFirstPathComponent].appending(contentsOf: Array.array(subsequence: absolutePath.dropFirst()))
             )
         }
     }
-    
-    
-    let campFireLocations = makeYellowSnowballCampFire()
-    
-    campFireLocations.router.forEach { _, output in
-        yellowSnowballStepsRouter.router.register(
-            output,
-            at: [">", "bo4.tdt.side.quests.yellow.snowballs.campfire", output.getName()]
-        )
-    }
-
+        
     
     return .init(
         name: "bo4.tdt.side.quests.yellow.snowballs.tool.name",
         position: 1,
         assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.icon",
-        galleryRouter: yellowSnowballStepsRouter
+        galleryRouter: yellowSnowballRouter
     )
 }
 
