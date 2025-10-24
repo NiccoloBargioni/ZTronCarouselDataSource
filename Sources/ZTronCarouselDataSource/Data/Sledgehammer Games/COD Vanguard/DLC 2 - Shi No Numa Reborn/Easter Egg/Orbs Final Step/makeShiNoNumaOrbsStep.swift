@@ -1,25 +1,27 @@
 import ZTronSerializable
 
 public func makeShiNoNumaOrbsStep() -> SerializableGalleryRouter {
-    let orbsStep = MediaRouter.init()
+    let Locations = SerializableGalleryRouter()
     
-    orbsStep.register(
-        SerializableVideoNode(
-            name: "vanguard.shi.no.numa.reborn.easter.egg.orbs.step",
-            extension: "mp4",
-            description: "vanguard.shi.no.numa.reborn.easter.egg.orbs.step.caption",
-            position: 0
-    ), at: ["vanguard.shi.no.numa.reborn.easter.egg.orbs.step"])
-
+    Locations.router.register(
+        makeShiNoNumaOrbsCommRooms(),
+        at: ["comm rooms"]
+    )
     
-    let locationsRouter = SerializableGalleryRouter()
-    
-    locationsRouter.router.register(SerializableGalleryNode(
-        name: "vanguard.shi.no.numa.reborn.easter.egg.orbs.step",
-        position: 0,
-        assetsImageName: nil,
-        images: orbsStep
-    ), at: [">", "master"])
-    
-    return locationsRouter
+    Locations.router.register(
+        makeShiNoNumaOrbsDocQuarters(),
+        at: ["doc quarters"]
+    )
+        
+    Locations.router.register(
+        makeShiNoNumaOrbsFishingHut(),
+        at: ["fishing hut"]
+    )
+        
+    Locations.router.register(
+        makeShiNoNumaOrbsStorage(),
+        at: ["storage"]
+    )
+        
+    return Locations
 }
