@@ -8,6 +8,12 @@ public func makeArchonEasterEggTools() -> SerializableToolsRouter {
         at: ["cursed objects"]
     )
 
+    
+    eeTools.router.register(
+        makeArchonShovelTool(),
+        at: ["shovel"]
+    )
+
 
     
     return eeTools

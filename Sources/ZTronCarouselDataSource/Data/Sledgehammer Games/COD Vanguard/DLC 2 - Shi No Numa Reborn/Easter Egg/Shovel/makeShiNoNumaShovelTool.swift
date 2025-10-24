@@ -1,9 +1,9 @@
 import ZTronSerializable
 
-public func makeShiNoNumaShovelTool() -> SerializableToolNode {
+public func makeArchonShovelTool() -> SerializableToolNode {
     return SerializableToolNode(
         name: "vanguard.shi.no.numa.reborn.easter.egg.shovel.tool.name",
-        position: 3,
+        position: 1,
         assetsImageName: "vanguard.shi.no.numa.reborn.easter.egg.shovel.icon",
         galleryRouter: makeShiNoNumaShovel()
     )

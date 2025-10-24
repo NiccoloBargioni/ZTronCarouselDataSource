@@ -13,5 +13,10 @@ public func makeOriginWindStaff() -> SerializableGalleryRouter {
         at: ["chimneys"]
     )
     
+    staffLocations.router.register(
+        makeWindStaffCrazyPlace(),
+        at: ["crazy place"]
+    )
+    
     return staffLocations
 }

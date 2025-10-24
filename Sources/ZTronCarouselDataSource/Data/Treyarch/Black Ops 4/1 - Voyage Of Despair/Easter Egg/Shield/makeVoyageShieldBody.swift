@@ -15,10 +15,10 @@ func makeVoyageShieldBody() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.vod.easter.egg.shield.body.1.piece.3.fruit.boxes.outline",
                     boundingBox: .init(
-                        x: 1080.0 / 1680.0,
-                        y: 421.0 / 1050.0,
-                        width: 44.0 / 1680.0,
-                        height: 97.0 / 1050.0
+                        x: 1080.0 / 1920.0,
+                        y: 421.0 / 1080.0,
+                        width: 44.0 / 1920.0,
+                        height: 97.0 / 1080.0
                     )
                 )
             ]

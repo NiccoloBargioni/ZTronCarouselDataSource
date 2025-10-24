@@ -208,10 +208,22 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
     
     underwaterCratesLocations.register(
         SerializableImageNode(
-            name: "bo6.terminus.side.quests.treasure.crates.south.castle.rock.island",
-            description: "bo6.terminus.side.quests.treasure.crates.south.castle.rock.island.caption",
+            name: "bo6.terminus.side.quests.treasure.crates.south.of.crab.island",
+            description: "bo6.terminus.side.quests.treasure.crates.south.of.crab.island.caption",
             position: 10,
-    ), at: ["bo6.terminus.side.quests.treasure.crates.south.castle.rock.island"])
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo6.terminus.side.quests.treasure.crates.south.of.crab.island.outline",
+                    boundingBox: .init(
+                        x: 1745.0 / 3840.0,
+                        y: 931.0 / 2160.0,
+                        width: 189.0 / 3840.0,
+                        height: 97.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo6.terminus.side.quests.treasure.crates.south.of.crab.island"])
     
     
     underwaterCratesLocations.register(
