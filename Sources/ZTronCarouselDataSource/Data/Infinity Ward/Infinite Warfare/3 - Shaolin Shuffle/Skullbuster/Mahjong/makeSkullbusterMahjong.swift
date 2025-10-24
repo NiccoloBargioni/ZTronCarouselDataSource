@@ -22,7 +22,7 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
                 )
             ]
     ), at: ["iw.ss.skullbreaker.mahjong.1.disco.inferno.rooftop"])
-
+    
     
     tilesLocations.register(
         SerializableImageNode(
@@ -34,16 +34,16 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.mahjong.2.disco.inferno.counter.pizza.boxes.outline",
                     boundingBox: .init(
-                        x: 1203.0 / 2715.0,
-                        y: 736.0 / 1527.0,
-                        width: 19.0 / 2715.0,
-                        height:  6.0 / 1527.0
+                        x: 557.0 / 1920.0,
+                        y: 568.0 / 1080.0,
+                        width: 36.0 / 1920.0,
+                        height:  17.0 / 1080.0
                     )
                 )
             ]
     ), at: ["iw.ss.skullbreaker.mahjong.2.disco.inferno.counter.pizza.boxes"])
 
-
+    
     tilesLocations.register(
         SerializableImageNode(
             name: "iw.ss.skullbreaker.mahjong.3.disco.inferno.table.room.above.bombstoppers",
@@ -54,10 +54,10 @@ public func makeSkullbusterMahjong() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ss.skullbreaker.mahjong.3.disco.inferno.table.room.above.bombstoppers.outline",
                     boundingBox: .init(
-                        x: 866.0 / 1920.0,
-                        y: 532.0 / 1080.0,
-                        width: 11.0 / 1920.0,
-                        height:  4.0 / 1080.0
+                        x: 1028.0 / 1920.0,
+                        y: 403.0 / 1080.0,
+                        width: 12.0 / 1920.0,
+                        height:  5.0 / 1080.0
                     )
                 )
             ]

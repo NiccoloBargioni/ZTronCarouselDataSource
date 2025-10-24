@@ -141,10 +141,10 @@ func makeMeatBurgerTown() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "aw.infection.easter.egg.meat.burgertown.7.burgertown.in.front.of.frying.pan.outline",
                     boundingBox: .init(
-                        x: 215.0 / 1920.0,
-                        y: 393.0 / 1080.0,
-                        width: 97.0 / 1920.0,
-                        height: 27.0 / 1080.0
+                        x: 770.0 / 1920.0,
+                        y: 353.0 / 1080.0,
+                        width: 37.0 / 1920.0,
+                        height: 16.0 / 1080.0
                     )
                 )
             ]
