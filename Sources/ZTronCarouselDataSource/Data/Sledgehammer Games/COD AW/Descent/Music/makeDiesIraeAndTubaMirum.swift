@@ -33,7 +33,7 @@ public func makeDiesIraeAndTubaMirum() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "aw.descent.music.dies.irae.and.tuba.mirum.exomedic.past.tidal.generator.outline",
                     boundingBox: .init(
-                        x: 1550.0 / 2715.0,
+                        x: 1552.0 / 2715.0,
                         y: 1463.0 / 1527.0,
                         width: 45.0 / 2715.0,
                         height: 37.0 / 1527.0
