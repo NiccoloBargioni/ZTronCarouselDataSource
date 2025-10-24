@@ -15,13 +15,15 @@ func makeYellowSnowballTool() -> SerializableToolNode {
     )
     
     campfireRouter.router.forEach { absolutePath, output in
-        yellowSnowballRouter.router.register(
-            output,
-            at: [ ">",
-                  "bo4.tdt.side.quests.yellow.snowballs.campfire",
-                  output.getName()
-            ]
-        )
+        if absolutePath.count > 1 {
+            yellowSnowballRouter.router.register(
+                output,
+                at: [ ">",
+                      "bo4.tdt.side.quests.yellow.snowballs.campfire",
+                      output.getName()
+                    ]
+            )
+        }
     }
     
     
@@ -37,13 +39,15 @@ func makeYellowSnowballTool() -> SerializableToolNode {
     let puppetsRouter = makeYellowSnowballPuppets()
     
     puppetsRouter.router.forEach { absolutePath, output in
-        yellowSnowballRouter.router.register(
-            output,
-            at: [
-                ">",
-                "bo4.tdt.side.quests.yellow.snowballs.puppets"
-            ].appending(contentsOf: absolutePath)
-        )
+        if absolutePath.count > 1 {
+            yellowSnowballRouter.router.register(
+                output,
+                at: [
+                    ">",
+                    "bo4.tdt.side.quests.yellow.snowballs.puppets"
+                ].appending(contentsOf: absolutePath)
+            )
+        }
     }
     
     
