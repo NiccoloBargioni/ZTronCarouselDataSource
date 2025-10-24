@@ -1,51 +1,28 @@
 import ZTronSerializable
 
 func makeYellowSnowballTool() -> SerializableToolNode {
-    let yellowSnowballRouter = SerializableGalleryRouter()
+    let yellowSnowballStepsRouter = SerializableGalleryRouter()
     
-    let campfireRouter = makeYellowSnowballCampFire()
+    let campfireRouter = SerializableGalleryRouter()
+    campfireRouter.router.register(makeYellowSnowballCampFire(), at: ["campfire"])
     
-    yellowSnowballRouter.router.register(
-        SerializableGalleryNode(
-            name: "bo4.tdt.side.quests.yellow.snowballs.campfire",
-            position: 0,
-            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.campfire.icon",
-            images: MediaRouter()
-        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.campfire"]
-    )
-    
-    campfireRouter.router.forEach { absolutePath, output in
-        if absolutePath.count > 1 {
-            yellowSnowballRouter.router.register(
+    [
+        (campfireRouter, "bo4.tdt.side.quests.yellow.snowballs.camp.fire", 0),
+        (makeYellowSnowballPuppets(), "bo4.tdt.side.quests.yellow.snowballs.puppets", 1)
+    ].forEach { subgalleryRouter, subgalleryFirstPathComponent, subgalleryPosition in
+        yellowSnowballStepsRouter.router.register(
+            SerializableGalleryNode(
+                name: subgalleryFirstPathComponent,
+                position: subgalleryPosition,
+                assetsImageName: "\(subgalleryFirstPathComponent).icon",
+                images: MediaRouter()
+            ), at: [">", subgalleryFirstPathComponent]
+        )
+        
+        subgalleryRouter.router.forEach { absolutePath, output in
+            yellowSnowballStepsRouter.router.register(
                 output,
-                at: [ ">",
-                      "bo4.tdt.side.quests.yellow.snowballs.campfire",
-                      output.getName()
-                    ]
-            )
-        }
-    }
-    
-    
-    yellowSnowballRouter.router.register(
-        SerializableGalleryNode(
-            name: "bo4.tdt.side.quests.yellow.snowballs.puppets",
-            position: 1,
-            assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.puppets.icon",
-            images: MediaRouter()
-        ), at: [">", "bo4.tdt.side.quests.yellow.snowballs.puppets"]
-    )
-    
-    let puppetsRouter = makeYellowSnowballPuppets()
-    
-    puppetsRouter.router.forEach { absolutePath, output in
-        if absolutePath.count > 1 {
-            yellowSnowballRouter.router.register(
-                output,
-                at: [
-                    ">",
-                    "bo4.tdt.side.quests.yellow.snowballs.puppets"
-                ].appending(contentsOf: absolutePath)
+                at: [">", subgalleryFirstPathComponent].appending(contentsOf: Array.array(subsequence: absolutePath.dropFirst()))
             )
         }
     }
@@ -55,7 +32,6 @@ func makeYellowSnowballTool() -> SerializableToolNode {
         name: "bo4.tdt.side.quests.yellow.snowballs.tool.name",
         position: 1,
         assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.icon",
-        galleryRouter: yellowSnowballRouter
+        galleryRouter: yellowSnowballStepsRouter
     )
 }
-

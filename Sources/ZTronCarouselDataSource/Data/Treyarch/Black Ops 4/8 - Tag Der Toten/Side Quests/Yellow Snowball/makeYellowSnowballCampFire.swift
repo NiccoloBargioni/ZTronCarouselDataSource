@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-public func makeYellowSnowballCampFire() -> SerializableGalleryRouter {
+public func makeYellowSnowballCampFire() -> SerializableGalleryNode {
     let sodLocations = MediaRouter.init()
     
     sodLocations.register(
@@ -27,14 +27,11 @@ public func makeYellowSnowballCampFire() -> SerializableGalleryRouter {
     ), at: ["bo4.tdt.side.quests.yellow.snowballs.campfire.new.spawn.to.lighthouse"])
     
     
-    let locationsRouter = SerializableGalleryRouter()
     
-    locationsRouter.router.register(SerializableGalleryNode(
+    return SerializableGalleryNode(
         name: "bo4.tdt.side.quests.yellow.snowballs.campfire",
         position: 0,
-        assetsImageName: nil,
+        assetsImageName: "bo4.tdt.side.quests.yellow.snowballs.campfire.icon",
         images: sodLocations
-    ), at: [">", "master"])
-    
-    return locationsRouter
+    )
 }
