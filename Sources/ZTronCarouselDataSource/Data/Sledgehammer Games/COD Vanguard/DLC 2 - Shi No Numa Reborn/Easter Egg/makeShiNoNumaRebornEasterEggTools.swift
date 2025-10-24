@@ -19,6 +19,11 @@ public func makeShiNoNumaRebornEasterEggTools() -> SerializableToolsRouter {
     )
 
     eeTools.router.register(
+        makeShiNoNumaShovelTool(),
+        at: ["shovel"]
+    )
+
+    eeTools.router.register(
         makeShiNoNumaOrbsStepTool(),
         at: ["orbs final step"]
     )
