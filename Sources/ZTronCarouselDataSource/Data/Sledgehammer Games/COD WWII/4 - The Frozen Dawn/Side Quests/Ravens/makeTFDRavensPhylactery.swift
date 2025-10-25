@@ -90,7 +90,7 @@ func makeTFDRavensPhylactery() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.ravens.phylactery",
-        position: 3,
+        position: 4,
         assetsImageName: "wwii.tfd.easter.egg.ravens.phylactery.icon",
         images: ravensPhylacteryLocations
     )

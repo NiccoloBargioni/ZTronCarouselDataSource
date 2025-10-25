@@ -34,7 +34,7 @@ public func makeWontBackDown() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo.five.music.wont.back.down.2.pack.a.punch.room.outline",
                     boundingBox: .init(
-                        x: 621.0 / 1920.0,
+                        x: 631.0 / 1920.0,
                         y: 587.0 / 1080.0,
                         width: 110.0 / 1920.0,
                         height: 55.0 / 1080.0

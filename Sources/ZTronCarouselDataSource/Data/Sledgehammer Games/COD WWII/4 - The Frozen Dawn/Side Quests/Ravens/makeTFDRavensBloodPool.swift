@@ -111,7 +111,7 @@ func makeTFDRavensBloodPool() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.ravens.blood.pool",
-        position: 4,
+        position: 5,
         assetsImageName: "wwii.tfd.easter.egg.ravens.blood.pool.icon",
         images: ravensBloodPoolLocations
     )

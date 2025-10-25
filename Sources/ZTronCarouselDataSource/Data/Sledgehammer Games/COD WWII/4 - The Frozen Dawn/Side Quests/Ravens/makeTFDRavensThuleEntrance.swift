@@ -69,7 +69,7 @@ func makeTFDRavensThuleEntrance() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.ravens.thule.entrance",
-        position: 5,
+        position: 1,
         assetsImageName: "wwii.tfd.easter.egg.ravens.thule.entrance.icon",
         images: ravenLocations
     )

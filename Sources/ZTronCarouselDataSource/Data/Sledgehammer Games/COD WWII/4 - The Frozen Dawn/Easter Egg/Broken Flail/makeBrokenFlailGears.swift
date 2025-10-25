@@ -133,7 +133,7 @@ func makeBrokenFlailGears() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.broken.flail.gears",
-        position: 2,
+        position: 1,
         assetsImageName: "wwii.tfd.easter.egg.broken.flail.gears.icon",
         images: gearsLocations
     )

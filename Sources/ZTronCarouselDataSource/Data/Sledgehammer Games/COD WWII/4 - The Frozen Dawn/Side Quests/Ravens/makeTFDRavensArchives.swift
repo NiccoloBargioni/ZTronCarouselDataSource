@@ -69,7 +69,7 @@ func makeTFDRavensArchives() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.ravens.archives",
-        position: 1,
+        position: 2,
         assetsImageName: "wwii.tfd.easter.egg.ravens.archives.icon",
         images: ravenArchivesLocations
     )

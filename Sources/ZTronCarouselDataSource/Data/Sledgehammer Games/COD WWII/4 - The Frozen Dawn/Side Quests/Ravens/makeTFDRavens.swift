@@ -9,6 +9,11 @@ public func makeTFDRavens() -> SerializableGalleryRouter {
     )
     
     ravensLocations.router.register(
+        makeTFDRavensThuleEntrance(),
+        at: ["thule entrance"]
+    )
+
+    ravensLocations.router.register(
         makeTFDRavensArchives(),
         at: ["archives"]
     )
@@ -28,10 +33,6 @@ public func makeTFDRavens() -> SerializableGalleryRouter {
         at: ["blood pool"]
     )
         
-    ravensLocations.router.register(
-        makeTFDRavensThuleEntrance(),
-        at: ["thule entrance"]
-    )
         
     return ravensLocations
 }

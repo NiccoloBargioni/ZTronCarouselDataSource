@@ -132,7 +132,7 @@ func makeTFDRavensObservatory() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.ravens.observatory",
-        position: 2,
+        position: 3,
         assetsImageName: "wwii.tfd.easter.egg.ravens.observatory.icon",
         images: ravenOverlookLocations
     )

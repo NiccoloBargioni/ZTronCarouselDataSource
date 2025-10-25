@@ -8,14 +8,16 @@ public func makeBrokenFlail() -> SerializableGalleryRouter {
         at: ["books"]
     )
     
-    flailParts.router.register(
-        makeBrokenFlailConstellations(),
-        at: ["constellations"]
-    )
     
     flailParts.router.register(
         makeBrokenFlailGears(),
         at: ["gears"]
+    )
+    
+    
+    flailParts.router.register(
+        makeBrokenFlailConstellations(),
+        at: ["constellations"]
     )
         
     return flailParts

@@ -36,10 +36,10 @@ func makeZiplineRepairColaArea() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.tdt.easter.egg.wheel.cola.area.2.spawn.1.outline",
                     boundingBox: .init(
-                        x: 1350.0 / 1920.0,
-                        y: 541.0 / 1080.0,
-                        width: 10.0 / 1920.0,
-                        height: 10.0 / 1080.0
+                        x: 1346.0 / 1920.0,
+                        y: 546.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 30.0 / 1080.0
                     )
                 )
             ]

@@ -55,7 +55,7 @@ func makeBrokenFlailConstellations() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "wwii.tfd.easter.egg.broken.flail.constellations",
-        position: 1,
+        position: 2,
         assetsImageName: "wwii.tfd.easter.egg.broken.flail.constellations.icon",
         images: constellationLocations
     )

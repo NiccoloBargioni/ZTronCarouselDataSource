@@ -21,7 +21,6 @@ func makeScatteredLiesCargo() -> SerializableGalleryNode {
                     )
                 )
             ]
-                
         ), at: ["iw.bfb.music.shattered.lies.cargo.area.0.cargo.bay"])
             
 
@@ -66,46 +65,6 @@ func makeScatteredLiesCargo() -> SerializableGalleryNode {
         ),
         at: ["iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location"]
     )
-            
-    spacemanLocations.register(
-        SerializableImageNode(
-            name: "iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location.zoom",
-            description: "iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location.zoom.caption",
-            position: 0,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location.zoom.outline",
-                    boundingBox: .init(
-                        x: 1085.0 / 2715.0,
-                        y: 511.0 / 1527.0,
-                        width: 174.0 / 2715.0,
-                        height: 234.0 / 1527.0
-                    )
-                )
-            ]
-        )
-        ,
-        at: [
-            "iw.bfb.music.shattered.lies.cargo.area.2.under.map.queen.spawn.location",
-            "zoom"
-        ],
-        withParameter: SerializableImageNode.NavigationParameters(
-            bottomBarIcon: "plus.magnifyingglass",
-            goBackBottomBarIcon: "minus.magnifyingglass",
-            boundingFrame: .init(
-                origin: .init(
-                    x: 0.0/2715.0,
-                    y: 0.0/1527.0
-                ),
-                size: .init(
-                    width: 1000.0/2715.0,
-                    height: 1000.0/1527.0
-                )
-            )
-        )
-    )
-            
 
     spacemanLocations.register(
         SerializableImageNode(

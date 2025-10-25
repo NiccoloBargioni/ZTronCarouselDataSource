@@ -115,8 +115,8 @@ public func makeSkullhopStep1() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1336.0/2715.0,
                         y: 727.0/1527.0,
-                        width: 32.0/2715.0,
-                        height: 21.0/1527.0
+                        width: 22.0/2715.0,
+                        height: 33.0/1527.0
                     )
                 )
             ]

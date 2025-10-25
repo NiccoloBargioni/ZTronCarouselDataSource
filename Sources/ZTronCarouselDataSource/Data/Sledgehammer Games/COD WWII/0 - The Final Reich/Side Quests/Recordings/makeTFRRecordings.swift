@@ -244,10 +244,10 @@ public func makeTFRRecordings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "wwii.tfr.side.quests.recordings.square.of.mittelburg.outline",
                     boundingBox: .init(
-                        x: 1330.0 / 1920.0,
-                        y: 878.0 / 1080.0,
-                        width: 34.0 / 1920.0,
-                        height: 13.0 / 1080.0
+                        x: 1330.0 / 2715.0,
+                        y: 878.0 / 1527.0,
+                        width: 34.0 / 2715.0,
+                        height: 13.0 / 1527.0
                     )
                 )
             ]
