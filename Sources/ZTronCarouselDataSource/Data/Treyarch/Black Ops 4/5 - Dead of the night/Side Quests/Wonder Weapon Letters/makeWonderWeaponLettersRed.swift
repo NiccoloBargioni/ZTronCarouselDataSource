@@ -10,9 +10,12 @@ func makeWonderWeaponLettersRed() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.red.kitchen.caption",
             position: 0,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#AD0F0C",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.red.kitchen.outline",
+                    colorHex: "#AD0F0C",
                     boundingBox: .init(
                         x: 1563.0 / 1920.0,
                         y: 375.0 / 1080.0,
@@ -29,9 +32,12 @@ func makeWonderWeaponLettersRed() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.red.master.bedroom.caption",
             position: 1,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#AD0F0C",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.red.master.bedroom.outline",
+                    colorHex: "#AD0F0C",
                     boundingBox: .init(
                         x: 1395.0 / 1920.0,
                         y: 346.0 / 1080.0,
@@ -49,9 +55,12 @@ func makeWonderWeaponLettersRed() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.red.stairwell.caption",
             position: 2,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#AD0F0C",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.red.stairwell.outline",
+                    colorHex: "#AD0F0C",
                     boundingBox: .init(
                         x: 1004.0 / 1920.0,
                         y: 453.0 / 1080.0,
@@ -69,9 +78,12 @@ func makeWonderWeaponLettersRed() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.red.wine.cellar.caption",
             position: 3,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#AD0F0C",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.red.wine.cellar.outline",
+                    colorHex: "#AD0F0C",
                     boundingBox: .init(
                         x: 1443.0 / 1920.0,
                         y: 468.0 / 1080.0,

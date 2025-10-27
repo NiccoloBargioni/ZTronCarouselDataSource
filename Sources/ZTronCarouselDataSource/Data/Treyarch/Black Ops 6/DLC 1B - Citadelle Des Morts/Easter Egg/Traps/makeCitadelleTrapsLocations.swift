@@ -28,6 +28,30 @@ func makeCitadelleLocations() -> SerializableGalleryNode {
             position: 2,
     ), at: ["bo6.cdm.easter.egg.traps.locations.3.right.side.from.spawn.to.castle"])
     
+
+    Locations.register(
+        SerializableImageNode(
+            name: "bo6.cdm.easter.egg.traps.locations.4.deashot",
+            description: "bo6.cdm.easter.egg.traps.locations.4.deashot.caption",
+            position: 3,
+    ), at: ["bo6.cdm.easter.egg.traps.locations.4.deashot"])
+    
+
+    Locations.register(
+        SerializableImageNode(
+            name: "bo6.cdm.easter.egg.traps.locations.5.staminup",
+            description: "bo6.cdm.easter.egg.traps.locations.5.staminup.caption",
+            position: 4,
+    ), at: ["bo6.cdm.easter.egg.traps.locations.5.staminup"])
+    
+
+    Locations.register(
+        SerializableImageNode(
+            name: "bo6.cdm.easter.egg.traps.locations.5.pack.a.punch",
+            description: "bo6.cdm.easter.egg.traps.locations.5.pack.a.punch.caption",
+            position: 5,
+    ), at: ["bo6.cdm.easter.egg.traps.locations.5.pack.a.punch"])
+    
     return SerializableGalleryNode(
         name: "bo6.cdm.easter.egg.traps.locations",
         position: 4,

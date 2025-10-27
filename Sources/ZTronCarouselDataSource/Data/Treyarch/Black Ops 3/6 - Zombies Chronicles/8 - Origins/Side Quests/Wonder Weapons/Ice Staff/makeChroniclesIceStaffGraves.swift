@@ -71,7 +71,7 @@ func makeChroniclesIceStaffGraves() -> SerializableGalleryNode {
     return SerializableGalleryNode(
         name: "bo3.chronicles.origins.wonder.weapons.ice.staff.graves",
         position: 1,
-        assetsImageName: "bo2.origins.side.quests.wonder.weapons.ice.staff.graves.icon",
+        assetsImageName: "bo3.chronicles.origins.wonder.weapons.ice.staff.graves.icon",
         images: iceStaffTombsBo3Locations
     )
 }

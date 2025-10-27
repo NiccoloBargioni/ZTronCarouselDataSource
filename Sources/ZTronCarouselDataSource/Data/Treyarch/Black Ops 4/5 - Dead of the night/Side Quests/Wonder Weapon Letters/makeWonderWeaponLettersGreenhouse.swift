@@ -10,9 +10,12 @@ func makeWonderWeaponLettersGreenhouse() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.lovely.bones.kinda.house.caption",
             position: 0,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0FA418",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.lovely.bones.kinda.house.outline",
+                    colorHex: "#0FA418",
                     boundingBox: .init(
                         x: 1127.0 / 1920.0,
                         y: 451.0 / 1080.0,
@@ -29,9 +32,12 @@ func makeWonderWeaponLettersGreenhouse() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.next.greenhouse.front.door.caption",
             position: 1,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0FA418",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.next.greenhouse.front.door.outline",
+                    colorHex: "#0FA418",
                     boundingBox: .init(
                         x: 1381.0 / 1920.0,
                         y: 558.0 / 1080.0,
@@ -49,9 +55,12 @@ func makeWonderWeaponLettersGreenhouse() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.side.of.perk.caption",
             position: 2,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0FA418",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.side.of.perk.outline",
+                    colorHex: "#0FA418",
                     boundingBox: .init(
                         x: 1190.0 / 1920.0,
                         y: 453.0 / 1080.0,
@@ -68,9 +77,12 @@ func makeWonderWeaponLettersGreenhouse() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.side.of.perk.2.caption",
             position: 3,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0FA418",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.greenhouse.side.of.perk.2.outline",
+                    colorHex: "#0FA418",
                     boundingBox: .init(
                         x: 1057.0 / 1920.0,
                         y: 513.0 / 1080.0,

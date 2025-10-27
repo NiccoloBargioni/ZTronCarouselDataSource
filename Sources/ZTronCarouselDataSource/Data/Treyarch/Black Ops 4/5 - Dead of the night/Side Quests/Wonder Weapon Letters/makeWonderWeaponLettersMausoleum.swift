@@ -10,9 +10,12 @@ func makeWonderWeaponLettersMausoleum() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.entrance.caption",
             position: 0,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0F30BE",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.entrance.outline",
+                    colorHex: "#0F30BE",
                     boundingBox: .init(
                         x: 626.0 / 1920.0,
                         y: 469.0 / 1080.0,
@@ -29,9 +32,12 @@ func makeWonderWeaponLettersMausoleum() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.lion.statue.fast.travel.caption",
             position: 1,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0F30BE",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.lion.statue.fast.travel.outline",
+                    colorHex: "#0F30BE",
                     boundingBox: .init(
                         x: 308.0 / 1920.0,
                         y: 477.0 / 1080.0,
@@ -49,9 +55,12 @@ func makeWonderWeaponLettersMausoleum() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.right.of.swordfish.caption",
             position: 2,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0F30BE",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.right.of.swordfish.outline",
+                    colorHex: "#0F30BE",
                     boundingBox: .init(
                         x: 1512.0 / 1920.0,
                         y: 535.0 / 1080.0,
@@ -69,9 +78,12 @@ func makeWonderWeaponLettersMausoleum() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.right.of.swordfish.2.caption",
             position: 3,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#0F30BE",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.mausoleum.right.of.swordfish.2.outline",
+                    colorHex: "#0F30BE",
                     boundingBox: .init(
                         x: 1665.0 / 1920.0,
                         y: 399.0 / 1080.0,

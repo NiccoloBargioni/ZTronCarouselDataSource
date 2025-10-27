@@ -11,9 +11,12 @@ func makeWonderWeaponLettersForest() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.bowie.wallbuy.caption",
             position: 0,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#8A8E20",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.bowie.wallbuy.outline",
+                    colorHex: "#8A8E20",
                     boundingBox: .init(
                         x: 1090.0 / 1920.0,
                         y: 415.0 / 1080.0,
@@ -31,9 +34,12 @@ func makeWonderWeaponLettersForest() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.bowie.wallbuy.2.caption",
             position: 1,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#8A8E20",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.bowie.wallbuy.2.outline",
+                    colorHex: "#8A8E20",
                     boundingBox: .init(
                         x: 1635.0 / 1920.0,
                         y: 660.0 / 1080.0,
@@ -51,9 +57,12 @@ func makeWonderWeaponLettersForest() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.gks.wallbuy.far.caption",
             position: 2,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#8A8E20",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.gks.wallbuy.far.outline",
+                    colorHex: "#8A8E20",
                     boundingBox: .init(
                         x: 288.0 / 1920.0,
                         y: 600.0 / 1080.0,
@@ -71,9 +80,12 @@ func makeWonderWeaponLettersForest() -> SerializableGalleryNode {
             description: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.gks.wallbuy.caption",
             position: 3,
             overlays: [
-                SerializableBoundingCircleNode(),
+                SerializableBoundingCircleNode(
+                    colorHex: "#8A8E20",
+                ),
                 SerializableOutlineNode(
                     resourceName: "bo4.dotn.side.quests.wonder.weapon.letters.forest.side.doorway.gks.wallbuy.outline",
+                    colorHex: "#8A8E20",
                     boundingBox: .init(
                         x: 835.0 / 1920.0,
                         y: 410.0 / 1080.0,
