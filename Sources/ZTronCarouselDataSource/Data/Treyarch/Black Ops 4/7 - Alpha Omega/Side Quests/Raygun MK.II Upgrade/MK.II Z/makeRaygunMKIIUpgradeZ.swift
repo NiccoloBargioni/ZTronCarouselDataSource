@@ -29,13 +29,14 @@ public func makeRaygunMKIIUpgradeZ() -> SerializableGalleryRouter {
     )
     
     upgradeSteps.router.register(
-        makeWorkingShotsWhereIWasStanding(),
-        at: ["working shots", "working shots where I was standing"]
-    )
-    
-    upgradeSteps.router.register(
         makeWorkingShotsYellowHouse(),
         at: ["working shots", "working shots yellow house"]
+    )
+    
+    
+    upgradeSteps.router.register(
+        makeWorkingShotsWhereIWasStanding(),
+        at: ["working shots", "working shots where I was standing"]
     )
     
     return upgradeSteps

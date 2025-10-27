@@ -8,7 +8,7 @@ func makeFumigatorJunction() -> SerializableGalleryNode {
     fumigatorJunctionLocations.register(
         SerializableImageNode(
             name: "bo3.shadows.easter.egg.fumigator.1.canal.gate",
-            description: "bo3.shadows.easter.egg.fumigator.1.canal.gate.caption",
+            description: "bo3.shadows.easter.egg.junction.fumigator.1.canal.gate.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -29,7 +29,7 @@ func makeFumigatorJunction() -> SerializableGalleryNode {
     fumigatorJunctionLocations.register(
         SerializableImageNode(
             name: "bo3.shadows.easter.egg.fumigator.2.oranges.box.staminup",
-            description: "bo3.shadows.easter.egg.fumigator.2.oranges.box.staminup.caption",
+            description: "bo3.shadows.easter.egg.junction.fumigator.2.oranges.box.staminup.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -50,7 +50,7 @@ func makeFumigatorJunction() -> SerializableGalleryNode {
     fumigatorJunctionLocations.register(
         SerializableImageNode(
             name: "bo3.shadows.easter.egg.fumigator.3.staminup.mid",
-            description: "bo3.shadows.easter.egg.fumigator.3.staminup.mid.caption",
+            description: "bo3.shadows.easter.egg.junction.fumigator.3.staminup.mid.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -71,7 +71,7 @@ func makeFumigatorJunction() -> SerializableGalleryNode {
     fumigatorJunctionLocations.register(
         SerializableImageNode(
             name: "bo3.shadows.easter.egg.fumigator.4.staminup.red.chair",
-            description: "bo3.shadows.easter.egg.fumigator.4.staminup.red.chair.caption",
+            description: "bo3.shadows.easter.egg.junction.fumigator.4.staminup.red.chair.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),

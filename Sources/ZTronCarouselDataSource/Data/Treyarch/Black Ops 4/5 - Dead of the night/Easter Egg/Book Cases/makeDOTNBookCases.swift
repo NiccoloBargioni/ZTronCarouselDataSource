@@ -66,7 +66,7 @@ public func makeDOTNBookCases() -> SerializableGalleryRouter {
     casesLocations.register(
         SerializableImageNode(
             name: "bo4.dotn.easter.egg.book.cases.west.balcony.mid",
-            description: "bo4.dotn.easter.egg.book.cases.west.balcony.mid,caption",
+            description: "bo4.dotn.easter.egg.book.cases.west.balcony.mid.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),

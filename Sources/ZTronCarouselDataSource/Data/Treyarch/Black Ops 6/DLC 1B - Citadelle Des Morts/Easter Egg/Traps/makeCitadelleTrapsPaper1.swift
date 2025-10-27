@@ -48,7 +48,7 @@ func makeCitadellePaper1() -> SerializableGalleryNode {
     paper1Locations.register(
         SerializableImageNode(
             name: "bo6.cdm.easter.egg.traps.first.paper.3.location.3",
-            description: "bo6.cdm.easter.egg..first.paper.33.location.3.caption",
+            description: "bo6.cdm.easter.egg..first.paper.3.location.3.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),

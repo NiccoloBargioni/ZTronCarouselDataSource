@@ -7,7 +7,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.1.close.to.tunnel.six.entrance",
-            description: "bo.moon.easter.egg.summining.key.1.close.to.tunnel.six.entrance.caption",
+            description: "bo.moon.easter.egg.summoning.key.1.close.to.tunnel.six.entrance.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -28,7 +28,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.2.dge.of.tunnel.six",
-            description: "bo.moon.easter.egg.summining.key.2.dge.of.tunnel.six.caption",
+            description: "bo.moon.easter.egg.summoning.key.2.edge.of.tunnel.six.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -49,7 +49,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.3.between.doors.tunnel.six",
-            description: "bo.moon.easter.egg.summining.key.3.between.doors.tunnel.six.caption",
+            description: "bo.moon.easter.egg.summoning.key.3.between.doors.tunnel.six.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -70,7 +70,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.4.antenna",
-            description: "bo.moon.easter.egg.summining.key.4.antenna.caption",
+            description: "bo.moon.easter.egg.summoning.key.4.antenna.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -91,7 +91,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.5.tunnel.eleven.entrance",
-            description: "bo.moon.easter.egg.summining.key.5.tunnel.eleven.entrance.caption",
+            description: "bo.moon.easter.egg.summoning.key.5.tunnel.eleven.entrance.caption",
             position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -112,7 +112,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.6.wall.right.of.tunnel.eleven.entrance",
-            description: "bo.moon.easter.egg.summining.key.6.wall.right.of.tunnel.eleven.entrance.caption",
+            description: "bo.moon.easter.egg.summoning.key.6.wall.right.of.tunnel.eleven.entrance.caption",
             position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -133,7 +133,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.7.roof.opposite.staminup",
-            description: "bo.moon.easter.egg.summining.key.7.roof.opposite.staminup.caption",
+            description: "bo.moon.easter.egg.summoning.key.7.roof.opposite.staminup.caption",
             position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
@@ -154,7 +154,7 @@ public func makeSummoningKey() -> SerializableGalleryRouter {
     summoningKeylocations.register(
         SerializableImageNode(
             name: "bo.moon.easter.egg.summining.key.8.door.to.mpd",
-            description: "bo.moon.easter.egg.summining.key.8.door.to.mpd.caption",
+            description: "bo.moon.easter.egg.summoning.key.8.door.to.mpd.caption",
             position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),

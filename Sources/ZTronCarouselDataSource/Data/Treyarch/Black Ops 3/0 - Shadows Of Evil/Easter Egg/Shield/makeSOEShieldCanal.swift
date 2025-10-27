@@ -50,7 +50,7 @@ func makeSOEShieldCanal() -> SerializableGalleryNode {
    shieldEagleBodyLocations.register(
        SerializableImageNode(
            name: "bo3.shadows.easter.egg.shield.3.shield.canal.lion.heads.fov",
-           description: "bo3.shadows.easter.egg.shield.3.shield.canal.lion.heads.fov.caption",
+           description: "bo3.shadows.easter.egg.shield.canal.3.shield.canal.lion.heads.fov.caption",
            position: 2,
            overlays: [
                SerializableBoundingCircleNode(),

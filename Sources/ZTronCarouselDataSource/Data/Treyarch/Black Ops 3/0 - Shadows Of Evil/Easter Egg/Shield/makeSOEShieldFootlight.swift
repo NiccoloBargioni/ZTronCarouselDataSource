@@ -50,7 +50,7 @@ func makeSOEShieldFootlight() -> SerializableGalleryNode {
     shieldWindowLocations.register(
         SerializableImageNode(
             name: "bo3.shadows.easter.egg.window.3.shield.footlight.balcony.fov",
-            description: "bo3.shadows.easter.egg.window.3.shield.footlight.balcony.fov.caption",
+            description: "bo3.shadows.easter.egg.window.3.shield.footlight.3.footlight.balcony.fov.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),

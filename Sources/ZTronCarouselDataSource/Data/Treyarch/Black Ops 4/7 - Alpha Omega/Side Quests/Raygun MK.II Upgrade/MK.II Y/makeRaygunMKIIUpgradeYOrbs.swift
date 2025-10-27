@@ -72,7 +72,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs",
-        position: 0,
+        position: 1,
         assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.icon",
         images: orbsLocations
     )

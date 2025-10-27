@@ -31,7 +31,7 @@ func makeRaygunMKIIUpgradeYPilesOfDirt() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.piles.of.dirt",
-        position: 1,
+        position: 0,
         assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.piles.of.dirt.icon",
         images: pilesOfDirtLocations
     )

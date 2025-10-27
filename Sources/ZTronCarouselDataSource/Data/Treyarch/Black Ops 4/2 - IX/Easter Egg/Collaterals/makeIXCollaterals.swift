@@ -15,7 +15,7 @@ public func makeIXCollaterals() -> SerializableGalleryRouter {
     collateralLocations.register(
         SerializableImageNode(
             name: "bo4.ix.easter.egg.collaterals.working.shop.odin.ra.shield.room",
-            description: "bo4.ix.easter.egg.collaterals.working.shop.odin.ra.shield.room.caption",
+            description: "bo4.ix.easter.egg.collaterals.working.shot.odin.ra.shield.room.caption",
             position: 1
     ), at: ["bo4.ix.easter.egg.collaterals.working.shop.odin.ra.shield.room"])
 
@@ -23,7 +23,7 @@ public func makeIXCollaterals() -> SerializableGalleryRouter {
     collateralLocations.register(
         SerializableImageNode(
             name: "bo4.ix.easter.egg.collaterals.working.shop.danu.tunnel",
-            description: "bo4.ix.easter.egg.collaterals.working.shop.danu.tunnel.caption",
+            description: "bo4.ix.easter.egg.collaterals.working.shot.danu.tunnel.caption",
             position: 2
     ), at: ["bo4.ix.easter.egg.collaterals.working.shop.danu.tunnel"])
 

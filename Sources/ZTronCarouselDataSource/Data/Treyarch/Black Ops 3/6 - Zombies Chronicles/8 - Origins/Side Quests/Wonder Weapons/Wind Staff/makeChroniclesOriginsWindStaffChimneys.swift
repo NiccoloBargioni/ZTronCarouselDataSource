@@ -29,7 +29,7 @@ func makeChroniclesOriginsWindStaffChimneys() -> SerializableGalleryNode {
     windStaffBo3ChimneysLocations.register(
         SerializableImageNode(
             name: "bo3.chronicles.origins.wonder.weapons.wind.2.church.mud.to.gen.5",
-            description: "bo3.chronicles.origins.wonder.weapons.wind.2.church.mud.to.gen.5.caption",
+            description: "bo3.chronicles.origins.wonder.weapons.wind.chimney.2.church.mud.to.gen.5.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),

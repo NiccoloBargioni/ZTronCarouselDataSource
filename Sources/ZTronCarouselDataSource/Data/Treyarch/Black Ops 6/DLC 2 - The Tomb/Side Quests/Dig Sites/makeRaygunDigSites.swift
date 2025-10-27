@@ -107,7 +107,7 @@ public func makeRaygunDigSites() -> SerializableGalleryRouter {
     digSitesLocations.register(
         SerializableImageNode(
             name: "bo6.tt.side.quests.dig.qr.left",
-            description: "bo6.tt.side.quests.dig.qr.left.caption",
+            description: "bo6.tt.side.quests.dig.sites.qr.left.caption",
             position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),

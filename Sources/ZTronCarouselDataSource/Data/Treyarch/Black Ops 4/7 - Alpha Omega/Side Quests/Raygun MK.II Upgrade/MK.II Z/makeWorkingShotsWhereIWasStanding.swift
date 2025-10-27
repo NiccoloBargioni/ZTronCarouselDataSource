@@ -31,7 +31,7 @@ func makeWorkingShotsWhereIWasStanding() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.where.i.was.standing",
-        position: 2,
+        position: 3,
         assetsImageName: "bo4.ao.side.quests.raygun.mk.ii.upgrade.z.working.shots.where.i.was.standing.icon",
         images: whereIWasStandingLocations
     )
