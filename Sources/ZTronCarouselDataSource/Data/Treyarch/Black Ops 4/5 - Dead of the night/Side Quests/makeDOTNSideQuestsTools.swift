@@ -24,8 +24,8 @@ public func makeDOTNSideQuestsTools() -> SerializableToolsRouter {
     )
 
     dotnSideQuestsTools.router.register(
-        makeWonderWeaponLettersTool(),
-        at: [">", "wonder weapon letters"]
+        makeDOTNBookCasesTool(),
+        at: [">", "book cases"]
     )
     
     dotnSideQuestsTools.router.register(

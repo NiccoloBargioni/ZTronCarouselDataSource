@@ -5,6 +5,6 @@ public func makeAceOfSpadesTool() -> SerializableToolNode {
         name: "bo3.gk.music.ace.of.spades.tool.name",
         position: 0,
         assetsImageName: "bo3.gk.music.ace.of.spades.icon",
-        galleryRouter: makeAceOfSpades()
+        galleryRouter: makeAceOfSpadesFirstActivation()
     )
 }
