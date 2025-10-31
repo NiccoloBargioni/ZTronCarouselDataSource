@@ -5,6 +5,7 @@ public func makeTheTombSymbolsTool() -> SerializableToolNode {
         name: "bo6.tt.easter.egg.symbols.tool.name",
         position: 0,
         assetsImageName: "bo6.tt.easter.egg.symbols.icon",
+        isSolver: true,
         galleryRouter: makeTheTombSymbols()
     )
 }

@@ -23,6 +23,7 @@ public func makeFrozenDawnEasterEggTools() -> SerializableToolsRouter {
             name: "wwii.tfd.easter.egg.shield.lightning.puzzle.tool.name",
             position: 3,
             assetsImageName: "wwii.tfd.easter.egg.shield.lightning.puzzle.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "lightning puzzle"]

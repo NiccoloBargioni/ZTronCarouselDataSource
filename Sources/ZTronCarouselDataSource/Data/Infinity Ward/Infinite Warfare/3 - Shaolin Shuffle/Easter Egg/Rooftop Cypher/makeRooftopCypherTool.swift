@@ -6,6 +6,7 @@ public func makeRooftopCypherTool() -> SerializableToolNode {
         name: "iw.ss.easter.egg.rooftop.cypher.tool.name",
         position: 3,
         assetsImageName: "iw.ss.easter.egg.rooftop.cypher.icon",
+        isSolver: true,
         galleryRouter: makeRooftopCypher()
     )
 }

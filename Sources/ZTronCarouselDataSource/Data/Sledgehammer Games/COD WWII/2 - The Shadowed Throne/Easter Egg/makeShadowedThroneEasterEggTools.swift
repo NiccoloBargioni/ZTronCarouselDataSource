@@ -13,6 +13,7 @@ public func makeShadowedThroneEasterEggTools() -> SerializableToolsRouter {
             name: "wwii.tst.easter.egg.morse.tool.name",
             position: 1,
             assetsImageName: "wwii.tst.easter.egg.morse.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "morse"]

@@ -13,6 +13,7 @@ public func makeReckoningEasterEggTools() -> SerializableToolsRouter {
             name: "bo6.reckoning.easter.egg.free.gorgofex.tool.name",
             position: 1,
             assetsImageName: "bo6.reckoning.easter.egg.free.gorgofex.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: ["free gorgoflex"]

@@ -30,6 +30,7 @@ func makeAOTRTChemicals() -> SerializableToolNode {
         name: "iw.aotrt.ee.chemicals.tool.name",
         position: 1,
         assetsImageName: "iw.aotrt.ee.chemicals.logo",
+        isSolver: true,
         galleryRouter: chemicalsGalleryRouter
     )
 }

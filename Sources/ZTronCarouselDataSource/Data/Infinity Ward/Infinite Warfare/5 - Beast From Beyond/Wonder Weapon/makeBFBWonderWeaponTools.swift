@@ -8,6 +8,7 @@ public func makeBFBWonderWeaponTools() -> SerializableToolsRouter {
             name: "iw.bfb.wonder.weapon.buttons.box.tool.name",
             position: 0,
             assetsImageName: "iw.bfb.wonder.weapon.buttons.box.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "buttons box"]
@@ -19,6 +20,7 @@ public func makeBFBWonderWeaponTools() -> SerializableToolsRouter {
             name: "iw.bfb.wonder.weapon.maze.tool.name",
             position: 1,
             assetsImageName: "iw.bfb.wonder.weapon.maze.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "maze"]
@@ -30,6 +32,7 @@ public func makeBFBWonderWeaponTools() -> SerializableToolsRouter {
             name: "iw.bfb.wonder.weapon.venom.y.z.upgrade.tool.name",
             position: 2,
             assetsImageName: "iw.bfb.wonder.weapon.venom.y.z.upgrade.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "venom Y/Z upgrade"]

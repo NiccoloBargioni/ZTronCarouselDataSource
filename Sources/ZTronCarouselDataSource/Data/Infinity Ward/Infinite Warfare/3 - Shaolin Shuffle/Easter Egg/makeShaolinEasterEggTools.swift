@@ -13,6 +13,7 @@ public func makeShaolinEasterEggTools() -> SerializableToolsRouter {
             name: "iw.ss.easter.egg.call.box.tool.name",
             position: 1,
             assetsImageName: "iw.ss.easter.egg.call.box.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "morse"]

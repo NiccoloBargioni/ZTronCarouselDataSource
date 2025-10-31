@@ -5,6 +5,7 @@ public func makeBillionDollarTreasureHuntTool() -> SerializableToolNode {
         name: "iw.shaolin.shuffle.side.quests.billion.dollar.treasure.hunt.tool.name",
         position: 3,
         assetsImageName: "iw.shaolin.shuffle.trolltastic.icon",
+        isSolver: true,
         galleryRouter: makeBillionDollarTreasureHunt()
     )
 }

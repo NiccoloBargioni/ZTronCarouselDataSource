@@ -24,6 +24,7 @@ public func makeAOTRTSkullhopTools() -> SerializableToolsRouter {
             name: "iw.aotrt.skullhop.swings.cypher.tool.name",
             position: 1,
             assetsImageName: "iw.aotrt.skullhop.swings.cypher.icon",
+            isSolver: true,
             galleryRouter: nil
         ),
         at: [">", "swings cypher"]

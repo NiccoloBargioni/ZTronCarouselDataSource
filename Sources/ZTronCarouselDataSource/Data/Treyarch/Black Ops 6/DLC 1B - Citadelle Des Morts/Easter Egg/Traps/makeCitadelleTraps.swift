@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-public func makeCitadelle() -> SerializableGalleryRouter {
+public func makeCitadelleTraps() -> SerializableGalleryRouter {
     let Locations = SerializableGalleryRouter()
     
     Locations.router.register(

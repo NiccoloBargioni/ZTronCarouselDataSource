@@ -5,6 +5,7 @@ public func makeGorodBombSwitchesTool() -> SerializableToolNode {
         name: "bo3.gk.easter.egg.bomb.tool.name",
         position: 3,
         assetsImageName: "bo3.gk.easter.egg.bomb.icon",
+        isSolver: true,
         galleryRouter: makeGorodBombSwitches()
     )
 }

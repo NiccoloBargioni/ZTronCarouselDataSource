@@ -1,5 +1,5 @@
 {
-  "originHash" : "cc464aaadddf825b7187567fa0ee8c0f99e507b523f7c8ba2c190714079c953a",
+  "originHash" : "b9a40834fe72444c0e1b0c3d96a503579def24f51eaedd961ad04cf3acd71a1f",
   "pins" : [
     {
       "identity" : "loremipsum",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/stephencelis/SQLite.swift.git",
       "state" : {
         "branch" : "master",
-        "revision" : "c7b78f2f9a0376bc0145f3ecbd0df05eab1688f7"
+        "revision" : "eb9b2ee9d9b7f941ac883b0843557469ed567af2"
       }
     },
     {
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
         "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "swift-toolchain-sqlite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-toolchain-sqlite",
+      "state" : {
+        "revision" : "b626d3002773b1a1304166643e7f118f724b2132",
+        "version" : "1.0.4"
       }
     },
     {
@@ -52,7 +61,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronDataModel",
       "state" : {
         "branch" : "main",
-        "revision" : "36e115415288ac4ff0312faa3ed87aabfc24f1a7"
+        "revision" : "e119053698f91b8b5b575af2e39d996f29dac5d7"
       }
     },
     {
@@ -70,7 +79,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronSerializable",
       "state" : {
         "branch" : "main",
-        "revision" : "2b6794c0ba2968b59cca224d2223a2a3c7df4856"
+        "revision" : "482d32543e37e8a0488a5896ea71c03ca9e8df1f"
       }
     }
   ],

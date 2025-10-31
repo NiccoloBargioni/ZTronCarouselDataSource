@@ -5,6 +5,7 @@ public func makeGeneratorsPuzzleTool() -> SerializableToolNode {
         name: "bo4.ao.easter.egg.generator.puzzle.tool.name",
         position: 2,
         assetsImageName: "bo4.ao.easter.egg.generator.puzzle.icon",
+        isSolver: true,
         galleryRouter: makeGeneratorsPuzzle()
     )
 }

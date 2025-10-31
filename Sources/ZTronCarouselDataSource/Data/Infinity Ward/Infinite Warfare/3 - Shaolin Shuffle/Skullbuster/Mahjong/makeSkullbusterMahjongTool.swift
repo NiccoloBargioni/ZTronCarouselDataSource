@@ -5,6 +5,7 @@ public func makeSkullbusterMahjongTool() -> SerializableToolNode {
         name: "iw.ss.skullbreaker.mahjong.tool.name",
         position: 1,
         assetsImageName: "iw.ss.skullbreaker.mahjong.icon",
+        isSolver: true,
         galleryRouter: makeSkullbusterMahjong()
     )
 }

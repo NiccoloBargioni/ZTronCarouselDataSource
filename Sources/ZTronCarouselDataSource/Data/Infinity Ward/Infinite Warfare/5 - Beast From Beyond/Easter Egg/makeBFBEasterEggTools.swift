@@ -19,6 +19,7 @@ public func makeBFBEasterEggTools() -> SerializableToolsRouter {
             name: "iw.bfb.easter.egg.valves.tool.name",
             position: 2,
             assetsImageName: "iw.bfb.easter.egg.valves.icon",
+            isSolver: true,
             galleryRouter: nil
         ), at: ["valves"]
     )

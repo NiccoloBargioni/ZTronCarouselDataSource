@@ -5,6 +5,7 @@ public func makeTSTSaintsBirdsPositionsTool() -> SerializableToolNode {
         name: "wwii.tst.easter.egg.saints.statues.tool.name",
         position: 2,
         assetsImageName: "wwii.tst.easter.egg.saints.statues.icon",
+        isSolver: true,
         galleryRouter: makeTSTSaintsBirdsPositions()
     )
 }

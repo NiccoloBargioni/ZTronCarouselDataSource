@@ -8,6 +8,7 @@ public func makeShatteredVeilEasterEggTools() -> SerializableToolsRouter {
             name: "bo6.sv.easter.egg.blackboards.tool.name",
             position: 0,
             assetsImageName: "bo6.sv.easter.egg.blackboards.icon",
+            isSolver: true,
             galleryRouter: nil
         ), at: ["blackboards"]
     )

@@ -8,6 +8,7 @@ public func makeTerminusEasterEggTools() -> SerializableToolsRouter {
             name: "bo6.terminus.easter.egg.calculator.tool.name",
             position: 0,
             assetsImageName: "bo6.terminus.easter.egg.calculator.icon",
+            isSolver: true,
             galleryRouter: nil
         ), at: ["calculator"]
     )

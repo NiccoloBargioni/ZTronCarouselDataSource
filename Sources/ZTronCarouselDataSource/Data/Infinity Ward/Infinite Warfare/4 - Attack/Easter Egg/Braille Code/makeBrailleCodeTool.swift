@@ -5,6 +5,7 @@ public func makeBrailleCodeTool() -> SerializableToolNode {
         name: "iw.aotrt.ee.braille.code.reels.tool.name",
         position: 2,
         assetsImageName: "iw.aotrt.ee.braille.code.reels.icon",
+        isSolver: true,
         galleryRouter: makeBrailleCode()
     )
 }

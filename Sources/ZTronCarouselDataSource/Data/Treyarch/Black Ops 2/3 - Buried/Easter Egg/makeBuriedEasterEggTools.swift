@@ -33,6 +33,7 @@ public func makeBuriedEasterEggTools() -> SerializableToolsRouter {
             name: "bo2.buried.easter.egg.shared.lantern.cypher.tool.name",
             position: 5,
             assetsImageName: "bo2.buried.easter.egg.shared.lantern.cypher.icon",
+            isSolver: true,
             galleryRouter: nil
         ), at: ["lantern cypher"]
     )

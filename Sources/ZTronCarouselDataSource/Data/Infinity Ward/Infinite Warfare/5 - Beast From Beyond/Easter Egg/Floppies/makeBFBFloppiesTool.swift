@@ -5,6 +5,7 @@ public func makeBFBFloppiesTool() -> SerializableToolNode {
         name: "iw.bfb.easter.egg.floppies.tool.name",
         position: 1,
         assetsImageName: "iw.bfb.easter.egg.floppies.icon",
+        isSolver: true,
         galleryRouter: makeBFBFloppies()
     )
 }

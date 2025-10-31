@@ -30,6 +30,7 @@ func makeChroniclesOriginsWonderWeapons() -> SerializableToolNode {
         name: "bo3.chronicles.origin.side.quests.wonder.weapons.tool.name",
         position: 3,
         assetsImageName: "bo3.chronicles.origin.side.quests.wonder.weapons.icon",
+        isSolver: true,
         galleryRouter: wonderWeaponGalleryRouter
     )
 }
