@@ -120,7 +120,7 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1563.0 / 1920.0,
                         y: 592.0 / 1080.0,
-                        width: 74.0 / 1920.0,
+                        width: 77.0 / 1920.0,
                         height: 14.0 / 1080.0
                     )
                 )
