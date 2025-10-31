@@ -156,10 +156,10 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.terminus.side.quests.treasure.crates.north.temple.island.outline",
                     boundingBox: .init(
-                        x: 3062.0 / 3840.0,
-                        y: 968.0 / 2160.0,
-                        width: 118.0 / 3840.0,
-                        height: 25.0 / 2160.0
+                        x: 993.0 / 3840.0,
+                        y: 458.0 / 2160.0,
+                        width: 69.0 / 3840.0,
+                        height: 92.0 / 2160.0
                     )
                 )
             ]
