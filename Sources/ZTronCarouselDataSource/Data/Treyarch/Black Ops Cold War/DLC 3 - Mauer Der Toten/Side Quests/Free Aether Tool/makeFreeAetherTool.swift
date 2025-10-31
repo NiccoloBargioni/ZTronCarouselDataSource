@@ -6,13 +6,13 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
 
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.between.power.and.claus.room",
-            description: "bocw.mdt.side.quests.free.aether.tool.between.power.and.claus.room.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.between.power.and.claus.room",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.between.power.and.claus.room.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.between.power.and.claus.room.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.between.power.and.claus.room.outline",
                     boundingBox: .init(
                         x: 2521.0 / 3840.0,
                         y: 831.0 / 2160.0,
@@ -22,17 +22,17 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.between.power.and.claus.room"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.between.power.and.claus.room"])
     
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.blasted.suite",
-            description: "bocw.mdt.side.quests.free.aether.tool.blasted.suite.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.blasted.suite",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.blasted.suite.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.blasted.suite.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.blasted.suite.outline",
                     boundingBox: .init(
                         x: 739.0 / 3840.0,
                         y: 961.0 / 2160.0,
@@ -42,18 +42,18 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.blasted.suite"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.blasted.suite"])
 
     
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.challenge.station.pack.a.punch",
-            description: "bocw.mdt.side.quests.free.aether.tool.challenge.station.pack.a.punch.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.challenge.station.pack.a.punch",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.challenge.station.pack.a.punch.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.challenge.station.pack.a.punch.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.challenge.station.pack.a.punch.outline",
                     boundingBox: .init(
                         x: 2039.0 / 3840.0,
                         y: 885.0 / 2160.0,
@@ -63,17 +63,17 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.challenge.station.pack.a.punch"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.challenge.station.pack.a.punch"])
 
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.deadshot.above.grocery.store",
-            description: "bocw.mdt.side.quests.free.aether.tool.deadshot.above.grocery.store.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.deadshot.above.grocery.store",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.deadshot.above.grocery.store.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.deadshot.above.grocery.store.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.deadshot.above.grocery.store.outline",
                     boundingBox: .init(
                         x: 2343.0 / 3840.0,
                         y: 734.0 / 2160.0,
@@ -83,18 +83,18 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.deadshot.above.grocery.store"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.deadshot.above.grocery.store"])
 
 
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.ghost.station.front.of.secret.lab",
-            description: "bocw.mdt.side.quests.free.aether.tool.ghost.station.front.of.secret.lab.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.ghost.station.front.of.secret.lab",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.ghost.station.front.of.secret.lab.caption",
             position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.ghost.station.front.of.secret.lab.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.ghost.station.front.of.secret.lab.outline",
                     boundingBox: .init(
                         x: 1808.0 / 3840.0,
                         y: 823.0 / 2160.0,
@@ -104,18 +104,18 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.ghost.station.front.of.secret.lab"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.ghost.station.front.of.secret.lab"])
 
 
     freeAetherToolLocations.register(
         SerializableImageNode(
-            name: "bocw.mdt.side.quests.free.aether.tool.hotel.staminup",
-            description: "bocw.mdt.side.quests.free.aether.tool.hotel.staminup.caption",
+            name: "bocw.mdt.side.quests.3rd.klaus.upgrade.hotel.staminup",
+            description: "bocw.mdt.side.quests.3rd.klaus.upgrade.hotel.staminup.caption",
             position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bocw.mdt.side.quests.free.aether.tool.hotel.staminup.outline",
+                    resourceName: "bocw.mdt.side.quests.3rd.klaus.upgrade.hotel.staminup.outline",
                     boundingBox: .init(
                         x: 2038.0 / 3840.0,
                         y: 631.0 / 2160.0,
@@ -125,14 +125,14 @@ public func makeFreeAetherTool() -> SerializableGalleryRouter {
                 )
             ]
         
-    ), at: ["bocw.mdt.side.quests.free.aether.tool.hotel.staminup"])
+    ), at: ["bocw.mdt.side.quests.3rd.klaus.upgrade.hotel.staminup"])
 
 
 
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
-        name: "bocw.mdt.side.quests.free.aether.tool",
+        name: "bocw.mdt.side.quests.3rd.klaus.upgrade",
         position: 0,
         assetsImageName: nil,
         images: freeAetherToolLocations
