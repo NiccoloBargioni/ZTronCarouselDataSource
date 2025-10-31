@@ -9,7 +9,6 @@ func makeFive() -> SerializableMapNode {
     return SerializableMapNode(
         name: "five",
         position: 1,
-        assetsImageName: "bo.five.logo",
         tabs: fiveTabs
     )
 }

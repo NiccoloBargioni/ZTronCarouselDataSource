@@ -10,7 +10,6 @@ func makeAscension() -> SerializableMapNode {
     return SerializableMapNode(
         name: "ascension",
         position: 2,
-        assetsImageName: "bo.ascension.logo",
         tabs: ascensionTabs
     )
 }

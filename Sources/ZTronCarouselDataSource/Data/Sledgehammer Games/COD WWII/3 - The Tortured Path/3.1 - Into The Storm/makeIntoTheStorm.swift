@@ -9,7 +9,6 @@ func makeIntoTheStorm() -> SerializableMapNode {
     return SerializableMapNode(
         name: "into the storm",
         position: 0,
-        assetsImageName: "wwii.ttp.its.logo",
         tabs: itsTabs
     )
 }

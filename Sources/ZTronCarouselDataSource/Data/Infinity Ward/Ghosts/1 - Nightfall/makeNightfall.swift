@@ -8,7 +8,6 @@ func makeNightfall() -> SerializableMapNode {
     return SerializableMapNode(
         name: "nightfall",
         position: 0,
-        assetsImageName: "ghosts.nightfall.logo",
         tabs: nightfallTabs
     )
 }

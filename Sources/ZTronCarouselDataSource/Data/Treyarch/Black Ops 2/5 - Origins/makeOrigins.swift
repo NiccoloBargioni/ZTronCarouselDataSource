@@ -11,7 +11,6 @@ func makeOrigins() -> SerializableMapNode {
     return SerializableMapNode(
         name: "origins",
         position: 4,
-        assetsImageName: "bo2.origins.logo",
         tabs: tabs
     )
 }

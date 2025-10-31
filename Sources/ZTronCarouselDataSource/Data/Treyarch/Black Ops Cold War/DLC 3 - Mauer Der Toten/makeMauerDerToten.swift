@@ -10,7 +10,6 @@ func makeMauerDerToten() -> SerializableMapNode {
     return SerializableMapNode(
         name: "mauer der toten",
         position: 3,
-        assetsImageName: "bocw.mdt.logo",
         tabs: tabs
     )
 }

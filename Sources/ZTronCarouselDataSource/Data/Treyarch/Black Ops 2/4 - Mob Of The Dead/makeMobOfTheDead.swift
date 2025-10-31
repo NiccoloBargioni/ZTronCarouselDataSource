@@ -11,7 +11,6 @@ func makeMobOfTheDead() -> SerializableMapNode {
     return SerializableMapNode(
         name: "mob of the dead",
         position: 3,
-        assetsImageName: "bo2.motd.logo",
         tabs: tabs
     )
 }

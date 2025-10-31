@@ -11,7 +11,6 @@ func makeDieMaschine() -> SerializableMapNode {
     return SerializableMapNode(
         name: "die maschine",
         position: 0,
-        assetsImageName: "bocw.dm.logo",
         tabs: tabs
     )
 }

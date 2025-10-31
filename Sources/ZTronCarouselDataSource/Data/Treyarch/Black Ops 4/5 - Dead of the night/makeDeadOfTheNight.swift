@@ -10,7 +10,6 @@ func makeDeadOfTheNight() -> SerializableMapNode {
     return SerializableMapNode(
         name: "dead of the night",
         position: 4,
-        assetsImageName: "bo4.dotn.logo",
         tabs: dotnTabs
     )
 }

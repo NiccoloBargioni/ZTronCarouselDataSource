@@ -10,7 +10,6 @@ func makeChroniclesOrigins() -> SerializableMapNode {
     return SerializableMapNode(
         name: "origins",
         position: 4,
-        assetsImageName: "bo3.chronicles.origins.logo",
         tabs: originsTabs
     )
 }

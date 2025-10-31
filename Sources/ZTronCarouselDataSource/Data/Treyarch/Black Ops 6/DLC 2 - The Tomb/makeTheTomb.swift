@@ -10,7 +10,6 @@ func makeTheTomb() -> SerializableMapNode {
     return SerializableMapNode(
         name: "the tomb",
         position: 3,
-        assetsImageName: "bo6.tt.logo",
         tabs: tombTabs
     )
 }

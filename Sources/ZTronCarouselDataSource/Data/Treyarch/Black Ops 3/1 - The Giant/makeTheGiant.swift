@@ -9,7 +9,6 @@ func makeTheGiant() -> SerializableMapNode {
     return SerializableMapNode(
         name: "the giant",
         position: 1,
-        assetsImageName: "bo3.tg.logo",
         tabs: theGiantTabs
     )
 }

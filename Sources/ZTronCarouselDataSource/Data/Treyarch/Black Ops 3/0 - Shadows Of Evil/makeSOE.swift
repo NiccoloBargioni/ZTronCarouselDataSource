@@ -10,7 +10,6 @@ func makeSOE() -> SerializableMapNode {
     return SerializableMapNode(
         name: "shadows of evil",
         position: 0,
-        assetsImageName: "bo3.soe.logo",
         tabs: soeTabs
     )
 }

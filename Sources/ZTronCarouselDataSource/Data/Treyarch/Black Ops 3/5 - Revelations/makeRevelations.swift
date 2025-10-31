@@ -10,7 +10,6 @@ func makeRevelations() -> SerializableMapNode {
     return SerializableMapNode(
         name: "revelations",
         position: 5,
-        assetsImageName: "bo3.revelations.logo",
         tabs: revelationsTab
     )
 }

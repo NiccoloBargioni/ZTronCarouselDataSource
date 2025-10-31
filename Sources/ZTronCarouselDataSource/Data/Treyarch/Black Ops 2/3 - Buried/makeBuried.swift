@@ -12,7 +12,6 @@ func makeBuried() -> SerializableMapNode {
     return SerializableMapNode(
         name: "buried",
         position: 2,
-        assetsImageName: "bo2.buried.logo",
         tabs: tabs
     )
 }

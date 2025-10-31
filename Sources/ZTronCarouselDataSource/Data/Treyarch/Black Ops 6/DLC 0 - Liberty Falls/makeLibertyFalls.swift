@@ -9,7 +9,6 @@ func makeLibertyFalls() -> SerializableMapNode {
     return SerializableMapNode(
         name: "liberty falls",
         position: 0,
-        assetsImageName: "bo6.lf.logo",
         tabs: tombTabs
     )
 }

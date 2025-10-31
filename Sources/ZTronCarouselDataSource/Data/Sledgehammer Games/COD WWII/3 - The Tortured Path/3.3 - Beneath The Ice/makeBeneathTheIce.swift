@@ -9,7 +9,6 @@ func makeBeneathTheIce() -> SerializableMapNode {
     return SerializableMapNode(
         name: "beneath the ice",
         position: 2,
-        assetsImageName: "wwii.ttp.bti.logo",
         tabs: btiTabs
     )
 }

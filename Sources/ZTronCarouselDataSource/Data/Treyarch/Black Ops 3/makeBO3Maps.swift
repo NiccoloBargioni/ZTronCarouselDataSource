@@ -13,7 +13,6 @@ public func makeBO3Maps() -> SerializableMapsRouter {
     let chronicles = SerializableMapNode(
         name: "zombies chronicles",
         position: 6,
-        assetsImageName: "bo3.zombies.chronicles.logo",
         tabs: SerializableTabsRouter()
     )
     

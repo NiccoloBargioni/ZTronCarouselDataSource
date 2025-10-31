@@ -11,7 +11,6 @@ func makeDerEisendrache() -> SerializableMapNode {
     return SerializableMapNode(
         name: "der eisendrache",
         position: 2,
-        assetsImageName: "bo3.de.logo",
         tabs: deTabs
     )
 }

@@ -10,7 +10,6 @@ func makeAlphaOmega() -> SerializableMapNode {
     return SerializableMapNode(
         name: "alpha omega",
         position: 6,
-        assetsImageName: "bo4.ao.logo",
         tabs: aoTabs
     )
 }

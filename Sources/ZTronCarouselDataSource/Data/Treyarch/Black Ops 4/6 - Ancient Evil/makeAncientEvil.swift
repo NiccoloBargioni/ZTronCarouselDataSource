@@ -9,7 +9,6 @@ func makeAncientEvil() -> SerializableMapNode {
     return SerializableMapNode(
         name: "ancient evil",
         position: 5,
-        assetsImageName: "bo4.ae.logo",
         tabs: aeTabs
     )
 }

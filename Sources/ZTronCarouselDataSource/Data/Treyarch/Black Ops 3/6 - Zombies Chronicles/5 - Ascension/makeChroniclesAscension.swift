@@ -10,7 +10,6 @@ func makeChroniclesAscension() -> SerializableMapNode {
     return SerializableMapNode(
         name: "ascension",
         position: 1,
-        assetsImageName: "bo3.chronicles.ascension.logo",
         tabs: ascensionTabs
     )
 }

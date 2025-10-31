@@ -9,7 +9,6 @@ func makeTheDarkestShore() -> SerializableMapNode {
     return SerializableMapNode(
         name: "the darkest shore",
         position: 1,
-        assetsImageName: "wwii.tds.logo",
         tabs: tdsTabs
     )
 }

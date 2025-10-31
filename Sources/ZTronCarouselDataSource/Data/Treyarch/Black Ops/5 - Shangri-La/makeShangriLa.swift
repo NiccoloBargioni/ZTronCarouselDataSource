@@ -9,7 +9,6 @@ func makeShangriLa() -> SerializableMapNode {
     return SerializableMapNode(
         name: "shangri-la",
         position: 4,
-        assetsImageName: "bo.shangri.la.logo",
         tabs: shangriLaTabs
     )
 }

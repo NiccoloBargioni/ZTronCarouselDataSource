@@ -9,7 +9,6 @@ func makeTheFinalReich() -> SerializableMapNode {
     return SerializableMapNode(
         name: "the final reich",
         position: 0,
-        assetsImageName: "wwii.tfr.logo",
         tabs: tfrTabs
     )
 }

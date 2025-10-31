@@ -10,7 +10,6 @@ func makeForsaken() -> SerializableMapNode {
     return SerializableMapNode(
         name: "forsaken",
         position: 4,
-        assetsImageName: "bocw.forsaken.logo",
         tabs: tabs
     )
 }

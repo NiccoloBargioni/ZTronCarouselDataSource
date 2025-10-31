@@ -9,7 +9,6 @@ func makeClassified() -> SerializableMapNode {
     return SerializableMapNode(
         name: "classified",
         position: 3,
-        assetsImageName: "bo4.classified.logo",
         tabs: classifiedTabs
     )
 }

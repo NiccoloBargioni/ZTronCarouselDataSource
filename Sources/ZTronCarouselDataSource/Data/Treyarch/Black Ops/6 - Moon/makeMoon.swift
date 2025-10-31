@@ -9,7 +9,6 @@ func makeMoon() -> SerializableMapNode {
     return SerializableMapNode(
         name: "moon",
         position: 5,
-        assetsImageName: "bo.moon.logo",
         tabs: moonTabs
     )
 }

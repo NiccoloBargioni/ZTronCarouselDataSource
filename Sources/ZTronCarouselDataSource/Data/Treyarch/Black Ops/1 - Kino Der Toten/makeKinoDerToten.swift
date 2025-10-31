@@ -8,7 +8,6 @@ func makeKinoDerToten() -> SerializableMapNode {
     return SerializableMapNode(
         name: "kino der toten",
         position: 0,
-        assetsImageName: "bo.kdt.logo",
         tabs: kinoTabs
     )
 }

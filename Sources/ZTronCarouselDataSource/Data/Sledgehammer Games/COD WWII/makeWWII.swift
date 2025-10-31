@@ -10,7 +10,6 @@ public func makeWWII() -> SerializableGameNode {
     let torturedPath = SerializableMapNode(
         name: "the tortured path",
         position: 3,
-        assetsImageName: "wwi.ttp.logo",
         tabs: SerializableTabsRouter()
     )
     
@@ -25,7 +24,6 @@ public func makeWWII() -> SerializableGameNode {
     return SerializableGameNode(
         name: "wwii",
         position: 6,
-        assetsImageName: "wwii.game.logo",
         maps: wwiiMaps
     )
 }

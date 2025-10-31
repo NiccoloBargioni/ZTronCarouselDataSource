@@ -10,7 +10,6 @@ func makeIX() -> SerializableMapNode {
     return SerializableMapNode(
         name: "ix",
         position: 1,
-        assetsImageName: "bo4.ix.logo",
         tabs: ixTabs
     )
 }

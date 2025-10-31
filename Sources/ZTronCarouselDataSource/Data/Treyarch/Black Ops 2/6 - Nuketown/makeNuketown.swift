@@ -9,7 +9,6 @@ func makeNuketown() -> SerializableMapNode {
     return SerializableMapNode(
         name: "nuketown",
         position: 5,
-        assetsImageName: "bo2.nuketown.logo",
         tabs: tabs
     )
 }

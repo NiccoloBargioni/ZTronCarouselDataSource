@@ -8,7 +8,6 @@ func makeMayday() -> SerializableMapNode {
     return SerializableMapNode(
         name: "mayday",
         position: 1,
-        assetsImageName: "ghosts.mayday.logo",
         tabs: maydayTabs
     )
 }

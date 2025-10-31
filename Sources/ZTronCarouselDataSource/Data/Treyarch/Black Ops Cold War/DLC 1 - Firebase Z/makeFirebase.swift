@@ -9,7 +9,6 @@ func makeFirebase() -> SerializableMapNode {
     return SerializableMapNode(
         name: "firebase",
         position: 1,
-        assetsImageName: "bocw.firebase.logo",
         tabs: tabs
     )
 }

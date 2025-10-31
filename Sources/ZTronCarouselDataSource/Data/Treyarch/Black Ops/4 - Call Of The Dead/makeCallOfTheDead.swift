@@ -9,7 +9,6 @@ func makeCallOfTheDead() -> SerializableMapNode {
     return SerializableMapNode(
         name: "call of the dead",
         position: 3,
-        assetsImageName: "bo.cotd.logo",
         tabs: callOfTheDeadTabs
     )
 }

@@ -9,7 +9,6 @@ func makeShiNoNumaReborn() -> SerializableMapNode {
     return SerializableMapNode(
         name: "shi no numa reborn",
         position: 0,
-        assetsImageName: "vanguard.snnr.logo",
         tabs: shiNoNumaTabs
     )
 }

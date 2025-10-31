@@ -9,7 +9,6 @@ func makeOutbreak() -> SerializableMapNode {
     return SerializableMapNode(
         name: "outbreak",
         position: 0,
-        assetsImageName: "aw.outbreak.logo",
         tabs: outbreakTabs
     )
 }

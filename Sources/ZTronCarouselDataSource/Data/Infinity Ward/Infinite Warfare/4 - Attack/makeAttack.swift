@@ -11,7 +11,6 @@ func makeAttack() -> SerializableMapNode {
     return SerializableMapNode(
         name: "attack of the radioactive thing",
         position: 3,
-        assetsImageName: "iw.aotrt.logo",
         tabs: attackTabs
     )
 }

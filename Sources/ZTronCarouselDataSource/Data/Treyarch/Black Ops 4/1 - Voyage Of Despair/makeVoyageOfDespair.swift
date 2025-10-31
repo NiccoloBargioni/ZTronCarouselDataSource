@@ -10,7 +10,6 @@ func makeVoyageOfDespair() -> SerializableMapNode {
     return SerializableMapNode(
         name: "voyage of despair",
         position: 0,
-        assetsImageName: "bo4.vod.logo",
         tabs: voyageTabs
     )
 }

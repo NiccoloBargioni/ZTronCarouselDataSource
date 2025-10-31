@@ -8,7 +8,6 @@ func makeAwakening() -> SerializableMapNode {
     return SerializableMapNode(
         name: "awakening",
         position: 2,
-        assetsImageName: "ghosts.awakening.logo",
         tabs: awakeningTabs
     )
 }

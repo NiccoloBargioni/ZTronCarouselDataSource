@@ -8,7 +8,6 @@ func makeArchon() -> SerializableMapNode {
     return SerializableMapNode(
         name: "archon",
         position: 1,
-        assetsImageName: "vanguard.archon.logo",
         tabs: archonTabs
     )
 }

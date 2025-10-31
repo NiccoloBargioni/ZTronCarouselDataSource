@@ -8,7 +8,6 @@ func makeDescent() -> SerializableMapNode {
     return SerializableMapNode(
         name: "descent",
         position: 3,
-        assetsImageName: "aw.descent.logo",
         tabs: descentTabs
     )
 }

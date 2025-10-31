@@ -8,7 +8,6 @@ func makeCarrier() -> SerializableMapNode {
     return SerializableMapNode(
         name: "carrier",
         position: 2,
-        assetsImageName: "aw.carrier.logo",
         tabs: carrierTabs
     )
 }

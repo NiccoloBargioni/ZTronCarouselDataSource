@@ -10,7 +10,6 @@ func makeTranzit() -> SerializableMapNode {
     return SerializableMapNode(
         name: "tranzit",
         position: 0,
-        assetsImageName: "bo2.tranzit.logo",
         tabs: tranzitTabs
     )
 }

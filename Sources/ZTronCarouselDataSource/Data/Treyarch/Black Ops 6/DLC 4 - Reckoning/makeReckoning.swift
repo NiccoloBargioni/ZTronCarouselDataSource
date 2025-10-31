@@ -10,7 +10,6 @@ func makeReckoning() -> SerializableMapNode {
     return SerializableMapNode(
         name: "reckoning",
         position: 5,
-        assetsImageName: "bo6.reckoning.logo",
         tabs: reckoningTabs
     )
 }

@@ -10,7 +10,6 @@ func makeCitadelleDesMorts() -> SerializableMapNode {
     return SerializableMapNode(
         name: "citadelle des morts",
         position: 2,
-        assetsImageName: "bo6.cdm.logo",
         tabs: citadellesTabs
     )
 }

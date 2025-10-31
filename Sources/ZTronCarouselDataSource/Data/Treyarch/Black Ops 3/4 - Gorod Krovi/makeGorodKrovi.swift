@@ -10,7 +10,6 @@ func makeGorodKrovi() -> SerializableMapNode {
     return SerializableMapNode(
         name: "gorod krovi",
         position: 4,
-        assetsImageName: "bo3.gk.logo",
         tabs: gorodTabs
     )
 }

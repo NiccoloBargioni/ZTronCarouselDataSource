@@ -9,7 +9,6 @@ func makeTheFrozenDawn() -> SerializableMapNode {
     return SerializableMapNode(
         name: "the frozen dawn",
         position: 4,
-        assetsImageName: "wwii.tfd.logo",
         tabs: tfdTabs
     )
 }
