@@ -5,6 +5,7 @@ public func makeCitadelleZodiacTool() -> SerializableToolNode {
         name: "bo6.cdm.easter.egg.zodiac.tool.name",
         position: 0,
         assetsImageName: "bo6.cdm.easter.egg.zodiac.icon",
+        isSolver: true,
         galleryRouter: makeCitadelleZodiac()
     )
 }

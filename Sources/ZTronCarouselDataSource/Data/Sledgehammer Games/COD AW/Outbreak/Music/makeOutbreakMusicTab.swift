@@ -4,7 +4,7 @@ func makeOutbreakMusicTab() -> SerializableTabNode {
     return .init(
         name: "music",
         position: 1,
-        iconName: "music.note",
+        rating: 1,
         tools: makeOutbreakMusicTools()
     )
 }

@@ -4,7 +4,7 @@ func makeTDTSideQuestsTab() -> SerializableTabNode {
     return .init(
         name: "side quests",
         position: 1,
-        iconName: "formfitting.gamecontroller",
+        rating: 2,
         tools: makeTDTSideQuestsTools()
     )
 }

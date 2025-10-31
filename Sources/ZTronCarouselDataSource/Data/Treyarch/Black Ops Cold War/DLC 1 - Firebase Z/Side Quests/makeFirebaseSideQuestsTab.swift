@@ -4,7 +4,7 @@ public func makeFirebaseSideQuestsTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "side quests",
         position: 0,
-        iconName: "gamecontroller",
+        rating: 1,
         tools: makeFirebaseSideQuestsTools()
     )
 }

@@ -4,7 +4,7 @@ public func makeSpacelandMusicTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "music",
         position: 3,
-        iconName: "music.note",
+        rating: 3,
         tools: makeSpacelandMusicToolsRouter()
     )
 }

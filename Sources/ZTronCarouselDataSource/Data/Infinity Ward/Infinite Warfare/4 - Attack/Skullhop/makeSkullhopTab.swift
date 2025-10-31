@@ -4,7 +4,7 @@ public func makeAOTRTSkullhopTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "skullhop",
         position: 1,
-        iconName: "arcade.stick",
+        rating: 3,
         tools: makeAOTRTSkullhopTools()
     )
 }

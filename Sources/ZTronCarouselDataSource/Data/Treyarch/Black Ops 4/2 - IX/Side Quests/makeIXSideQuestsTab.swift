@@ -4,7 +4,7 @@ public func makeIXSideQuestsTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "side quests",
         position: 1,
-        iconName: "gamecontroller",
+        rating: 1,
         tools: makeIXSideQuestsTools()
     )
 }

@@ -4,7 +4,7 @@ public func makeTheShadowedThroneSideQuestsTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "side quests",
         position: 1,
-        iconName: "formfitting.gamecontroller",
+        rating: 1,
         tools: makeTheShadowedThroneSideQuestsTools()
     )
 }

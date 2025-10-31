@@ -4,7 +4,7 @@ func makeDieRiseEasterEggTab() -> SerializableTabNode {
     return .init(
         name: "easter egg",
         position: 0,
-        iconName: "oval.portrait.righthalf.filled",
+        rating: 2,
         tools: makeDieRiseEasterEggTools()
     )
 }

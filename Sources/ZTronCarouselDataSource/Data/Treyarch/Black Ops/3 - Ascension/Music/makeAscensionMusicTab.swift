@@ -4,7 +4,7 @@ public func makeAscensionMusicTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "music",
         position: 2,
-        iconName: "music.note",
+        rating: 1,
         tools: makeAscensionMusicTools()
     )
 }

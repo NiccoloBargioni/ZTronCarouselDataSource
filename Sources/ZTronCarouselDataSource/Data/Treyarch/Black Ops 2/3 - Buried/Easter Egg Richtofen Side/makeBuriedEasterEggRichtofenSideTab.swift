@@ -4,7 +4,7 @@ func makeBuriedEasterEggRichtofenSideTab() -> SerializableTabNode {
     return .init(
         name: "richtofen side",
         position: 2,
-        iconName: "person.filled",
+        rating: 2,
         tools: makeBuriedEasterEggRichtofenSideTools()
     )
 }

@@ -4,7 +4,7 @@ public func makeBFBWonderWeaponTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "venom",
         position: 2,
-        iconName: "wand.and.stars.inverse",
+        rating: 3,
         tools: makeBFBWonderWeaponTools()
     )
 }

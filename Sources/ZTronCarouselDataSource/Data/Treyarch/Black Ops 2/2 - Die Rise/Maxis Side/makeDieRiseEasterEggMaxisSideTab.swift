@@ -4,7 +4,7 @@ func makeDieRiseEasterEggMaxisSideTab() -> SerializableTabNode {
     return .init(
         name: "maxis side",
         position: 1,
-        iconName: "person.filled",
+        rating: 2,
         tools: makeDieRiseEasterEggMaxisSideTools()
     )
 }

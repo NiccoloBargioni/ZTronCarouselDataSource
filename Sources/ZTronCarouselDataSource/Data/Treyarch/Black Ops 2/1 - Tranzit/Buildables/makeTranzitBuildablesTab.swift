@@ -4,7 +4,7 @@ func makeTranzitBuildablesTab() -> SerializableTabNode {
     return .init(
         name: "buildables",
         position: 1,
-        iconName: "oval.portrait.righthalf.filled",
+        rating: 1,
         tools: makeTranzitBuldablesTools()
     )
 }

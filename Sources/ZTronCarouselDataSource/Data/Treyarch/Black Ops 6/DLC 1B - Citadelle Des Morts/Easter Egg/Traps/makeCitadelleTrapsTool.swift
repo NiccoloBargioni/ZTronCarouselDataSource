@@ -1,6 +1,6 @@
 import ZTronSerializable
 
-public func makeCitadelleTool() -> SerializableToolNode {
+public func makeCitadelleTrapsTool() -> SerializableToolNode {
     return SerializableToolNode(
         name: "bo6.cdm.easter.egg.traps.tool.name",
         position: 1,

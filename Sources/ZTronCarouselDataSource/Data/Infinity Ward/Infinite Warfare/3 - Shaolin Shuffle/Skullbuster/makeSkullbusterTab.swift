@@ -4,7 +4,7 @@ public func makeSkullbusterTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "skullbuster",
         position: 2,
-        iconName: "arcade.stick",
+        rating: 3,
         tools: makeSkullbusterTools()
     )
 }

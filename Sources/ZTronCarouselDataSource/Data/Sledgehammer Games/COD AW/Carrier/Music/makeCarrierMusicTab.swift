@@ -4,7 +4,7 @@ public func makeCarrierMusicTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "music",
         position: 0,
-        iconName: "music.note",
+        rating: 1,
         tools: makeCarrierMusicTools()
     )
 }

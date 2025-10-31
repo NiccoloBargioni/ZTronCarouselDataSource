@@ -4,7 +4,7 @@ public func makeAOTRTSideQuestTab() -> SerializableTabNode {
     return SerializableTabNode(
         name: "side quests",
         position: 2,
-        iconName: "gamecontroller",
+        rating: 1,
         tools: makeAOTRTSideQuestTools()
     )
 }
