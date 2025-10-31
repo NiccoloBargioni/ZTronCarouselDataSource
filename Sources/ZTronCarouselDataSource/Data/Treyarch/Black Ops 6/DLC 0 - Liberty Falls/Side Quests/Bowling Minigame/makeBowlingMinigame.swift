@@ -126,7 +126,7 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                 )
             ]
             
-    ), at: ["bo6.lf.side.quests.bowling.6.following.activations "])
+    ), at: ["bo6.lf.side.quests.bowling.6.following.activations"])
 
 
     let locationsRouter = SerializableGalleryRouter()
