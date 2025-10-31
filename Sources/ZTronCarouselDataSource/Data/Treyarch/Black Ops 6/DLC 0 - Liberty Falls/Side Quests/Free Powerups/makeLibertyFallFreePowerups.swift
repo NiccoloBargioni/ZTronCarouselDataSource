@@ -233,6 +233,28 @@ public func makeLibertyFallFreePowerups() -> SerializableGalleryRouter {
     ), at: ["bo6.lf.side.quests.free.powerups.7.full.meter"])
 
 
+    freePowerupsLfLocations.register(
+        SerializableImageNode(
+            name: "bo6.lf.side.quests.free.powerups.8.firesale",
+            description: "bo6.lf.side.quests.free.powerups.8.firesale.caption",
+            position: 7,
+            searchLabel: "bo6.lf.side.quests.free.powerups.8.firesale.searchLabel",
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo6.lf.side.quests.free.powerups.8.firesale.outline",
+                    boundingBox: .init(
+                        x: 468.0 / 1920.0,
+                        y: 892.0 / 1080.0,
+                        width: 190.0 / 1920.0,
+                        height: 165.0 / 1080.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo6.lf.side.quests.free.powerups.8.firesale"])
+
+
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(

@@ -108,6 +108,26 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
         
     ), at: ["bo6.lf.side.quests.bowling.5.shoes.by.phd.flopper"])
 
+    bowlingShoesLocations.register(
+        SerializableImageNode(
+            name: "bo6.lf.side.quests.bowling.6.following.activations",
+            description: "bo6.lf.side.quests.bowling.6.following.activations.caption",
+            position: 5,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo6.lf.side.quests.bowling.6.following.activations.outline",
+                    boundingBox: .init(
+                        x: 1563.0 / 1920.0,
+                        y: 592.0 / 1080.0,
+                        width: 74.0 / 1920.0,
+                        height: 14.0 / 1080.0
+                    )
+                )
+            ]
+            
+    ), at: ["bo6.lf.side.quests.bowling.6.following.activations "])
+
 
     let locationsRouter = SerializableGalleryRouter()
     
