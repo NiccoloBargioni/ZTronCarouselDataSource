@@ -28,6 +28,17 @@ public func makeFrozenDawnEasterEggTools() -> SerializableToolsRouter {
         ),
         at: [">", "lightning puzzle"]
     )
+    
+    ee.router.register(
+        SerializableToolNode(
+            name: "wwii.tfd.easter.egg.hammer.contraption.wall.tool.name",
+            position: 4,
+            assetsImageName: "wwii.tfd.easter.egg.hammer.contraption.wall.icon",
+            isSolver: true,
+            galleryRouter: nil
+        ),
+        at: [">", "hammer contraption wall"]
+    )
 
     return ee
 }
