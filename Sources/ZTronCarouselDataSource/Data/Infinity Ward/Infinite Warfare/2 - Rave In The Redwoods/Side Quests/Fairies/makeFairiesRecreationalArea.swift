@@ -7,7 +7,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.1.archery.range.right.side",
             description: "iw.ritr.side.quests.fairies.recreational.area.1.archery.range.right.side.caption",
-            position: 0,
+            position: 0,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -19,14 +19,14 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 137.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.1.archery.range.right.side"])
     
     fairiesLocations.register(
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.2.archery.range.left.side",
             description: "iw.ritr.side.quests.fairies.recreational.area.2.archery.range.left.side.caption",
-            position: 1,
+            position: 1,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -38,7 +38,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 64.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.2.archery.range.left.side"])
 
 
@@ -46,7 +46,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall",
             description: "iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall.caption",
-            position: 2,
+            position: 2,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -58,7 +58,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 143.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall"])
 
     
@@ -66,7 +66,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.4.underground.mud",
             description: "iw.ritr.side.quests.fairies.recreational.area.4.underground.mud.caption",
-            position: 3,
+            position: 3,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -78,7 +78,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 51.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.4.underground.mud"])
 
 
@@ -86,7 +86,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.5.dj.trap",
             description: "iw.ritr.side.quests.fairies.recreational.area.5.dj.trap.caption",
-            position: 4,
+            position: 4,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -98,7 +98,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 92.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.5.dj.trap"])
 
 
@@ -106,7 +106,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.6.across.big.flower",
             description: "iw.ritr.side.quests.fairies.recreational.area.6.across.big.flower.caption",
-            position: 5,
+            position: 5,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -118,7 +118,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 70.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.6.across.big.flower"])
 
 
@@ -126,7 +126,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.recreational.area.7.rave.camper",
             description: "iw.ritr.side.quests.fairies.recreational.area.7.rave.camper.caption",
-            position: 6,
+            position: 6,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -138,7 +138,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 243.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.7.rave.camper"])
 
 
