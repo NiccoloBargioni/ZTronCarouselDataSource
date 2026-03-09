@@ -18,7 +18,7 @@ func makeAOTDBruinKey() -> SerializableGalleryNode {
                         x: 2839.0 / 3840.0,
                         y: 751.0 / 2160.0,
                         width: 6.0 / 3840.0,
-                        height: 84.0 / 8.0
+                        height: 84.0 / 2160.0
                     )
                 )
             ]
