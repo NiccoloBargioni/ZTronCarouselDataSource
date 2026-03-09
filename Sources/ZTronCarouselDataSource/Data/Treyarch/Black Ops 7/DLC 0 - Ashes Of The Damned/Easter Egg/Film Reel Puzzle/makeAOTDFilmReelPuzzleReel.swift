@@ -18,7 +18,7 @@ func makeAOTDFilmReelPuzzleReel() -> SerializableGalleryNode {
                         x: 2635.0 / 3840.0,
                         y: 867.0 / 2160.0,
                         width: 101.0 / 3840.0,
-                        height: 13.0 / 8.0
+                        height: 13.0 / 2160.0
                     )
                 )
             ]
@@ -38,7 +38,7 @@ func makeAOTDFilmReelPuzzleReel() -> SerializableGalleryNode {
                         x: 1402.0 / 3840.0,
                         y: 1313.0 / 2160.0,
                         width: 108.0 / 3840.0,
-                        height: 114.0 / 8.0
+                        height: 114.0 / 2160.0
                     )
                 )
             ]
@@ -58,7 +58,7 @@ func makeAOTDFilmReelPuzzleReel() -> SerializableGalleryNode {
                         x: 1126.0 / 3840.0,
                         y: 798.0 / 2160.0,
                         width: 146.0 / 3840.0,
-                        height: 160.0 / 8.0
+                        height: 160.0 / 2160.0
                     )
                 )
             ]
@@ -78,7 +78,7 @@ func makeAOTDFilmReelPuzzleReel() -> SerializableGalleryNode {
                         x: 2142.0 / 3840.0,
                         y: 852.0 / 2160.0,
                         width: 62.0 / 3840.0,
-                        height: 22.0 / 8.0
+                        height: 22.0 / 2160.0
                     )
                 )
             ]

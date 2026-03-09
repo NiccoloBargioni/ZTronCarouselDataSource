@@ -18,7 +18,7 @@ func makeAOTDMixologistQuickRevive() -> SerializableGalleryNode {
                         x: 796.0 / 3840.0,
                         y: 1374.0 / 2160.0,
                         width: 65.0 / 3840.0,
-                        height: 50.0 / 8.0
+                        height: 50.0 / 2160.0
                     )
                 )
             ]

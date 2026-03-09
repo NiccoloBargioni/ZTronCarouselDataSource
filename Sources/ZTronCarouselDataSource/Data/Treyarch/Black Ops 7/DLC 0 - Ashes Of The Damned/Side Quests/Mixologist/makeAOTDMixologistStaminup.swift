@@ -18,7 +18,7 @@ func makeAOTDMixologistStaminup() -> SerializableGalleryNode {
                         x: 464.0 / 3840.0,
                         y: 928.0 / 2160.0,
                         width: 96.0 / 3840.0,
-                        height: 108.0 / 8.0
+                        height: 108.0 / 2160.0
                     )
                 )
             ]

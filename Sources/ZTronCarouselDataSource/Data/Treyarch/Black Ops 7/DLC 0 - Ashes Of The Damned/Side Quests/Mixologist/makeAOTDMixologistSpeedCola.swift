@@ -18,7 +18,7 @@ func makeAOTDMixologistSpeedCola() -> SerializableGalleryNode {
                         x: 1481.0 / 3840.0,
                         y: 1208.0 / 2160.0,
                         width: 57.0 / 3840.0,
-                        height: 99.0 / 8.0
+                        height: 99.0 / 2160.0
                     )
                 )
             ]

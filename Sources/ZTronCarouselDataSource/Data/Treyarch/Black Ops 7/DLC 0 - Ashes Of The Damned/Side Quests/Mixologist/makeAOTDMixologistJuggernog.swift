@@ -18,7 +18,7 @@ func makeAOTDMixologistJuggernog() -> SerializableGalleryNode {
                         x: 1580.0 / 3840.0,
                         y: 1210.0 / 2160.0,
                         width: 124.0 / 3840.0,
-                        height: 64.0 / 8.0
+                        height: 64.0 / 2160.0
                     )
                 )
             ]
