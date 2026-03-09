@@ -18,7 +18,7 @@ func makeAOTDNightbirdKey() -> SerializableGalleryNode {
                         x: 3420.0 / 3840.0,
                         y: 962.0 / 2160.0,
                         width: 40.0 / 3840.0,
-                        height: 61.0 / 8.0
+                        height: 61.0 / 2160.0
                     )
                 )
             ]

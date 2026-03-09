@@ -18,7 +18,7 @@ func makeAOTDTerrapinKey() -> SerializableGalleryNode {
                         x: 1131.0 / 3840.0,
                         y: 1124.0 / 2160.0,
                         width: 58.0 / 3840.0,
-                        height: 145.0 / 8.0
+                        height: 145.0 / 2160.0
                     )
                 )
             ]
