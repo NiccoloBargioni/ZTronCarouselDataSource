@@ -194,10 +194,10 @@ public func makeAOTDFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.side.quests.free.powerups.8.firesale.by.speedcola.outline",
                     boundingBox: .init(
-                        x: 2324.0 / 1920.0,
-                        y: 603.0 / 1080.0,
-                        width: 49.0 / 1920.0,
-                        height: 45.0 / 1080.0
+                        x: 2324.0 / 3840.0,
+                        y: 603.0 / 2160.0,
+                        width: 49.0 / 3840.0,
+                        height: 45.0 / 2160.0
                     )
                 )
             ]
