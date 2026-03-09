@@ -27,9 +27,6 @@ func makeRaygunMKIIUpgradeTool() -> SerializableToolNode {
         }
     }
     
-
-    let frames = makeRaygunMKIIUpgradeFrames()
-    
     upgradeStepsRouter.router.register(
         makeRaygunMKIIUpgradeFrames(),
         at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.frames"]
