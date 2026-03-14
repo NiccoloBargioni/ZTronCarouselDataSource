@@ -66,12 +66,12 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
      streetlightLocations.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.infinitum",
-            description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.caption",
+            description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.infinitum.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.outline",
+                    resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.infinitum.outline",
                     boundingBox: .init(
                         x: 1850.0 / 3840.0,
                         y: 886.0 / 2160.0,
@@ -80,7 +80,7 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
                     )
                 )
             ]
-    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum"])
+    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.museum.infinitum"])
 
     
      streetlightLocations.register(
