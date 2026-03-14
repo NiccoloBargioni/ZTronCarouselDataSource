@@ -25,6 +25,12 @@ public func makeAOTDEasterEggTools() -> SerializableToolsRouter {
 
     
     aotdEETools.router.register(
+        makeAOTDVandornFarmRitualTool(),
+        at: ["vandorn farm ritual"]
+    )
+
+    
+    aotdEETools.router.register(
         makeAORDFilmReelPuzzleTool(),
         at: ["film-reel puzzle"]
     )

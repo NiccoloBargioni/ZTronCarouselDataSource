@@ -5,6 +5,7 @@ func makeAshesOfTheDamned() -> SerializableMapNode {
     
     tabs.router.register(makeAOTDEasterEggTab(), at: [">", "easter egg"])
     tabs.router.register(makeAOTDSideQuestsTab(), at: [">", "side quests"])
+    tabs.router.register(makeAOTDMusicTab(), at: [">", "music"])
     
     return SerializableMapNode(
         name: "ashes of the damned",

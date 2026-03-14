@@ -5,6 +5,7 @@ public func makeBO7() -> SerializableGameNode {
     let bo7Maps = SerializableMapsRouter()
     
     bo7Maps.router.register(makeAshesOfTheDamned(), at: [">", "ashes of the damned"])
+    bo7Maps.router.register(makeAstraMalorum(), at: [">", "astra malorum"])
     
     return SerializableGameNode(
         name: "black ops 7",

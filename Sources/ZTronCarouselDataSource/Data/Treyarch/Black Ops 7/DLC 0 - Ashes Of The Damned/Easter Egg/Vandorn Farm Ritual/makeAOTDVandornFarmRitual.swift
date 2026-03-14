@@ -5,13 +5,13 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
         
     relicsLocations.register(
         SerializableImageNode(
-            name: "bo7.aotd.side.quests.vandorn.farm.ritual.juniors.fun.face",
-            description: "bo7.aotd.side.quests.vandorn.farm.ritual.juniors.fun.face.caption",
+            name: "bo7.aotd.easter.egg.vandorn.farm.ritual.juniors.fun.face",
+            description: "bo7.aotd.easter.egg.vandorn.farm.ritual.juniors.fun.face.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.aotd.side.quests.vandorn.farm.ritual.juniors.fun.face.outline",
+                    resourceName: "bo7.aotd.easter.egg.vandorn.farm.ritual.juniors.fun.face.outline",
                     boundingBox: .init(
                         x: 3291.0 / 3840.0,
                         y: 1044.0 / 2160.0,
@@ -20,18 +20,18 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.aotd.side.quests.vandorn.farm.ritual.juniors.fun.face"])
+    ), at: ["bo7.aotd.easter.egg.vandorn.farm.ritual.juniors.fun.face"])
 
     
     relicsLocations.register(
         SerializableImageNode(
-            name: "bo7.aotd.side.quests.vandorn.farm.mas.chalice",
-            description: "bo7.aotd.side.quests.vandorn.farm.mas.chalice.caption",
+            name: "bo7.aotd.easter.egg.vandorn.farm.mas.chalice",
+            description: "bo7.aotd.easter.egg.vandorn.farm.mas.chalice.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.aotd.side.quests.vandorn.farm.mas.chalice.outline",
+                    resourceName: "bo7.aotd.easter.egg.vandorn.farm.mas.chalice.outline",
                     boundingBox: .init(
                         x: 3061.0 / 3840.0,
                         y: 647.0 / 2160.0,
@@ -40,18 +40,18 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.aotd.side.quests.vandorn.farm.mas.chalice"])
+    ), at: ["bo7.aotd.easter.egg.vandorn.farm.mas.chalice"])
 
     
     relicsLocations.register(
         SerializableImageNode(
-            name: "bo7.aotd.side.quests.vandorn.farm.ritual.pas.pigsticker",
-            description: "bo7.aotd.side.quests.vandorn.farm.ritual.pas.pigsticker.caption",
+            name: "bo7.aotd.easter.egg.vandorn.farm.ritual.pas.pigsticker",
+            description: "bo7.aotd.easter.egg.vandorn.farm.ritual.pas.pigsticker.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.aotd.side.quests.vandorn.farm.ritual.pas.pigsticker.outline",
+                    resourceName: "bo7.aotd.easter.egg.vandorn.farm.ritual.pas.pigsticker.outline",
                     boundingBox: .init(
                         x: 1193.0 / 3840.0,
                         y: 1245.0 / 2160.0,
@@ -60,18 +60,18 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.aotd.side.quests.vandorn.farm.ritual.pas.pigsticker"])
+    ), at: ["bo7.aotd.easter.egg.vandorn.farm.ritual.pas.pigsticker"])
 
     
      relicsLocations.register(
         SerializableImageNode(
-            name: "bo7.aotd.side.quests.vandorn.farm.ritual.tasty.face.teddy",
-            description: "bo7.aotd.side.quests.vandorn.farm.ritual.tasty.face.teddy.caption",
+            name: "bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy",
+            description: "bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.aotd.side.quests.vandorn.farm.ritual.tasty.face.teddy.outline",
+                    resourceName: "bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy.outline",
                     boundingBox: .init(
                         x: 3330.0 / 3840.0,
                         y: 996.0 / 2160.0,
@@ -80,13 +80,13 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.aotd.side.quests.vandorn.farm.ritual.tasty.face.teddy"])
+    ), at: ["bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy"])
 
     
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
-        name: "bo7.aotd.side.quests.vandorn.farm.ritual",
+        name: "bo7.aotd.easter.egg.vandorn.farm.ritual",
         position: 0,
         assetsImageName: nil,
         images: relicsLocations

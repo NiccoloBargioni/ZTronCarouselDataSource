@@ -2,11 +2,6 @@ import ZTronSerializable
 
 public func makeAOTDSideQuestsTools() -> SerializableToolsRouter {
     let aotdSQTools = SerializableToolsRouter()
-    
-    aotdSQTools.router.register(
-        makeAOTDVandornFarmRitualTool(),
-        at: ["vandorn farm ritual"]
-    )
 
     aotdSQTools.router.register(
         makeAOTDWateringCanTool(),
