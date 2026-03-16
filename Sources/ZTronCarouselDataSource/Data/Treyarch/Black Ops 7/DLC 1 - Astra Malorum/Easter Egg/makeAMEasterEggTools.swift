@@ -43,7 +43,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
             isSolver: true,
             galleryRouter: nil
         ),
-        at: ["thurston reading list"]
+        at: ["mars pillars puzzle"]
     )
 
     return amEETools
