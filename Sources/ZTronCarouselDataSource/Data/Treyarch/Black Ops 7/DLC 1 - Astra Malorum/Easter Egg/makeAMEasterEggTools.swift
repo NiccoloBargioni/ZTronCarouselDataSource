@@ -38,7 +38,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
     amEETools.router.register(
         SerializableToolNode(
             name: "bo7.am.easter.egg.mars.pillars.puzzle.tool.name",
-            position: 3,
+            position: 4,
             assetsImageName: "bo7.am.easter.egg.mars.pillars.puzzle.tool.name.icon",
             isSolver: true,
             galleryRouter: nil
