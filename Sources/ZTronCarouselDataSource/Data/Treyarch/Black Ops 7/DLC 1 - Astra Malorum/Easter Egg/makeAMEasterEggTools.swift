@@ -17,7 +17,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
         SerializableToolNode(
             name: "bo7.am.easter.egg.planets.tool.name",
             position: 2,
-            assetsImageName: "bo7.am.easter.egg.planets.tool.name.icon",
+            assetsImageName: "bo7.am.easter.egg.planets.icon",
             isSolver: true,
             galleryRouter: nil
         ),
