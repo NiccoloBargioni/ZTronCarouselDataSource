@@ -30,7 +30,7 @@ public func makePJPianoNotes() -> SerializableGalleryRouter {
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo7.pj.easter.egg.piano.notes.staircase.from.quick.revive.to.tessie.spawm.outline",
+                   resourceName: "bo7.pj.easter.egg.piano.notes.time.travel.rift.outline",
                    boundingBox: .init(
                        x: 454.0 / 3840.0,
                        y: 1113.0 / 2160.0,
