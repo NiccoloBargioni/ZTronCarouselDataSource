@@ -221,7 +221,7 @@ public func makePJMannequins() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.pj.easter.egg.mannequins.right.side.trinity.ave.near.wisp.tea"])
+    ), at: ["bo7.pj.easter.egg.mannequins.end.of.trinity.ave.right.of.pack.a.punch"])
     
 
     mannequinLocations.register(
