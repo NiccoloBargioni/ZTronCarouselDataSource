@@ -119,7 +119,7 @@ public func makeAMFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.am.side.quests.free.powerups.max.armor.past.museum.infinitum.before.pack.a.punch.outline",
                     boundingBox: .init(
-                        x: 1162 / 3840.0,
+                        x: 1162.0 / 3840.0,
                         y: 759.0 / 2160.0,
                         width: 76.0 / 3840.0,
                         height: 88.0 / 2160.0
@@ -161,8 +161,8 @@ public func makeAMFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.am.side.quests.free.powerups.full.power.pack.a.punch.room.outline",
                     boundingBox: .init(
-                        x: 1882 / 3840.0,
-                        y: 684 / 2160.0,
+                        x: 1882.0 / 3840.0,
+                        y: 684.0 / 2160.0,
                         width: 19.0 / 3840.0,
                         height: 15.0 / 2160.0
                     )
