@@ -3,7 +3,7 @@ import ZTronRouter
 import ZTronSerializable
 
 func makeChroniclesOriginsWindStaffDisk() -> SerializableGalleryNode {
-    var windStaffBo3DiscLocations = MediaRouter()
+    let windStaffBo3DiscLocations = MediaRouter()
     
     windStaffBo3DiscLocations.register(
         SerializableImageNode(
