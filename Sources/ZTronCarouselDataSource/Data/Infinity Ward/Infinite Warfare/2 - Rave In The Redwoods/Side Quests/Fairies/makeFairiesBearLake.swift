@@ -15,7 +15,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 595.0 / 1920.0,
                         y: 434.0 / 1080.0,
-                        width: 137.0 / 1920.0,
+                        width: 145.0 / 1920.0,
                         height: 78.0 / 1080.0
                     )
                 )

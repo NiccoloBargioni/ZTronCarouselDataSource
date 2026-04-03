@@ -53,10 +53,10 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel.outline",
                     boundingBox: .init(
-                        x: 510.0 / 1920.0,
-                        y: 304.0 / 1080.0,
-                        width: 263.0 / 1920.0,
-                        height: 333.0 / 1080.0
+                        x: 765.0 / 1920.0,
+                        y: 458.0 / 1080.0,
+                        width: 138.0 / 1920.0,
+                        height: 141.0 / 1080.0
                     )
                 )
             ]
