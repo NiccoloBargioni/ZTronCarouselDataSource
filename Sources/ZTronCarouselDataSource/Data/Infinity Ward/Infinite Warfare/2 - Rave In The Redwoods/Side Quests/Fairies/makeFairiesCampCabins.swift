@@ -55,8 +55,8 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 940.0 / 1920.0,
                         y: 459.0 / 1080.0,
-                        width: 116.0 / 1920.0,
-                        height: 72.0 / 1080.0
+                        width: 121.0 / 1920.0,
+                        height: 75.0 / 1080.0
                     )
                 )
             ]
@@ -75,7 +75,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 663.0 / 1920.0,
                         y: 439.0 / 1080.0,
-                        width: 143.0 / 1920.0,
+                        width: 146.0 / 1920.0,
                         height: 235.0 / 1080.0
                     )
                 )
@@ -132,7 +132,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.camp.cabins.7.mess.hall.sign.bridge.from.cabins.outline",
                     boundingBox: .init(
-                        x: 382.0 / 1920.0,
+                        x: 385.0 / 1920.0,
                         y: 454.0 / 1080.0,
                         width: 219.0 / 1920.0,
                         height: 264.0 / 1080.0

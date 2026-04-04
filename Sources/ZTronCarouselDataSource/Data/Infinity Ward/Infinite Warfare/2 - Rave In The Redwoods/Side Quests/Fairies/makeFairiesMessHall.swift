@@ -74,10 +74,10 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.mess.hall.4.bear.lake.entrance.from.mess.hall.outline",
                     boundingBox: .init(
-                        x: 444.0 / 1920.0,
+                        x: 442.0 / 1920.0,
                         y: 484.0 / 1080.0,
-                        width: 120.0 / 1920.0,
-                        height: 132.0 / 1080.0
+                        width: 122.0 / 1920.0,
+                        height: 138.0 / 1080.0
                     )
                 )
             ]

@@ -52,13 +52,13 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall.outline",
                     boundingBox: .init(
-                        x: 225.0 / 1920.0,
-                        y: 392.0 / 1080.0,
-                        width: 145.0 / 1920.0,
-                        height: 143.0 / 1080.0
+                        x: 224.0 / 1920.0,
+                        y: 393.0 / 1080.0,
+                        width: 153.0 / 1920.0,
+                        height: 147.0 / 1080.0
                     )
                 )
-            ]
+            ]            
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall"])
 
     
@@ -72,10 +72,10 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.recreational.area.4.underground.mud.outline",
                     boundingBox: .init(
-                        x: 1017.0 / 1920.0,
+                        x: 1018.0 / 1920.0,
                         y: 465.0 / 1080.0,
                         width: 26.0 / 1920.0,
-                        height: 51.0 / 1080.0
+                        height: 53.0 / 1080.0
                     )
                 )
             ]
@@ -92,10 +92,10 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.recreational.area.5.dj.trap.outline",
                     boundingBox: .init(
-                        x: 717.0 / 1920.0,
+                        x: 716.0 / 1920.0,
                         y: 550.0 / 1080.0,
                         width: 58.0 / 1920.0,
-                        height: 92.0 / 1080.0
+                        height: 97.0 / 1080.0
                     )
                 )
             ]
