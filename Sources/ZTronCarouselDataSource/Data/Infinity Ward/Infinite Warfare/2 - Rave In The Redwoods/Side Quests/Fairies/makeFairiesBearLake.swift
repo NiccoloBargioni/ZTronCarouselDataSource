@@ -15,14 +15,14 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 595.0 / 1920.0,
                         y: 434.0 / 1080.0,
-                        width: 145.0 / 1920.0,
-                        height: 78.0 / 1080.0
+                        width: 156.0 / 1920.0,
+                        height: 85.0 / 1080.0
                     )
                 )
             ]
     ), at: ["iw.ritr.side.quests.fairies.bear.lake.1.near.stack.of.surf.tables"])
 
-
+    
     fairiesLocations.register(
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.bear.lake.2.way.to.fortune.teller",
