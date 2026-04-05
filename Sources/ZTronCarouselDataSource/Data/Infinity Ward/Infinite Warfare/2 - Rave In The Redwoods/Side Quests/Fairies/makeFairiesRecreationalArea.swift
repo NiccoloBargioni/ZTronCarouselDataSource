@@ -33,8 +33,8 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.recreational.area.2.archery.range.left.side.outline",
                     boundingBox: .init(
-                        x: 626.0 / 1920.0,
-                        y: 479.0 / 1080.0,
+                        x: 628.0 / 1920.0,
+                        y: 482.0 / 1080.0,
                         width: 123.0 / 1920.0,
                         height: 64.0 / 1080.0
                     )
