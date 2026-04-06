@@ -73,14 +73,16 @@ public func makeAOTDVandornFarmRitual() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy.outline",
                     boundingBox: .init(
-                        x: 3329.0 / 3840.0,
-                        y: 996.0 / 2160.0,
-                        width: 248.0 / 3840.0,
-                        height: 99.0 / 2160.0
+                        x: 3332.0 / 3840.0,
+                        y: 995.0 / 2160.0,
+                        width: 267.0 / 3840.0,
+                        height: 105.0 / 2160.0
                     )
                 )
             ]
     ), at: ["bo7.aotd.easter.egg.vandorn.farm.ritual.tasty.face.teddy"])
+    
+
     
     let locationsRouter = SerializableGalleryRouter()
     

@@ -22,9 +22,9 @@ public func makeAOTDFreePowerups() -> SerializableGalleryRouter {
                     resourceName: "bo7.aotd.side.quests.free.powerups.1.max.ammo.by.quick.revive.outline",
                     boundingBox: .init(
                         x: 2120.0 / 3840.0,
-                        y: 616.0 / 2160.0,
-                        width: 40.0 / 3840.0,
-                        height: 18.0 / 2160.0
+                        y: 617.0 / 2160.0,
+                        width: 65.0 / 3840.0,
+                        height: 19.0 / 2160.0
                     )
                 )
             ]

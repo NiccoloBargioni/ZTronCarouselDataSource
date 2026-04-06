@@ -15,8 +15,8 @@ public func makeTurnToAshes() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1549.0 / 3840.0,
                         y: 870.0 / 2160.0,
-                        width: 33.0 / 3840.0,
-                        height: 12.0 / 2160.0
+                        width: 43.0 / 3840.0,
+                        height: 14.0 / 2160.0
                     )
                 )
             ]
@@ -33,10 +33,10 @@ public func makeTurnToAshes() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.music.turn.to.ashes.above.double.tap.outline",
                     boundingBox: .init(
-                        x: 1345.0 / 3840.0,
-                        y: 528.0 / 2160.0,
-                        width: 105.0 / 3840.0,
-                        height: 50.0 / 2160.0
+                        x: 1341.0 / 3840.0,
+                        y: 524.0 / 2160.0,
+                        width: 119.0 / 3840.0,
+                        height: 67.0 / 2160.0
                     )
                 )
             ]
