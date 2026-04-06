@@ -5,11 +5,32 @@ import ZTronSerializable
 func makeAOTDMixologistQuickRevive() -> SerializableGalleryNode {
     let quickReviveIngrediendsLocations = MediaRouter()
     
+    
+    quickReviveIngrediendsLocations.register(
+        SerializableImageNode(
+            name: "bo7.aotd.side.quests.mixologist.quick.revive.spawn.bottle",
+            description: "bo7.aotd.side.quests.mixologist.quick.revive.spawn.bottle.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.aotd.side.quests.mixologist.quick.revive.spawn.bottle.outline",
+                    boundingBox: .init(
+                        x: 3307.0 / 3840.0,
+                        y: 973.0 / 2160.0,
+                        width: 110.0 / 3840.0,
+                        height: 152.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.aotd.side.quests.mixologist.quick.revive.spawn.bottle"])
+    
+    
     quickReviveIngrediendsLocations.register(
         SerializableImageNode(
             name: "bo7.aotd.side.quests.mixologist.quick.revive.fish.dock.blackwater.lake",
             description: "bo7.aotd.side.quests.mixologist.quick.revive.fish.dock.blackwater.lake.caption",
-            position: 0,
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -24,11 +45,12 @@ func makeAOTDMixologistQuickRevive() -> SerializableGalleryNode {
             ]
     ), at: ["bo7.aotd.side.quests.mixologist.quick.revive.fish.dock.blackwater.lake"])
     
+    
     quickReviveIngrediendsLocations.register(
         SerializableImageNode(
             name: "bo7.aotd.side.quests.mixologist.quick.revive.observatory.stimshot",
             description: "bo7.aotd.side.quests.mixologist.quick.revive.observatory.stimshot.caption",
-            position: 1,
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

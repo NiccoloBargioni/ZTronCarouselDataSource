@@ -53,10 +53,10 @@ public func makeAOTDWateringCan() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.side.quests.watering.can.vandorn.farm.outline",
                     boundingBox: .init(
-                        x: 1255.0 / 3840.0,
-                        y: 967.0 / 2160.0,
-                        width: 123.0 / 3840.0,
-                        height: 198.0 / 2160.0
+                        x: 271.0 / 3840.0,
+                        y: 873.0 / 2160.0,
+                        width: 201.0 / 3840.0,
+                        height: 168.0 / 2160.0
                     )
                 )
             ]
@@ -73,10 +73,10 @@ public func makeAOTDWateringCan() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.side.quests.watering.can.blackwater.lake.outline",
                     boundingBox: .init(
-                        x: 271.0 / 3840.0,
-                        y: 873.0 / 2160.0,
-                        width: 201.0 / 3840.0,
-                        height: 168.0 / 2160.0
+                        x: 1255.0 / 3840.0,
+                        y: 967.0 / 2160.0,
+                        width: 123.0 / 3840.0,
+                        height: 198.0 / 2160.0
                     )
                 )
             ]

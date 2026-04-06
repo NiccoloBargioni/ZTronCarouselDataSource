@@ -5,11 +5,51 @@ import ZTronSerializable
 func makeAOTDTerrapinKey() -> SerializableGalleryNode {
     let terrapinKeyLocations = MediaRouter()
     
+    
+    terrapinKeyLocations.register(
+        SerializableImageNode(
+            name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck",
+            description: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck.outline",
+                    boundingBox: .init(
+                        x: 2569.0 / 3840.0,
+                        y: 758.0 / 2160.0,
+                        width: 14.0 / 3840.0,
+                        height: 26.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck"])
+
+    terrapinKeyLocations.register(
+        SerializableImageNode(
+            name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier",
+            description: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier.caption",
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier.outline",
+                    boundingBox: .init(
+                        x: 2623.0 / 3840.0,
+                        y: 1127.0 / 2160.0,
+                        width: 24.0 / 3840.0,
+                        height: 93.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier"])
+    
+    
     terrapinKeyLocations.register(
         SerializableImageNode(
             name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.shipwreck.container",
             description: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.shipwreck.container.caption",
-            position: 0,
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -24,46 +64,6 @@ func makeAOTDTerrapinKey() -> SerializableGalleryNode {
             ]
     ), at: ["bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.shipwreck.container"])
 
-    
-    terrapinKeyLocations.register(
-        SerializableImageNode(
-            name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck",
-            description: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck.caption",
-            position: 1,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck.outline",
-                    boundingBox: .init(
-                        x: 2571.0 / 3840.0,
-                        y: 761.0 / 2160.0,
-                        width: 13.0 / 3840.0,
-                        height: 23.0 / 2160.0
-                    )
-                )
-            ]
-    ), at: ["bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.under.shipwreck"])
-
-    terrapinKeyLocations.register(
-        SerializableImageNode(
-            name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier",
-            description: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier.caption",
-            position: 2,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier.outline",
-                    boundingBox: .init(
-                        x: 2623.0 / 3840.0,
-                        y: 1127.0 / 2160.0,
-                        width: 24.0 / 3840.0,
-                        height: 83.0 / 2160.0
-                    )
-                )
-            ]
-    ), at: ["bo7.aotd.easter.egg.trinity.keys.terrapin.key.ashes.to.farm.inside.zombies.spawn.barrier"])
-    
-    
     return SerializableGalleryNode(
         name: "bo7.aotd.easter.egg.trinity.keys.terrapin.key",
         position: 2,
