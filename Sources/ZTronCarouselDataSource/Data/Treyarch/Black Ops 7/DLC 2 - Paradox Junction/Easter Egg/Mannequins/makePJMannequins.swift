@@ -207,12 +207,12 @@ public func makePJMannequins() -> SerializableGalleryRouter {
     mannequinLocations.register(
         SerializableImageNode(
             name: "bo7.pj.easter.egg.mannequins.end.of.trinity.ave.right.of.pack.a.punch",
-            description: "bo7.pj.easter.egg.mannequins.right.side.trinity.ave.near.wisp.tea.caption",
+            description: "bo7.pj.easter.egg.mannequins.end.of.trinity.ave.right.of.pack.a.punch.caption",
             position: 10,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.pj.easter.egg.mannequins.right.side.trinity.ave.near.wisp.tea.outline",
+                    resourceName: "bo7.pj.easter.egg.mannequins.end.of.trinity.ave.right.of.pack.a.punch.outline",
                     boundingBox: .init(
                         x: 2912.0 / 3840.0,
                         y: 738.0 / 2160.0,

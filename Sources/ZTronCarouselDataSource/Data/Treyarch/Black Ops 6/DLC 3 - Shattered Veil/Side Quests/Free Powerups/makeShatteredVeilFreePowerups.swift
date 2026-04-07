@@ -144,8 +144,8 @@ public func makeShatteredVeilFreePowerups() -> SerializableGalleryRouter {
                     resourceName: "bo6.sv.side.quests.free.power.ups.max.ammo.outline",
                     boundingBox: .init(
                         x: 2469.0 / 3840.0,
-                        y: 984.0 / 2160.0,
-                        width: 23.0 / 3840.0,
+                        y: 983.0 / 2160.0,
+                        width: 24.0 / 3840.0,
                         height: 15.0 / 2160.0
                     )
                 )
