@@ -21,10 +21,10 @@ public func makeCitadelleFreePerk() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.cdm.side.quests.free.perk.1.deadshot.outline",
                     boundingBox: .init(
-                        x: 2630.0 / 3840.0,
-                        y: 847.0 / 2160.0,
-                        width: 19.0 / 3840.0,
-                        height: 21.0 / 2160.0
+                        x: 2638.0 / 3840.0,
+                        y: 846.0 / 2160.0,
+                        width: 11.0 / 3840.0,
+                        height: 17.0 / 2160.0
                     )
                 )
             ]

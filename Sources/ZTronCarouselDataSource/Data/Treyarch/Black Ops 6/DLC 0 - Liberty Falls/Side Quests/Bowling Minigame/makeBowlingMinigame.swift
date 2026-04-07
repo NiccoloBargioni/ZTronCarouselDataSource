@@ -14,10 +14,10 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.bowling.1.shoes.spawn.outline",
                     boundingBox: .init(
-                        x: 2995.0 / 3840.0,
-                        y: 1049.0 / 2160.0,
-                        width: 183.0 / 3840.0,
-                        height: 56.0 / 2160.0
+                        x: 2992.5 / 3840.0,
+                        y: 1047.0 / 2160.0,
+                        width: 185.0 / 3840.0,
+                        height: 58.5 / 2160.0
                     )
                 )
             ]
@@ -35,10 +35,10 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.bowling.2.shoes.opposite.comic.books.store.outline",
                     boundingBox: .init(
-                        x: 472.0 / 3840.0,
-                        y: 1131.0 / 2160.0,
-                        width: 141.0 / 3840.0,
-                        height: 48.0 / 2160.0
+                        x: 473.0 / 3840.0,
+                        y: 1126.0 / 2160.0,
+                        width: 154.0 / 3840.0,
+                        height: 53.0 / 2160.0
                     )
                 )
             ]
@@ -118,10 +118,10 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.lf.side.quests.bowling.6.following.activations.outline",
                     boundingBox: .init(
-                        x: 1563.0 / 1920.0,
-                        y: 592.0 / 1080.0,
-                        width: 77.0 / 1920.0,
-                        height: 14.0 / 1080.0
+                        x: 3131.0 / 3840.0,
+                        y: 1182.0 / 2160.0,
+                        width: 174.0 / 3840.0,
+                        height: 30.0 / 2160.0
                     )
                 )
             ]
