@@ -25,13 +25,13 @@ public func makeAOTDSerumPuzzle() -> SerializableGalleryRouter {
     
     recipeIngredientLocation.register(
         SerializableImageNode(
-            name: "bo7.aotd.easter.egg.serum.puzzle.fungi",
-            description: "bo7.aotd.easter.egg.serum.puzzle.fungi.caption",
+            name: "bo7.aotd.easter.egg.serum.puzzle.fungi.vandorn.farm",
+            description: "bo7.aotd.easter.egg.serum.puzzle.fungi.vandorn.farm.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.aotd.easter.egg.serum.puzzle.fungi.outline",
+                    resourceName: "bo7.aotd.easter.egg.serum.puzzle.fungi.vandorn.farm.outline",
                     boundingBox: .init(
                         x: 1603.0 / 3840.0,
                         y: 1222.0 / 2160.0,
@@ -40,7 +40,7 @@ public func makeAOTDSerumPuzzle() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.aotd.easter.egg.serum.puzzle.fungi"])
+    ), at: ["bo7.aotd.easter.egg.serum.puzzle.fungi.vandorn.farm"])
 
     
     recipeIngredientLocation.register(
