@@ -102,33 +102,52 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
             ]
     ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.intersection.between.luminarium.and.spawn"])
 
-    
+
      streetlightLocations.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.staircase.from.quick.revive.to.tessie.spawm",
             description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.staircase.from.quick.revive.to.tessie.spawm.caption",
-            position: 5,
-            /*
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.staircase.from.quick.revive.to.tessie.spawm.outline",
                     boundingBox: .init(
-                        x: 3330.0 / 3840.0,
-                        y: 996.0 / 2160.0,
-                        width: 232.0 / 3840.0,
-                        height: 99.0 / 2160.0
+                        x: 883.0 / 3840.0,
+                        y: 482.0 / 2160.0,
+                        width: 23.0 / 3840.0,
+                        height: 134.0 / 2160.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.staircase.from.quick.revive.to.tessie.spawm"])
     
+
+     streetlightLocations.register(
+        SerializableImageNode(
+            name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn",
+            description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn.caption",
+            position: 6,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn.outline",
+                    boundingBox: .init(
+                        x: 1501.0 / 3840.0,
+                        y: 595.0 / 2160.0,
+                        width: 145.0 / 3840.0,
+                        height: 374.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn"])
     
+
      streetlightLocations.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.weilwalk.looking.towards.speedcola",
             description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.weilwalk.looking.towards.speedcola.caption",
-            position: 6,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(

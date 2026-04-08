@@ -9,6 +9,11 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
     )
 
     amEETools.router.register(
+        makeAMDraftsTool(),
+        at: ["drafts"]
+    )
+    
+    amEETools.router.register(
         makeAMLGM1AbhorrentCablesStreetlightsTool(),
         at: ["lgm-1 abhorrent cables streetlights"]
     )
@@ -16,7 +21,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
     amEETools.router.register(
         SerializableToolNode(
             name: "bo7.am.easter.egg.planets.tool.name",
-            position: 2,
+            position: 3,
             assetsImageName: "bo7.am.easter.egg.planets.icon",
             isSolver: true,
             galleryRouter: nil
@@ -27,7 +32,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
     amEETools.router.register(
         SerializableToolNode(
             name: "bo7.am.easter.egg.thurston.reading.list.tool.name",
-            position: 3,
+            position: 4,
             assetsImageName: "bo7.am.easter.egg.thurston.reading.list.icon",
             isSolver: true,
             galleryRouter: nil
@@ -38,7 +43,7 @@ public func makeAMEasterEggTools() -> SerializableToolsRouter {
     amEETools.router.register(
         SerializableToolNode(
             name: "bo7.am.easter.egg.mars.pillars.puzzle.tool.name",
-            position: 4,
+            position: 5,
             assetsImageName: "bo7.am.easter.egg.mars.pillars.puzzle.icon",
             isSolver: true,
             galleryRouter: nil

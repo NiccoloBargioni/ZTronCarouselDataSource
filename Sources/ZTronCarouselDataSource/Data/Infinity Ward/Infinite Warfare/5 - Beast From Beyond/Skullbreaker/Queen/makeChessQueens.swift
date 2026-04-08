@@ -140,7 +140,7 @@ public func makeChessQueens() -> SerializableGalleryRouter {
                     resourceName: "iw.bfb.skullbreaker.chess.queens.7.shelf.freezer.trap.chessboard.room.outline",
                     boundingBox: .init(
                         x: 1877.0 / 2715.0,
-                        y: 706.0 / 1527.0,
+                        y: 695.0 / 1527.0,
                         width: 15.0 / 2715.0,
                         height:  31.0 / 1527.0
                     )

@@ -135,10 +135,10 @@ public func makeFreeLootBins() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.reckoning.side.quests.free.loot.bins.right.of.jugg.outline",
                     boundingBox: .init(
-                        x: 2949.0 / 3840.0,
+                        x: 2944.0 / 3840.0,
                         y: 1054.0 / 2160.0,
                         width: 51.0 / 3840.0,
-                        height: 147.0 / 2160.0
+                        height: 113.0 / 2160.0
                     )
                 )
             ]
