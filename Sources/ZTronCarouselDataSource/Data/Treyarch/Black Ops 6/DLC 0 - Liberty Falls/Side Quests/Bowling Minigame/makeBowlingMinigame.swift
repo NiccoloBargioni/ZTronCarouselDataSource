@@ -17,7 +17,7 @@ public func makeBowlingMinigame() -> SerializableGalleryRouter {
                         x: 2992.5 / 3840.0,
                         y: 1047.0 / 2160.0,
                         width: 185.0 / 3840.0,
-                        height: 58.5 / 2160.0
+                        height: 62.0 / 2160.0
                     )
                 )
             ]

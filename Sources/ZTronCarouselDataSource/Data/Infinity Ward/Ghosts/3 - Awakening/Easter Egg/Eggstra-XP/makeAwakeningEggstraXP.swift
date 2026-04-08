@@ -23,7 +23,7 @@ public func makeAwakeningEggstraXP() -> SerializableGalleryRouter {
                         x: 648.0 / 3840.0,
                         y: 817.0 / 2160.0,
                         width: 151.0 / 3840.0,
-                        height: 168.0 / 2160.0
+                        height: 172.0 / 2160.0
                     )
                 )
             ]
@@ -53,8 +53,8 @@ public func makeAwakeningEggstraXP() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 3402.0 / 3840.0,
                         y: 995.0 / 2160.0,
-                        width: 223.0 / 3840.0,
-                        height: 187.0 / 2160.0
+                        width: 243.0 / 3840.0,
+                        height: 209.0 / 2160.0
                     )
                 )
             ]
@@ -86,7 +86,7 @@ public func makeAwakeningEggstraXP() -> SerializableGalleryRouter {
                         x: 1185.0 / 3840.0,
                         y: 1691.0 / 2160.0,
                         width: 529.0 / 3840.0,
-                        height: 84.0 / 2160.0
+                        height: 89.0 / 2160.0
                     )
                 )
             ]

@@ -132,10 +132,10 @@ public func makePJPianoNotes() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.pj.easter.egg.piano.notes.yellow.house.backyard.outline",
                     boundingBox: .init(
-                        x: 1657.0 / 3840.0,
-                        y: 1050.0 / 2160.0,
-                        width: 20.0 / 3840.0,
-                        height: 33.0 / 2160.0
+                        x: 1656.0 / 3840.0,
+                        y: 1051.0 / 2160.0,
+                        width: 23.0 / 3840.0,
+                        height: 32.0 / 2160.0
                     )
                 )
             ]
