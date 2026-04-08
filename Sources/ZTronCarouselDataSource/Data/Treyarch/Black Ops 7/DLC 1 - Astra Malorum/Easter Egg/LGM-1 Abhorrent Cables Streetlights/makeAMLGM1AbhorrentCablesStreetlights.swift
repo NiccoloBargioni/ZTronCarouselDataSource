@@ -127,7 +127,7 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn",
             description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.luminarium.entrance.from.spawn.caption",
-            position: 6,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -147,7 +147,7 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.weilwalk.looking.towards.speedcola",
             description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.weilwalk.looking.towards.speedcola.caption",
-            position: 7,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
