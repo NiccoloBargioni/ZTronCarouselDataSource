@@ -13,8 +13,8 @@ public func makeAOTDSerumPuzzle() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.easter.egg.serum.puzzle.powder.of.the.forgotten.outline",
                     boundingBox: .init(
-                        x: 1465.0 / 3840.0,
-                        y: 1073.0 / 2160.0,
+                        x: 1467.0 / 3840.0,
+                        y: 1075.0 / 2160.0,
                         width: 40.0 / 3840.0,
                         height: 18.0 / 2160.0
                     )
@@ -73,10 +73,10 @@ public func makeAOTDSerumPuzzle() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.aotd.easter.egg.serum.puzzle.human.bones.outline",
                     boundingBox: .init(
-                        x: 1113.0 / 3840.0,
-                        y: 1213.0 / 2160.0,
-                        width: 34.0 / 3840.0,
-                        height: 34.0 / 2160.0
+                        x: 1113.795 / 3840.0,
+                        y: 1213.85 / 2160.0,
+                        width: 31.9113 / 3840.0,
+                        height: 32.7488 / 2160.0
                     )
                 )
             ]
@@ -114,13 +114,33 @@ public func makeAOTDSerumPuzzle() -> SerializableGalleryRouter {
                     resourceName: "bo7.aotd.easter.egg.serum.puzzle.spores.bottle.outline",
                     boundingBox: .init(
                         x: 491.0 / 3840.0,
-                        y: 1132.0 / 2160.0,
-                        width: 71.0 / 3840.0,
+                        y: 1131.0 / 2160.0,
+                        width: 81.0 / 3840.0,
                         height: 86.0 / 2160.0
                     )
                 )
             ]
     ), at: ["bo7.aotd.easter.egg.serum.puzzle.spores.bottle"])
+    
+    
+     recipeIngredientLocation.register(
+        SerializableImageNode(
+            name: "bo7.aotd.easter.egg.serum.puzzle.ravager.eyes",
+            description: "bo7.aotd.easter.egg.serum.puzzle.ravager.eyes.caption",
+            position: 6,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.aotd.easter.egg.serum.puzzle.ravager.eyes.outline",
+                    boundingBox: .init(
+                        x: 1423.185 / 3840.0,
+                        y: 1163.9191 / 2160.0,
+                        width: 51.7772 / 3840.0,
+                        height: 27.8145 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.aotd.easter.egg.serum.puzzle.ravager.eyes"])
     
     
     let locationsRouter = SerializableGalleryRouter()
