@@ -17,7 +17,7 @@ func makeGorodMonkeyBombUpgradePlayer2() -> SerializableGalleryNode {
                         x: 783.0 / 1920.0,
                         y: 359.0 / 1080.0,
                         width: 6.0 / 1920.0,
-                        height: 7.0 / 1080.0
+                        height: 17.0 / 1080.0
                    )
                )
            ]

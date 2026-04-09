@@ -34,11 +34,11 @@ public func makeBlundergat() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.mob.of.the.dead.easter.egg.blunder.gat.docks.crane.and.trap.outline",
                     boundingBox: .init(
-                        x: 953.0 / 1920.0,
-                        y: 508.0 / 1080.0,
-                        width: 7.0 / 1920.0,
-                        height: 8.0 / 1080.0
-                    )
+                        x: 952.0 / 1920.0,
+                        y: 509.0 / 1080.0,
+                        width: 8.0 / 1920.0,
+                        height: 9.0 / 1080.0
+                     )
                 )
             ]
     ), at: ["bo2.mob.of.the.dead.easter.egg.blunder.gat.docks.crane.and.trap"])

@@ -57,8 +57,8 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 479.0 / 1920.0,
                         y: 409.0 / 1080.0,
-                        width: 32.5 / 1920.0,
-                        height: 89.0 / 1080.0
+                        width: 36.0 / 1920.0,
+                        height: 97.0 / 1080.0
                     )
                 )
             ]
@@ -75,8 +75,8 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.am.easter.egg.drafts.above.pack.a.punch.portal.room.outline",
                     boundingBox: .init(
-                        x: 78.0 / 1920.0,
-                        y: 337.0 / 1080.0,
+                        x: 787.0 / 1920.0,
+                        y: 334.0 / 1080.0,
                         width: 32.0 / 1920.0,
                         height: 45.0 / 1080.0
                     )
@@ -117,10 +117,10 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.wisp.tea.door.outline",
                     boundingBox: .init(
-                        x: 699.0 / 1920.0,
-                        y: 537.0 / 1080.0,
-                        width: 77.0 / 1920.0,
-                        height: 109.0 / 1080.0
+                        x: 772.0 / 1920.0,
+                        y: 517.0 / 1080.0,
+                        width: 81.0 / 1920.0,
+                        height: 108.0 / 1080.0
                     )
                 )
             ]
