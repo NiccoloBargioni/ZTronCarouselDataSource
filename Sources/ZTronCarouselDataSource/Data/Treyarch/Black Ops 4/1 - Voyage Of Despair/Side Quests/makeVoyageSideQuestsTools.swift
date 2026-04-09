@@ -29,5 +29,10 @@ public func makeVoyageSideQuestsTools() -> SerializableToolsRouter {
         at: [">", "shield upgrade"]
     )
     
+    voyageSideQuestTools.router.register(
+        makeVODFreeKrakenAndHomunculusTool(),
+        at: [">", "free kraken & homunculus"]
+    )
+    
     return voyageSideQuestTools
 }
