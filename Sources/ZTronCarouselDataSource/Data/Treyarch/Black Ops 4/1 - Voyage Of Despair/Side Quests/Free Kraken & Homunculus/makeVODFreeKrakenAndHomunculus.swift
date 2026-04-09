@@ -11,7 +11,7 @@ func makeVODFreeKrakenAndHomunculus() -> SerializableGalleryRouter {
             extension: "mp4",
             description: "bo4.vod.side.quests.free.kraken.and.homunculus.caption",
             position: 0
-        ), at: [">", "bo4.vod.side.quests.free.kraken.and.homunculus"]
+        ), at: [">", "bo4.vod.side.quests.free.kraken.and.homunculus.video"]
     )
 
     let router = SerializableGalleryRouter()
