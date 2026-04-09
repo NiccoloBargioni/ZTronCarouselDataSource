@@ -2,10 +2,9 @@ import ZTronSerializable
 
 
 public func makeAMdrafts() -> SerializableGalleryRouter {
-    let draughtLocation = MediaRouter.init()
-    
+    let draftLocation = MediaRouter.init()
 
-    draughtLocation.register(
+    draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.portal.room.before.pack.a.punch.mule.kick.side",
             description: "bo7.am.easter.egg.drafts.portal.room.before.pack.a.punch.mule.kick.side.caption",
@@ -25,7 +24,7 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
     ), at: ["bo7.am.easter.egg.drafts.portal.room.before.pack.a.punch.mule.kick.side"])
 
 
-    draughtLocation.register(
+    draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.front.of.pack.a.punch.mule.kick.side",
             description: "bo7.am.easter.egg.drafts.front.of.pack.a.punch.mule.kick.side.caption",
@@ -45,11 +44,32 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
     ), at: ["bo7.am.easter.egg.drafts.front.of.pack.a.punch.mule.kick.side"])
     
     
-    draughtLocation.register(
+
+    draftLocation.register(
+        SerializableImageNode(
+            name: "bo7.am.easter.egg.drafts.left.side.of.portal.room",
+            description: "bo7.am.easter.egg.drafts.left.side.of.portal.room.caption",
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.am.easter.egg.drafts.left.side.of.portal.room.outline",
+                    boundingBox: .init(
+                        x: 479.0 / 1920.0,
+                        y: 409.0 / 1080.0,
+                        width: 32.5 / 1920.0,
+                        height: 89.0 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["bo7.am.easter.egg.drafts.left.side.of.portal.room"])
+    
+
+    draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.above.pack.a.punch.portal.room",
             description: "bo7.am.easter.egg.drafts.above.pack.a.punch.portal.room.caption",
-            position: 2,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -66,11 +86,11 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
 
 
     
-     draughtLocation.register(
+     draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.above.pack.a.punch.pointing.toward.courtyard",
             description: "bo7.am.easter.egg.drafts.above.pack.a.punch.pointing.toward.courtyard.caption",
-            position: 3,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -87,11 +107,11 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
 
 
     
-     draughtLocation.register(
+     draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.wisp.tea.door",
             description: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.wisp.tea.door.caption",
-            position: 4,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -107,11 +127,31 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
     ), at: ["bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.wisp.tea.door"])
 
 
-     draughtLocation.register(
+     draftLocation.register(
+        SerializableImageNode(
+            name: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.portal.room",
+            description: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.portal.room.caption",
+            position: 6,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.portal.room.outline",
+                    boundingBox: .init(
+                        x: 499.0 / 1920.0,
+                        y: 513.0 / 1080.0,
+                        width: 47.4 / 1920.0,
+                        height: 57.4 / 1080.0
+                    )
+                )
+            ]
+    ), at: ["bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.portal.room"])
+    
+
+     draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.side.of.pack.a.punch.wisp.tea.side",
             description: "bo7.am.easter.egg.drafts.side.of.pack.a.punch.wisp.tea.side.caption",
-            position: 5,
+            position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -133,7 +173,7 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
         name: "bo7.am.easter.egg.drafts",
         position: 0,
         assetsImageName: nil,
-        images: draughtLocation
+        images: draftLocation
     ), at: [">", "master"])
     
     return locationsRouter

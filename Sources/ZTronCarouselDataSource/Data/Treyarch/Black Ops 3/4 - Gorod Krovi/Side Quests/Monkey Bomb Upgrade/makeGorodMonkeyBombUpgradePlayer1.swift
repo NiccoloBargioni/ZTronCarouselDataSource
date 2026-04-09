@@ -12,7 +12,7 @@ func makeGorodMonkeyBombUpgradePlayer1() -> SerializableGalleryNode {
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
-                   resourceName: "bo3.gk.side.quests.monkey.bomb.upgrade.player.1.1.outline",
+                   resourceName: "bo3.gk.side.quests.monkey.bomb.upgrade.player.1.1.candle.outline",
                    boundingBox: .init(
                         x: 268.0 / 1920.0,
                         y: 563.0 / 1080.0,
