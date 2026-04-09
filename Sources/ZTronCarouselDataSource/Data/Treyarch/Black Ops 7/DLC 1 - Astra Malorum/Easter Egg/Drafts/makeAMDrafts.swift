@@ -146,12 +146,31 @@ public func makeAMdrafts() -> SerializableGalleryRouter {
             ]
     ), at: ["bo7.am.easter.egg.drafts.below.pack.a.punch.front.of.portal.room"])
     
+    
+    draftLocation.register(
+       SerializableImageNode(
+           name: "bo7.am.easter.egg.drafts.elimination.20.input.device",
+           description: "bo7.am.easter.egg.drafts.elimination.20.input.device.caption",
+           position: 7,
+           overlays: [
+               SerializableBoundingCircleNode(),
+               SerializableOutlineNode(
+                   resourceName: "bo7.am.easter.egg.drafts.elimination.20.input.device.outline",
+                   boundingBox: .init(
+                       x: 901.0678 / 3840.0,
+                       y: 602.6825 / 2160.0,
+                       width: 356.2809 / 3840.0,
+                       height: 499.172 / 2160.0
+                   )
+               )
+           ]
+   ), at: ["bo7.am.easter.egg.drafts.elimination.20.input.device"])
 
      draftLocation.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.drafts.side.of.pack.a.punch.wisp.tea.side",
             description: "bo7.am.easter.egg.drafts.side.of.pack.a.punch.wisp.tea.side.caption",
-            position: 7,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
