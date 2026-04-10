@@ -1,9 +1,9 @@
 import ZTronSerializable
 
 public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
-    let freeZombiesBloodLocations = MediaRouter.init()
+    let freeMG08Locations = MediaRouter.init()
 
-    freeZombiesBloodLocations.register(
+    freeMG08Locations.register(
         SerializableImageNode(
             name: "bo2.origins.side.quests.free.mg.08.between.first.and.second.door",
             description: "bo2.origins.side.quests.free.mg.08.between.first.and.second.door.caption",
@@ -23,7 +23,7 @@ public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
     ), at: ["bo2.origins.side.quests.free.mg.08.between.first.and.second.door"])
     
 
-    freeZombiesBloodLocations.register(
+    freeMG08Locations.register(
         SerializableImageNode(
             name: "bo2.origins.side.quests.free.mg.08.church",
             description: "bo2.origins.side.quests.free.mg.08.church.caption",
@@ -43,7 +43,7 @@ public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
     ), at: ["bo2.origins.side.quests.free.mg.08.church"])
 
 
-    freeZombiesBloodLocations.register(
+    freeMG08Locations.register(
         SerializableImageNode(
             name: "bo2.origins.side.quests.free.mg.08.pack.a.punch",
             description: "bo2.origins.side.quests.free.mg.08.pack.a.punch.caption",
@@ -63,7 +63,7 @@ public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
     ), at: ["bo2.origins.side.quests.free.mg.08.pack.a.punch"])
 
 
-    freeZombiesBloodLocations.register(
+    freeMG08Locations.register(
         SerializableImageNode(
             name: "bo2.origins.side.quests.free.mg.08.staminup",
             description: "bo2.origins.side.quests.free.mg.08.staminup.caption",
@@ -89,7 +89,7 @@ public func makeOriginsFreeMG08() -> SerializableGalleryRouter {
         name: "bo2.origins.side.quests.free.mg.08",
         position: 0,
         assetsImageName: nil,
-        images: freeZombiesBloodLocations
+        images: freeMG08Locations
     ), at: [">", "master"])
     
     return locationsRouter

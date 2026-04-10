@@ -61,7 +61,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronDataModel",
       "state" : {
         "branch" : "main",
-        "revision" : "0308d447da52a955f422e1cc31157f312c720310"
+        "revision" : "a044cd783a597a2c939d3692b760173520b81367"
       }
     },
     {
@@ -79,7 +79,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronSerializable",
       "state" : {
         "branch" : "main",
-        "revision" : "a023b684f5183cc0ed7e28c091b6cbbaaa3ff3af"
+        "revision" : "6043758dc53916bf1c5e14157480390cd404da5e"
       }
     }
   ],

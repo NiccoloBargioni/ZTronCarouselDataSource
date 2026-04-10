@@ -72,7 +72,7 @@ public func makeChickenBucket() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.reckoning.side.quests.chicken.bucket.counter.location.1.outline",
+                    resourceName: "bo6.reckoning.side.quests.chicken.bucket.counter.location.2.outline",
                     boundingBox: .init(
                         x: 1489.0 / 3840.0,
                         y: 886.0 / 2160.0,

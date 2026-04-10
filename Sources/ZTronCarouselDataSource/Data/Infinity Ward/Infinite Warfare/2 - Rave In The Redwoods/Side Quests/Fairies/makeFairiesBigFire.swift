@@ -15,7 +15,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 282.0 / 1920.0,
                         y: 410.0 / 1080.0,
-                        width: 294.0 / 1920.0,
+                        width: 300.0 / 1920.0,
                         height: 302.0 / 1080.0
                     )
                 )
@@ -33,16 +33,16 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.big.fire.2.side.of.magic.wheel.outline",
                     boundingBox: .init(
-                        x: 765.0 / 1920.0,
-                        y: 458.0 / 1080.0,
-                        width: 138.0 / 1920.0,
-                        height: 141.0 / 1080.0
+                        x: 512.0 / 1920.0,
+                        y: 305.0 / 1080.0,
+                        width: 320.0 / 1920.0,
+                        height: 336.0 / 1080.0
                     )
                 )
             ]*/
     ), at: ["iw.ritr.side.quests.fairies.big.fire.2.side.of.magic.wheel"])
 
-    
+
     fairiesLocations.register(
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel",
@@ -53,15 +53,16 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel.outline",
                     boundingBox: .init(
-                        x: 510.0 / 1920.0,
-                        y: 304.0 / 1080.0,
-                        width: 263.0 / 1920.0,
-                        height: 333.0 / 1080.0
+                        x: 765.0 / 1920.0,
+                        y: 459.0 / 1080.0,
+                        width: 140.0 / 1920.0,
+                        height: 141.0 / 1080.0
                     )
                 )
             ]*/
     ), at: ["iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel"])
 
+        
     return SerializableGalleryNode(
         name: "iw.ritr.side.quests.fairies.big.fire",
         position: 3,

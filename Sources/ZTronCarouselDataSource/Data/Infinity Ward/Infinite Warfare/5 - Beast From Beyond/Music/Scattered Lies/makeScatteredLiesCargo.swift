@@ -14,7 +14,7 @@ func makeScatteredLiesCargo() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.music.shattered.lies.cargo.area.0.cargo.bay.outline",
                     boundingBox: .init(
-                        x: 1131.0 / 2715.0,
+                        x: 1331.0 / 2715.0,
                         y: 654.0 / 1527.0,
                         width: 11.0 / 2715.0,
                         height: 13.0 / 1527.0

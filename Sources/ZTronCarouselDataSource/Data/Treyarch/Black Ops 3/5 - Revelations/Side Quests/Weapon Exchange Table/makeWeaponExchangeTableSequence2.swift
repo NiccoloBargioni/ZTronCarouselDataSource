@@ -17,8 +17,8 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 462.0 / 1920.0,
                         y: 468.0 / 1080.0,
-                        width: 90.0 / 1920.0,
-                        height: 47.0 / 1080.0
+                        width: 93.0 / 1920.0,
+                        height: 48.0 / 1080.0
                     )
                 )
             ]*/
@@ -36,8 +36,8 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                     resourceName: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten.outline",
                     boundingBox: .init(
                         x: 1391.0 / 1920.0,
-                        y: 465.0 / 1080.0,
-                        width: 198.0 / 1920.0,
+                        y: 464.0 / 1080.0,
+                        width: 207.0 / 1920.0,
                         height: 45.0 / 1080.0
                     )
                 )

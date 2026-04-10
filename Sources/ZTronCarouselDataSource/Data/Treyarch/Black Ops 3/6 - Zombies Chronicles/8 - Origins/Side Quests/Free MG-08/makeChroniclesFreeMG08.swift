@@ -37,7 +37,7 @@ public func makeChroniclesFreeMG08() -> SerializableGalleryRouter {
                        x: 1260.0 / 1920.0,
                        y: 276.0 / 1080.0,
                        width: 17.0 / 1920.0,
-                       height: 5.0 / 1080.0
+                       height: 7.0 / 1080.0
                    )
                )
            ]
@@ -56,9 +56,9 @@ public func makeChroniclesFreeMG08() -> SerializableGalleryRouter {
                    resourceName: "bo3.chronicles.origins.side.quests.free.mg.08.3.church.outline",
                    boundingBox: .init(
                        x: 903.0 / 1920.0,
-                       y: 297.0 / 1080.0,
-                       width: 8.0 / 1920.0,
-                       height: 3.0 / 1080.0
+                       y: 296.0 / 1080.0,
+                       width: 14.0 / 1920.0,
+                       height: 4.0 / 1080.0
                    )
                )
            ]
@@ -78,8 +78,8 @@ public func makeChroniclesFreeMG08() -> SerializableGalleryRouter {
                    boundingBox: .init(
                        x: 593.0 / 1920.0,
                        y: 221.0 / 1080.0,
-                       width: 23.0 / 1920.0,
-                       height: 11.0 / 1080.0
+                       width: 24.0 / 1920.0,
+                       height: 12.0 / 1080.0
                    )
                )
            ]

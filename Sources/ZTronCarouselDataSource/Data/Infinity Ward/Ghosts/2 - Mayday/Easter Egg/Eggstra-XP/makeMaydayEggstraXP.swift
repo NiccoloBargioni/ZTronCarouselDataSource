@@ -83,7 +83,7 @@ public func makeMaydayEggstraXP() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "ghosts.mayday.easter.egg.eggstra.xp.ruins.outline",
                     boundingBox: .init(
-                        x: 1821.0 / 3840.0,
+                        x: 1840.0 / 3840.0,
                         y: 691.0 / 2160.0,
                         width: 150.0 / 3840.0,
                         height: 70.0 / 2160.0
@@ -114,10 +114,10 @@ public func makeMaydayEggstraXP() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "ghosts.mayday.easter.egg.eggstra.xp.unearthed.outline",
                     boundingBox: .init(
-                        x: 1424.0 / 3840.0,
-                        y: 1840.0 / 2160.0,
-                        width: 157.0 / 3840.0,
-                        height: 151.0 / 2160.0
+                        x: 1427.0 / 3840.0,
+                        y: 1823.0 / 2160.0,
+                        width: 177.0 / 3840.0,
+                        height: 166.0 / 2160.0
                     )
                 )
             ]

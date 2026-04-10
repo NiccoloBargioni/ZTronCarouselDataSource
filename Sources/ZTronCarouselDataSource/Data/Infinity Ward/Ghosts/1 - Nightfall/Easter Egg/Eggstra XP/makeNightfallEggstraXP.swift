@@ -19,10 +19,10 @@ public func makeNightfallEggstraXP() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "ghosts.nightfall.easter.egg.eggstra.xp.bayview.outline",
                     boundingBox: .init(
-                        x: 3062.0 / 3840.0,
-                        y: 968.0 / 2160.0,
-                        width: 118.0 / 3840.0,
-                        height: 25.0 / 2160.0
+                        x: 3060.0 / 3840.0,
+                        y: 967.0 / 2160.0,
+                        width: 134.0 / 3840.0,
+                        height: 28.0 / 2160.0
                     )
                 )
             ]
@@ -50,10 +50,10 @@ public func makeNightfallEggstraXP() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "ghosts.nightfall.easter.egg.eggstra.xp.containment.outline",
                     boundingBox: .init(
-                        x: 2066.0 / 3840.0,
+                        x: 2069.0 / 3840.0,
                         y: 711.0 / 2160.0,
-                        width: 129.0 / 3840.0,
-                        height: 53.0 / 2160.0
+                        width: 138.0 / 3840.0,
+                        height: 56.0 / 2160.0
                     )
                 )
             ]

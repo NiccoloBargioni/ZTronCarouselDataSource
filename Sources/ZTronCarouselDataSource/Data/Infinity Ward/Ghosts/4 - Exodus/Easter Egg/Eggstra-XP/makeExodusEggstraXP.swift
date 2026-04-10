@@ -22,8 +22,8 @@ public func makeExodusEggstraXP() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1540.0 / 3840.0,
                         y: 1217.0 / 2160.0,
-                        width: 40.0 / 3840.0,
-                        height: 14.0 / 2160.0
+                        width: 43.0 / 3840.0,
+                        height: 17.0 / 2160.0
                     )
                 )
             ]
@@ -51,10 +51,10 @@ public func makeExodusEggstraXP() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "ghosts.exodus.easter.egg.eggstra.xp.goldrush.outline",
                     boundingBox: .init(
-                        x: 2496.0 / 3840.0,
-                        y: 791.0 / 2160.0,
-                        width: 43.0 / 3840.0,
-                        height: 138.0 / 2160.0
+                        x: 2485.0 / 3840.0,
+                        y: 763.0 / 2160.0,
+                        width: 53.0 / 3840.0,
+                        height: 173.0 / 2160.0
                     )
                 )
             ]
@@ -85,8 +85,8 @@ public func makeExodusEggstraXP() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 2672.0 / 3840.0,
                         y: 664.0 / 2160.0,
-                        width: 186.0 / 3840.0,
-                        height: 152.0 / 2160.0
+                        width: 191.0 / 3840.0,
+                        height: 165.0 / 2160.0
                     )
                 )
             ]

@@ -13,10 +13,10 @@ public func makeChroniclesArchangel() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo3.chronicles.origins.music.archangel.1.rock.spawn.outline",
                     boundingBox: .init(
-                        x: 1582.0 / 1920.0,
-                        y: 507.0 / 1080.0,
-                        width: 61.0 / 1920.0,
-                        height: 23.0 / 1080.0
+                        x: 1583.0 / 1920.0,
+                        y: 506.0 / 1080.0,
+                        width: 66.0 / 1920.0,
+                        height: 26.0 / 1080.0
                     )
                 )
             ]

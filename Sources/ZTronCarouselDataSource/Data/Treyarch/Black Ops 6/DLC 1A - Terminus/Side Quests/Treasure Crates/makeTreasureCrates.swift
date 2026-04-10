@@ -56,10 +56,10 @@ public func makeTreasureCrates() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo6.terminus.side.quests.treasure.crates.bio.lab.right.side.outline",
                     boundingBox: .init(
-                        x: 1578.0 / 3840.0,
-                        y: 804.0 / 2160.0,
-                        width: 321.0 / 3840.0,
-                        height: 539.0 / 2160.0
+                        x: 2076.0 / 3840.0,
+                        y: 1184.0 / 2160.0,
+                        width: 230.0 / 3840.0,
+                        height: 395.0 / 2160.0
                     )
                 )
             ]
