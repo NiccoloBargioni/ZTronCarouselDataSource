@@ -9,7 +9,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead",
             description: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead.caption",
-            position: 0,
+            position: 0,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -21,7 +21,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                         height: 48.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead"])
     
 
@@ -29,7 +29,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten",
             description: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten.caption",
-            position: 1,
+            position: 1,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -41,7 +41,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                         height: 45.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten"])
 
     
@@ -49,7 +49,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead.second.interaction.empty.wall",
             description: "bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead.second.interaction.empty.wall.caption",
-            position: 2,
+            position: 2,/*
             overlays: [
                 SerializableBoundingCircleNode(
                     idleDiameter: sqrt((462.0 / 1920.0) * (462.0 / 1920.0) + (468.0 / 1080.0) * (468.0 / 1080.0)),
@@ -58,7 +58,7 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                         y: (468.0 + 47.0 / 2.0) / 1080.0
                     )
                 ),
-            ]
+            ]*/
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.sequence.2.mob.of.the.dead.second.interaction.empty.wall"])
 
     

@@ -8,7 +8,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.caves.1.recreational.area.before.mines",
             description: "iw.ritr.side.quests.fairies.caves.1.recreational.area.before.mines.caption",
-            position: 0,
+            position: 0,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -20,7 +20,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
                         height: 205.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.caves.1.recreational.area.before.mines"])
 
     
@@ -28,7 +28,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.caves.2.caves.to.recreational.area",
             description: "iw.ritr.side.quests.fairies.caves.2.caves.to.recreational.area.caption",
-            position: 1,
+            position: 1,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -40,7 +40,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
                         height: 453.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.caves.2.caves.to.recreational.area"])
 
     
@@ -48,7 +48,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.caves.3.power.room.entrance",
             description: "iw.ritr.side.quests.fairies.caves.3.power.room.entrance.caption",
-            position: 2,
+            position: 2,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -60,7 +60,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
                         height: 515.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.caves.3.power.room.entrance"])
 
     
@@ -68,7 +68,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.caves.4.across.bang.bangs",
             description: "iw.ritr.side.quests.fairies.caves.4.across.bang.bangs.caption",
-            position: 3,
+            position: 3,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -80,7 +80,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
                         height: 108.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.caves.4.across.bang.bangs"])
 
     
@@ -88,7 +88,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.caves.5.bang.bangs",
             description: "iw.ritr.side.quests.fairies.caves.5.bang.bangs.caption",
-            position: 4,
+            position: 4,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -100,7 +100,7 @@ public func makeFairiesCaves() -> SerializableGalleryNode {
                         height: 76.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.caves.5.bang.bangs"])
 
 
