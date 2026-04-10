@@ -122,9 +122,9 @@ public func makeAlphaOmegaMannequins() -> SerializableGalleryRouter {
                     resourceName: "bo4.ao.side.quests.mannequins.diner.location.2.outline",
                     boundingBox: .init(
                         x: 626.0 / 1920.0,
-                        y: 518.0 / 1080.0,
-                        width: 123.0 / 1920.0,
-                        height: 137.0 / 1080.0
+                        y: 520.0 / 1080.0,
+                        width: 140.0 / 1920.0,
+                        height: 163.0 / 1080.0
                     )
                 )
             ]
