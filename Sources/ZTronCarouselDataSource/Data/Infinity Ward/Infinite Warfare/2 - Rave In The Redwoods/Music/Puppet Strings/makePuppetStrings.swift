@@ -64,10 +64,10 @@ public func makePuppetStrings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.music.puppet.strings.opposite.up.n.atoms.outline",
                     boundingBox: .init(
-                        x: 1071.2551 / 1920.0,
-                        y: 526.8848 / 1080.0,
-                        width: 8.613 / 1920.0,
-                        height: 7.2786 / 1080.0
+                        x: 1071.0 / 1920.0,
+                        y: 528.0 / 1080.0,
+                        width: 15.0 / 1920.0,
+                        height: 6.0 / 1080.0
                     )
                 )
             ]
@@ -356,7 +356,7 @@ public func makePuppetStrings() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.music.puppet.strings.under.desk.front.of.tuff.nuff.outline",
                     boundingBox: .init(
-                        x: 1265.8411 / 1920.0,
+                        x: 1271.0 / 1920.0,
                         y: 408.598 / 1080.0,
                         width: 40.5249 / 1920.0,
                         height: 7.4834 / 1080.0
