@@ -43,10 +43,10 @@ public func makeRaveGNS2Symbols() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.ritr.ghost.n.skull.2.symbols.1.turtle.island.outline",
                     boundingBox: .init(
-                        x: 2069.0 / 1920.0,
-                        y: 711.0 / 1080.0,
-                        width: 138.0 / 1920.0,
-                        height: 56.0 / 1080.0
+                        x: 916.9965 / 1920.0,
+                        y: 453.8601 / 1080.0,
+                        width: 26.6776 / 1920.0,
+                        height: 25.7178 / 1080.0
                     )
                 )
             ],
