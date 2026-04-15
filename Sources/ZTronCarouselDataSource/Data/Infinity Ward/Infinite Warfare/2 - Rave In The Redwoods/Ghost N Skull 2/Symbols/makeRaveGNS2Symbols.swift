@@ -383,7 +383,7 @@ public func makeRaveGNS2Symbols() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "iw.ritr.ghost.n.skull.2.symbols.9.mess.hall.inside.pipe.to.bear.lake.no.rave",
             description: "iw.ritr.ghost.n.skull.2.symbols.9.mess.hall.inside.pipe.to.bear.lake.caption",
-            position: 8,
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
