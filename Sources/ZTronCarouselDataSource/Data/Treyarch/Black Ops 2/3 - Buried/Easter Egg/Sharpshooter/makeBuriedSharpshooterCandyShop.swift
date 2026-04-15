@@ -9,7 +9,7 @@ public func makeBuriedSharpshooterCandyShop() -> SerializableGalleryNode {
             extension: "mp4",
             description: "bo2.buried.easter.egg.sharpshooter.candy.shop.caption",
             position: 0
-        ), at: [">", "iw.shaolin.shuffle.side.quests.nunchaku.andre.2"]
+        ), at: [">", "bo2.buried.easter.egg.sharpshooter.candy.shop"]
     )
 
     return SerializableGalleryNode(
