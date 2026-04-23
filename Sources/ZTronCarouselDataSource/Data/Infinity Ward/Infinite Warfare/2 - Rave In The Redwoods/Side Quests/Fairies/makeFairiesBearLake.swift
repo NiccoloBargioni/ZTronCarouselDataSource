@@ -7,7 +7,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.bear.lake.1.near.stack.of.surf.tables",
             description: "iw.ritr.side.quests.fairies.bear.lake.1.near.stack.of.surf.tables.caption",
-            position: 0,
+            position: 0,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -19,7 +19,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
                         height: 85.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.bear.lake.1.near.stack.of.surf.tables"])
 
     
@@ -27,7 +27,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.bear.lake.2.way.to.fortune.teller",
             description: "iw.ritr.side.quests.fairies.bear.lake.2.way.to.fortune.teller.caption",
-            position: 1,
+            position: 1,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -39,7 +39,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
                         height: 133.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.bear.lake.2.way.to.fortune.teller"])
     
 
@@ -47,7 +47,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.bear.lake.3.fortune.teller.kbs.wallbuy",
             description: "iw.ritr.side.quests.fairies.bear.lake.3.fortune.teller.kbs.wallbuy.caption",
-            position: 2,
+            position: 2,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -59,7 +59,7 @@ public func makeFairiesBearLake() -> SerializableGalleryNode {
                         height: 190.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.bear.lake.3.fortune.teller.kbs.wallbuy"])
 
     return SerializableGalleryNode(

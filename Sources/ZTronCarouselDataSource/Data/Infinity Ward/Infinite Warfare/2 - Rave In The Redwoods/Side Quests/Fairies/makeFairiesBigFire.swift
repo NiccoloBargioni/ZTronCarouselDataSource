@@ -7,7 +7,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.big.fire.1.bear.lake.entrance",
             description: "iw.ritr.side.quests.fairies.big.fire.1.bear.lake.entrance.caption",
-            position: 0,
+            position: 0,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -19,7 +19,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                         height: 302.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.big.fire.1.bear.lake.entrance"])
 
     
@@ -27,7 +27,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.big.fire.2.side.of.magic.wheel",
             description: "iw.ritr.side.quests.fairies.big.fire.2.side.of.magic.wheel.caption",
-            position: 1,
+            position: 1,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -39,7 +39,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                         height: 336.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.big.fire.2.side.of.magic.wheel"])
 
 
@@ -47,7 +47,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel",
             description: "iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel.caption",
-            position: 2,
+            position: 2,/*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -59,7 +59,7 @@ public func makeFairiesBigFire() -> SerializableGalleryNode {
                         height: 141.0 / 1080.0
                     )
                 )
-            ]
+            ]*/
     ), at: ["iw.ritr.side.quests.fairies.big.fire.3.opposide.of.magic.wheel"])
 
         
