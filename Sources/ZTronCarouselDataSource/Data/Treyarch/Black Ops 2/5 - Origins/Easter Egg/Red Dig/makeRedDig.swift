@@ -23,10 +23,10 @@ public func makeRedDig() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.outline",
                     boundingBox: .init(
-                        x: 704.0 / 1920.0,
-                        y: 504.0 / 1080.0,
-                        width: 152.0 / 1920.0,
-                        height: 92.0 / 1080.0
+                        x: 702.0 / 1920.0,
+                        y: 503.0 / 1080.0,
+                        width: 157.0 / 1920.0,
+                        height: 98.0 / 1080.0
                     )
                 )
             ]
@@ -84,9 +84,9 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     resourceName: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.outline",
                     boundingBox: .init(
                         x: 935.0 / 1920.0,
-                        y: 501.0 / 1080.0,
-                        width: 60.0 / 1920.0,
-                        height: 28.0 / 1080.0
+                        y: 500.0 / 1080.0,
+                        width: 62.0 / 1920.0,
+                        height: 30.0 / 1080.0
                     )
                 )
             ]
@@ -115,8 +115,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 761.0 / 1920.0,
                         y: 599.0 / 1080.0,
-                        width: 159.0 / 1920.0,
-                        height: 147.0 / 1080.0
+                        width: 162.0 / 1920.0,
+                        height: 150.0 / 1080.0
                     )
                 )
             ]
@@ -145,7 +145,7 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1285.0 / 1920.0,
                         y: 427.0 / 1080.0,
-                        width: 93.0 / 1920.0,
+                        width: 98.0 / 1920.0,
                         height: 36.0 / 1080.0
                     )
                 )
@@ -205,8 +205,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 937.0 / 1920.0,
                         y: 526.0 / 1080.0,
-                        width: 108.0 / 1920.0,
-                        height: 58.0 / 1080.0
+                        width: 112.0 / 1920.0,
+                        height: 61.0 / 1080.0
                     )
                 )
             ]
@@ -235,7 +235,7 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 386.0 / 1920.0,
                         y: 502.0 / 1080.0,
-                        width: 197.0 / 1920.0,
+                        width: 200.0 / 1920.0,
                         height: 82.0 / 1080.0
                     )
                 )
@@ -265,8 +265,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 924.0 / 1920.0,
                         y: 535.0 / 1080.0,
-                        width: 48.0 / 1920.0,
-                        height: 25.0 / 1080.0
+                        width: 53.0 / 1920.0,
+                        height: 28.0 / 1080.0
                     )
                 )
             ]
@@ -355,8 +355,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 868.0 / 1920.0,
                         y: 574.0 / 1080.0,
-                        width: 112.0 / 1920.0,
-                        height: 68.0 / 1080.0
+                        width: 121.0 / 1920.0,
+                        height: 71.0 / 1080.0
                     )
                 )
             ]
@@ -405,8 +405,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 932.0 / 1920.0,
                         y: 428.0 / 1080.0,
-                        width: 59.0 / 1920.0,
-                        height: 30.0 / 1080.0
+                        width: 64.0 / 1920.0,
+                        height: 32.0 / 1080.0
                     )
                 )
             ]
@@ -435,8 +435,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 875.0 / 1920.0,
                         y: 471.0 / 1080.0,
-                        width: 114.0 / 1920.0,
-                        height: 54.0 / 1080.0
+                        width: 117.0 / 1920.0,
+                        height: 57.0 / 1080.0
                     )
                 )
             ]
@@ -465,8 +465,8 @@ public func makeRedDig() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 482.0 / 1920.0,
                         y: 512.0 / 1080.0,
-                        width: 112.0 / 1920.0,
-                        height: 38.0 / 1080.0
+                        width: 118.0 / 1920.0,
+                        height: 40.68 / 1080.0
                     )
                 )
             ]
