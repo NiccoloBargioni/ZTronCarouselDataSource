@@ -29,6 +29,7 @@ public func makeAlphaOmegaEasterEggTools() -> SerializableToolsRouter {
         at: [">", "TVs for clocks"]
     )
     
+    /*
     ee.router.register(
         SerializableToolNode(
             name: "bo4.ao.easter.egg.clock.codes.tool.name",
@@ -37,7 +38,7 @@ public func makeAlphaOmegaEasterEggTools() -> SerializableToolsRouter {
             galleryRouter: nil
         ),
         at: [">", "clock codes"]
-    )
+    )*/
 
     
     ee.router.register(

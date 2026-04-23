@@ -37,12 +37,12 @@ func makeWeaponExchangeTableSequence2() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 1391.0 / 1920.0,
                         y: 464.0 / 1080.0,
-                        width: 207.0 / 1920.0,
-                        height: 45.0 / 1080.0
+                        width: 210.0 / 1920.0,
+                        height: 46.0 / 1080.0
                     )
                 )
             ]
-    ), at: ["bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten"])
+        ), at: ["bo3.revelations.side.quests.weapon.exchange.table.sequence.2.kino.der.toten"])
 
     
     sequence2.register(
