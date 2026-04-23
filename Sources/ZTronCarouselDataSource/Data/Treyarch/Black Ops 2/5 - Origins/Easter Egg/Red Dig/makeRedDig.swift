@@ -12,11 +12,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         )
     )
     
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2",
             description: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.caption",
-            position: 0
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2.outline",
+                    boundingBox: .init(
+                        x: 702.0 / 1920.0,
+                        y: 503.0 / 1080.0,
+                        width: 157.0 / 1920.0,
+                        height: 98.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.1.outside.spawn.to.gen.2"]
     )
     
@@ -30,12 +43,23 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
-    
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.2.remington.wallbuy",
             description: "bo2.origins.easter.egg.red.dig.2.remington.wallbuy.caption",
-            position: 1
+            position: 1,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.2.remington.wallbuy.outline",
+                    boundingBox: .init(
+                        x: 693.0 / 1920.0,
+                        y: 505.0 / 1080.0,
+                        width: 65.0 / 1920.0,
+                        height: 26.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.2.remington.wallbuy"]
     )
 
@@ -53,7 +77,19 @@ public func makeRedDig() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop",
             description: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.caption",
-            position: 2
+            position: 2,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop.outline",
+                    boundingBox: .init(
+                        x: 935.0 / 1920.0,
+                        y: 500.0 / 1080.0,
+                        width: 62.0 / 1920.0,
+                        height: 30.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.3.gen.2.tank.stop"]
     )
 
@@ -71,7 +107,19 @@ public func makeRedDig() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.4.gen.2.cul.de.sac",
             description: "bo2.origins.easter.egg.red.dig.4.gen.2.cul.de.sac.caption",
-            position: 3
+            position: 3,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.4.gen.2.cul.de.sac.outline",
+                    boundingBox: .init(
+                        x: 761.0 / 1920.0,
+                        y: 599.0 / 1080.0,
+                        width: 162.0 / 1920.0,
+                        height: 150.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.4.gen.2.cul.de.sac"]
     )
 
@@ -89,7 +137,19 @@ public func makeRedDig() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.5.gen.3",
             description: "bo2.origins.easter.egg.red.dig.5.gen.3.caption",
-            position: 4
+            position: 4,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.5.gen.3.outline",
+                    boundingBox: .init(
+                        x: 1285.0 / 1920.0,
+                        y: 427.0 / 1080.0,
+                        width: 98.0 / 1920.0,
+                        height: 36.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.5.gen.3"]
     )
 
@@ -102,12 +162,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
-    
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.6.past.fire.stuff.tunnel",
             description: "bo2.origins.easter.egg.red.dig.6.past.fire.stuff.tunnel.caption",
-            position: 5
+            position: 5,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.6.past.fire.stuff.tunnel.outline",
+                    boundingBox: .init(
+                        x: 1235.0 / 1920.0,
+                        y: 457.0 / 1080.0,
+                        width: 83.0 / 1920.0,
+                        height: 36.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.6.past.fire.stuff.tunnel"]
     )
     
@@ -120,11 +192,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.7.fire.staff.tunnel",
             description: "bo2.origins.easter.egg.red.dig.7.fire.staff.tunnel.caption",
-            position: 6
+            position: 6,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.7.fire.staff.tunnel.outline",
+                    boundingBox: .init(
+                        x: 937.0 / 1920.0,
+                        y: 526.0 / 1080.0,
+                        width: 112.0 / 1920.0,
+                        height: 61.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.7.fire.staff.tunnel"]
     )
     
@@ -137,12 +222,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
     
-    
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.8.base.of.mound.toward.gen.4",
             description: "bo2.origins.easter.egg.red.dig.8.base.of.mound.toward.gen.4.caption",
-            position: 7
+            position: 7,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.8.base.of.mound.toward.gen.4.outline",
+                    boundingBox: .init(
+                        x: 386.0 / 1920.0,
+                        y: 502.0 / 1080.0,
+                        width: 200.0 / 1920.0,
+                        height: 82.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.8.base.of.mound.toward.gen.4"]
     )
 
@@ -155,12 +252,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
-    
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.9.excavation.site.way.to.staminup",
             description: "bo2.origins.easter.egg.red.dig.9.excavation.site.way.to.staminup.caption",
-            position: 8
+            position: 8,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.9.excavation.site.way.to.staminup.outline",
+                    boundingBox: .init(
+                        x: 924.0 / 1920.0,
+                        y: 535.0 / 1080.0,
+                        width: 53.0 / 1920.0,
+                        height: 28.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.9.excavation.site.way.to.staminup"]
     )
     
@@ -178,7 +287,19 @@ public func makeRedDig() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.10.right.of.staminup",
             description: "bo2.origins.easter.egg.red.dig.10.right.of.staminup.caption",
-            position: 9
+            position: 9,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.10.right.of.staminup.outline",
+                    boundingBox: .init(
+                        x: 997.0 / 1920.0,
+                        y: 513.0 / 1080.0,
+                        width: 54.0 / 1920.0,
+                        height: 27.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.10.right.of.staminup"]
     )
     
@@ -191,12 +312,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
-    
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.11.gen.5.to.gen.2",
             description: "bo2.origins.easter.egg.red.dig.11.gen.5.to.gen.2.caption",
-            position: 10
+            position: 10,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.11.gen.5.to.gen.2.outline",
+                    boundingBox: .init(
+                        x: 882.0 / 1920.0,
+                        y: 416.0 / 1080.0,
+                        width: 34.0 / 1920.0,
+                        height: 15.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.11.gen.5.to.gen.2"]
     )
     
@@ -209,21 +342,44 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
-    
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.12.gen.4.to.gen.2",
             description: "bo2.origins.easter.egg.red.dig.12.gen.4.to.gen.2.caption",
-            position: 11
+            position: 11,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.12.gen.4.to.gen.2.outline",
+                    boundingBox: .init(
+                        x: 868.0 / 1920.0,
+                        y: 574.0 / 1080.0,
+                        width: 121.0 / 1920.0,
+                        height: 71.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.12.gen.4.to.gen.2"]
     )
 
-    
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.13.jugg.to.gen.4",
             description: "bo2.origins.easter.egg.red.dig.13.jugg.to.gen.4.caption",
-            position: 12
+            position: 12,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.13.jugg.to.gen.4.outline",
+                    boundingBox: .init(
+                        x: 778.0 / 1920.0,
+                        y: 504.0 / 1080.0,
+                        width: 35.0 / 1920.0,
+                        height: 18.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.13.jugg.to.gen.4"]
     )
     
@@ -236,11 +392,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
     
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.14.church.to.gen.4.mud",
             description: "bo2.origins.easter.egg.red.dig.14.church.to.gen.4.mud.caption",
-            position: 13
+            position: 13,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.14.church.to.gen.4.mud.outline",
+                    boundingBox: .init(
+                        x: 932.0 / 1920.0,
+                        y: 428.0 / 1080.0,
+                        width: 64.0 / 1920.0,
+                        height: 32.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.14.church.to.gen.4.mud"]
     )
 
@@ -252,12 +421,25 @@ public func makeRedDig() -> SerializableGalleryRouter {
         ), at: ["bo2.origins.easter.egg.red.dig.14.church.to.gen.4.mud", "no blood"],
         withParameter: defaultParams
     )
+    
 
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.15.church.to.gen.5.mud",
             description: "bo2.origins.easter.egg.red.dig.15.church.to.gen.5.mud.caption",
-            position: 14
+            position: 14,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.15.church.to.gen.5.mud.outline",
+                    boundingBox: .init(
+                        x: 875.0 / 1920.0,
+                        y: 471.0 / 1080.0,
+                        width: 117.0 / 1920.0,
+                        height: 57.0 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.15.church.to.gen.5.mud"]
     )
 
@@ -270,11 +452,24 @@ public func makeRedDig() -> SerializableGalleryRouter {
         withParameter: defaultParams
     )
 
+
     redDigLocations.register(
         SerializableImageNode(
             name: "bo2.origins.easter.egg.red.dig.16.gen.6.remington.wallbuy",
             description: "bo2.origins.easter.egg.red.dig.16.gen.6.remington.wallbuy.caption",
-            position: 15
+            position: 15,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo2.origins.easter.egg.red.dig.16.gen.6.remington.wallbuy.outline",
+                    boundingBox: .init(
+                        x: 482.0 / 1920.0,
+                        y: 512.0 / 1080.0,
+                        width: 118.0 / 1920.0,
+                        height: 40.68 / 1080.0
+                    )
+                )
+            ]
         ), at: ["bo2.origins.easter.egg.red.dig.16.gen.6.remington.wallbuy"]
     )
 

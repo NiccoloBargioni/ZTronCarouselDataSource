@@ -28,7 +28,19 @@ public func makeAlphaOmegaEasterEggTools() -> SerializableToolsRouter {
         makeTVsForClocksTool(),
         at: [">", "TVs for clocks"]
     )
+    
+    /*
+    ee.router.register(
+        SerializableToolNode(
+            name: "bo4.ao.easter.egg.clock.codes.tool.name",
+            position: 4,
+            assetsImageName: "bo4.ao.easter.egg.clock.codes.icon",
+            galleryRouter: nil
+        ),
+        at: [">", "clock codes"]
+    )*/
 
+    
     ee.router.register(
         makeAlphaOmegaTeleporterTool(),
         at: [">", "teleporter"]

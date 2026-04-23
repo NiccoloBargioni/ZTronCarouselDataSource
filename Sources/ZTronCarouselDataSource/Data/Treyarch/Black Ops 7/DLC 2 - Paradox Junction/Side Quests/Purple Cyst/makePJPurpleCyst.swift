@@ -16,7 +16,7 @@ public func makePJPurpleCyst() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1499.0 / 3840.0,
                         y: 1321.0 / 2160.0,
-                        width: 61.0 / 3840.0,
+                        width: 68.0 / 3840.0,
                         height: 30.0 / 2160.0
                     )
                 )
@@ -36,7 +36,7 @@ public func makePJPurpleCyst() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1196.0 / 3840.0,
                         y: 919.0 / 2160.0,
-                        width: 67.0 / 3840.0,
+                        width: 69.0 / 3840.0,
                         height: 42.0 / 2160.0
                     )
                 )
@@ -55,8 +55,8 @@ public func makePJPurpleCyst() -> SerializableGalleryRouter {
                     resourceName: "bo7.pj.side.quests.purple.cyst.near.time.travel.rift.outline",
                     boundingBox: .init(
                         x: 1686.0 / 3840.0,
-                        y: 1109.0 / 2160.0,
-                        width: 37.0 / 3840.0,
+                        y: 1110.0 / 2160.0,
+                        width: 38.0 / 3840.0,
                         height: 20.0 / 2160.0
                     )
                 )
@@ -94,10 +94,10 @@ public func makePJPurpleCyst() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.pj.side.quests.purple.cyst.dog.collar.left.of.trinity.ave.outline",
                     boundingBox: .init(
-                        x: 954.0 / 3840.0,
+                        x: 955.0 / 3840.0,
                         y: 1108.0 / 2160.0,
-                        width: 87.0 / 3840.0,
-                        height: 26.0 / 2160.0
+                        width: 93.0 / 3840.0,
+                        height: 27.0 / 2160.0
                     )
                 )
             ]
@@ -116,8 +116,8 @@ public func makePJPurpleCyst() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 880.0 / 3840.0,
                         y: 971.0 / 2160.0,
-                        width: 32.0 / 3840.0,
-                        height: 31.0 / 2160.0
+                        width: 30.0 / 3840.0,
+                        height: 30.0 / 2160.0
                     )
                 )
             ]

@@ -50,5 +50,11 @@ public func makeBuriedEasterEggTools() -> SerializableToolsRouter {
     )
     
     
+    buriedEasterEggTools.router.register(
+        makeBuriedSharpshooterTool(),
+        at: [">", "sharpshooter"]
+    )
+    
+    
     return buriedEasterEggTools
 }
