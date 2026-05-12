@@ -1167,7 +1167,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     resourceName: "bo4.botd.easter.egg.birds.rooftop.entrance.outline",
                     boundingBox: .init(
                         x: 1053.0 / 1920.0,
-                        y: 248.0 / 1080.0,
+                        y: 348.0 / 1080.0,
                         width: 32.0 / 1920.0,
                         height: 28.0 / 1080.0
                     )

@@ -113,10 +113,10 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
                 SerializableOutlineNode(
                     resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.staircase.from.quick.revive.to.tessie.spawm.outline",
                     boundingBox: .init(
-                        x: 883.0 / 3840.0,
-                        y: 482.0 / 2160.0,
-                        width: 23.0 / 3840.0,
-                        height: 134.0 / 2160.0
+                        x: 883.0 / 1920.0,
+                        y: 482.0 / 1080.0,
+                        width: 23.0 / 1920.0,
+                        height: 134.0 / 1080.0
                     )
                 )
             ]

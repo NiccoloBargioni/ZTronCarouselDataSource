@@ -4,11 +4,32 @@ import ZTronSerializable
 public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
     let symbolsLocations = MediaRouter.init()
     
+    
+    symbolsLocations.register(
+        SerializableImageNode(
+            name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.spawn",
+            description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.spawn.caption",
+            position: 0,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.spawn.outline",
+                    boundingBox: .init(
+                        x: 1027.0 / 3840.0,
+                        y: 606.0 / 2160.0,
+                        width: 316.0 / 3840.0,
+                        height: 410.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.spawn"])
+
+    
     symbolsLocations.register(
         SerializableImageNode(
             name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.above.pack.a.punch",
             description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.above.pack.a.punch.caption",
-            position: 0,
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -28,7 +49,7 @@ public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
        SerializableImageNode(
            name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.base.of.lighthouse",
            description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.base.of.lighthouse.caption",
-           position: 1,
+           position: 2,
            overlays: [
                SerializableBoundingCircleNode(),
                SerializableOutlineNode(
@@ -48,7 +69,7 @@ public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.core.foundry.storm.bridge.side",
             description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.core.foundry.storm.bridge.side.caption",
-            position: 2,
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -68,7 +89,7 @@ public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.core.foundry",
             description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.core.foundry.caption",
-            position: 3,
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -88,7 +109,7 @@ public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.dry.dock.way.to.spawn",
             description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.dry.dock.way.to.spawn.caption",
-            position: 4,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -108,7 +129,7 @@ public func makeRunesArrowsPuzzle() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.eidskallen.square.staminup",
             description: "bo7.totenreich.easter.egg.runes.arrow.puzzle.symbols.eidskallen.square.staminup.caption",
-            position: 5,
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
