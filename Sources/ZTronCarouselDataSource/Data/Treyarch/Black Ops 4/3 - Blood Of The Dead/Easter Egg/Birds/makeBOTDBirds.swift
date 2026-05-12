@@ -105,7 +105,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.caption",
             position: 2,
             searchLabel: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.before.library.og.mob.outline",
@@ -116,7 +116,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 46.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.before.library.og.mob.spawn"])
     
     birdsLocations.register(
@@ -124,7 +124,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             name: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.noShield",
             description: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.noShield.caption",
             position: 0,
-            overlays: [
+            /*overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.before.library.og.mob.outline",
@@ -135,7 +135,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: max(0.0, 46.0 / 1080.0 * scaleFactor),
                     )
                 )
-            ]
+            ]*/
         ), at: ["bo4.botd.easter.egg.birds.before.library.og.mob.spawn", "noShield"],
         withParameter: defaultParams
     )
@@ -148,7 +148,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.brew.perk.power.house.caption",
             position: 3,
             searchLabel: "bo4.botd.easter.egg.birds.brew.perk.power.house.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.brew.perk.power.house.outline",
@@ -159,7 +159,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 30.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.brew.perk.power.house"])
     
     birdsLocations.register(
@@ -190,7 +190,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.caption",
             position: 4,
             searchLabel: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.outline",
@@ -201,7 +201,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 61.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.cafeteria.1st.bird"])
     
     birdsLocations.register(

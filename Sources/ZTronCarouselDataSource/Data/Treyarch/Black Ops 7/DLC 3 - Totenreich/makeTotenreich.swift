@@ -5,7 +5,7 @@ func makeTotenreich() -> SerializableMapNode {
     
     tabs.router.register(makeTotenreichEETab(), at: [">", "easter egg"])
     tabs.router.register(makeTotenreichSideQuestsTab(), at: [">", "side quests"])
-    tabs.router.register(makeTagDerTotenMusicTab(), at: [">", "music"])
+    tabs.router.register(makeTotenreichMusicTab(), at: [">", "music"])
 
     return SerializableMapNode(
         name: "totenreich",
