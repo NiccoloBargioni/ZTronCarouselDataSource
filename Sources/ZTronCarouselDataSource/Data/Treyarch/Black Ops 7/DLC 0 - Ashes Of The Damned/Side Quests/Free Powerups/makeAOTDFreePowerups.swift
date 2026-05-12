@@ -210,7 +210,7 @@ public func makeAOTDFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn",
             description: "bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn.caption",
-            position: 7,
+            position: 8,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
