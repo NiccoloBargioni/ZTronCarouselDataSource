@@ -13,15 +13,16 @@ public func makeNoOneThere() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.totenreich.music.no.one.there.below.speedcola.outline",
                     boundingBox: .init(
-                        x: 108.0 / 3840.0,
-                        y: 1146.0 / 2160.0,
-                        width: 56.0 / 3840.0,
-                        height: 24.0 / 2160.0
+                        x: 593.0 / 3840.0,
+                        y: 1203.0 / 2160.0,
+                        width: 198.0 / 3840.0,
+                        height: 73.0 / 2160.0
                     )
                 )
             ]
     ), at: ["bo7.totenreich.music.no.one.there.below.speedcola"])
 
+    
     
     headphonesLocations.register(
        SerializableImageNode(
@@ -33,16 +34,17 @@ public func makeNoOneThere() -> SerializableGalleryRouter {
                SerializableOutlineNode(
                    resourceName: "bo7.totenreich.music.no.one.there.core.foundry.power.switch.outline",
                    boundingBox: .init(
-                       x: 1479.0 / 3840.0,
-                       y: 1355.0 / 2160.0,
-                       width: 25.0 / 3840.0,
-                       height: 23.0 / 2160.0
+                       x: 204.0 / 3840.0,
+                       y: 1424.0 / 2160.0,
+                       width: 248.0 / 3840.0,
+                       height: 94.0 / 2160.0
                    )
                )
            ]
    ), at: ["bo7.totenreich.music.no.one.there.core.foundry.power.switch"])
     
 
+    
      headphonesLocations.register(
         SerializableImageNode(
             name: "bo7.totenreich.music.no.one.there.eidskallen.square.antiquities",
@@ -53,10 +55,10 @@ public func makeNoOneThere() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.totenreich.music.no.one.there.eidskallen.square.antiquities.outline",
                     boundingBox: .init(
-                        x: 713.0 / 3840.0,
-                        y: 885.0 / 2160.0,
-                        width: 40.0 / 3840.0,
-                        height: 28.0 / 2160.0
+                        x: 350.0 / 3840.0,
+                        y: 1455.0 / 2160.0,
+                        width: 166.0 / 3840.0,
+                        height: 90.0 / 2160.0
                     )
                 )
             ]
