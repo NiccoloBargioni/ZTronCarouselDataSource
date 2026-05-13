@@ -74,9 +74,9 @@ public func makeTotenreichFreePowerups() -> SerializableGalleryRouter {
                     resourceName: "bo7.totenreich.side.quests.free.powerups.full.power.speedcola.outline",
                     boundingBox: .init(
                         x: 2402.0 / 3840.0,
-                        y: 930.0 / 2160.0,
+                        y: 932.0 / 2160.0,
                         width: 25.0 / 3840.0,
-                        height: 28.0 / 2160.0
+                        height: 30.0 / 2160.0
                     )
                 )
             ]
