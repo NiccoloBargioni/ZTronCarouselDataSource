@@ -74,10 +74,10 @@ public func makeTotenreichFreeEquipments() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.totenreich.side.quests.free.equipments.arc.xd.outline",
                     boundingBox: .init(
-                        x: 182.0 / 3840.0,
-                        y: 1161.0 / 2160.0,
-                        width: 294.0 / 3840.0,
-                        height: 122.0 / 2160.0
+                        x: 96.0 / 1920.0,
+                        y: 581.0 / 1080.0,
+                        width: 145.0 / 1920.0,
+                        height: 64.0 / 1080.0
                     )
                 )
             ]
