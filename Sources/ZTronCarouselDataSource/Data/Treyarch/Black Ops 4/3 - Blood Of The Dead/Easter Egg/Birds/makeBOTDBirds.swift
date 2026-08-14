@@ -105,7 +105,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.caption",
             position: 2,
             searchLabel: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.before.library.og.mob.outline",
@@ -116,7 +116,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 46.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.before.library.og.mob.spawn"])
     
     birdsLocations.register(
@@ -124,7 +124,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             name: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.noShield",
             description: "bo4.botd.easter.egg.birds.before.library.og.mob.spawn.noShield.caption",
             position: 0,
-            overlays: [
+            /*overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.before.library.og.mob.outline",
@@ -135,7 +135,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: max(0.0, 46.0 / 1080.0 * scaleFactor),
                     )
                 )
-            ]
+            ]*/
         ), at: ["bo4.botd.easter.egg.birds.before.library.og.mob.spawn", "noShield"],
         withParameter: defaultParams
     )
@@ -148,7 +148,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.brew.perk.power.house.caption",
             position: 3,
             searchLabel: "bo4.botd.easter.egg.birds.brew.perk.power.house.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.brew.perk.power.house.outline",
@@ -159,7 +159,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 30.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.brew.perk.power.house"])
     
     birdsLocations.register(
@@ -190,7 +190,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             description: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.caption",
             position: 4,
             searchLabel: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.searchLabel",
-            /*overlays: [
+            overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
                     resourceName: "bo4.botd.easter.egg.birds.cafeteria.1st.bird.outline",
@@ -201,7 +201,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                         height: 61.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
         ), at: ["bo4.botd.easter.egg.birds.cafeteria.1st.bird"])
     
     birdsLocations.register(
@@ -355,14 +355,14 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
     
     birdsLocations.register(
         SerializableImageNode(
-            name: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison",
-            description: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.caption",
+            name: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison",
+            description: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.caption",
             position: 8,
-            searchLabel: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.searchLabel",
+            searchLabel: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.outline",
+                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.outline",
                     boundingBox: .init(
                         x: 949.0 / 1920.0,
                         y: 393.0 / 1080.0,
@@ -371,18 +371,18 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison"])
+        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison"])
 
     
     birdsLocations.register(
         SerializableImageNode(
-            name: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.noShield",
-            description: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.noShield.caption",
+            name: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.noShield",
+            description: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.noShield.caption",
             position: 0,
             /*overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison.outline",
+                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison.outline",
                     boundingBox: .init(
                         x: 949.0 / 1920.0,
                         y: 393.0 / 1080.0,
@@ -391,21 +391,21 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     )
                 )
             ]*/
-        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.prison", "noShield"],
+        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.coming.from.prison", "noShield"],
         withParameter: defaultParams
     )
     
 
     birdsLocations.register(
         SerializableImageNode(
-            name: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn",
-            description: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.caption",
+            name: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn",
+            description: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.caption",
             position: 9,
-            searchLabel: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.searchLabel",
+            searchLabel: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.outline",
+                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.outline",
                     boundingBox: .init(
                         x: 875.0 / 1920.0,
                         y: 358.0 / 1080.0,
@@ -414,17 +414,17 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     )
                 )
             ]
-        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn"])
+        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn"])
     
     birdsLocations.register(
         SerializableImageNode(
-            name: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.noShield",
-            description: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.noShield.caption",
+            name: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.noShield",
+            description: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.noShield.caption",
             position: 0,
             /*overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn.outline",
+                    resourceName: "bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn.outline",
                     boundingBox: .init(
                         x: 875.0 / 1920.0,
                         y: 358.0 / 1080.0,
@@ -433,7 +433,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     )
                 )
             ]*/
-        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.comaxg.from.spawn", "noShield"],
+        ), at: ["bo4.botd.easter.egg.birds.catwalk.top.coming.from.spawn", "noShield"],
         withParameter: defaultParams
     )
     
@@ -1167,7 +1167,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
                     resourceName: "bo4.botd.easter.egg.birds.rooftop.entrance.outline",
                     boundingBox: .init(
                         x: 1053.0 / 1920.0,
-                        y: 248.0 / 1080.0,
+                        y: 348.0 / 1080.0,
                         width: 32.0 / 1920.0,
                         height: 28.0 / 1080.0
                     )

@@ -217,7 +217,7 @@ public func makeCitadelleFreePowerups() -> SerializableGalleryRouter {
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo6.cdm.side.quests.free.powerups.max.power.opposite.vulture.aid.outline",
+                    resourceName: "bo6.cdm.side.quests.free.powerups.max.power.opposite.vulture.aid.zoom.outline",
                     boundingBox: .init(
                         x: 1491.0 / 3840.0,
                         y: 810.0 / 2160.0,

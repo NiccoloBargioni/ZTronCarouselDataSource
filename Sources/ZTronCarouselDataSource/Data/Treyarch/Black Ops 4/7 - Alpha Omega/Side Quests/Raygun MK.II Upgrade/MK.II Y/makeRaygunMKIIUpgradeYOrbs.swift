@@ -5,11 +5,20 @@ import ZTronSerializable
 func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
     let orbsLocations = MediaRouter()
     
+    
+    orbsLocations.register(
+        SerializableImageNode(
+            name: "bo4.ao.side.quests.raygun.mk.ii.apd.control.way.to.storage",
+            description: "bo4.ao.side.quests.raygun.mk.ii.apd.control.way.to.storage.caption",
+            position: 0
+    ), at: ["bo4.ao.side.quests.raygun.mk.ii.apd.control.way.to.storage"])
+        
+    
     orbsLocations.register(
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.beds",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.beds.caption",
-            position: 0
+            position: 1
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.beds"])
         
 
@@ -17,7 +26,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.diner",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.diner.caption",
-            position: 1
+            position: 2
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.diner"])
         
 
@@ -25,7 +34,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.perk",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.perk.caption",
-            position: 2
+            position: 3
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.perk"])
     
     
@@ -33,7 +42,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.power",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.power.caption",
-            position: 3
+            position: 4
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.first.power"])
     
     
@@ -41,7 +50,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.generators.perk",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.generators.perk.caption",
-            position: 4
+            position: 5
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.generators.perk"])
     
     
@@ -49,7 +58,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.prisoner.holding",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.prisoner.holding.caption",
-            position: 5
+            position: 6
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.prisoner.holding"])
     
     
@@ -57,7 +66,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.transfusion.facility",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.transfusion.facility.caption",
-            position: 6
+            position: 7
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.transfusion.facility"])
     
     
@@ -65,7 +74,7 @@ func makeRaygunMKIIUpgradeYOrbs() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.yellow.house.upstairs",
             description: "bo4.ao.side.quests.raygun.mk.ii.upgrade.orbs.y.yellow.house.upstairs.caption",
-            position: 7
+            position: 8
     ), at: ["bo4.ao.side.quests.raygun.mk.ii.upgrade.y.orbs.yellow.house.upstairs"])
     
     

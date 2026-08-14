@@ -171,6 +171,27 @@ public func makeAMFreePowerups() -> SerializableGalleryRouter {
     ), at: ["bo7.am.side.quests.free.powerups.full.power.pack.a.punch.room"])
     
     
+     powerupLocation.register(
+        SerializableImageNode(
+            name: "bo7.am.side.quests.free.random.perk.wisp.tea.to.spawn",
+            description: "bo7.am.side.quests.free.random.perk.wisp.tea.to.spawn.caption",
+            position: 8,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.am.side.quests.free.random.perk.wisp.tea.to.spawn.outline",
+                    boundingBox: .init(
+                        x: 2780.0 / 3840.0,
+                        y: 983.0 / 2160.0,
+                        width: 36.0 / 3840.0,
+                        height: 46.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.am.side.quests.free.random.perk.wisp.tea.to.spawn"])
+    
+    
+    
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(

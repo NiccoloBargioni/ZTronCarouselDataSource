@@ -182,7 +182,8 @@ public func makeAOTDFreePowerups() -> SerializableGalleryRouter {
             ]
         
     ), at: ["bo7.aotd.side.quests.free.powerups.7.full.power.cosmodrome"])
-
+    
+    
     freePowerupsaotdLocations.register(
         SerializableImageNode(
             name: "bo7.aotd.side.quests.free.powerups.8.firesale.by.speedcola",
@@ -205,6 +206,28 @@ public func makeAOTDFreePowerups() -> SerializableGalleryRouter {
     ), at: ["bo7.aotd.side.quests.free.powerups.8.firesale.by.speedcola"])
 
 
+    freePowerupsaotdLocations.register(
+        SerializableImageNode(
+            name: "bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn",
+            description: "bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn.caption",
+            position: 8,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn.outline",
+                    boundingBox: .init(
+                        x: 1234.0 / 3840.0,
+                        y: 1351.0 / 2160.0,
+                        width: 46.0 / 3840.0,
+                        height: 31.0 / 2160.0
+                    )
+                )
+            ]
+        
+    ), at: ["bo7.aotd.side.quests.free.powerups.free.random.perk.from.blackwater.to.spawn"])
+
+    
+    
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(
