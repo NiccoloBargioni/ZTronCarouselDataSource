@@ -8,6 +8,7 @@ public func makeBO7() -> SerializableGameNode {
     bo7Maps.router.register(makeAstraMalorum(), at: [">", "astra malorum"])
     bo7Maps.router.register(makeParadoxJunction(), at: [">", "paradox junction"])
     bo7Maps.router.register(makeTotenreich(), at: [">", "totenreich"])
+    bo7Maps.router.register(makeKowakujo(), at: [">", "kowakujo"])
     
     return SerializableGameNode(
         name: "black ops 7",
