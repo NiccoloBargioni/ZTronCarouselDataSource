@@ -121,7 +121,7 @@ public func makeTotenreichFreePowerups() -> SerializableGalleryRouter {
                 )
             ]
     ), at: ["bo7.totenreich.side.quests.free.powerups.max.ammo.juggernog"])
-    
+
     
     powerupsLocations.register(
         SerializableImageNode(
@@ -133,10 +133,10 @@ public func makeTotenreichFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.totenreich.side.quests.free.powerups.max.armor.quick.revive.outline",
                     boundingBox: .init(
-                        x: 1522.0 / 3840.0,
-                        y: 318.0 / 2160.0,
-                        width: 22.0 / 3840.0,
-                        height: 77.0 / 2160.0
+                        x: 2884.0 / 3840.0,
+                        y: 488.0 / 2160.0,
+                        width: 57.0 / 3840.0,
+                        height: 37.0 / 2160.0
                     )
                 )
             ]
@@ -162,8 +162,27 @@ public func makeTotenreichFreePowerups() -> SerializableGalleryRouter {
             ]
     ), at: ["bo7.totenreich.side.quests.free.powerups.nuke.war.factory.arsenal"])
     
-
     
+    powerupsLocations.register(
+        SerializableImageNode(
+            name: "bo7.totenreich.side.quests.free.powerups.free.random.perk",
+            description: "bo7.totenreich.side.quests.free.powerups.free.random.perk.caption",
+            position: 8,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.totenreich.side.quests.free.powerups.free.random.perk.outline",
+                    boundingBox: .init(
+                        x: 399.0 / 3840.0,
+                        y: 873.0 / 2160.0,
+                        width: 43.0 / 3840.0,
+                        height: 46.0 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.totenreich.side.quests.free.powerups.free.random.perk"])
+    
+
     let locationsRouter = SerializableGalleryRouter()
     
     locationsRouter.router.register(SerializableGalleryNode(
