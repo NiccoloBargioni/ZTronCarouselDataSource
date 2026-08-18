@@ -7,6 +7,11 @@ public func makeKowakujoSideQuestsTools() -> SerializableToolsRouter {
         makeKowakujoFreePowerupsTool(),
         at: [">", "free powerups"]
     )
+  
+    sq.router.register(
+        makeOrigamiHorseCompanionTool(),
+        at: [">", "origami horse companion"]
+    )
 
     return sq
 }

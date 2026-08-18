@@ -5,6 +5,7 @@ func makeKowakujo() -> SerializableMapNode {
     
     tabs.router.register(makeKowakujoEasterEggTab(), at: [">", "easter egg"])
     tabs.router.register(makeKowakujoSideQuestsTab(), at: [">", "side quests"])
+    tabs.router.register(makeKowakujoMusicTab(), at: [">", "music"])
 
     return SerializableMapNode(
         name: "kowakujo",
