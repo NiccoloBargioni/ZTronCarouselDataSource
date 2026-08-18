@@ -12,6 +12,11 @@ public func makeKowakujoSideQuestsTools() -> SerializableToolsRouter {
         makeOrigamiHorseCompanionTool(),
         at: [">", "origami horse companion"]
     )
+    
+    sq.router.register(
+        makeCatCafeTool(),
+        at: [">", "cat cafe"]
+    )
 
     return sq
 }
