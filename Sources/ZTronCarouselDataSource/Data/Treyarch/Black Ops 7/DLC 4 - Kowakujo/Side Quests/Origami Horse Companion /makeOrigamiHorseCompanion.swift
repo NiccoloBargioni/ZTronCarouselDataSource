@@ -68,7 +68,7 @@ public func makeOrigamiHorseCompanion() -> SerializableGalleryRouter {
 
      origamiLocations.register(
         SerializableImageNode(
-            name: "bo7.kowakujo.side.quests.origami.horse.companion.stables.bucket",
+            name: "bo7.kowakujo.side.quests.origami.horse.companion.stables",
             description: "bo7.kowakujo.side.quests.origami.horse.companion.stables.caption",
             position: 3,
             overlays: [
