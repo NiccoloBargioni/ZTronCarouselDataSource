@@ -9,12 +9,12 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
     mouseLocations.register(
         SerializableImageNode(
             name: "bo7.kowakujo.side.quests.cat.cafe.mouse.castle.entrance",
-            description: "bo7.kowakujo.side.quests.cat.cafe.mouse.double.tap.caption",
+            description: "bo7.kowakujo.side.quests.cat.cafe.mouse.castle.entrance.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.kowakujo.side.quests.cat.cafe.mouse.double.tap.outline",
+                    resourceName: "bo7.kowakujo.side.quests.cat.cafe.mouse.castle.entrance.outline",
                     boundingBox: .init(
                         x: 1744.0 / 3840.0,
                         y: 1221.0 / 2160.0,
