@@ -29,13 +29,13 @@ func makeManeniNekoUpgrade() -> SerializableGalleryNode {
     
     upgradeLocations.register(
         SerializableImageNode(
-            name: "bo7.kowakujo.easter.egg.maneni.neko.matches.double.tap",
-            description: "bo7.kowakujo.easter.egg.maneni.neko.matches.double.tap.caption",
+            name: "bo7.kowakujo.easter.egg.maneni.neko.upgrade.matches.double.tap",
+            description: "bo7.kowakujo.easter.egg.maneni.neko.upgrade.matches.double.tap.caption",
             position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.kowakujo.easter.egg.maneni.neko.matches.double.tap.outline",
+                    resourceName: "bo7.kowakujo.easter.egg.maneni.neko.upgrade.matches.double.tap.outline",
                     boundingBox: .init(
                         x: 1575.0 / 3840.0,
                         y: 1278.0 / 2160.0,
@@ -44,7 +44,7 @@ func makeManeniNekoUpgrade() -> SerializableGalleryNode {
                     )
                 )
             ]
-    ), at: ["bo7.kowakujo.easter.egg.maneni.neko.matches.double.tap"])
+    ), at: ["bo7.kowakujo.easter.egg.maneni.neko.upgrade.matches.double.tap"])
 
     
     upgradeLocations.register(

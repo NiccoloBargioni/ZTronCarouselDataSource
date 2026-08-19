@@ -12,14 +12,14 @@ public func makeKowakujoFreePowerups() -> SerializableGalleryRouter {
     
     freePowerupsreckoningLocations.register(
         SerializableImageNode(
-            name: "bo7.kowakujo.side.quests.free.double.points.tony.kane.tree",
-            description: "bo7.kowakujo.side.quests.free.double.points.tony.kane.tree.caption",
+            name: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree",
+            description: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree.caption",
             position: 0,
-            searchLabel: "bo7.kowakujo.side.quests.free.double.points.tony.kane.tree.searchLabel",
+            searchLabel: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree.searchLabel",
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.kowakujo.side.quests.free.double.points.tony.kane.tree.outline",
+                    resourceName: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree.outline",
                     boundingBox: .init(
                         x: 1925.0 / 3840.0,
                         y: 937.0 / 2160.0,
@@ -28,7 +28,7 @@ public func makeKowakujoFreePowerups() -> SerializableGalleryRouter {
                     )
                 )
             ]
-    ), at: ["bo7.kowakujo.side.quests.free.double.points.tony.kane.tree"])
+    ), at: ["bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree"])
 
     
     freePowerupsreckoningLocations.register(
