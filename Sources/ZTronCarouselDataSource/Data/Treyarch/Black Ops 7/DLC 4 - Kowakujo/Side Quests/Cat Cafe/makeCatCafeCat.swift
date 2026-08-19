@@ -24,7 +24,7 @@ func makeCatCafeCat() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo7.kowakujo.side.quests.cat.cafe.cat.double.tap"])
+    ), at: ["bo7.kowakujo.side.quests.cat.cafe.cat.castle.entrance"])
     
     
     catLocations.register(

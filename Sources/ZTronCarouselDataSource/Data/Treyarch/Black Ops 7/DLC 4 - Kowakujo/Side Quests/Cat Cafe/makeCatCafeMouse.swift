@@ -24,7 +24,7 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
                 )
             ]
         
-    ), at: ["bo7.kowakujo.side.quests.cat.cafe.mouse.double.tap"])
+    ), at: ["bo7.kowakujo.side.quests.cat.cafe.mouse.castle.entrance"])
     
     
     mouseLocations.register(
