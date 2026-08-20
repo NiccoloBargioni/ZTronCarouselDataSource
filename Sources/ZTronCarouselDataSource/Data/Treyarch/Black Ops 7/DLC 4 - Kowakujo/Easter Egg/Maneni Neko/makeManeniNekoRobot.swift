@@ -56,10 +56,10 @@ func makeManeniNekoRobot() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.easter.egg.maneni.neko.robot.vulture.aid.outline",
                     boundingBox: .init(
-                        x: 772.0 / 3840.0,
-                        y: 1245.0 / 2160.0,
-                        width: 150.0 / 3840.0,
-                        height: 153.0 / 2160.0
+                        x: 774.0 / 3840.0,
+                        y: 1241.0 / 2160.0,
+                        width: 170.0 / 3840.0,
+                        height: 163.0 / 2160.0
                     )
                 )
             ]

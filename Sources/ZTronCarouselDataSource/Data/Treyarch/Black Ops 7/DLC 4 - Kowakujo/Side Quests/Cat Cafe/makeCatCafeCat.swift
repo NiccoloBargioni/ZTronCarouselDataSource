@@ -37,10 +37,10 @@ func makeCatCafeCat() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.side.quests.cat.cafe.cat.death.perception.outline",
                     boundingBox: .init(
-                        x: 570.0 / 3840.0,
+                        x: 576.0 / 3840.0,
                         y: 404.0 / 2160.0,
-                        width: 191.0 / 3840.0,
-                        height: 123.0 / 2160.0
+                        width: 196.0 / 3840.0,
+                        height: 125.0 / 2160.0
                     )
                 )
             ]
@@ -119,7 +119,7 @@ func makeCatCafeCat() -> SerializableGalleryNode {
                     resourceName: "bo7.kowakujo.side.quests.cat.cafe.cat.kitchen.outline",
                     boundingBox: .init(
                         x: 3207.0 / 3840.0,
-                        y: 1037.0 / 2160.0,
+                        y: 1042.0 / 2160.0,
                         width: 201.0 / 3840.0,
                         height: 97.0 / 2160.0
                     )
@@ -138,10 +138,10 @@ func makeCatCafeCat() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.side.quests.cat.cafe.cat.melee.macchiato.outline",
                     boundingBox: .init(
-                        x: 1495.0 / 3840.0,
-                        y: 663.0 / 2160.0,
-                        width: 57.0 / 3840.0,
-                        height: 52.0 / 2160.0
+                        x: 1493.0 / 3840.0,
+                        y: 662.0 / 2160.0,
+                        width: 61.0 / 3840.0,
+                        height: 56.0 / 2160.0
                     )
                 )
             ]

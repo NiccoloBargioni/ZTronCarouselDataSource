@@ -17,8 +17,8 @@ public func makeOrigamiHorseCompanion() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1947.0 / 3840.0,
                         y: 1274.0 / 2160.0,
-                        width: 23.0 / 3840.0,
-                        height: 82.0 / 2160.0
+                        width: 28.0 / 3840.0,
+                        height: 84.0 / 2160.0
                     )
                 )
             ]
@@ -37,8 +37,8 @@ public func makeOrigamiHorseCompanion() -> SerializableGalleryRouter {
                    boundingBox: .init(
                        x: 899.0 / 3840.0,
                        y: 1502.0 / 2160.0,
-                       width: 23.0 / 3840.0,
-                       height: 12.0 / 2160.0
+                       width: 26.0 / 3840.0,
+                       height: 16.0 / 2160.0
                    )
                )
            ]

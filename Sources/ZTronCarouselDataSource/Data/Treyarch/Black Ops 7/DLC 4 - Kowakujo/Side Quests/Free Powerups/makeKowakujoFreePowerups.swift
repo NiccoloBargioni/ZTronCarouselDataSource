@@ -21,10 +21,10 @@ public func makeKowakujoFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree.outline",
                     boundingBox: .init(
-                        x: 1925.0 / 3840.0,
+                        x: 1922.0 / 3840.0,
                         y: 937.0 / 2160.0,
-                        width: 8.0 / 3840.0,
-                        height: 6.0 / 2160.0
+                        width: 11.0 / 3840.0,
+                        height: 9.0 / 2160.0
                     )
                 )
             ]
@@ -42,10 +42,10 @@ public func makeKowakujoFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.side.quests.free.powerups.double.points.tony.kane.tree.zoom.outline",
                     boundingBox: .init(
-                        x: 2029.0 / 3840.0,
-                        y: 660.0 / 2160.0,
-                        width: 25.0 / 3840.0,
-                        height: 15.0 / 2160.0
+                        x: 2027.0 / 3840.0,
+                        y: 662.0 / 2160.0,
+                        width: 28.0 / 3840.0,
+                        height: 16.0 / 2160.0
                     )
                 )
             ]

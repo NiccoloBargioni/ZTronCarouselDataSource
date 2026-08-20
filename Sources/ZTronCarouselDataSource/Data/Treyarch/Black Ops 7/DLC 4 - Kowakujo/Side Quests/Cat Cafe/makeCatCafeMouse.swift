@@ -39,8 +39,8 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 2761.0 / 3840.0,
                         y: 1254.0 / 2160.0,
-                        width: 46.0 / 3840.0,
-                        height: 28.0 / 2160.0
+                        width: 50.0 / 3840.0,
+                        height: 30.0 / 2160.0
                     )
                 )
             ]
@@ -80,8 +80,8 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 1238.0 / 3840.0,
                         y: 1343.0 / 2160.0,
-                        width: 42.0 / 3840.0,
-                        height: 22.0 / 2160.0
+                        width: 46.0 / 3840.0,
+                        height: 25.0 / 2160.0
                     )
                 )
             ]
@@ -120,8 +120,8 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 1815.0 / 3840.0,
                         y: 1109.0 / 2160.0,
-                        width: 16.0 / 3840.0,
-                        height: 16.0 / 2160.0
+                        width: 18.0 / 3840.0,
+                        height: 19.0 / 2160.0
                     )
                 )
             ]
@@ -160,8 +160,8 @@ func makeCatCafeMouse() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 3098.0 / 3840.0,
                         y: 1094.0 / 2160.0,
-                        width: 112.0 / 3840.0,
-                        height: 35.0 / 2160.0
+                        width: 123.0 / 3840.0,
+                        height: 40.0 / 2160.0
                     )
                 )
             ]

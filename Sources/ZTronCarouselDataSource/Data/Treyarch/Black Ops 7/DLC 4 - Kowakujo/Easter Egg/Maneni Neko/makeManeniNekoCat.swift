@@ -38,7 +38,7 @@ func makeManeniNekoCat() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.kowakujo.easter.egg.maneni.neko.cat.glyph.outline",
                     boundingBox: .init(
-                        x: 3129.0 / 3840.0,
+                        x: 3192.0 / 3840.0,
                         y: 1027.0 / 2160.0,
                         width: 48.0 / 3840.0,
                         height: 55.0 / 2160.0

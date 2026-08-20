@@ -17,8 +17,8 @@ func makeManeniNekoBell() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 3117.0 / 3840.0,
                         y: 748.0 / 2160.0,
-                        width: 59.0 / 3840.0,
-                        height: 83.0 / 2160.0
+                        width: 61.0 / 3840.0,
+                        height: 87.0 / 2160.0
                     )
                 )
             ]
@@ -59,8 +59,8 @@ func makeManeniNekoBell() -> SerializableGalleryNode {
                     boundingBox: .init(
                         x: 1880.0 / 3840.0,
                         y: 866.0 / 2160.0,
-                        width: 15.0 / 3840.0,
-                        height: 41.0 / 2160.0
+                        width: 18.0 / 3840.0,
+                        height: 42.0 / 2160.0
                     )
                 )
             ]

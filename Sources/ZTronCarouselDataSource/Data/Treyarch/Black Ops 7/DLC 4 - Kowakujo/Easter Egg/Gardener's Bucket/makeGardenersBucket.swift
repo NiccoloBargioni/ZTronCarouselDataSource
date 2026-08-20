@@ -57,8 +57,8 @@ public func makeGardenersBucket() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 2239.0 / 3840.0,
                         y: 891.0 / 2160.0,
-                        width: 62.0 / 3840.0,
-                        height: 50.0 / 2160.0
+                        width: 67.0 / 3840.0,
+                        height: 55.0 / 2160.0
                     )
                 )
             ]
