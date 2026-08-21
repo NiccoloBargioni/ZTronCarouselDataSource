@@ -23,5 +23,16 @@ public func makeTotenreighEETools() -> SerializableToolsRouter {
         at: ["runes arrows puzzle"]
     )
     
+    totenreichEETools.router.register(
+        SerializableToolNode(
+            name: "bo7.totenreich.easter.egg.claw.machine.tool.name",
+            position: 4,
+            assetsImageName: "bo7.totenreich.easter.egg.claw.machine.tool.name.icon",
+            isSolver: true,
+            galleryRouter: nil
+        ),
+        at: ["claw machine"]
+    )
+    
     return totenreichEETools
 }
