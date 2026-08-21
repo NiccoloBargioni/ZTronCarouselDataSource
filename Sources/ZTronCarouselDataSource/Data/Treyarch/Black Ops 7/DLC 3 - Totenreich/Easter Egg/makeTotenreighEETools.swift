@@ -27,7 +27,7 @@ public func makeTotenreighEETools() -> SerializableToolsRouter {
         SerializableToolNode(
             name: "bo7.totenreich.easter.egg.claw.machine.tool.name",
             position: 4,
-            assetsImageName: "bo7.totenreich.easter.egg.claw.machine.tool.name.icon",
+            assetsImageName: "bo7.totenreich.easter.egg.claw.machine.icon",
             isSolver: true,
             galleryRouter: nil
         ),
