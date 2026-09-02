@@ -7,7 +7,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.1.intersection.between.camp.owl.and.camp.wolf",
             description: "iw.ritr.side.quests.fairies.camp.cabins.1.intersection.between.camp.owl.and.camp.wolf.caption",
-            position: 0,/*
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -19,7 +19,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 146.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.1.intersection.between.camp.owl.and.camp.wolf"])
 
 
@@ -27,7 +27,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.2.end.of.camp.owl",
             description: "iw.ritr.side.quests.fairies.camp.cabins.2.end.of.camp.owl.caption",
-            position: 1,/*
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -39,7 +39,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 71.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.2.end.of.camp.owl"])
 
     
@@ -47,7 +47,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.3.front.of.magic.wheel",
             description: "iw.ritr.side.quests.fairies.camp.cabins.3.front.of.magic.wheel.caption",
-            position: 2,/*
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -59,7 +59,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 75.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.3.front.of.magic.wheel"])
 
     
@@ -67,7 +67,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel",
             description: "iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel.caption",
-            position: 3,/*
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -79,7 +79,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 235.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.4.behind.magic.wheel"])
 
 
@@ -87,7 +87,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.5.big.fire.front.of.camp.wolf.sign",
             description: "iw.ritr.side.quests.fairies.camp.cabins.5.big.fire.front.of.camp.wolf.sign.caption",
-            position: 4,/*
+            position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -99,7 +99,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 338.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.5.big.fire.front.of.camp.wolf.sign"])
 
     
@@ -107,7 +107,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.6.camp.wolf.sign.from.mess.hall",
             description: "iw.ritr.side.quests.fairies.camp.cabins.6.camp.wolf.sign.from.mess.hall.caption",
-            position: 5,/*
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -119,14 +119,14 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 109.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.6.camp.wolf.sign.from.mess.hall"])
     
     fairiesLocations.register(
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.camp.cabins.7.mess.hall.sign.bridge.from.cabins",
             description: "iw.ritr.side.quests.fairies.camp.cabins.7.mess.hall.sign.bridge.from.cabins.caption",
-            position: 6,/*
+            position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -138,7 +138,7 @@ public func makeFairiesCampCabins() -> SerializableGalleryNode {
                         height: 264.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.camp.cabins.7.mess.hall.sign.bridge.from.cabins"])
 
 

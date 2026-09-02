@@ -8,7 +8,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.mess.hall.1.mess.hall.entrance.from.bear.lake",
             description: "iw.ritr.side.quests.fairies.mess.hall.1.mess.hall.entrance.from.bear.lake.caption",
-            position: 0,/*
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -20,7 +20,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
                         height: 622.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.mess.hall.1.mess.hall.entrance.from.bear.lake"])
 
 
@@ -28,7 +28,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.mess.hall.2.pipe.between.mess.hall.and.bear.lake",
             description: "iw.ritr.side.quests.fairies.mess.hall.2.pipe.between.mess.hall.and.bear.lake.caption",
-            position: 1,/*
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -40,7 +40,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
                         height: 307.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.mess.hall.2.pipe.between.mess.hall.and.bear.lake"])
 
     
@@ -48,7 +48,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.mess.hall.3.bench.above.lake",
             description: "iw.ritr.side.quests.fairies.mess.hall.3.bench.above.lake.caption",
-            position: 2,/*
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -60,7 +60,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
                         height: 82.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.mess.hall.3.bench.above.lake"])
 
 
@@ -68,7 +68,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "iw.ritr.side.quests.fairies.mess.hall.4.bear.lake.entrance.from.mess.hall",
             description: "iw.ritr.side.quests.fairies.mess.hall.4.bear.lake.entrance.from.mess.hall.caption",
-            position: 3,/*
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -80,7 +80,7 @@ public func makeFairiesMessHall() -> SerializableGalleryNode {
                         height: 138.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["iw.ritr.side.quests.fairies.mess.hall.4.bear.lake.entrance.from.mess.hall"])
 
     

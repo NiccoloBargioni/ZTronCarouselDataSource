@@ -59,7 +59,7 @@ public func makeFairiesRecreationalArea() -> SerializableGalleryNode {
                         height: 147.0 / 1080.0
                     )
                 )
-            ]            
+            ]
     ), at: ["iw.ritr.side.quests.fairies.recreational.area.3.climbing.wall"])
 
     
