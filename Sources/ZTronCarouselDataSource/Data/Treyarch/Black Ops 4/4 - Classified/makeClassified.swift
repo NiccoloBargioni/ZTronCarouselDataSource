@@ -4,6 +4,7 @@ func makeClassified() -> SerializableMapNode {
     let classifiedTabs = SerializableTabsRouter()
     
     classifiedTabs.router.register(makeClassifiedEasterEggTab(), at: [">", "easter egg"])
+    classifiedTabs.router.register(makeClassifiedSideQuestsTab(), at: [">", "side quests"])
     classifiedTabs.router.register(makeClassifiedMusicTab(), at: [">", "music"])
     
     return SerializableMapNode(
