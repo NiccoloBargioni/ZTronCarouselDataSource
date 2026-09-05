@@ -55,7 +55,7 @@ public func makeClassifiedTrapsRepairServerRoom() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo4.classified.side.quests.traps.repair.server.room.front.of.teleporter.end.of.room.outline",
                     boundingBox: .init(
-                        x: 1197.0/ 1920.0,
+                        x: 1197.0 / 1920.0,
                         y: 515.0 / 1080.0,
                         width: 63.0 / 1920.0,
                         height: 60.0 / 1080.0

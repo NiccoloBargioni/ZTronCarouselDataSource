@@ -36,7 +36,7 @@ public func makeVoyageDrowning() -> SerializableGalleryRouter {
                     boundingBox: .init(
                         x: 1221.0 / 1920.0,
                         y: 524.0 / 1080.0,
-                        width: 10.0/ 1920.0,
+                        width: 10.0 / 1920.0,
                         height: 23.0 / 1080.0
                     )
                 )
