@@ -13,5 +13,10 @@ public func makeShaolinShuffleMusicTools() -> SerializableToolsRouter {
         at: [">", "director's cut song"]
     )
 
+    musicTools.router.register(
+        makeSoulVynilTool(),
+        at: [">", "soul vynil"]
+    )
+
     return musicTools
 }
