@@ -68,7 +68,7 @@ public func makeClassifiedTrapsRepairServerRoom() -> SerializableGalleryNode {
     
     return SerializableGalleryNode(
         name: "bo4.classified.side.quests.traps.repair.server.room",
-        position: 0,
+        position: 1,
         assetsImageName: "bo4.classified.side.quests.traps.repair.server.room.icon",
         images: boxLocations
     )
