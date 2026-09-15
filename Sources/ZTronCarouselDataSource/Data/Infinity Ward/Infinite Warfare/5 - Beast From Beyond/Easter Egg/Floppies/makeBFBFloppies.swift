@@ -76,10 +76,10 @@ public func makeBFBFloppies() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.easter.egg.floppies.4.above.proteus.wallbuy.to.666.room.outline",
                     boundingBox: .init(
-                        x: 2577.0 / 2715.0,
-                        y: 936.0 / 1527.0,
-                        width: 113.0 / 2715.0,
-                        height: 32.0 / 1527.0
+                        x: 659.5 / 2715.0,
+                        y: 1764.5 / 1527.0,
+                        width: 213.0 / 2715.0,
+                        height: 60.0 / 1527.0
                     )
                 )
             ]
@@ -89,9 +89,30 @@ public func makeBFBFloppies() -> SerializableGalleryRouter {
     
     floppiesLocations.register(
         SerializableImageNode(
+            name: "iw.bfb.easter.egg.floppies.6.door.before.bang.bangs",
+            description: "iw.bfb.easter.egg.floppies.6.door.before.bang.bangs.caption",
+            position: 4,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "iw.bfb.easter.egg.floppies.6.door.before.bang.bangs.outline",
+                    boundingBox: .init(
+                        x: 2577.0 / 2715.0,
+                        y: 936.0 / 1527.0,
+                        width: 113.0 / 2715.0,
+                        height: 32.0 / 1527.0
+                    )
+                )
+            ]
+        ), at: [">", "iw.bfb.easter.egg.floppies.6.door.before.bang.bangs"]
+    )
+    
+    
+    floppiesLocations.register(
+        SerializableImageNode(
             name: "iw.bfb.easter.egg.floppies.5.spawn.side.of.magic.wheel",
             description: "iw.bfb.easter.egg.floppies.5.spawn.side.of.magic.wheel.caption",
-            position: 4,
+            position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
