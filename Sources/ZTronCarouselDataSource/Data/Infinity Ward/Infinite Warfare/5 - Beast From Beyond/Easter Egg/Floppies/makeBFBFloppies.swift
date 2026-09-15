@@ -76,10 +76,10 @@ public func makeBFBFloppies() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.easter.egg.floppies.4.above.proteus.wallbuy.to.666.room.outline",
                     boundingBox: .init(
-                        x: 659.5 / 2715.0,
-                        y: 1764.5 / 1527.0,
-                        width: 213.0 / 2715.0,
-                        height: 60.0 / 1527.0
+                        x: 2577.0 / 2715.0,
+                        y: 936.0 / 1527.0,
+                        width: 113.0 / 2715.0,
+                        height: 32.0 / 1527.0
                     )
                 )
             ]
@@ -97,10 +97,10 @@ public func makeBFBFloppies() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "iw.bfb.easter.egg.floppies.6.door.before.bang.bangs.outline",
                     boundingBox: .init(
-                        x: 2577.0 / 2715.0,
-                        y: 936.0 / 1527.0,
-                        width: 113.0 / 2715.0,
-                        height: 32.0 / 1527.0
+                        x: 659.5 / 2715.0,
+                        y: 1764.5 / 1527.0,
+                        width: 213.0 / 2715.0,
+                        height: 60.0 / 1527.0
                     )
                 )
             ]
