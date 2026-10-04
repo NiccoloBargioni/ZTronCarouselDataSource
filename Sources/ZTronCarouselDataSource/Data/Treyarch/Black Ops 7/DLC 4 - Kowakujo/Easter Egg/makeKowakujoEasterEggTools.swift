@@ -36,5 +36,17 @@ public func makeKowakujoEasterEggTools() -> SerializableToolsRouter {
     )
 
         
+    ee.router.register(
+        SerializableToolNode(
+            name: "bo7.kowakujo.easter.egg.murder.flags.puzzle.tool.name",
+            position: 4,
+            assetsImageName: "bo7.kowakujo.easter.egg.flags.puzzle.icon",
+            isSolver: true,
+            galleryRouter: nil
+        ),
+        at: ["flags"]
+    )
+
+        
     return ee
 }
