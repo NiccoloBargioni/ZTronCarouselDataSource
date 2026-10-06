@@ -43,6 +43,7 @@ func makeDigSpotsNixarasTemple() -> SerializableGalleryNode {
             ]
     ), at: ["bo7.ri.side.quests.dig.spots.nixaras.temple.dig.spot.nyxara.mid"])
 
+    /*
     digSpotLocations.register(
         SerializableImageNode(
             name: "bo7.ri.side.quests.dig.spots.nixaras.temple.nyxara.passage.entrance.close.to.mid",
@@ -61,12 +62,13 @@ func makeDigSpotsNixarasTemple() -> SerializableGalleryNode {
                 )
             ]
     ), at: ["bo7.ri.side.quests.dig.spots.nixaras.temple.nyxara.passage.entrance.close.to.mid"])
-
+    */
+    
     digSpotLocations.register(
         SerializableImageNode(
             name: "bo7.ri.side.quests.dig.spots.nixaras.temple.nyxara.passage.staminup",
             description: "bo7.ri.side.quests.dig.spots.nixaras.temple.nyxara.passage.staminup.caption",
-            position: 3,
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
