@@ -186,7 +186,7 @@ func makeRexInfernusFreePowerups() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.ri.side.quests.free.powerups.free.random.perk.zoom",
             description: "bo7.ri.side.quests.free.powerups.free.random.perk.caption",
-            position: 9,
+            position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
