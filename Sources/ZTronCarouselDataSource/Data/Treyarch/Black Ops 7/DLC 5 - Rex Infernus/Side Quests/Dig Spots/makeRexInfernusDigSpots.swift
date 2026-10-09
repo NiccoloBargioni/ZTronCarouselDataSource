@@ -23,5 +23,10 @@ public func makeRexInfernusDigSpots() -> SerializableGalleryRouter {
         at: ["widow's wine"]
     )
     
+    digs.router.register(
+        makeDigSpotsMisc(),
+        at: ["miscellaneous"]
+    )
+    
     return digs
 }
