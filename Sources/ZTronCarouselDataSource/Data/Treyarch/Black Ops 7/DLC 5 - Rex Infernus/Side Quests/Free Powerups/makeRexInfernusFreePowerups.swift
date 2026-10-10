@@ -78,10 +78,10 @@ func makeRexInfernusFreePowerups() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.free.powerups.free.full.power.veytharions.temple.outline",
                     boundingBox: .init(
-                        x: 1908.0 / 3840.0,
-                        y: 535.0 / 2160.0,
-                        width: 21.0 / 3840.0,
-                        height: 21.0 / 2160.0
+                        x: 1911.46199 / 3840.0,
+                        y: 536.4728 / 2160.0,
+                        width: 14.36274 / 3840.0,
+                        height: 14.26806 / 2160.0
                     )
                 )
             ]
