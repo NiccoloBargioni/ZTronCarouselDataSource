@@ -134,10 +134,10 @@ public func makeTotenreichFreeEquipments() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.totenreich.side.quests.free.equipments.psych.granade.secret.room.der.eisendrache.outline",
                     boundingBox: .init(
-                        x: 1548.0 / 3840.0,
-                        y: 805.0 / 2160.0,
-                        width: 5.0 / 3840.0,
-                        height: 13.0 / 2160.0
+                        x: 1759.93393 / 3840.0,
+                        y: 983.08564 / 2160.0,
+                        width: 7.76392 / 3840.0,
+                        height: 23.56756 / 2160.0
                     )
                 )
             ]
@@ -224,6 +224,46 @@ public func makeTotenreichFreeEquipments() -> SerializableGalleryRouter {
                 )
             ]
     ), at: ["bo7.totenreich.side.quests.free.equipments.molotov.spawn.quick.revive"])
+    
+    
+    equipmentLocations.register(
+        SerializableImageNode(
+            name: "bo7.totenreich.side.quests.free.equipments.monkey.bomb.requiems.secret.room",
+            description: "bo7.totenreich.side.quests.free.equipments.monkey.bomb.requiems.secret.room.caption",
+            position: 11,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.totenreich.side.quests.free.equipments.monkey.bomb.requiems.secret.room.outline",
+                    boundingBox: .init(
+                        x: 975.64173 / 3840.0,
+                        y: 767.97071 / 2160.0,
+                        width: 204.09196 / 3840.0,
+                        height: 195.87329 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.totenreich.side.quests.free.equipments.monkey.bomb.requiems.secret.room"])
+    
+    
+    equipmentLocations.register(
+        SerializableImageNode(
+            name: "bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room",
+            description: "bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room.caption",
+            position: 11,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room.outline",
+                    boundingBox: .init(
+                        x: 2514.88746 / 3840.0,
+                        y: 752.69657 / 2160.0,
+                        width: 80.32462 / 3840.0,
+                        height: 101.29288 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room"])
     
     
     let locationsRouter = SerializableGalleryRouter()

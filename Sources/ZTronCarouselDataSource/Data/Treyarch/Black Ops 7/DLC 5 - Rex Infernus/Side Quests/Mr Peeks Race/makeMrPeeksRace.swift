@@ -15,10 +15,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.spawn.outline",
                     boundingBox: .init(
-                        x: 1940.0 / 3840.0,
-                        y: 898.0 / 2160.0,
-                        width: 34.0 / 3840.0,
-                        height: 31.0 / 2160.0
+                        x: 1939.4458 / 3840.0,
+                        y: 897.57034 / 2160.0,
+                        width: 36.11923 / 3840.0,
+                        height: 31.23653 / 2160.0
                     )
                 )
             ]
@@ -34,10 +34,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.juggernog.outline",
                     boundingBox: .init(
-                        x: 945.0 / 3840.0,
-                        y: 109.0 / 2160.0,
-                        width: 15.0 / 3840.0,
-                        height: 26.0 / 2160.0
+                        x: 945.56672 / 3840.0,
+                        y: 108.68334 / 2160.0,
+                        width: 15.36541 / 3840.0,
+                        height: 26.97685 / 2160.0
                     )
                 )
             ]
@@ -53,10 +53,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.phd.outline",
                     boundingBox: .init(
-                        x: 3165.0 / 3840.0,
-                        y: 1514.0 / 2160.0,
-                        width: 10.0 / 3840.0,
-                        height: 13.0 / 2160.0
+                        x: 3165.67216 / 3840.0,
+                        y: 1514.59087 / 2160.0,
+                        width: 9.86716 / 3840.0,
+                        height: 13.40668 / 2160.0
                     )
                 )
             ]
@@ -72,10 +72,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.veytharion.outline",
                     boundingBox: .init(
-                        x: 3179.0 / 3840.0,
-                        y: 1581.0 / 2160.0,
-                        width: 22.0 / 3840.0,
-                        height: 21.0 / 2160.0
+                        x: 3179.26914 / 3840.0,
+                        y: 1581.23175 / 2160.0,
+                        width: 27.33842 / 3840.0,
+                        height: 22.37877 / 2160.0
                     )
                 )
             ]
@@ -110,10 +110,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.caltheris.outline",
                     boundingBox: .init(
-                        x: 3058.0 / 3840.0,
-                        y: 1232.0 / 2160.0,
-                        width: 17.0 / 3840.0,
-                        height: 20.0 / 2160.0
+                        x: 3057.57864 / 3840.0,
+                        y: 1230.68542 / 2160.0,
+                        width: 17.91099 / 3840.0,
+                        height: 21.67401 / 2160.0
                     )
                 )
             ]
@@ -129,10 +129,10 @@ func makeMrPeeksRace() -> SerializableGalleryRouter {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.mr.peeks.race.mr.peeks.race.final.interaction.outline",
                     boundingBox: .init(
-                        x: 1327.0 / 3840.0,
-                        y: 1020.0 / 2160.0,
-                        width: 139.0 / 3840.0,
-                        height: 154.0 / 2160.0
+                        x: 1325.29748 / 3840.0,
+                        y: 1018.72653 / 2160.0,
+                        width: 139.98106 / 3840.0,
+                        height: 155.48647 / 2160.0
                     )
                 )
             ]

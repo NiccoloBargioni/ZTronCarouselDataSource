@@ -205,12 +205,31 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
            ]
    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.second.last.abyssal.rim"])
 
+    streetlightLocations.register(
+        SerializableImageNode(
+            name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea",
+            description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea.caption",
+            position: 10,
+            overlays: [
+                SerializableBoundingCircleNode(),
+                SerializableOutlineNode(
+                    resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea.outline",
+                    boundingBox: .init(
+                        x: 1477.79903 / 3840.0,
+                        y: 713.57224 / 2160.0,
+                        width: 53.64198 / 3840.0,
+                        height: 558.66725 / 2160.0
+                    )
+                )
+            ]
+    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea"])
+
     
     streetlightLocations.register(
         SerializableImageNode(
             name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.right.of.wisp.tea",
             description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.right.of.wisp.tea.caption",
-            position: 10,
+            position: 11,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -226,24 +245,6 @@ public func makeAMLGM1AbhorrentCablesStreetlights() -> SerializableGalleryRouter
     ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.right.of.wisp.tea"])
 
     
-    streetlightLocations.register(
-        SerializableImageNode(
-            name: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea",
-            description: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea.caption",
-            position: 11,
-            overlays: [
-                SerializableBoundingCircleNode(),
-                SerializableOutlineNode(
-                    resourceName: "bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea.outline",
-                    boundingBox: .init(
-                        x: 1477.79903 / 3840.0,
-                        y: 713.57224 / 2160.0,
-                        width: 53.64198 / 3840.0,
-                        height: 558.66725 / 2160.0
-                    )
-                )
-            ]
-    ), at: ["bo7.am.easter.egg.lgm1.abhorrent.cables.streetlights.side.of.wisp.tea"])
     
     
     
