@@ -250,7 +250,7 @@ public func makeTotenreichFreeEquipments() -> SerializableGalleryRouter {
         SerializableImageNode(
             name: "bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room",
             description: "bo7.totenreich.side.quests.free.equipments.turrett.requiems.secret.room.caption",
-            position: 11,
+            position: 12,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
