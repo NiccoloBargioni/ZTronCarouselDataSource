@@ -129,10 +129,10 @@ func makeDigSpotsMisc() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.low.right.side.outline",
                     boundingBox: .init(
-                        x: 1564.43977 / 1920.0,
-                        y: 730.01645 / 1080.0,
-                        width: 141.2022 / 1920.0,
-                        height: 85.6714 / 1080.0
+                        x: 1560.41716 / 1920.0,
+                        y: 729.84529 / 1080.0,
+                        width: 161.11859 / 1920.0,
+                        height: 90.67614 / 1080.0
                     )
                 )
             ]
