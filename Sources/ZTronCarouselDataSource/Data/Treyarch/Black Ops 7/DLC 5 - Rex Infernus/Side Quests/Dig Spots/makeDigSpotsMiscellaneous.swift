@@ -2,29 +2,28 @@ import Foundation
 import ZTronRouter
 import ZTronSerializable
 
-func makeDigSpotsMisc() -> SerializableGalleryNode {
+func makedigSpotsMisc() -> SerializableGalleryNode {
     let digSpotLocation = MediaRouter()
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.caltheris",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.caltheris.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.above.vulture.aid",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.above.vulture.aid.caption",
             position: 0,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.caltheris.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.above.vulture.aid.outline",
                     boundingBox: .init(
-                        x: 3058.0 / 3840.0,
-                        y: 1232.0 / 2160.0,
-                        width: 17.0 / 3840.0,
-                        height: 20.0 / 2160.0
+                        x: 531.05359 / 3840.0,
+                        y: 1430.5583 / 2160.0,
+                        width: 490.81076 / 3840.0,
+                        height: 163.31865 / 2160.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.caltheris"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.above.vulture.aid"])
 
-    
     digSpotLocation.register(
         SerializableImageNode(
             name: "bo7.ri.side.quests.dig.spots.miscellaneous.caltheris.n2",
@@ -35,129 +34,128 @@ func makeDigSpotsMisc() -> SerializableGalleryNode {
                 SerializableOutlineNode(
                     resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.caltheris.n2.outline",
                     boundingBox: .init(
-                        x: 606.22898 / 3840.0,
-                        y: 1499.44617 / 2160.0,
-                        width: 336.04558 / 3840.0,
-                        height: 118.59534 / 2160.0
+                        x: 605.85094 / 3840.0,
+                        y: 1499.25556 / 2160.0,
+                        width: 336.29186 / 3840.0,
+                        height: 118.68226 / 2160.0
                     )
                 )
             ]
     ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.caltheris.n2"])
 
-    
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.juggernog",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.juggernog.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.dig.caltheris.passage",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.dig.caltheris.passage.caption",
             position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.juggernog.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.dig.caltheris.passage.outline",
                     boundingBox: .init(
-                        x: 945.0 / 3840.0,
-                        y: 109.0 / 2160.0,
-                        width: 15.0 / 3840.0,
-                        height: 26.0 / 2160.0
+                        x: 2825.0 / 3840.0,
+                        y: 1334.0 / 2160.0,
+                        width: 513.0 / 3840.0,
+                        height: 100.08 / 2160.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.juggernog"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.dig.caltheris.passage"])
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.phd",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.phd.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakar.temple.n2",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakar.temple.n2.caption",
             position: 3,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.phd.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakar.temple.n2.outline",
                     boundingBox: .init(
-                        x: 3165.0 / 3840.0,
-                        y: 1514.0 / 2160.0,
-                        width: 10.0 / 3840.0,
-                        height: 13.0 / 2160.0
+                        x: 1883.0 / 3840.0,
+                        y: 1613.0 / 2160.0,
+                        width: 341.0 / 3840.0,
+                        height: 195.0 / 2160.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.phd"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.dravakar.temple.n2"])
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.race.final.interaction",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.race.final.interaction.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakars.temple",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakars.temple.caption",
             position: 4,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.race.final.interaction.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.dravakars.temple.outline",
                     boundingBox: .init(
-                        x: 1327.0 / 3840.0,
-                        y: 1020.0 / 2160.0,
-                        width: 139.0 / 3840.0,
-                        height: 154.0 / 2160.0
+                        x: 221.54944 / 3840.0,
+                        y: 1648.39344 / 2160.0,
+                        width: 290.62648 / 3840.0,
+                        height: 108.85409 / 2160.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.race.final.interaction"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.dravakars.temple"])
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.spawn",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.spawn.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.high.2",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.high.2.caption",
             position: 5,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.spawn.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.high.2.outline",
                     boundingBox: .init(
-                        x: 1940.0 / 3840.0,
-                        y: 898.0 / 2160.0,
-                        width: 34.0 / 3840.0,
-                        height: 31.0 / 2160.0
+                        x: 1317.0 / 1920.0,
+                        y: 600.0 / 1080.0,
+                        width: 397.0 / 1920.0,
+                        height: 126.0 / 1080.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.spawn"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.high.2"])
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.veytharion",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.veytharion.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.low.right.side",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.low.right.side.caption",
             position: 6,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.veytharion.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.low.right.side.outline",
                     boundingBox: .init(
-                        x: 3179.0 / 3840.0,
-                        y: 1581.0 / 2160.0,
-                        width: 22.0 / 3840.0,
-                        height: 21.0 / 2160.0
+                        x: 1564.43977 / 1920.0,
+                        y: 730.01645 / 1080.0,
+                        width: 141.2022 / 1920.0,
+                        height: 85.6714 / 1080.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.veytharion"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.veytharion.low.right.side"])
 
     digSpotLocation.register(
         SerializableImageNode(
-            name: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.widows.wine",
-            description: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.widows.wine.caption",
+            name: "bo7.ri.side.quests.dig.spots.miscellaneous.wheel.of.water.by.vulture.aid",
+            description: "bo7.ri.side.quests.dig.spots.miscellaneous.wheel.of.water.by.vulture.aid.caption",
             position: 7,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
-                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.widows.wine.outline",
+                    resourceName: "bo7.ri.side.quests.dig.spots.miscellaneous.wheel.of.water.by.vulture.aid.outline",
                     boundingBox: .init(
-                        x: 2661.0 / 3840.0,
-                        y: 1348.0 / 2160.0,
-                        width: 9.0 / 3840.0,
-                        height: 6.0 / 2160.0
+                        x: 2384.27234 / 3840.0,
+                        y: 1171.19362 / 2160.0,
+                        width: 59.72334 / 3840.0,
+                        height: 29.29133 / 2160.0
                     )
                 )
             ]
-    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.mr.peeks.widows.wine"])
+    ), at: ["bo7.ri.side.quests.dig.spots.miscellaneous.wheel.of.water.by.vulture.aid"])
 
     return SerializableGalleryNode(
         name: "bo7.ri.side.quests.dig.spots.miscellaneous",
