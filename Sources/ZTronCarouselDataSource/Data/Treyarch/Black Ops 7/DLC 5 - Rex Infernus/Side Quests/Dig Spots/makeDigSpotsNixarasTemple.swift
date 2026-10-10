@@ -2,7 +2,7 @@ import Foundation
 import ZTronRouter
 import ZTronSerializable
 
-func makedigSpotsNixarasTemple() -> SerializableGalleryNode {
+func makeDigSpotsNixarasTemple() -> SerializableGalleryNode {
     let digSpotLocations = MediaRouter()
 
     digSpotLocations.register(
