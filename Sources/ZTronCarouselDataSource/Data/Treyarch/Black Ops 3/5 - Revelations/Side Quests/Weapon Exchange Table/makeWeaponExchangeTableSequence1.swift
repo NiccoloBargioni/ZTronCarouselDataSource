@@ -10,7 +10,6 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
             name: "bo3.revelations.side.quests.weapon.exchange.table.1.der.eisendrache",
             description: "bo3.revelations.side.quests.weapon.exchange.table.1.der.eisendrache.caption",
             position: 0,
-            /*
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -22,7 +21,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
                         height: 175.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.1.der.eisendrache"])
 
 
@@ -30,7 +29,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.2.verruckt",
             description: "bo3.revelations.side.quests.weapon.exchange.table.2.verruckt.caption",
-            position: 1,/*
+            position: 1,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -42,7 +41,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
                         height: 153.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.2.verruckt"])
     
     
@@ -50,7 +49,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.3.nacht.coming.from.der.eisendrache.portal",
             description: "bo3.revelations.side.quests.weapon.exchange.table.3.nacht.coming.from.der.eisendrache.portal.caption",
-            position: 2,/*
+            position: 2,
             overlays: [
                 SerializableBoundingCircleNode(),
                 SerializableOutlineNode(
@@ -62,7 +61,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
                         height: 67.0 / 1080.0
                     )
                 )
-            ]*/
+            ]
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.3.nacht.coming.from.der.eisendrache.portal"])
     
 
@@ -70,7 +69,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
         SerializableImageNode(
             name: "bo3.revelations.side.quests.weapon.exchange.table.4.nacht.mob.to.origin.portal",
             description: "bo3.revelations.side.quests.weapon.exchange.table.4.nacht.mob.to.origin.portal.caption",
-            position: 3,/*
+            position: 3,
             overlays: [
                 SerializableBoundingCircleNode(
                     idleDiameter: sqrt((1217.0 / 1920.0) * (1217.0 / 1920.0) + (299.0 / 1080.0) * (299.0 / 1080.0)),
@@ -79,7 +78,7 @@ func makeWeaponExchangeTableSequence1() -> SerializableGalleryNode {
                         y: (407.0 + 65.0 / 2.0) / 1080.0
                     )
                 ),
-            ]*/
+            ]
     ), at: ["bo3.revelations.side.quests.weapon.exchange.table.4.nacht.mob.to.origin.portal"])
 
     

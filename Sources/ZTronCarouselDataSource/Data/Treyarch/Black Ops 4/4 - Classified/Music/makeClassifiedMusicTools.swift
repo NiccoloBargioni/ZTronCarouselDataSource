@@ -8,5 +8,10 @@ public func makeClassifiedMusicTools() -> SerializableToolsRouter {
         at: [">", "shockwave"]
     )
     
+    classifiedMusicTools.router.register(
+        makeTheJazzIsClassifiedTool(),
+        at: [">", "the jazz is classified"]
+    )
+    
     return classifiedMusicTools
 }
