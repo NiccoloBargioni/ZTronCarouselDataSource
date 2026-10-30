@@ -3,6 +3,7 @@ import ZTronSerializable
 func makeRexInfernus() -> SerializableMapNode {
     let tabs = SerializableTabsRouter()
     
+    tabs.router.register(makeRexInfernusEasterEggTab(), at: [">", "easter egg"])
     tabs.router.register(makeRexInfernusSideQuestsTab(), at: [">", "side quests"])
     tabs.router.register(makeRexInfernusMusicTab(), at: [">", "music"])
 
