@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "ZTronCarouselDataSource",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14),
+        .macOS(.v11)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -50,7 +51,12 @@ let package = Package(
         ),
         .testTarget(
             name: "ZTronCarouselDataSourceTests",
-            dependencies: ["ZTronCarouselDataSource"]
+            dependencies: [
+                "ZTronCarouselDataSource",
+                .product(name: "ZTronDataModel", package: "ZTronDataModel"),
+                .product(name: "ZTronSerializable", package: "ZTronSerializable"),
+                .product(name: "SQLite", package: "SQLite.swift"),
+            ]
         ),
     ]
 )

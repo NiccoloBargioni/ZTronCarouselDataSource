@@ -1,22 +1,13 @@
 {
-  "originHash" : "b9a40834fe72444c0e1b0c3d96a503579def24f51eaedd961ad04cf3acd71a1f",
+  "originHash" : "384d423662af1c4241996fccbae6feb7d21ee41fa602eef97a25dbd63aa42f9d",
   "pins" : [
-    {
-      "identity" : "loremipsum",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lukaskubanek/LoremIpsum",
-      "state" : {
-        "branch" : "master",
-        "revision" : "3c739014fd11bcf0a3b2263b95b89d12f1257579"
-      }
-    },
     {
       "identity" : "sqlite.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stephencelis/SQLite.swift.git",
       "state" : {
         "branch" : "master",
-        "revision" : "eb9b2ee9d9b7f941ac883b0843557469ed567af2"
+        "revision" : "0a858c39e2fd56afb1534fd449e86b8d42eff912"
       }
     },
     {
@@ -24,17 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",
       "state" : {
-        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
-        "version" : "1.6.2"
-      }
-    },
-    {
-      "identity" : "swift-toolchain-sqlite",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-toolchain-sqlite",
-      "state" : {
-        "revision" : "b626d3002773b1a1304166643e7f118f724b2132",
-        "version" : "1.0.4"
+        "revision" : "ce592ae52f982c847a4efc0dd881cc9eb32d29f2",
+        "version" : "1.6.4"
       }
     },
     {
@@ -43,7 +25,7 @@
       "location" : "https://github.com/NickTheFreak97/SwiftGraph",
       "state" : {
         "branch" : "msa",
-        "revision" : "615085465d81f7a7ff176f13029b19f873773409"
+        "revision" : "fe474c30ec61b6be651a7f9a9701c964df0d6ee8"
       }
     },
     {
@@ -52,7 +34,7 @@
       "location" : "https://github.com/NickTheFreak97/ztron-routing-kit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "b2806b68f199c6a5f51572da90c6357f5a09dd3f"
+        "revision" : "a491591f37097fc42541916dff54c029ccf832a6"
       }
     },
     {
@@ -61,7 +43,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronDataModel",
       "state" : {
         "branch" : "main",
-        "revision" : "12845b524bc575dbe08934b432933ac0a547258a"
+        "revision" : "4d2d3c11a5d0e75021ea668564915ba8931bd93c"
       }
     },
     {
@@ -70,7 +52,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronRouter",
       "state" : {
         "branch" : "main",
-        "revision" : "99c3dee492c5619e86ea3d846b05d2f16f0b916c"
+        "revision" : "01145e0ee3240299957e1252bc176a064981d85b"
       }
     },
     {
@@ -79,7 +61,7 @@
       "location" : "https://github.com/NiccoloBargioni/ZTronSerializable",
       "state" : {
         "branch" : "main",
-        "revision" : "6043758dc53916bf1c5e14157480390cd404da5e"
+        "revision" : "e0bc2907a8b456799b81dbd29e00f91e957d4e82"
       }
     }
   ],
