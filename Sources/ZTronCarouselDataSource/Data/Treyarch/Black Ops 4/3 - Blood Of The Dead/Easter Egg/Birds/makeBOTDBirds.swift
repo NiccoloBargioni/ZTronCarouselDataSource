@@ -9,11 +9,7 @@ public func makeBOTDBirds() -> SerializableGalleryRouter {
             size: .init(width: 0.99, height: 0.99)
         )
     )
-    
-    let scaleFactor: CGFloat = 1920.0 / 1390.0
-    let translateX: CGFloat = -346.0 / 1920.0
-    let translateY: CGFloat = -133.0 / 1080.0
-    
+        
     let birdsLocations = MediaRouter.init()
     birdsLocations.register(
         SerializableImageNode(
